@@ -38,6 +38,16 @@ def longest_word_len(headline):
     return max(token_lengths)
 
 
+def avg_word_len(headline):
+    tokens = word_tokenize(headline)
+    return sum(len(token) for token in tokens) / len(tokens)
+
+
+def ratio_stopwords(headline):
+    # TODO
+    pass
+
+
 # processing before making lowercase? eg count num of words with cap letter start
 
 df['headline'] = df['headline'].str.lower()
@@ -48,5 +58,6 @@ df['exclamation'] = df['headline'].apply(exclamation_mark)
 df['start_digit'] = df['headline'].apply(starts_with_digit)
 df['start_question'] = df['headline'].apply(starts_with_question_word)
 df['longest_word_len'] = df['headline'].apply(longest_word_len)
+df['avg_word_len'] = df['headline'].apply(avg_word_len)
 
-print(df.head())
+print(df)

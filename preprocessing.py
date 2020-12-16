@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from nltk import word_tokenize
+from nltk import pos_tag
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from string import punctuation
@@ -80,15 +81,20 @@ def remove_stopwords(tokens):
     return [token for token in tokens if token not in stop_words]
 
 
-# TODO lemmas
-# def lemmatise(headline):
-#     lemmatizer = WordNetLemmatizer()
-#     input_str = word_tokenize(input_str)
-#     for word in input_str:
-#         print(lemmatizer.lemmatize(word))
+def pos_tagging(tokens):
+    return pos_tag(tokens)
 
 
-# TODO function to tokenise and save the tokenised form in 'headline' to save computing time with other funcs
+def lemmatize(tokens):
+    lemmatizer = WordNetLemmatizer()
+    new_tokens = []
+    for token in tokens:
+        new_tokens.append(lemmatizer.lemmatize(token[0], pos=token[1]))
+    return new_tokens
+
+
+# tokens for POS tagging and lemmatisation later
+# df['raw_tokens'] = tokenize(df.headline)
 
 # make lowercase
 df['headline'] = df['headline'].str.lower()
@@ -114,11 +120,15 @@ df['ratio_stopwords'] = df['headline'].apply(ratio_stopwords)
 # remove stopwords
 df['headline'] = df['headline'].apply(remove_stopwords)
 
+# TODO lemmatisation with POS tagging - do we need it?
+# df['raw_tokens'] = df['raw_tokens'].apply(pos_tagging)
+# df['raw_tokens'] = df['raw_tokens'].apply(lemmatize)
+
 
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     print(df)
 
-final_df = df.drop(columns={'headline', 'date', 'source'})
-print(final_df)
-
-final_df.to_csv(path_or_buf="data/features.csv", index=False)
+# final_df = df.drop(columns={'headline', 'date', 'source'})
+# print(final_df)
+#
+# final_df.to_csv(path_or_buf="data/features.csv", index=False)

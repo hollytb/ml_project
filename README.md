@@ -4,9 +4,12 @@
 
 ## LEGITIMATE NEWS
 
-#### BBC NEWS
+#### BBC NEWS (Probably won't use)
 Dataset from 2004-2005 is available 
 API is broken
+
+#### NY Times
+USE API
 
 #### RTE NEWS
 Using Beautiful Soup on Archive.

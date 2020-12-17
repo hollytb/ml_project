@@ -2,8 +2,11 @@
 
 # TRAINING Dataset Structure
 Column 1: Headline  ("People can't believe how she makes 10000 dollars a day!")
+
 Column 2: Date (01/06/2008)
-Column 3: Value (1 = Legitimate, 0 = Clickbait)
+
+Column 3: Value (0 = NOT Clickbait, 1 = Clickbait)
+
 Column 4: Publisher Name ("NY TIMES")
 
 

@@ -9,10 +9,6 @@ from string import punctuation
 csv_file = "data/small_set.csv"
 df = pd.read_csv(csv_file, comment='#', quotechar='"', skipinitialspace=True, index_col=0)
 print(df.head())
-headlines = np.array(df.iloc[:, 0])
-headlines = headlines.reshape(-1, 1)
-y = np.array(df.iloc[:, 2])
-y = y.reshape(-1, 1)
 
 
 def word_count(headline):

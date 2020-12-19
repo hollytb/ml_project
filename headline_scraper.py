@@ -18,9 +18,9 @@ class HeadlineSpider(scrapy.Spider):
         yield {
             'full_title': doc.title(),
             # 'date': response.selector.xpath('//time/@datetime').getall()
-            'date': "2020"
+            'date': response.xpath('//span[@class="post-date"]/text()').get()
 
         }
 
 
-# TODO remove any headlines without dates from buzzfeed_raw.csv!
+# TODO remove any headlines without dates from "raw" csv files! (ones w/o dates are from diff sites)

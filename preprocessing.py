@@ -6,10 +6,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from string import punctuation
 
-csv_file = "data/small_set.csv"
-df = pd.read_csv(csv_file, comment='#', quotechar='"', skipinitialspace=True, index_col=0)
-print(df.head())
-
 
 def word_count(headline):
     return len(headline.split())
@@ -89,6 +85,13 @@ def lemmatize(tokens):
     return new_tokens
 
 
+# reading in csv files
+rte2020_df = "data/rte_2019-20"
+rte2010_df = "data/rte_2010"
+
+df = pd.read_csv(csv_file, comment='#', quotechar='"', skipinitialspace=True)
+print(df.head())
+
 # tokens for POS tagging and lemmatisation later
 # df['raw_tokens'] = tokenize(df.headline)
 
@@ -124,7 +127,7 @@ df['headline'] = df['headline'].apply(remove_stopwords)
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     print(df)
 
-# final_df = df.drop(columns={'headline', 'date', 'source'})
-# print(final_df)
-#
-# final_df.to_csv(path_or_buf="data/features.csv", index=False)
+
+final_df = df.drop(columns={'date', 'source'})
+print(final_df)
+final_df.to_csv(path_or_buf="data/features.csv")

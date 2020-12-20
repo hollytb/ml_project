@@ -3,7 +3,7 @@ from pandas import read_csv
 from readability.readability import Document
 
 """ run with:
-scrapy runspider headline_scraper.py -o scraped_headlines.csv
+ scrapy runspider headline_scraper.py -o scraped_headlines.csv
 """
 
 PATH_TO_DATA = "data/urls.csv"
@@ -17,11 +17,8 @@ class HeadlineSpider(scrapy.Spider):
         doc = Document(response.text)
         yield {
             'full_title': doc.title(),
-            # 'date': response.selector.xpath('//time/@datetime').getall()
+            'date': response.selector.xpath('//time/@datetime').getall()
             # 'date': response.xpath('//span[@class="post-date"]/text()').get()
-            'date': '2010'
+            # 'date': '2010'
 
         }
-
-
-# TODO remove any headlines without dates from "raw" csv files! (ones w/o dates are from diff sites)

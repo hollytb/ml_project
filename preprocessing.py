@@ -3,8 +3,14 @@ import numpy as np
 from nltk import word_tokenize
 from nltk import pos_tag
 from nltk.corpus import stopwords
+from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from string import punctuation
+
+pd.set_option('display.max_columns', 20)
+pd.set_option('display.max_rows', 20)
+
+my_punctuation = '€£' + punctuation
 
 
 def word_count(headline):
@@ -29,7 +35,7 @@ def starts_with_question_word(headline):
 
 
 def remove_punctuation(headline):
-    return ''.join(w for w in headline if w not in punctuation)
+    return ''.join(w for w in headline if w not in my_punctuation)
 
 
 def tokenize(headline):
@@ -49,7 +55,7 @@ def avg_word_len(tokens):
     """
     :param tokens: tokenized headline
     """
-    return sum(len(token) for token in tokens) / len(tokens)
+    return round(sum(len(token) for token in tokens) / len(tokens), 4)
 
 
 def ratio_stopwords(tokens):
@@ -62,7 +68,7 @@ def ratio_stopwords(tokens):
         if token in stop_words:
             count += 1
 
-    return count / len(tokens)
+    return round(count / len(tokens), 4)
 
 
 def remove_stopwords(tokens):
@@ -77,23 +83,50 @@ def pos_tagging(tokens):
     return pos_tag(tokens)
 
 
-def lemmatize(tokens):
-    lemmatizer = WordNetLemmatizer()
+def lemmatise(tokens_wordnet):
+    lemmatiser = WordNetLemmatizer()
     new_tokens = []
-    for token in tokens:
-        new_tokens.append(lemmatizer.lemmatize(token[0], pos=token[1]))
+    for token, tag in tokens_wordnet:
+        if tag is None:
+            new_tokens.append(lemmatiser.lemmatize(token))
+        else:
+            new_tokens.append(lemmatiser.lemmatize(token, tag))
     return new_tokens
 
 
-# reading in csv files
-rte2020_df = "data/rte_2019-20"
-rte2010_df = "data/rte_2010"
+def pos_tag_convert(nltk_tag):
+    if nltk_tag.startswith('J'):
+        return wordnet.ADJ
+    elif nltk_tag.startswith('V'):
+        return wordnet.VERB
+    elif nltk_tag.startswith('N'):
+        return wordnet.NOUN
+    elif nltk_tag.startswith('R'):
+        return wordnet.ADV
+    else:
+        return None
 
-df = pd.read_csv(csv_file, comment='#', quotechar='"', skipinitialspace=True)
+
+def change_pos_tag(list_tuples):
+    result = []
+    for token, tag in list_tuples:
+        result.append(tuple([token, pos_tag_convert(tag)]))
+    return result
+
+
+# reading in csv files
+rte2020_df = "data/rte_2019-20.csv"
+rte2010_df = "data/rte_2010.csv"
+
+df = pd.read_csv(rte2020_df, quotechar='"', skipinitialspace=True)
+print(df.head())
+
+df.columns = ['headline', 'date']
 print(df.head())
 
 # tokens for POS tagging and lemmatisation later
-# df['raw_tokens'] = tokenize(df.headline)
+df['text'] = df['headline'].apply(remove_punctuation)
+df['text'] = tokenize(df['text'])
 
 # make lowercase
 df['headline'] = df['headline'].str.lower()
@@ -116,18 +149,15 @@ df['longest_word_len'] = df['headline'].apply(longest_word_len)
 df['avg_word_len'] = df['headline'].apply(avg_word_len)
 df['ratio_stopwords'] = df['headline'].apply(ratio_stopwords)
 
-# remove stopwords
-df['headline'] = df['headline'].apply(remove_stopwords)
+# lemmatisation
+df['text'] = df['text'].apply(pos_tagging)
+df['text'] = df['text'].apply(change_pos_tag)
+df['text'] = df['text'].apply(lemmatise)
+df['text'] = df['text'].apply(lambda x: [token.lower() for token in x])
+df['text'] = df['text'].apply(remove_stopwords)
 
-# TODO lemmatisation with POS tagging - do we need it?
-# df['raw_tokens'] = df['raw_tokens'].apply(pos_tagging)
-# df['raw_tokens'] = df['raw_tokens'].apply(lemmatize)
+# with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+#     print(df)
 
-
-with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-    print(df)
-
-
-final_df = df.drop(columns={'date', 'source'})
-print(final_df)
-final_df.to_csv(path_or_buf="data/features.csv")
+final_df = df.drop(columns={'date', 'headline'})
+final_df.to_csv(path_or_buf="data/test.csv")

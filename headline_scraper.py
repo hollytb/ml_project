@@ -18,7 +18,8 @@ class HeadlineSpider(scrapy.Spider):
         yield {
             'full_title': doc.title(),
             # 'date': response.selector.xpath('//time/@datetime').getall()
-            'date': response.xpath('//span[@class="post-date"]/text()').get()
+            # 'date': response.xpath('//span[@class="post-date"]/text()').get()
+            'date': '2010'
 
         }
 

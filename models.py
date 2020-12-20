@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.linear_model import Lasso
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from sklearn.dummy import DummyClassifier
@@ -10,20 +9,28 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
 from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+import seaborn as sns
 
+#################################
+# data handling
 normalised_csv = "data/normalised.csv"
-df = pd.read_csv(normalised_csv)
+df = pd.read_csv(normalised_csv) # header none ?
 print(df.head())
 X = np.array(df.iloc[:, 1:])
 y = np.array(df.iloc[:, 0])
+values = df.iloc[:, 1:]
 
-#x1 = np.array(df.iloc[:, 1])
-#x2 = np.array(df.iloc[:, 2])
-#x3 = np.array(df.iloc[:, 3])
-#x4 = np.array(df.iloc[:, 4])
-#x5 = np.array(df.iloc[:, 5])
-#x6 = np.array(df.iloc[:, 6])
-#x7 = np.array(df.iloc[:, 7])
+#################################
+# visualizing data
+# (1) histogram
+values.hist(bins=15, color='steelblue', edgecolor ='black',linewidth=1.0,grid=False)
+# (2) heatmap
+f, ax = plt.subplots(figsize=(10, 6))
+corr = values.corr()
+hm = sns.heatmap(round(corr,2),cmap="coolwarm", annot=True, linewidths=.05,fmt='.2f')
+f.suptitle('Clickbait Attributes Correlation Heatmap')
+plt.show()
 
 def k_fold_cross_val(k, model,input):
     print(f"=== KFOLD k={k} ===")
@@ -54,13 +61,14 @@ def baseline(x,y, strategy_type):
     ypred = dummy.predict(x)
     matrix = confusion_matrix(y,ypred)
     accuracy = dummy.score(x,y)
-    print("\n=== BASELINE === "+ "\nType:" + strategy_type+ "\nConfusion Matrix:")
+    print("\n=== BASELINE === " + "\nType:" + strategy_type + "\nConfusion Matrix:")
     print(matrix)
     print("Accuracy: "+str(accuracy))
+    return matrix
 
 def roc_plot(x,y,models,matrix):
     Xtrain, Xtest, ytrain, ytest = train_test_split(x,y, test_size=0.2)  # polynomial features for LogReg
-    for model in models[:1]:
+    for model in models[:2]:
         model.fit(Xtrain, ytrain)
         scores = model.predict_proba(Xtest)
         fpr, tpr, _ = roc_curve(ytest, scores[:, 1])
@@ -101,7 +109,7 @@ for Ci in ci_range:
     stds.append(res[1])
 error_plot(ci_range,means,stds,'Prediction Error: varying C parameters','Ci Range')
 
-## LogisticRegression model with chosen hyperparameter:
+## Logistic Regression model with chosen hyperparameter:
 log_clf = LogisticRegression(penalty='l2',C=10)
 # log_clf = LogisticRegression(penalty='l1',C=10,log_clf = LogisticRegression(penalty='l1',C=10) )
 log_clf.fit(X,y)
@@ -113,6 +121,33 @@ accuracy = log_clf.score(X,y)
 print("")
 print(f"Hyperparameter C: {10},\nIntercept: {log_clf.intercept_},\nCoefs: {log_clf.coef_}")
 print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
-roc_plot(X,y,models,matrix)
-baseline(X,y,'most_frequent')
 
+#################################
+# model 2 - kNN
+print("\n=== kNN | L2 PENALTY === \n")
+
+## Cross Validation for hyperparameter n_neighbors:
+neighbours = [1,2,3,5,6,8,10]
+means = [];stds = []
+for n in neighbours:
+    knn_clf = KNeighborsClassifier(n_neighbors= n, weights='uniform')
+    knn_clf.fit(X, y)
+    res = k_fold_cross_val(5,knn_clf,X)
+    means.append(res[0])
+    stds.append(res[1])
+error_plot(neighbours,means,stds,'Prediction Error: varying n_neighbors parameters','n_neighbors')
+
+## kNN model with chosen hyperparameter:
+knn_clf = KNeighborsClassifier(n_neighbors= 2, weights='uniform')
+knn_clf.fit(X,y)
+ypred = knn_clf.predict(X)
+models.append(knn_clf)
+matrix = confusion_matrix(y,ypred)
+accuracy = knn_clf.score(X,y)
+
+print("")
+print(f"Hyperparameter n: {2},\nIntercept: {log_clf.intercept_},\nCoefs: {log_clf.coef_}")
+print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
+
+dummy_martix = baseline(X,y,'most_frequent')
+roc_plot(X,y,models,dummy_martix)

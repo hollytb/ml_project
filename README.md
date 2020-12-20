@@ -36,6 +36,9 @@ Column 4: Publisher Name ("NY TIMES")
 
 ## LEGITIMATE NEWS
 
+#### The Irish Times
+Can use NewsAPI
+
 #### BBC NEWS (Probably won't use)
 Dataset from 2004-2005 is available 
 API is broken

@@ -10,7 +10,12 @@ from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
 import seaborn as sns
+from scipy import sparse
+from sklearn.cluster import KMeans
+import math
 
 #################################
 # data handling
@@ -20,6 +25,13 @@ print(df.head())
 X = np.array(df.iloc[:, 1:])
 y = np.array(df.iloc[:, 0])
 values = df.iloc[:, 1:]
+
+# CIAN UNCOMMENT WHEN YOU"VE ADDED THE CORRECT FILE CHANGES
+#tfidf = TfidfVectorizer(ngram_range = (1,2))
+#tfidf_text = tfidf.fit_transform(X['text'])
+#X_ef = X.drop(columns='text')
+#X = sparse.hstack([X_ef, tfidf_text]).tocsr()
+#print(X.shape)
 
 #################################
 # visualizing data
@@ -124,7 +136,7 @@ print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(mat
 
 #################################
 # model 2 - kNN
-print("\n=== kNN | L2 PENALTY === \n")
+print("\n=== kNN === \n")
 
 ## Cross Validation for hyperparameter n_neighbors:
 neighbours = [1,2,3,5,6,8,10]
@@ -149,5 +161,31 @@ print("")
 print(f"Hyperparameter n: {2},\nIntercept: {log_clf.intercept_},\nCoefs: {log_clf.coef_}")
 print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
 
+'''
+#################################
+# model 3 - K-Means
+print("\n=== K-Means === \n")
+
+## Cross Validation for hyperparameter k:
+K = range(5,50,5)
+means = [];stds = []
+for k in K:
+    gmm = KMeans(n_clusters=k)
+    kf = KFold(n_spilts=5)
+    m=0;v=0
+    for train,test in kf.split(tfidf):
+        gmm.fit(train.reshape(-1,1))
+        cost =-gmm.score(test.reshape(-1,1))
+        m=m+cost; v=v+cost*cost
+    means.append(m/5);stds.append(math.sqrt(v/5-(m/5)*(m/5)))
+error_plot(K,means,stds,'Prediction Error: varying k parameters','K')
+
+## K-Means model with chosen hyperparameter:
+k = 15 # test
+gmm = KMeans(n_clusters=k).fit(tfidf)
+labels = gmm.predict(tfidf) '''
+
+
 dummy_martix = baseline(X,y,'most_frequent')
 roc_plot(X,y,models,dummy_martix)
+

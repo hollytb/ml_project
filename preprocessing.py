@@ -156,8 +156,5 @@ df['text'] = df['text'].apply(lemmatise)
 df['text'] = df['text'].apply(lambda x: [token.lower() for token in x])
 df['text'] = df['text'].apply(remove_stopwords)
 
-# with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-#     print(df)
-
 final_df = df.drop(columns={'date', 'headline'})
 final_df.to_csv(path_or_buf="data/test.csv")

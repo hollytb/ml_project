@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from nltk import word_tokenize
 from nltk import pos_tag
 from nltk.corpus import stopwords
@@ -114,47 +113,65 @@ def change_pos_tag(list_tuples):
     return result
 
 
-# reading in csv files
-rte2020_df = "data/rte_2019-20.csv"
-rte2010_df = "data/rte_2010.csv"
+# reading in CLICKBAIT csv files
+buzzfeed = "data/buzzfeed_2020.csv"
+boredpanda = "data/boredpanda_2020.csv"
+joedotie = "data/joedotie_2020.csv"
+theodyssey = "data/theodyssey_2019-20.csv"
+upworthy = "data/upworthy_2020.csv"
 
-df = pd.read_csv(rte2020_df, quotechar='"', skipinitialspace=True)
-print(df.head())
+buzzfeed_df = pd.read_csv(buzzfeed, quotechar='"', skipinitialspace=True, dtype='string')
+boredpanda_df = pd.read_csv(boredpanda, quotechar='"', skipinitialspace=True, dtype='string')
+joedotie_df = pd.read_csv(joedotie, quotechar='"', skipinitialspace=True, dtype='string')
+theodyssey_df = pd.read_csv(theodyssey, quotechar='"', skipinitialspace=True, dtype='string')
+upworthy_df = pd.read_csv(upworthy, quotechar='"', skipinitialspace=True, dtype='string')
 
-df.columns = ['headline', 'date']
-print(df.head())
+data_frames = [buzzfeed_df,
+               boredpanda_df,
+               joedotie_df,
+               theodyssey_df,
+               upworthy_df]
 
-# tokens for POS tagging and lemmatisation later
-df['text'] = df['headline'].apply(remove_punctuation)
-df['text'] = tokenize(df['text'])
+for df in data_frames:
+    df.columns = ['headline', 'date']
 
-# make lowercase
-df['headline'] = df['headline'].str.lower()
+    # tokens for POS tagging and lemmatisation later
+    df['text'] = df['headline'].apply(remove_punctuation)
+    df['text'] = tokenize(df['text'])
 
-# text processing with strings BEFORE removing punctuation and stopwords
-df['word_count'] = df['headline'].apply(word_count)
-df['question_mark'] = df['headline'].apply(question_mark)
-df['exclamation_mark'] = df['headline'].apply(exclamation_mark)
-df['start_digit'] = df['headline'].apply(starts_with_digit)
-df['start_question'] = df['headline'].apply(starts_with_question_word)
+    # make lowercase
+    df['headline'] = df['headline'].str.lower()
 
-# remove punctuation
-df['headline'] = df['headline'].apply(remove_punctuation)
+    # text processing with strings BEFORE removing punctuation and stopwords
+    df['word_count'] = df['headline'].apply(word_count)
+    df['question_mark'] = df['headline'].apply(question_mark)
+    df['exclamation_mark'] = df['headline'].apply(exclamation_mark)
+    df['start_digit'] = df['headline'].apply(starts_with_digit)
+    df['start_question'] = df['headline'].apply(starts_with_question_word)
 
-# tokenize
-df['headline'] = tokenize(df.headline)
+    # remove punctuation
+    df['headline'] = df['headline'].apply(remove_punctuation)
 
-# text processing with tokens
-df['longest_word_len'] = df['headline'].apply(longest_word_len)
-df['avg_word_len'] = df['headline'].apply(avg_word_len)
-df['ratio_stopwords'] = df['headline'].apply(ratio_stopwords)
+    # tokenize
+    df['headline'] = tokenize(df.headline)
 
-# lemmatisation
-df['text'] = df['text'].apply(pos_tagging)
-df['text'] = df['text'].apply(change_pos_tag)
-df['text'] = df['text'].apply(lemmatise)
-df['text'] = df['text'].apply(lambda x: [token.lower() for token in x])
-df['text'] = df['text'].apply(remove_stopwords)
+    # text processing with tokens
+    df['longest_word_len'] = df['headline'].apply(longest_word_len)
+    df['avg_word_len'] = df['headline'].apply(avg_word_len)
+    df['ratio_stopwords'] = df['headline'].apply(ratio_stopwords)
 
-final_df = df.drop(columns={'date', 'headline'})
-final_df.to_csv(path_or_buf="data/test.csv")
+    # lemmatisation
+    df['text'] = df['text'].apply(pos_tagging)
+    df['text'] = df['text'].apply(change_pos_tag)
+    df['text'] = df['text'].apply(lemmatise)
+    df['text'] = df['text'].apply(lambda x: [token.lower() for token in x])
+    df['text'] = df['text'].apply(remove_stopwords)
+
+    df.drop(columns=['date', 'headline'], inplace=True)
+    print(df.head())
+
+clickbait_df = pd.concat(data_frames, ignore_index=True)
+
+# put non clickbait here too!
+
+clickbait_df.to_csv(path_or_buf="data/clickbait.csv")

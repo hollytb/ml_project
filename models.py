@@ -20,13 +20,16 @@ import math
 #################################
 # data handling
 normalised_csv = "data/normalised.csv"
-df = pd.read_csv(normalised_csv,index_col=0) # header none ?
+df = pd.read_csv(normalised_csv,index_col=0)  # header none ?
 print(df.head())
 X = np.array(df.iloc[:, 3:])
 print(X)
 y = np.array(df.iloc[:, 1])
 text = np.array(df.iloc[:, 2])
 values = df.iloc[:, 3:]
+
+df["text"] = df["text"].apply(eval)
+print(df.dtypes)
 
 # CIAN UNCOMMENT WHEN YOU"VE ADDED THE CORRECT FILE CHANGES
 #tfidf = TfidfVectorizer(ngram_range = (1,2))

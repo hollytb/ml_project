@@ -20,27 +20,26 @@ import math
 #################################
 # data handling
 normalised_csv = "data/normalised.csv"
-df = pd.read_csv(normalised_csv,index_col=0)  # header none ?
-print(df.head())
-X = np.array(df.iloc[:, 3:])
-print(X)
-y = np.array(df.iloc[:, 1])
-text = np.array(df.iloc[:, 2])
-values = df.iloc[:, 3:]
-
+features_csv = "data/features.csv"
+df = pd.read_csv(normalised_csv,index_col=0)
+df2 = pd.read_csv(features_csv,index_col=0)
 df["text"] = df["text"].apply(eval)
-print(df.dtypes)
+print(df.head())
+features = df.drop(columns='class')
+y = df['class']
 
-# CIAN UNCOMMENT WHEN YOU"VE ADDED THE CORRECT FILE CHANGES
-#tfidf = TfidfVectorizer(ngram_range = (1,2))
-#tfidf_text = tfidf.fit_transform(X['headline'])
-#X_ef = X.drop(columns='headline')
-#X = sparse.hstack([X_ef, tfidf_text]).tocsr()
-#print(X.shape)
+tfidf = TfidfVectorizer(ngram_range = (1,2))
+tfidf_text = tfidf.fit_transform(features['text'])
+X_ef = features.drop(columns='text')
+X = sparse.hstack([X_ef, tfidf_text]).tocsr()
+print(X.shape)
+
 
 #################################
 # visualizing data
 # (1) histogram
+values = df2.iloc[:, 3:]
+
 values.hist(bins=15, color='steelblue', edgecolor ='black',linewidth=1.0,grid=False)
 # (2) heatmap
 f, ax = plt.subplots(figsize=(10, 6))
@@ -116,10 +115,10 @@ print("\n=== LOGISTIC REGRESSION | L2 PENALTY === \n")
 
 ## Cross Validation for hyperparameter C:
 models = []
-ci_range = [0.000001,1,10,100,1000]
+ci_range = [0.001,1,10,100,1000]
 means = [];stds = []
 for Ci in ci_range:
-    log_clf = LogisticRegression(penalty='l2',C=Ci)
+    log_clf = LogisticRegression(penalty='l2',C=Ci, solver = "liblinear")
     log_clf.fit(X, y)
     res = k_fold_cross_val(5,log_clf,X)
     means.append(res[0])
@@ -127,7 +126,7 @@ for Ci in ci_range:
 error_plot(ci_range,means,stds,'Prediction Error: varying C parameters','Ci Range')
 
 ## Logistic Regression model with chosen hyperparameter:
-log_clf = LogisticRegression(penalty='l2',C=10)
+log_clf = LogisticRegression(penalty='l2',C=10,solver = "liblinear")
 # log_clf = LogisticRegression(penalty='l1',C=10,log_clf = LogisticRegression(penalty='l1',C=10) )
 log_clf.fit(X,y)
 ypred = log_clf.predict(X)

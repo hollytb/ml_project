@@ -20,16 +20,18 @@ import math
 #################################
 # data handling
 normalised_csv = "data/normalised.csv"
-df = pd.read_csv(normalised_csv) # header none ?
+df = pd.read_csv(normalised_csv,index_col=0) # header none ?
 print(df.head())
-X = np.array(df.iloc[:, 1:])
-y = np.array(df.iloc[:, 0])
-values = df.iloc[:, 1:]
+X = np.array(df.iloc[:, 3:])
+print(X)
+y = np.array(df.iloc[:, 1])
+text = np.array(df.iloc[:, 2])
+values = df.iloc[:, 3:]
 
 # CIAN UNCOMMENT WHEN YOU"VE ADDED THE CORRECT FILE CHANGES
 #tfidf = TfidfVectorizer(ngram_range = (1,2))
-#tfidf_text = tfidf.fit_transform(X['text'])
-#X_ef = X.drop(columns='text')
+#tfidf_text = tfidf.fit_transform(X['headline'])
+#X_ef = X.drop(columns='headline')
 #X = sparse.hstack([X_ef, tfidf_text]).tocsr()
 #print(X.shape)
 

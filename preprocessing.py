@@ -37,6 +37,10 @@ def remove_punctuation(headline):
     return ''.join(w for w in headline if w not in my_punctuation)
 
 
+def remove_punct_tokens(tokens):
+    return [token for token in tokens if token.isalnum()]
+
+
 def tokenize(headline):
     tokens = [word_tokenize(x) for x in headline]
     return tokens
@@ -113,31 +117,40 @@ def change_pos_tag(list_tuples):
     return result
 
 
-# reading in CLICKBAIT csv files
-buzzfeed = "data/buzzfeed_2020.csv"
-boredpanda = "data/boredpanda_2020.csv"
-joedotie = "data/joedotie_2020.csv"
-theodyssey = "data/theodyssey_2019-20.csv"
-upworthy = "data/upworthy_2020.csv"
+clickbait = [
+    "data/buzzfeed_2020.csv",
+    "data/boredpanda_2020.csv",
+    "data/joedotie_2020.csv",
+    "data/theodyssey_2019-20.csv",
+    "data/upworthy_2020.csv",
+    "data/clickbait_data.csv"]
 
-buzzfeed_df = pd.read_csv(buzzfeed, quotechar='"', skipinitialspace=True, dtype='string')
-boredpanda_df = pd.read_csv(boredpanda, quotechar='"', skipinitialspace=True, dtype='string')
-joedotie_df = pd.read_csv(joedotie, quotechar='"', skipinitialspace=True, dtype='string')
-theodyssey_df = pd.read_csv(theodyssey, quotechar='"', skipinitialspace=True, dtype='string')
-upworthy_df = pd.read_csv(upworthy, quotechar='"', skipinitialspace=True, dtype='string')
+non_clickbait = [
+    "NON_CLICKBAIT_DATA/BBC_DATA/BBC_merged_2010-2020.csv",
+    "NON_CLICKBAIT_DATA/CNN_DATA/CNN_merged_2010-2020.csv",
+    "NON_CLICKBAIT_DATA/GUARDIAN_DATA/guardian_merged_2010-2020.csv",
+    "NON_CLICKBAIT_DATA/IRISH_TIMES_DATA/Irish_times_merged_2010-2020.csv",
+    "NON_CLICKBAIT_DATA/NY_TIMES_DATA/NY_Times_merged_2010-2020.csv"]
 
-data_frames = [buzzfeed_df,
-               boredpanda_df,
-               joedotie_df,
-               theodyssey_df,
-               upworthy_df]
+
+data_frames = []
+for path in clickbait:
+    curr_df = pd.read_csv(path, quotechar='"', skipinitialspace=True, dtype='string')
+    curr_df.insert(0, 'class', 1)  # label = 1 clickbait
+    data_frames.append(curr_df)
+
+for path in non_clickbait:
+    curr_df = pd.read_csv(path, quotechar='"', skipinitialspace=True, dtype='string')
+    curr_df.insert(0, 'class', 0)  # label = 0 non-clickbait
+    data_frames.append(curr_df)
+
 
 for df in data_frames:
-    df.columns = ['headline', 'date']
+    df.columns = ['class', 'headline', 'date']
 
     # tokens for POS tagging and lemmatisation later
-    df['text'] = df['headline'].apply(remove_punctuation)
-    df['text'] = tokenize(df['text'])
+    df['text'] = tokenize(df['headline'])
+    df['text'] = df['text'].apply(remove_punct_tokens)
 
     # make lowercase
     df['headline'] = df['headline'].str.lower()
@@ -170,8 +183,5 @@ for df in data_frames:
     df.drop(columns=['date', 'headline'], inplace=True)
     print(df.head())
 
-clickbait_df = pd.concat(data_frames, ignore_index=True)
-
-# put non clickbait here too!
-
-clickbait_df.to_csv(path_or_buf="data/clickbait.csv")
+the_motherload = pd.concat(data_frames, ignore_index=True)
+the_motherload.to_csv(path_or_buf="data/features.csv")

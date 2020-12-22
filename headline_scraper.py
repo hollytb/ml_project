@@ -20,5 +20,4 @@ class HeadlineSpider(scrapy.Spider):
             # 'date': response.selector.xpath('//time/@datetime').getall()
             # 'date': response.xpath('//span[@class="post-date"]/text()').get()
             'date': '2009'
-
         }

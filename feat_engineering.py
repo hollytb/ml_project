@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
+from sklearn import preprocessing
 
 features_csv = "data/features.csv"
 df = pd.read_csv(features_csv, index_col=0)
@@ -14,7 +14,6 @@ num_cols = ["word_count",
             "avg_word_len",
             "ratio_stopwords"]
 
-scaler = MinMaxScaler()
-df[num_cols] = scaler.fit_transform(df[num_cols])
+df[num_cols] = preprocessing.scale(df[num_cols])
 
 df.to_csv(path_or_buf="data/normalised.csv")

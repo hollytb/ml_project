@@ -5,6 +5,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from sklearn.dummy import DummyClassifier
 from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
@@ -20,6 +21,15 @@ import math
 
 def identity_tokenizer(text):
     return text
+
+
+def print_results(preds, y_vals, title):
+    print("===" + title + "===")
+    print(f"Confusion Matrix:\n{confusion_matrix(y_vals, preds)}"
+          f"\nAccuracy:{accuracy_score(y_vals, preds)}"
+          f"\nRecall:{recall_score(y_vals, preds)}"
+          f"\nF1:{f1_score(y_vals, preds)}"
+          f"\nPrecision:{precision_score(y_vals, preds)}")
 
 
 #################################
@@ -44,6 +54,7 @@ print(y.shape)
 #################################
 # visualizing data
 # (1) histogram
+"""
 values = df2.iloc[:, 3:]
 
 values.hist(bins=15, color='steelblue', edgecolor='black', linewidth=1.0, grid=False)
@@ -53,7 +64,7 @@ corr = values.corr()
 hm = sns.heatmap(round(corr, 2), cmap="coolwarm", annot=True, linewidths=.05, fmt='.2f')
 f.suptitle('Clickbait Attributes Correlation Heatmap')
 plt.show()
-
+"""
 
 def k_fold_cross_val(k, model, input):
     print(f"=== KFOLD k={k} ===")
@@ -61,8 +72,11 @@ def k_fold_cross_val(k, model, input):
     sq_errs = []
     for train, test in k_fold.split(input):
         model.fit(input[train], y[train])
+        print("Model:" + type(model).__name__)
         ypred = model.predict(input[test])
         sq_errs.append(mean_squared_error(y[test], ypred))
+        print("Train: " + str(model.score(input[train], y[train])))
+        print("Test: " + str(model.score(input[test], y[test])))
     mean = np.mean(sq_errs)
     std = np.std(sq_errs)
     print(f"mean={mean},variance={std}")
@@ -122,46 +136,47 @@ def roc_plot(x, y, models, matrix):
 
 #################################
 # model 1 - Logistic Regression
-print("\n=== LOGISTIC REGRESSION | L2 PENALTY === \n")
+print("\n=== LOGISTIC REGRESSION | L2 PENALTY ===")
 
 ## Cross Validation for hyperparameter C:
 models = []
-ci_range = [0.001, 1, 10, 100, 1000]
-means = [];
-stds = []
-for Ci in ci_range:
-    log_clf = LogisticRegression(penalty='l2', C=Ci, solver="liblinear")
-    # log_clf.fit(X, y)
-    res = k_fold_cross_val(5, log_clf, X)
-    means.append(res[0])
-    stds.append(res[1])
-error_plot(ci_range, means, stds, 'Prediction Error: varying C parameters', 'Ci Range')
+# c_range = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
+# means = []
+# std_devs = []
+# for C in c_range:
+#     log_clf = LogisticRegression(C=C, class_weight='balanced', solver='liblinear')
+#     res = k_fold_cross_val(5, log_clf, X)
+#     means.append(res[0])
+#     std_devs.append(res[1])
+#
+# log_c_vals = np.log10(c_range)
+# error_plot(log_c_vals, means, std_devs, 'LogReg: L2 penalty, varying C', 'log10(C)')
 
-## Logistic Regression model with chosen hyperparameter:
-log_clf = LogisticRegression(penalty='l2', C=10, solver="liblinear")
-# log_clf = LogisticRegression(penalty='l1',C=10,log_clf = LogisticRegression(penalty='l1',C=10) )
-log_clf.fit(X, y)
-ypred = log_clf.predict(X)
+# Logistic Regression model with chosen hyperparameter:
+log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
+log_clf.fit(X_train, y_train)
+preds_train = log_clf.predict(X_train)
+preds_test = log_clf.predict(X_test)
+
+print_results(preds_train, y_train, "train")
+print_results(preds_test, y_test, "test")
+
 models.append(log_clf)
-matrix = confusion_matrix(y, ypred)
-accuracy = log_clf.score(X, y)
-
-print("")
-print(f"Hyperparameter C: {10},\nIntercept: {log_clf.intercept_},\nCoefs: {log_clf.coef_}")
-print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
 
 #################################
 # model 2 - kNN
 print("\n=== kNN === \n")
 
 ## Cross Validation for hyperparameter n_neighbors:
-neighbours = [1, 2, 3, 5, 6, 8, 10]
-means = [];
+neighbours = [2, 5, 8]
+means = []
 stds = []
 for n in neighbours:
     knn_clf = KNeighborsClassifier(n_neighbors=n, weights='uniform')
-    knn_clf.fit(X, y)
+    # knn_clf.fit(X, y)
     res = k_fold_cross_val(5, knn_clf, X)
+    knn_clf.score(X, y)
     means.append(res[0])
     stds.append(res[1])
 error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors parameters', 'n_neighbors')
@@ -170,13 +185,13 @@ error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors param
 knn_clf = KNeighborsClassifier(n_neighbors=2, weights='uniform')
 knn_clf.fit(X, y)
 ypred = knn_clf.predict(X)
-models.append(knn_clf)
+# models.append(knn_clf)
 matrix = confusion_matrix(y, ypred)
 accuracy = knn_clf.score(X, y)
 
-print("")
-print(f"Hyperparameter n: {2},\nIntercept: {log_clf.intercept_},\nCoefs: {log_clf.coef_}")
-print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
+# print("")
+# print(f"Hyperparameter n: {2},\nIntercept: {knn_clf.intercept_},\nCoefs: {knn.coef_}")
+# print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
 
 '''
 #################################

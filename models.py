@@ -17,6 +17,9 @@ from scipy import sparse
 from sklearn.cluster import KMeans
 import math
 
+def identity_tokenizer(text):
+    return text
+
 #################################
 # data handling
 normalised_csv = "data/normalised.csv"
@@ -28,7 +31,8 @@ print(df.head())
 features = df.drop(columns='class')
 y = df['class']
 
-tfidf = TfidfVectorizer(ngram_range = (1,2))
+
+tfidf = TfidfVectorizer(tokenizer=identity_tokenizer, ngram_range = (1,2), lowercase=False)
 tfidf_text = tfidf.fit_transform(features['text'])
 X_ef = features.drop(columns='text')
 X = sparse.hstack([X_ef, tfidf_text]).tocsr()

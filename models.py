@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.decomposition import TruncatedSVD
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from sklearn.dummy import DummyClassifier
@@ -9,7 +11,7 @@ from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_sc
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, SGDClassifier, RidgeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -17,6 +19,9 @@ import seaborn as sns
 from scipy import sparse
 from sklearn.cluster import KMeans
 import math
+from sklearn.svm import SVC
+from sklearn.svm import LinearSVC
+from sklearn.feature_selection import SelectKBest, chi2
 
 
 def identity_tokenizer(text):
@@ -46,13 +51,20 @@ print(y.value_counts())
 
 tfidf = TfidfVectorizer(tokenizer=identity_tokenizer, ngram_range=(1, 2), lowercase=False)
 tfidf_text = tfidf.fit_transform(features['text'])
+svd = TruncatedSVD(n_components=100)  # latent semantic indexing
 X_ef = features.drop(columns='text')
 X = sparse.hstack([X_ef, tfidf_text]).tocsr()
+svd.fit_transform(X)
 print(X.shape)
 print(y.shape)
 
+# ch2 = SelectKBest(chi2, k=100000)
+# X = ch2.fit_transform(X, y)
+# print(X.shape)
+# print(y.shape)
+
 #################################
-# visualizing data
+# visualising data
 # (1) histogram
 """
 values = df2.iloc[:, 3:]
@@ -61,7 +73,7 @@ values.hist(bins=15, color='steelblue', edgecolor='black', linewidth=1.0, grid=F
 # (2) heatmap
 f, ax = plt.subplots(figsize=(10, 6))
 corr = values.corr()
-hm = sns.heatmap(round(corr, 2), cmap="coolwarm", annot=True, linewidths=.05, fmt='.2f')
+hm = sns.heatmap(corr, cmap="coolwarm", annot=True, linewidths=.05, fmt='.2f')
 f.suptitle('Clickbait Attributes Correlation Heatmap')
 plt.show()
 """
@@ -94,16 +106,16 @@ def error_plot(x, means, yerr, title, x_label):
     plt.show()
 
 
-def baseline(x, y, strategy_type):
-    dummy = DummyClassifier(strategy=strategy_type)
-    dummy.fit(x, y)
-    ypred = dummy.predict(x)
-    matrix = confusion_matrix(y, ypred)
-    accuracy = dummy.score(x, y)
-    print("\n=== BASELINE === " + "\nType:" + strategy_type + "\nConfusion Matrix:")
-    print(matrix)
-    print("Accuracy: " + str(accuracy))
-    return matrix
+# def baseline(x, y, strategy_type):
+#     dummy = DummyClassifier(strategy=strategy_type)
+#     dummy.fit(x, y)
+#     ypred = dummy.predict(x)
+#     matrix = confusion_matrix(y, ypred)
+#     accuracy = dummy.score(x, y)
+#     print("\n=== BASELINE === " + "\nType:" + strategy_type + "\nConfusion Matrix:")
+#     print(matrix)
+#     print("Accuracy: " + str(accuracy))
+#     return matrix
 
 
 def roc_plot(x, y, models, matrix):
@@ -134,6 +146,42 @@ def roc_plot(x, y, models, matrix):
     plt.show()
 
 
+def plot_top_features(classifier):
+    model_coefs = pd.DataFrame(classifier.coef_)
+    coefs_df = model_coefs.T
+    feature_name_list = list(X_ef.columns)
+
+    # list w/ features & tf-idf n-grams
+    all_feat_names = []
+    for i in feature_name_list:
+        all_feat_names.append(i)
+
+    for i in tfidf.get_feature_names():
+        all_feat_names.append(i)
+
+    # creating column for feat names
+    coefs_df['feats'] = all_feat_names
+    coefs_df.set_index('feats', inplace=True)
+    coefs_df['feats'] = all_feat_names
+    coefs_df.set_index('feats', inplace=True)
+
+    # plot non-cb
+    coefs_df[0].sort_values(ascending=True).head(20).plot(kind='bar')
+    plt.title("Top 20 Non-Clickbait Coefs")
+    plt.xlabel("features")
+    plt.ylabel("coef value")
+    plt.xticks(rotation=55)
+    plt.show()
+
+    # plot CB classification
+    coefs_df[0].sort_values(ascending=False).head(20).plot(kind='bar', color='orange')
+    plt.title("Top 20 Clickbait Coefs")
+    plt.xlabel("features")
+    plt.ylabel("coef value")
+    plt.xticks(rotation=55)
+    plt.show()
+
+
 #################################
 # model 1 - Logistic Regression
 print("\n=== LOGISTIC REGRESSION | L2 PENALTY ===")
@@ -141,6 +189,7 @@ print("\n=== LOGISTIC REGRESSION | L2 PENALTY ===")
 ## Cross Validation for hyperparameter C:
 models = []
 # c_range = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
+c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # means = []
 # std_devs = []
 # for C in c_range:
@@ -153,23 +202,42 @@ models = []
 # error_plot(log_c_vals, means, std_devs, 'LogReg: L2 penalty, varying C', 'log10(C)')
 
 # Logistic Regression model with chosen hyperparameter:
-log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
-log_clf.fit(X_train, y_train)
-preds_train = log_clf.predict(X_train)
-preds_test = log_clf.predict(X_test)
+# log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
+# X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
+# log_clf.fit(X_train, y_train)
+# preds_train = log_clf.predict(X_train)
+# preds_test = log_clf.predict(X_test)
+#
+# print_results(preds_train, y_train, "LogReg train")
+# print_results(preds_test, y_test, "LogReg test")
+#
+# plot_top_features(log_clf)
+# models.append(log_clf)
 
-print_results(preds_train, y_train, "train")
-print_results(preds_test, y_test, "test")
 
-models.append(log_clf)
+#################################
+# SVM model
+means = []
+std_devs = []
+for C in c_range:
+    print(C)
+    clf = SVC(C=C, class_weight='balanced', max_iter=10000)
+    res = k_fold_cross_val(5, clf, X)
+    means.append(res[0])
+    std_devs.append(res[1])
+
+log_c_vals = np.log10(c_range)
+error_plot(log_c_vals, means, std_devs, 'SVM: varying C', 'log10(C)')
+
+# plot_top_features(clf.coef_)
 
 #################################
 # model 2 - kNN
-print("\n=== kNN === \n")
+print("\n=== kNN ===")
 
 ## Cross Validation for hyperparameter n_neighbors:
-neighbours = [2, 5, 8]
+"""
+neighbours = [1, 3, 5, 7, 9]
 means = []
 stds = []
 for n in neighbours:
@@ -180,42 +248,58 @@ for n in neighbours:
     means.append(res[0])
     stds.append(res[1])
 error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors parameters', 'n_neighbors')
-
+"""
 ## kNN model with chosen hyperparameter:
-knn_clf = KNeighborsClassifier(n_neighbors=2, weights='uniform')
-knn_clf.fit(X, y)
-ypred = knn_clf.predict(X)
-# models.append(knn_clf)
-matrix = confusion_matrix(y, ypred)
-accuracy = knn_clf.score(X, y)
-
+# knn = KNeighborsClassifier(n_neighbors=5, weights='uniform', n_jobs=2)
+# knn.fit(X_train, y_train)
+# preds_train = knn.predict(X_train)
+# preds_test = knn.predict(X_test)
+#
+# print_results(preds_train, y_train, "KNN train")
+# print_results(preds_test, y_test, "KNN test")
+#
+# models.append(knn)
 # print("")
 # print(f"Hyperparameter n: {2},\nIntercept: {knn_clf.intercept_},\nCoefs: {knn.coef_}")
 # print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
 
-'''
+
 #################################
 # model 3 - K-Means
 print("\n=== K-Means === \n")
 
 ## Cross Validation for hyperparameter k:
-K = range(5,50,5)
-means = [];stds = []
-for k in K:
-    gmm = KMeans(n_clusters=k)
-    kf = KFold(n_spilts=5)
-    m=0;v=0
-    for train,test in kf.split(tfidf):
-        gmm.fit(train.reshape(-1,1))
-        cost =-gmm.score(test.reshape(-1,1))
-        m=m+cost; v=v+cost*cost
-    means.append(m/5);stds.append(math.sqrt(v/5-(m/5)*(m/5)))
-error_plot(K,means,stds,'Prediction Error: varying k parameters','K')
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
+# K = range(10, 150, 10)
+# means = []
+# stds = []
+# for k in K:
+#     gmm = KMeans(n_clusters=k)
+#     kf = KFold(n_splits=5, shuffle=True)
+#     m = 0
+#     v = 0
+#     for train, test in kf.split(X_train):
+#         print("k fold started...")
+#         gmm.fit(train.reshape(-1, 1))
+#         cost = -gmm.score(test.reshape(-1, 1))
+#         m = m+cost
+#         v = v + cost * cost
+#     means.append(m/5)
+#     stds.append(math.sqrt(v/5-(m/5)*(m/5)))
+# error_plot(K, means, stds, 'Prediction Error: varying k parameters', 'K')
 
 ## K-Means model with chosen hyperparameter:
-k = 15 # test
-gmm = KMeans(n_clusters=k).fit(tfidf)
-labels = gmm.predict(tfidf) '''
+k = 50 # test
+gmm = KMeans(n_clusters=k)
+labels = gmm.fit_predict(X_train)
 
-dummy_martix = baseline(X, y, 'most_frequent')
-roc_plot(X, y, models, dummy_martix)
+
+dummy = DummyClassifier(strategy='most_frequent')
+dummy.fit(X_train, y_train)
+preds_train = dummy.predict(X_train)
+preds_test = dummy.predict(X_test)
+
+print_results(preds_train, y_train, "Dummy train")
+print_results(preds_test, y_test, "Dummy test")
+
+# roc_plot(X, y, models, confusion_matrix(y, preds_train))

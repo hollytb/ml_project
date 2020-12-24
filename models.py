@@ -53,7 +53,7 @@ X = sparse.hstack([X_ef, tfidf_text]).tocsr()
 print(X.shape)
 print(y.shape)
 
-ch2 = SelectKBest(chi2, k=250)
+ch2 = SelectKBest(chi2, k=20)
 X = ch2.fit_transform(X, y)
 print(X.shape)
 print(y.shape)
@@ -180,6 +180,7 @@ plt.plot(fpr, tpr)
 
 #################################
 # model 2: Gaussian kernel SVM (SVC) model
+print("\n=== SVC, Gaussian Kernel ===")
 # c_range = [0.001, 1, 1000]
 # gammas = [1, 2, 5, 8, 10]
 # for C in c_range:
@@ -201,7 +202,7 @@ plt.plot(fpr, tpr)
 # plt.show()
 
 # SVC Model with chosen parameters
-svc = SVC(C=1, kernel='rbf', gamma=5, cache_size=1200)
+svc = SVC(C=1, kernel='rbf', gamma=5, cache_size=1200, probability=True)
 
 svc.fit(X_train, y_train)
 prediction = svc.predict_proba(X_test)

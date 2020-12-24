@@ -2,6 +2,8 @@
 ## Can a clickbait article be identified by its headline?
 ### An analysis of the effects of pay-per-click on established digital news media.
 
+#### Authors: Ross McCrann, Cian Higgins & Holly Baker
+
 # TRAINING Dataset Structure
 Column 1: Headline  ("People can't believe how she makes 10000 dollars a day!")
 

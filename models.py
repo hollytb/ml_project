@@ -44,6 +44,7 @@ df["text"] = df["text"].apply(eval)
 print(df.head())
 features = df.drop(columns='class')
 y = df['class'].to_numpy()
+print(np.array(np.unique(y, return_counts=True)).T)
 print(y.shape)
 
 tfidf = TfidfVectorizer(tokenizer=identity_tokenizer, ngram_range=(1, 2), lowercase=False)
@@ -53,7 +54,8 @@ X = sparse.hstack([X_ef, tfidf_text]).tocsr()
 print(X.shape)
 print(y.shape)
 
-ch2 = SelectKBest(chi2, k=20)
+# change k for sake of SVC and KNN model runtimes
+ch2 = SelectKBest(chi2, k=250)
 X = ch2.fit_transform(X, y)
 print(X.shape)
 print(y.shape)
@@ -141,9 +143,7 @@ def plot_top_features(classifier):
 # model 1 - Logistic Regression
 print("\n=== LOGISTIC REGRESSION | L2 PENALTY ===")
 # Cross Validation for hyperparameter C:
-models = []
 # c_range = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
-# c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # means = []
 # std_devs = []
 # for C in c_range:
@@ -164,10 +164,11 @@ print(X_test.shape)
 # ROC curve plotting
 log_clf.fit(X_train, y_train)
 prediction = log_clf.predict_proba(X_test)
+
 fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
 auc_score = roc_auc_score(y_test, prediction[:, 1])
 print("AUC Score:", auc_score)
-plt.plot(fpr, tpr)
+plt.plot(fpr, tpr, color='blue', label='Logistic Regression')
 
 # log_clf.fit(X_train, y_train)
 # preds_train = log_clf.predict(X_train)
@@ -209,7 +210,7 @@ prediction = svc.predict_proba(X_test)
 fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
 auc_score = roc_auc_score(y_test, prediction[:, 1])
 print("AUC Score:", auc_score)
-plt.plot(fpr, tpr)
+plt.plot(fpr, tpr, color='orange', label='SVC (Gaussian)')
 
 # svc.fit(X_train, y_train)
 # preds_train = svc.predict(X_train)
@@ -243,7 +244,7 @@ prediction = knn.predict_proba(X_test)
 fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
 auc_score = roc_auc_score(y_test, prediction[:, 1])
 print("AUC Score:", auc_score)
-plt.plot(fpr, tpr)
+plt.plot(fpr, tpr, color='red', label='K-Neighbours')
 
 
 # knn.fit(X_train, y_train)

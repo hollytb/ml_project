@@ -1,0 +1,1001 @@
+,class,text,word_count,question_mark,exclamation_mark,start_digit,start_question,longest_word_len,avg_word_len,ratio_stopwords
+0,0,"['sponsored', 'fund', 'design', 'help', 'create', 'fairer', 'open', 'sustainable', 'society', 'across', 'ireland']",0.3125,0.0,0.0,0.0,0.0,0.5,0.3771944156999437,0.5444491110177796
+1,0,"['sponsored', 'draw', 'four', 'ireland', 'top', 'book', 'illustrator', 'sound', 'like', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.2284370858522594,0.612487750244995
+2,0,"['liquidators', 'appoint', 'south', 'dublin', 'nursing', 'home']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.6206996714049707,0.20005599888002237
+3,0,"['complaints', 'offensive', 'tampax', 'tampon', 'advert', 'upheld']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4679665232467368,0.15553688926221476
+4,0,"['adopt', 'energy', 'policy', 'prevent', 'importing', 'fracked', 'gas', 'urge', 'campaigner']",0.1875,0.0,0.0,0.0,0.0,0.5,0.46293774848864444,0.3499930001399972
+5,0,"['certainty', 'urgently', 'require', 'reopening', 'say', 'union']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.727683677359621,0.1749965000699986
+6,0,"['aer', 'lingus', 'receive', 'almost', 'collect', 'ppe', 'china']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3377811666031262,0.3817723645527089
+7,0,"['coronavirus', 'france', 'battle', 'near', 'new', 'case', 'europe', 'see', 'big', 'wave']",0.1875,0.0,0.0,0.0,0.0,0.5,0.2705734981754807,0.0999580008399832
+8,0,"['child', 'abuser', 'assault', 'teenage', 'girl', 'jail', 'two', 'year']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4235971170778644,0.2799944001119978
+9,0,"['sam', 'mcconkey', 'grumble', 'around', 'young', 'people']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.35097943104042995,0.1399972000559989
+10,0,"['house', 'price', 'number', 'buyer', 'mortgage', 'lending', 'shape']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.3743260171014652,0.6000279994400112
+11,0,"['competition', 'win', 'two', 'night', 'stay', 'luxurious', 'faithlegg', 'waterford', 'include', 'breakfast', 'morning', 'dinner', 'evening', 'choice', 'enter']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.6000279994400112
+12,0,"['gardaí', 'find', 'breach', 'regulation', '22', 'pub', 'last', 'week']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.25451490970180596
+13,0,"['man', 'accuse', 'kevin', 'lunney', 'assault', 'fails', 'charge', 'drop']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.3872882740591471,0.3817723645527089
+14,0,"['sponsored', 'draw', 'ireland', 'top', 'illustrator', 'sound', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.22994390283753618,0.6999860002799944
+15,0,"['belfast', 'woman', 'convict', 'attempt', 'kill', 'police']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5007534084926385,0.3499930001399972
+16,0,"['leaving', 'cert', 'student', 'challenge', 'calculated', 'grade', 'get', 'urgent', 'hearing']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4780603816059402,0.2333753324933501
+17,0,"['silent', 'fury', 'ugly', 'truth', 'el', 'bordo', 'mine', 'fire']",0.1875,0.0,0.0,0.0,0.0,0.14285714285714285,0.17548063830946037,0.46661066778664423
+18,0,"['competition', 'team', 'frank', 'hot', 'sauce', 'amp', 'french', 'mustard', 'give', 'chance', 'win', 'portable', 'bbq', 'worth', 'well', 'gift', 'card', 'supermarket', 'choice']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.16146542490423554,0.6145877082458351
+19,0,"['pup', 'government', 'say', 'people', 'pandemic', 'payment', 'travel']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4780603816059402,0.2799944001119978
+20,0,"['varadkar', 'intervene', 'retention', 'state', 'car', 'coveney']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.508323802262041,0.46661066778664423
+21,0,"['stephanie', 'ng', 'case', 'huge', 'debate', 'dpp', 'decision', 'appeal', 'boy', 'sentence']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.24205290198427842,0.373372532549349
+22,0,"['coronavirus', 'alert', 'app', 'launch', 'northern', 'ireland']",0.125,0.0,0.0,0.0,0.0,0.5,0.44779696094983945,0.46661066778664423
+23,0,"['cork', 'city', 'unveils', 'package', 'support', 'business', 'city', 'centre']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.35428353575513327,0.25451490970180596
+24,0,"['michael', 'tell', 'court', 'bullet', 'head', 'threat', 'leave', 'rattle']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.4202930123631611,0.25451490970180596
+25,0,"['pup', 'explainer', 'late', 'pandemic', 'payment', 'squabble']",0.125,1.0,0.0,0.0,0.0,0.3571428571428571,0.3377811666031262,0.5090298194036119
+26,0,"['dublin', 'city', 'council', 'investigate', 'removal', 'slave', 'statue', 'shelbourne', 'hotel']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.6183395966087543,0.25451490970180596
+27,0,"['coronavirus', 'death', '14', 'new', 'case', 'report']",0.125,0.0,0.0,0.0,0.0,0.5,0.42762739865294197,0.46661066778664423
+28,0,"['august', '4th', 'early', 'republic', 'ireland', 'green', 'list', 'despite', 'sharp', 'case', 'increase', 'state', 'include']",0.375,0.0,0.0,0.0,0.0,0.4285714285714285,0.49102263856362216,0.39997200055998877
+29,0,"['two', 'men', 'kill', 'single', 'vehicle', 'crash', 'co', 'monaghan']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.2799944001119978
+30,0,"['court', 'rule', 'case', 'implication', 'unaccompanied', 'learner']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.6091716137465281,0.46661066778664423
+31,0,"['plans', 'pedestrianise', 'significant', 'part', 'cork', 'city', 'centre', 'create', '4km', 'new', 'cycle', 'lane', 'launch', 'wednesday', 'reimagine', 'cork', 'plan', 'cork', 'city', 'council']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.29927563858177664,0.46661066778664423
+32,0,"['air', 'corps', 'use', 'new', 'craft', 'rotate', 'troop', 'disputed', 'african', 'region']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.2333753324933501
+33,0,"['cuts', 'pandemic', 'welfare', 'bill', 'critical', 'manage', 'deficit', 'official', 'warn', 'ministers']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.58279323929343,0.21531569368612624
+34,0,"['family', 'say', 'child', 'benefit', 'cancel', 'go', 'holiday']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4599059600965817,0.4199916001679966
+35,0,"['death', 'northern', 'ireland', '16', 'consecutive', 'day']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4235971170778644,0.4199916001679966
+36,0,"['public', 'servant', 'use', 'coronavirus', 'lie', 'couch', 'watch', 'box', 'set']",0.1875,0.0,0.0,0.0,0.0,0.5,0.2446489842601166,0.3000139997200056
+37,0,"['half', 'adult', 'use', 'bus', 'rail', 'service']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.13973458235753322,0.6362872742545149
+38,0,"['appeal', 'court', 'quash', 'man', 'conviction', 'dublin', 'gang', 'rape']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.3212787974511193,0.25451490970180596
+39,0,"['dáil', 'pass', 'law', 'place', 'payment', 'statutory', 'footing']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4235971170778644,0.2799944001119978
+40,0,"['shelbourne', 'banish', 'statue', 'part', 'mania', 'thing', 'egyptian']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3453878692155474,0.5384292314153717
+41,0,"['child', 'fracture', 'bone', 'foot', 'shop', 'centre', 'escalator']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.46661066778664423
+42,0,"['travel', 'less', 'affected', 'region', 'abroad', 'unlikely', 'approve']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.3453878692155474,0.3231135377292454
+43,0,"['high', 'court', 'challenge', 'housing', 'development', 'meath', 'gaeltacht']",0.125,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.3110737785244295
+44,0,"['appeal', 'court', 'add', 'two', 'year', 'detention', 'minor', 'try', 'murder', 'woman']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.39997200055998877
+45,0,"['nursing', 'home', 'longer', 'restrict', 'visitor', 'number', 'new', 'guideline']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.6232957536808089,0.2799944001119978
+46,0,"['council', 'investigate', 'removal', 'slave', 'statue', 'shelbourne', 'hotel']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.6696984550587296,0.3110737785244295
+47,0,"['daughter', 'seem', 'friend', 'would', 'therapy', 'help']",0.1875,1.0,0.0,0.0,0.0,0.3571428571428571,0.402410907176443,0.46661066778664423
+48,0,"['eleven', 'dup', 'assembly', 'member', 'defy', 'advice', 'leader', 'arlene', 'foster']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.4599059600965817,0.1399972000559989
+49,0,"['parents', 'nóra', 'quoirin', 'take', 'legal', 'case', 'facebook', 'user']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.3817723645527089
+50,0,"['get', 'important', 'story', 'day', 'evening', 'irish', 'times', 'evening', 'update']",0.2708333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.612487750244995
+51,0,"['minor', 'receive', 'increased', 'sentence', 'attempted', 'murder']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5915255160394314,0.3499930001399972
+52,0,"['man', 'die', 'follow', 'disturbance', 'house', 'kilkenny']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.4780603816059402,0.3499930001399972
+53,0,"['gordon', 'elliott', 'eye', 'galway', 'glory', 'gaa', 'club', 'shut', 'one', 'positive', 'case']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.41323094239602065,0.20005599888002237
+54,0,"['highly', 'educate', 'people', 'likely', 'hide', 'racist', 'view', 'study']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.35428353575513327,0.25451490970180596
+55,0,"['visa', 'renewal', 'backlog', 'covid', 'overwhelm', 'migrant', 'system']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.1399972000559989
+56,0,"['digital', 'divide', 'subsidise', 'internet', 'access', 'old', 'people', 'say', 'expert']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4175516947152479,0.11661766764664706
+57,0,"['beacon', 'hospital', 'reach', 'deal', 'insurer', 'cover', 'covid', 'test']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.5523301200007261,0.25451490970180596
+58,0,"['kathy', 'sheridan', 'let', 'vicky', 'phelan', 'die', 'term']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.26020732349363696,0.4199916001679966
+59,0,"['irish', 'team', 'reach', 'semifinal', 'world', 'schools', 'debating', 'championship']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.689868017355627,0.15553688926221476
+60,0,"['convicted', 'ira', 'bomber', 'charge', 'historic', 'child', 'sex', 'offence']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.5486629268558357,0.15553688926221476
+61,0,"['cork', 'reimagined', 'cyclist', 'pedestrian', 'new', 'plan']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.3453878692155474,0.7538849223015539
+62,0,"['prison', 'diary', 'give', 'insight', 'bleak', 'condition', 'pandemic']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.6293411760434254,0.3110737785244295
+63,0,"['university', 'teacher', 'seek', 'clarity', 'process', 'third', 'level', 'education']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.6183395966087543,0.25451490970180596
+64,0,"['majority', 'irish', 'child', 'say', 'pandemic', 'homeschooling', 'impair', 'learning']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.7503767042463193,0.15553688926221476
+65,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+66,0,"['duffy', 'circus', 'face', 'prospect', 'final', 'curtain', 'celebrate', '150', 'year']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.2835539095546722,0.39997200055998877
+67,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+68,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+69,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+70,0,"['chris', 'frantz', 'talking', 'heads', 'david', 'byrne', 'continual', 'need', 'aggrandise']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.35097943104042995,0.46661066778664423
+71,0,"['sponsored', 'switching', 'new', 'mortgage', 'provider', 'necessarily', 'hassle', 'make', 'actually', 'save', 'money', 'month']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.1936350598188189,0.6999860002799944
+72,0,"['gardaí', 'warn', 'aib', 'bank', 'card', 'smishing', 'scam', 'fraudsters']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.22086669208285692,0.2333753324933501
+73,0,"['fintan', 'toole', 'united', 'states', 'stir', 'many', 'feeling', 'around', 'world', 'love', 'hatred', 'fear', 'envy', 'never', 'felt', 'pity', 'us']",0.5,0.0,0.0,0.0,0.0,0.2857142857142857,0.23077900622696668,0.5310093798124037
+74,0,"['sponsored', 'fund', 'design', 'help', 'create', 'fairer', 'open', 'sustainable', 'society', 'across', 'ireland']",0.3125,0.0,0.0,0.0,0.0,0.5,0.3771944156999437,0.5444491110177796
+75,0,"['pandemic', 'payment', 'stop', 'say', 'minister']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.546139462266035,0.3499930001399972
+76,0,"['sponsored', 'draw', 'four', 'ireland', 'top', 'book', 'illustrator', 'sound', 'like', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.2284370858522594,0.612487750244995
+77,0,"['coronavirus', 'threat', 'school', 'overstate', 'seanad', 'tell']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.44779696094983945,0.15553688926221476
+78,0,"['ministers', 'take', '10', 'reduction', 'still', 'pay', 'previous', 'government']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.5869869106620919,0.2799944001119978
+79,0,"['government', 'say', 'renter', 'legislation', 'assist', 'vulnerable', 'tenant', 'impact']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.7338743350943121,0.25451490970180596
+80,0,"['rise', 'use', 'firearm', 'tasers', 'gardaí', 'lockdown']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.3419022202857507,0.5833683326333473
+81,0,"['vast', 'majority', 'relate', 'individual', 'leave', 'permanently', 'rather', 'holidaymaker']",0.14583333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.6142185429261297,0.2333753324933501
+82,0,"['asylum', 'seeker', 'cahersiveen', 'protest', 'inhumane', 'condition']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.5143692246246575,0.2799944001119978
+83,0,"['gardaí', 'identify', 'chief', 'suspect', 'ballyfermot', 'murder', 'investigation']",0.10416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.7957627580197159,0.1749965000699986
+84,0,"['total', '885', 'excess', 'death', 'report', 'four', 'month', 'end', 'june']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.25761124121779877,0.49993000139997196
+85,0,"['arthritis', 'drug', 'could', 'effective', 'patient']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.6495107383403228,0.3110737785244295
+86,0,"['jury', 'tell', 'man', 'accuse', 'murder', 'det', 'gda', 'adrian', 'donohoe', 'involve', 'robbery']",0.25,0.0,0.0,0.0,0.0,0.3571428571428571,0.3388704318936877,0.373372532549349
+87,0,"['land', 'development', 'agency', 'take', 'st', 'teresa', 'gardens', 'redevelopment']",0.14583333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.37216564094185134,0.3499930001399972
+88,0,"['new', 'legislation', 'change', 'previous', 'emergency', 'law', 'due', 'end', 'august']",0.1875,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.3499930001399972
+89,0,"['ow', 'try', 'kill', 'stephanie', 'ng', '2017', 'meet', 'social', 'medium', 'app']",0.29166666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.20574405896556114,0.49405011899762
+90,0,"['patricia', 'carrick', '51', 'take', 'case', 'hse', 'terminally', 'ill', 'cervical', 'cancer']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.375179274912405,0.46661066778664423
+91,0,"['official', 'say', 'pandemic', 'one', 'big', 'wave']",0.14583333333333331,0.0,0.0,0.0,1.0,0.2857142857142857,0.19062142584826547,0.3499930001399972
+92,0,"['competition', 'win', 'two', 'night', 'stay', 'luxurious', 'faithlegg', 'waterford', 'include', 'breakfast', 'morning', 'dinner', 'evening', 'choice', 'enter']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.6000279994400112
+93,0,"['scientists', 'edge', 'close', 'blood', 'test', 'detect', 'alzheimer', 'symptom']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.49993000139997196
+94,0,"['owning', 'irish', 'holiday', 'home', 'come', 'much', 'cost']",0.2708333333333333,1.0,0.0,0.0,0.0,0.2142857142857143,0.18305103207886286,0.7874842503149937
+95,0,"['tributes', 'pay', 'retire', 'garda', 'die', 'house', 'fire']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.4199916001679966
+96,0,"['sponsored', 'draw', 'ireland', 'top', 'illustrator', 'sound', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.22994390283753618,0.6999860002799944
+97,0,"['rules', 'stop', 'pandemic', 'payment', 'people', 'go', 'holiday', 'legal', 'flac']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.29047074414973784,0.373372532549349
+98,0,"['gaffes', 'row', 'reversal', 'government', 'shaky', 'start', 'keep', 'go']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.37078590490714014,0.25451490970180596
+99,0,"['family', 'say', 'child', 'benefit', 'cancel', 'go', 'holiday']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4037906432111542,0.5090298194036119
+100,0,"['trump', 'defeat', 'november', 'uncertain', 'us', 'survive', 'republic', 'anything', 'name', 'write', 'fintan']",0.4375,0.0,0.0,0.0,0.0,0.3571428571428571,0.3040865602817566,0.6416071678566428
+101,0,"['competition', 'team', 'frank', 'hot', 'sauce', 'amp', 'french', 'mustard', 'give', 'chance', 'win', 'portable', 'bbq', 'worth', 'well', 'gift', 'card', 'supermarket', 'choice']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.16146542490423554,0.6145877082458351
+102,0,"['gardaí', 'arrest', 'three', 'men', 'seize', 'firearm', 'homeless', 'hostel', 'dublin']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.37216564094185134,0.3499930001399972
+103,0,"['coronavirus', 'death', '40', 'new', 'case', 'report', 'state']",0.1875,0.0,0.0,0.0,0.0,0.5,0.3419022202857507,0.5833683326333473
+104,0,"['three', 'suspect', 'victim', 'human', 'traffic', 'rescue', 'gardaí', 'north', 'cork']",0.1875,0.0,0.0,0.0,0.0,0.5,0.46293774848864444,0.3499930001399972
+105,0,"['research', 'galapagos', 'islands', 'find', 'volcano', 'hide', 'magma', 'ground']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5358277508487194,0.3817723645527089
+106,0,"['government', 'hire', 'additional', 'secondary', 'school', 'teacher', 'plan', 'reopen', 'school']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.46509812464825817,0.39997200055998877
+107,0,"['hotel', 'say', 'take', 'decision', 'light', 'recent', 'world', 'event']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.1815442150935861,0.46661066778664423
+108,0,"['woman', 'claim', 'smear', 'test', 'misdiagnosed', 'misreported']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.6725668536572081,0.20005599888002237
+109,0,"['father', 'teenage', 'boy', 'try', 'murder', 'woman', 'dún', 'laoghaire', 'apologise', 'court']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.3267795871684549,0.46661066778664423
+110,0,"['tenancies', 'bill', 'q', 'amp', 'rent', 'go', 'evict']",0.22916666666666663,1.0,0.0,0.0,0.0,0.3571428571428571,0.14091461975564157,0.7999440011199775
+111,0,"['manslaughter', 'verdict', 'possible', 'aaron', 'brady', 'trial', 'court', 'tell']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.4780603816059402,0.2799944001119978
+112,0,"['ireland', 'take', 'fiji', 'tournament', 'galway', 'race', 'kick', 'ghostly', 'silence']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.35097943104042995,0.46661066778664423
+113,0,"['najib', 'may', 'face', 'decade', 'jail', 'conviction', 'link', '1mdb', 'scandal', 'via', 'irishtimesworld']",0.25,0.0,0.0,0.0,0.0,0.9999999999999999,0.6293411760434254,0.2799944001119978
+114,0,"['deaths', 'level', 'northern', 'ireland', '17', 'per', 'cent', 'high', 'period']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.40025053101682917,0.39997200055998877
+115,0,"['contents', 'government', 'plan', 'broadly', 'welcome', 'union', 'say', 'allocate', 'may', 'prove', 'insufficient']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.5688324891527333,0.20005599888002237
+116,0,"['martin', 'pay', 'varadkar', 'taoiseach', 'despite', 'give', 'part', 'salary', 'back', 'state']",0.25,0.0,0.0,0.0,0.0,0.3571428571428571,0.3630884301871721,0.46661066778664423
+117,0,"['government', 'say', 'renter', 'legislation', 'assist', 'vulnerable', 'tenant', 'impact']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.7338743350943121,0.25451490970180596
+118,0,"['countries', 'adopt', 'range', 'strategy', 'amid', 'pandemic', 'get', 'student', 'back', 'classroom']",0.2708333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.43267432783254367,0.5249895002099958
+119,0,"['josh', 'dublin', 'kill', 'marbella', 'monday']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.44175153858722294,0.5599888002239956
+120,0,"['shelbourne', 'hotel', 'remove', 'statue', 'slave', 'girl', 'plinth']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5358277508487194,0.3817723645527089
+121,0,"['guidelines', 'school', 'dramatically', 'limit', 'risk', 'coronavirus', 'staff', 'pupil']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.375179274912405,0.46661066778664423
+122,0,"['teachers', 'union', 'seek', 'government', 'pledge', 'extra', 'funding', 'package', 'enough']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4710709293248372,0.3231135377292454
+123,0,"['garda', 'vet', 'bureau', 'confident', 'process', 'extra', 'teacher', 'application']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.46293774848864444,0.2333753324933501
+124,0,"['report', 'find', 'risk', 'include', 'carers', 'meat', 'plant', 'staff', 'taxi', 'driver', 'security', 'guard', 'cleaner', 'migrant', 'worker']",0.3333333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.4637365430350563,0.2946941061178776
+125,0,"['scientists', 'reveal', 'explosive', 'secret', 'beneath', 'seemingly', 'trustworthy', 'volcano']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,1.0,0.0
+126,0,"['man', '55', 'shot', 'home', 'mother', 'believe', 'involve', 'gangland', 'crime']",0.29166666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.22709365866056697,0.6588268234635307
+127,0,"['government', 'tds', 'raise', 'concern', '104', 'people', 'pandemic', 'unemployment', 'payment', 'cut', 'foreign', 'travel']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.5688324891527333,0.3499930001399972
+128,0,"['coronavirus', 'bubbles', 'capsule', 'mask', 'school', 'reopen', 'around', 'world']",0.1875,0.0,0.0,0.0,0.0,0.5,0.508323802262041,0.3499930001399972
+129,0,"['prefabs', 'quick', 'fix', 'solution', 'extra', 'classroom', 'space']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.2511301127389577,0.3499930001399972
+130,0,"['pandemic', 'payment', 'continue', 'travel', 'essential', 'reason']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.5193253816967122,0.3817723645527089
+131,0,"['young', 'dublin', 'man', 'die', 'hit', 'car', 'holiday', 'spain']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2895267142312511,0.5384292314153717
+132,0,"['fewer', '250', 'black', 'white', 'ruffed', 'lemur', 'find', 'wild']",0.20833333333333331,0.0,0.0,0.0,0.0,0.14285714285714285,0.23366555924695476,0.5384292314153717
+133,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+134,0,"['new', 'route', 'green', 'line', 'start', 'broombridge', 'unlikely', 'open', '2030']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.37332752391845037,0.4307713845723085
+135,0,"['asti', 'say', 'mighty', 'task', 'ahead', 'get', 'student', 'back', 'school', 'within', 'week']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.21785305811230338,0.1866162676746465
+136,0,"['teachers', 'cast', 'doubt', 'school', 'reopening', 'timeframe']",0.08333333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5947751574896066,0.20005599888002237
+137,0,"['plans', 'extend', 'luas', 'finglas', 'bring', 'within', '1km', 'line']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.14523537207486892,0.373372532549349
+138,0,"['two', 'critically', 'endanger', 'lemur', 'bear', 'delighted', 'fota', 'wildlife', 'park']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4175516947152479,0.11661766764664706
+139,0,"['heroes', 'marvels', 'middle', 'ages', 'unicorns', 'creature']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4037906432111542,0.6362872742545149
+140,0,"['climate', 'finance', 'fails', 'reach', 'vulnerable', 'nation', 'report', 'show']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.532523646134016,0.2799944001119978
+141,0,"['alcohol', 'abuse', 'still', 'rise', 'ireland', 'along', 'cannabis', 'cocaine']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.31746636893415403,0.4307713845723085
+142,0,"['fintan', 'brexit', 'like', 'listen', 'someone', 'else', 'dream']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.35702485340304646,0.46661066778664423
+143,0,"['scenario', 'hiring', 'extra', 'teacher', 'challenge', 'accept', 'minister']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.35097943104042995,0.373372532549349
+144,0,"['plans', 'reopen', 'school', 'massively', 'complex']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.2783617450029956,0.4199916001679966
+145,0,"['lower', 'pay', 'essential', 'worker', 'face', 'high', 'risk', 'severe', 'outcome']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.493183014723236,0.2333753324933501
+146,0,"['pup', 'cut', 'leave', 'country', 'permanently', 'say', 'government']",0.1875,0.0,0.0,0.0,0.0,0.5,0.4175516947152479,0.5833683326333473
+147,0,"['ballyfermot', 'murder', 'victim', 'home', 'week', 'uk', 'possible', 'case', 'mistaken', 'identity']",0.25,0.0,0.0,0.0,0.0,0.5,0.375179274912405,0.46661066778664423
+148,0,"['denying', 'unemployment', 'payment', 'travel', 'could', 'open', 'legal', 'challenge']",0.1875,0.0,0.0,0.0,0.0,0.5714285714285714,0.508323802262041,0.46661066778664423
+149,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+150,0,"['schools', 'reopen', 'prefab', 'manufacturer', 'report', 'spike', 'order']",0.10416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.7049906504729228,0.1749965000699986
+151,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+152,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+153,0,"['são', 'paulo', 'letter', 'jungle', 'destruction', 'prompt', 'global', 'pressure', 'make', 'little', 'impact']",0.1875,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.11661766764664706
+154,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+155,0,"['balearic', 'canary', 'island', 'add', 'uk', 'list', 'area', 'travel', 'avoid', 'british', 'government', 'say']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.3094784234700362,0.6999860002799944
+156,0,"['sponsored', 'buying', 'sell', 'property', 'summer', 'look', 'little', 'different', 'thing', 'approach', 'house', 'viewing', 'potential', 'sale']",0.5416666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.3497267759562842,0.6759064818703625
+157,0,"['hse', 'audit', 'say', 'spend', 'team', 'development', 'jigsaw', 'charity']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.37078590490714014,0.25451490970180596
+158,0,"['witness', 'aaron', 'brady', 'murder', 'trial', 'might', 'motive', 'make', 'thing', 'court', 'tell']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2142857142857143,0.21583791732476454,0.38891222175556484
+159,0,"['coronavirus', 'larger', 'class', 'could', 'take', 'place', 'parish', 'hall', 'plan', 'say']",0.1875,0.0,0.0,0.0,0.0,0.5,0.5385690684966326,0.11661766764664706
+160,0,"['schools', 'get', 'funding', 'convert', 'pe', 'hall', 'classroom', 'necessary']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.46661066778664423
+161,0,"['student', 'teacher', 'take', 'legal', 'challenge', 'permit', 'graduate', 'year']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.48504983388704315,0.5384292314153717
+162,0,"['plan', 'reopen', 'school', 'culmination', 'policy']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.40544269556850576,0.5599888002239956
+163,0,"['sponsored', 'switching', 'new', 'mortgage', 'provider', 'necessarily', 'hassle', 'make', 'actually', 'save', 'money', 'month']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.1936350598188189,0.6999860002799944
+164,0,"['bubbles', 'pod', 'isolation', 'area', 'primary', 'school', 'reopen']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4780603816059402,0.4199916001679966
+165,0,"['sponsored', 'fund', 'design', 'help', 'create', 'fairer', 'open', 'sustainable', 'society', 'across', 'ireland']",0.3125,0.0,0.0,0.0,0.0,0.5,0.3771944156999437,0.5444491110177796
+166,0,"['kinnegad', 'school', 'site', 'stagger', 'access']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.24764446380916083,0.5384292314153717
+167,0,"['sponsored', 'draw', 'four', 'ireland', 'top', 'book', 'illustrator', 'sound', 'like', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.2284370858522594,0.612487750244995
+168,0,"['liam', 'campbell', 'give', 'date', 'appeal', 'extradition', 'order', 'surrender', 'lithuania']",0.1875,0.0,0.0,0.0,0.0,0.5714285714285714,0.5537098560354373,0.3499930001399972
+169,0,"['solicitor', 'allow', 'deficit', 'client', 'fund', 'strike']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.5599888002239956
+170,0,"['galway', 'city', 'even', 'know', 'race', 'week']",0.125,0.0,0.0,0.0,0.0,0.14285714285714285,0.0,0.46661066778664423
+171,0,"['call', 'dublin', 'homelessness', 'forum', 'follow', 'five', 'death', 'week']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.4037906432111542,0.3817723645527089
+172,0,"['spanish', 'lobby', 'government', 'add', 'island', 'green', 'list']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.2552511664215821,0.25451490970180596
+173,0,"['spread', 'state', 'stabilise', 'suppress', 'nphet']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.2511301127389577,0.6999860002799944
+174,0,"['glenstal', 'abbey', 'reopen', 'boarding', 'school', 'face', 'special', 'challenge']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.7957627580197159,0.0
+175,0,"['q', 'amp', 'go', 'panemic', 'unemployment', 'payment']",0.125,1.0,0.0,0.0,0.0,0.5714285714285714,0.3212787974511193,0.6362872742545149
+176,0,"['hse', 'employee', 'receive', 'monthly', 'pay', 'every', 'fortnight', 'almost', 'six', 'month', 'audit', 'find']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4710709293248372,0.10765784684306312
+177,0,"['issues', 'consent', 'sexual', 'violence', 'epidemic', 'third', 'level', 'say', 'harris']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.373372532549349
+178,0,"['announcing', '10', 'pay', 'cut', 'ministers', 'taoiseach', 'admit', 'issue', 'around', 'pay', 'super', 'junior', 'could', 'handle', 'well', 'collectively', 'government', 'would', 'acknowledge']",0.6041666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.3552457200951292,0.5353492930141397
+179,0,"['coronavirus', 'past', 'two', 'week', '9', 'per', 'cent', 'case', 'relate', 'travel', '34', 'per', 'cent', 'close', 'contact', 'confirmed', 'case', '32', 'per', 'cent', 'report', 'community', 'transmission', 'nphet', 'say']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.29392008423651583,0.39997200055998877
+180,0,"['reopening', 'school', 'primary', 'level', 'class', 'bubble', 'child', 'small', 'pod', 'metre', 'pod']",0.4375,0.0,0.0,0.0,0.0,0.3571428571428571,0.28139353339505835,0.7583648327033459
+181,0,"['three', 'dead', 'follow', 'crash', 'co', 'antrim']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.45536735471924195,0.1749965000699986
+182,0,"['coronavirus', 'new', 'death', '11', 'additional', 'case', 'confirm', 'republic']",0.1875,0.0,0.0,0.0,0.0,0.5,0.44779696094983945,0.46661066778664423
+183,0,"['breaking', 'death', '11', 'new', 'coronavirus', 'case', 'report']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4780603816059402,0.4199916001679966
+184,0,"['competition', 'win', 'two', 'night', 'stay', 'luxurious', 'faithlegg', 'waterford', 'include', 'breakfast', 'morning', 'dinner', 'evening', 'choice', 'enter']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.6000279994400112
+185,0,"['ballyfermot', 'kill', 'gardaí', 'investigate', 'shooting', 'case', 'mistaken', 'identity']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.634841965760761,0.3817723645527089
+186,0,"['competition', 'team', 'frank', 'hot', 'sauce', 'amp', 'french', 'mustard', 'give', 'chance', 'win', 'portable', 'bbq', 'worth', 'well', 'gift', 'card', 'supermarket', 'choice']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.16146542490423554,0.6145877082458351
+187,0,"['bridge', 'notes', 'northern', 'ireland', 'bridge', 'union', 'agm', 'hold', 'august', '23rd']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.25416190113102055,0.373372532549349
+188,0,"['ken', 'early', 'david', 'silva', 'premier', 'league', 'great', 'pundit', 'dream']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.24764446380916083,0.3231135377292454
+189,0,"['coronavirus', 'death', 'report', 'northern', 'ireland', 'past', 'two', 'week']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.45329775066717504,0.3817723645527089
+190,0,"['hse', 'report', 'say', 'strong', 'control', 'need', 'management', 'appointment']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.6696984550587296,0.15553688926221476
+191,0,"['leaving', 'cert', 'student', 'seek', 'leave', 'bring', 'high', 'court', 'case', 'aim', 'require', 'department', 'education', 'urgently', 'consider', 'application', 'calculated', 'grade']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.46241127026487305,0.4827103457930841
+192,0,"['leaving', 'cert', 'student', 'seek', 'challenge', 'exclusion', 'calculate', 'grade']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.7173719659423053,0.25451490970180596
+193,0,"['marriage', 'convenience', 'finding', 'make', 'marriage', 'legal', 'nullity', 'court', 'rule']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.4571101791841403,0.4307713845723085
+194,0,"['gardaí', 'still', 'try', 'establish', 'motive', 'source', 'say', 'carefully', 'plan', 'nature', 'murder', 'hallmark', 'organised', 'crime']",0.4375,0.0,0.0,0.0,0.0,0.3571428571428571,0.37216564094185134,0.5833683326333473
+195,0,"['application', 'make', 'exceed', 'legal', 'aid', 'limit', 'uk', 'report', 'boy', 'b', 'ahead', 'appeal']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.23978359929560855,0.3499930001399972
+196,0,"['one', 'wet', 'weekend', 'another', 'little', 'sunshine']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.29651616651235413,0.5599888002239956
+197,0,"['dup', 'gregory', 'campbell', 'accuse', 'mock', 'irish', 'language']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.37078590490714014,0.3817723645527089
+198,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+199,0,"['two', 'resident', 'cork', 'community', 'hospital', 'run', 'arrears', 'audit', 'find']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.3231135377292454
+200,0,"['neighbours', 'say', 'hear', 'five', 'six', 'shot', 'victim', 'open', 'door', 'gunman']",0.2708333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.21583791732476454,0.46661066778664423
+201,0,"['son', 'clingy', 'wo', 'let', 'sight']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.15387687671332362,0.7999440011199775
+202,0,"['man', '50', 'shot', 'dead', 'house', 'west', 'dublin']",0.16666666666666666,0.0,0.0,0.0,0.0,0.14285714285714285,0.10671168963200994,0.5090298194036119
+203,0,"['reopening', 'school', 'plan', 'work']",0.16666666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.13592215384056794,0.861542769144617
+204,0,"['ni', 'executive', 'discuss', 'new', 'quarantine', 'arrival', 'spain']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.43679538151516817,0.3817723645527089
+205,0,"['man', '48', 'charge', 'murder', 'neighbour', 'clonsilla']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5007534084926385,0.3499930001399972
+206,0,"['man', 'remand', 'custody', 'charge', 'murder', 'elderly', 'next', 'door', 'neighbour', 'dublin', 'weekend']",0.4375,0.0,0.0,0.0,0.0,0.3571428571428571,0.3419022202857507,0.6999860002799944
+207,0,"['questions', 'legality', 'pandemic', 'payment', 'check', 'airport']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5869869106620919,0.4199916001679966
+208,0,"['latest', 'official', 'figure', 'reveal', 'almost', 'air', 'passenger', 'fly', 'ireland', 'every', 'day', 'nearly', 'third', 'arrival', 'travel', 'uk']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.408238476480947,0.4846703065938681
+209,0,"['family', 'shay', 'kinsella', 'found', 'share', 'dream', 'foundation', '31', 'year', 'ago', 'pay', 'touch', 'tribute', 'superman', 'make', 'wish', 'come', 'true', 'thousand', 'vulnerable', 'child']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.33821687271935086,0.49195016099678
+210,0,"['get', 'important', 'story', 'day', 'evening', 'update', 'new', 'newsletter', 'irish', 'times']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.30661002487155753,0.622147557048859
+211,0,"['tributes', 'pay', 'share', 'dream', 'founder', 'dy']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.36459524717244896,0.3499930001399972
+212,0,"['country', 'two', 'large', 'teacher', 'union', 'express', 'optimism', 'government', 'plan', 'allow', 'school', 'reopen', 'end', 'august', 'enable', 'teacher', 'student', 'operate', 'safe', 'environment']",0.6458333333333333,0.0,0.0,0.0,0.0,0.5,0.3156327723617087,0.5895282094358112
+213,0,"['staycationers', 'warn', 'holiday', 'home', 'scam']",0.0625,0.0,0.0,0.0,0.0,0.6428571428571428,0.689868017355627,0.2333753324933501
+214,0,"['asti', 'express', 'optimism', 'government', 'plan', 'reopen', 'school']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.35702485340304646,0.46661066778664423
+215,0,"['two', 'road', 'death', 'follow', 'separate', 'single', 'vehicle', 'collision']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.6293411760434254,0.15553688926221476
+216,0,"['push', 'dublin', 'reassert', 'car', 'dominance', 'restriction', 'ease']",0.1875,0.0,0.0,0.0,0.0,0.5714285714285714,0.3267795871684549,0.5833683326333473
+217,0,"['consumers', 'pay', 'high', 'price', 'pull', 'plug', 'energy', 'supplier']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.35702485340304646,0.46661066778664423
+218,0,"['new', 'mobile', 'garda', 'device', 'register', 'learner', 'licence']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.4679665232467368,0.3110737785244295
+219,0,"['social', 'welfare', 'payment', 'go', 'back', 'pay', 'weekly']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.37078590490714014,0.5090298194036119
+220,0,"['united', 'secure', 'top', 'four', 'david', 'silva', 'ca', 'consider', 'premier', 'league', 'great']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.37332752391845037,0.21531569368612624
+221,0,"['union', 'urge', 'protection', 'choice', 'work', 'home']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.5599888002239956
+222,0,"['grievance', 'resolution', 'urge', 'cervicalcheck', 'case']",0.08333333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.8541110687507943,0.20005599888002237
+223,0,"['100', 'people', 'travel', 'abroad', 'pandemic', 'payment', 'stop', 'airport', 'check']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.5548717390120365,0.4307713845723085
+224,0,"['new', 'essential', 'legal', 'service', 'travellers', 'launch']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.42762739865294197,0.15553688926221476
+225,0,"['strong', 'legal', 'basis', 'make', 'vaccination', 'mandatory']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.6822976235862245,0.1749965000699986
+226,0,"['schools', 'reopen', 'plan', 'require', 'pupil', 'teacher', 'wear', 'face', 'mask']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.39997200055998877
+227,0,"['test', 'concern', 'raise', 'expert', 'taskforce']",0.08333333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.6466423397418443,0.20005599888002237
+228,0,"['report', 'say', '50', 'consultant', '32', 'gps', 'need', 'coming', 'year']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.2895267142312511,0.4307713845723085
+229,0,"['new', 'childcare', 'agency', 'bring', 'fragmented', 'sector', 'together']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.44175153858722294,0.1399972000559989
+230,0,"['backpedalling', 'pandemic', 'cycling', 'walking', 'scheme']",0.08333333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.6985095219940817,0.39997200055998877
+231,0,"['preparing', 'return', 'school', 'focus', 'basic']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.2616052139498575,0.861542769144617
+232,0,"['army', 'veteran', 'describe', 'pride', 'serve', 'first', 'peacekeeping', 'mission', 'congo']",0.1875,0.0,0.0,0.0,0.0,0.5714285714285714,0.5385690684966326,0.3499930001399972
+233,0,"['hse', 'sue', 'regulator', 'bed', 'co', 'cork', 'nursing', 'home']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.26020732349363696,0.2799944001119978
+234,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+235,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+236,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+237,0,"['house', 'price', 'number', 'buyer', 'mortgage', 'lending', 'shape']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.3743260171014652,0.6000279994400112
+238,0,"['sponsored', 'buying', 'sell', 'property', 'summer', 'look', 'little', 'different', 'thing', 'approach', 'house', 'viewing', 'potential', 'sale']",0.5416666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.3497267759562842,0.6759064818703625
+239,0,"['man', 'charge', 'alleged', 'serious', 'assault', 'woman', 'running']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.3593667737777536,0.6460870782584348
+240,0,"['sponsored', 'switching', 'new', 'mortgage', 'provider', 'necessarily', 'hassle', 'make', 'actually', 'save', 'money', 'month']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.1936350598188189,0.6999860002799944
+241,0,"['homeless', 'woman', 'find', 'dead', 'emergency', 'accommodation', 'dublin']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.5688324891527333,0.3110737785244295
+242,0,"['sponsored', 'draw', 'four', 'ireland', 'top', 'book', 'illustrator', 'sound', 'like', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.2284370858522594,0.612487750244995
+243,0,"['jaunty', 'white', 'picket', 'fence', 'replace', 'space', 'several', 'street', 'around', 'dublin', 'grafton', 'street', 'last', 'weekend', 'create', 'new', 'outdoor', 'seating', 'area', 'cafe', 'restaurant']",0.45833333333333326,0.0,0.0,0.0,0.0,0.5,0.508323802262041,0.20733585328293433
+244,0,"['cervicalcheck', 'campaigner', 'vicky', 'phelan', 'hit', 'lack', 'government', 'action', 'say', 'serious', 'recommendation', 'scally', 'report', 'cervicalcheck', 'scandal', 'take', 'board']",0.6041666666666666,0.0,0.0,0.0,0.0,0.7857142857142857,0.45536735471924195,0.6563068738625227
+245,0,"['rent', 'freeze', 'eviction', 'ban', 'extend', 'january', 'lose', 'income']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.46661066778664423
+246,0,"['pensioner', 'climb', 'croke', 'patrick', '30', 'year', 'say', 'keep', 'come']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.21709057240891028,0.43749125017499646
+247,0,"['fintan', 'toole', 'united', 'states', 'stir', 'many', 'feeling', 'around', 'world', 'love', 'hatred', 'fear', 'envy', 'never', 'felt', 'pity', 'us']",0.5,0.0,0.0,0.0,0.0,0.2857142857142857,0.23077900622696668,0.5310093798124037
+248,0,"['decade', 'student', 'ireland', 'elsewhere', 'draw', 'us', 'earn', 'money', 'summer', 'month', 'experience', 'american', 'life', 'culture']",0.5,0.0,0.0,0.0,0.0,0.4285714285714285,0.38057113810068455,0.622147557048859
+249,0,"['suspect', 'whose', 'name', 'make', 'public', 'take', 'custody', 'saturday', 'follow', 'confession', 'start', 'fire', 'cathedral', 'arrest', 'release', 'earlier', 'investigation']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.38209610950747064,0.7200055998880022
+250,0,"['police', 'northern', 'ireland', 'appeal', 'witness', 'belfast', 'rob', 'twice', 'one', 'day']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.4074578363560447,0.5444491110177796
+251,0,"['plans', 'monitor', 'travel', 'outside', 'green', 'list', 'must', 'tighten', 'varadkar', 'say']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.3192091933990524,0.2624947501049979
+252,0,"['competition', 'win', 'two', 'night', 'stay', 'luxurious', 'faithlegg', 'waterford', 'include', 'breakfast', 'morning', 'dinner', 'evening', 'choice', 'enter']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.6000279994400112
+253,0,"['chris', 'johns', 'making', 'big', 'decision', 'environment', 'unenviable', 'task', 'broadly', 'speak', 'new', 'coalition', 'government', 'make', 'good', 'fist', 'week']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.37332752391845037,0.4846703065938681
+254,0,"['picket', 'fence', 'replace', 'park', 'dublin', 'city', 'cafe', 'make', 'scheme']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2142857142857143,0.3613456057222737,0.39997200055998877
+255,0,"['notwithstanding', 'advice', 'give', 'people', 'climb', 'craogh', 'patrick', 'sunday', 'morning', 'although', 'number', 'describe', 'small']",0.375,0.0,0.0,0.0,0.0,0.7857142857142857,0.508323802262041,0.5333893322133557
+256,0,"['five', 'men', 'two', 'woman', 'arrest', 'saturday', 'suspect', 'cocaine', 'cash', 'seize', 'several', 'search', 'north', 'wexford']",0.3958333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.4120509049979123,0.5090298194036119
+257,0,"['cervicalcheck', 'programme', 'improve', 'tánaiste', 'pledge']",0.08333333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.8022438864985569,0.39997200055998877
+258,0,"['competition', 'team', 'frank', 'hot', 'sauce', 'amp', 'french', 'mustard', 'give', 'chance', 'win', 'portable', 'bbq', 'worth', 'well', 'gift', 'card', 'supermarket', 'choice']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.16146542490423554,0.6145877082458351
+259,0,"['minister', 'finance', 'paschal', 'donohoe', 'say', 'accept', 'cabinet', 'decision', 'pay', 'ministers', 'cause', 'great', 'annoyance', 'anger']",0.45833333333333326,0.0,0.0,0.0,0.0,0.5,0.4235971170778644,0.5039899202015959
+260,0,"['manchester', 'city', 'champions', 'league', 'second', 'leg', 'real', 'madrid', 'still', 'play', 'etihad', 'stadium', 'despite', 'quarantine', 'rule', 'impose', 'people', 'travel', 'spain', 'uk']",0.6041666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3766134742116444,0.4528909421811564
+261,0,"['northern', 'ireland', 'holidaymaker', 'return', 'home', 'quarantine']",0.10416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.727683677359621,0.1749965000699986
+262,0,"['met', 'éireann', 'issue', 'status', 'yellow', 'rainfall', 'warning', 'sunday', 'night', 'cover', 'large', 'area', 'leinster', 'munster']",0.3333333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.425503331336347,0.368472630547389
+263,0,"['police', 'issue', 'appeal', 'robbed', 'twice', 'one', 'day']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.40544269556850576,0.2799944001119978
+264,0,"['reopening', 'school', 'see', 'extra', 'teacher', 'ppe', 'put', 'place', 'varadkar', 'say']",0.25,0.0,0.0,0.0,0.0,0.3571428571428571,0.3630884301871721,0.373372532549349
+265,0,"['department', 'education', 'finalise', 'detail', 'planning', 'document', 'reopening', 'school', 'bring', 'cabinet', 'monday']",0.45833333333333326,0.0,0.0,0.0,0.0,0.4285714285714285,0.4018118112666341,0.7839843203135938
+266,0,"['widespread', 'heavy', 'rainfall', 'forecast', 'leinster', 'munster']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.6596045966995262,0.3499930001399972
+267,0,"['elderly', 'man', 'stab', 'death', 'clonsilla', 'north', 'dublin', 'saturday', 'morning', 'confront', 'another', 'local', 'man', 'wield', 'weapon', 'act', 'erratically', 'gardaí', 'believe']",0.5625,0.0,0.0,0.0,0.0,0.5,0.4780603816059402,0.46661066778664423
+268,0,"['move', 'come', 'force', 'midnight', 'come', 'fear', 'raise', 'spain', 'experience', 'second', 'wave', 'coronavirus', 'infection']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.4109616397073508,0.6087078258434832
+269,0,"['emma', 'donoghue', 'pull', 'stars', 'story', 'nurse', '1918', 'pandemic', 'eerily', 'prescient']",0.29166666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.31252836628360836,0.5765084698306033
+270,0,"['dublin', 'pensioner', 'kill', 'machete', 'confront', 'man', 'gardaí', 'believe']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.6414501751901677,0.2799944001119978
+271,0,"['man', '70', 'kill', 'apparent', 'stabbing', 'attack', 'follow', 'early', 'morning', 'siege', 'north', 'dublin', 'saturday', 'gardaí', 'say']",0.5,0.0,0.0,0.0,0.0,0.2857142857142857,0.26625274585625347,0.622147557048859
+272,0,"['donohoe', 'say', 'salary', 'need', 'see', 'context', 'stimulus']",0.1875,0.0,0.0,0.0,1.0,0.2857142857142857,0.29651616651235413,0.46661066778664423
+273,0,"['ryanair', 'threaten', 'legal', 'action', 'government', 'fail', 'expand', 'list', 'country', 'irish', 'traveller', 'go', 'include', 'britain', 'eu', 'member', 'state']",0.6041666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3419022202857507,0.6563068738625227
+274,0,"['catholics', 'encourage', 'attend', 'mass', 'parish', 'sunday', 'rather', 'take', 'part', 'traditional', 'croagh', 'patrick', 'climb']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5,0.40308262077228907,0.6087078258434832
+275,0,"['reek', 'sunday', 'people', 'advise', 'attend', 'local', 'masses', 'climb', 'croagh', 'patrick']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.401249024199844,0.3231135377292454
+276,0,['read'],0.0,0.0,0.0,0.0,0.0,0.0,0.08470853076266727,0.9333613327733444
+277,0,"['get', 'important', 'story', 'day', 'evening', 'irish', 'times', 'evening', 'update']",0.2708333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.612487750244995
+278,0,"['gardaí', 'say', 'driver', 'van', 'man', 'age', '50', 'pronounce', 'dead', 'scene', 'remains', 'take', 'mortuary', 'loughlinstown']",0.5416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.2182706098070185,0.7240655186896262
+279,0,"['hours', 'cavan', 'farmer', 'peter', 'reilly', 'brutally', 'murder', 'former', 'employee', 'greet', 'old', 'friend', 'shake', 'hand', 'tell', 'welcome', 'country', 'n']",0.625,0.0,0.0,0.0,0.0,0.2857142857142857,0.2937566944429316,0.6362872742545149
+280,0,"['gardaí', 'arrest', 'man', 'age', 'early', '20', 'follow', 'search', 'house', 'patrick', 'street', 'area', 'town', 'saturday']",0.45833333333333326,0.0,0.0,0.0,0.0,0.3571428571428571,0.23479113338053492,0.615987680246395
+281,0,"['man', 'arrest', 'cocaine', 'seizure', 'portarlington']",0.10416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.6369115698128279,0.3499930001399972
+282,0,"['read', 'right', 'catherine', 'peter', 'reilly', 'sit', 'fire', 'home', 'coolnacola', 'co', 'cavan', 'man', 'enter', 'without', 'knock', 'via', 'itlostleads']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.5500489990200196
+283,0,"['travellers', 'come', 'northern', 'ireland', 'spain', 'island', 'must', 'undergo', 'mandatory', 'quarantine', 'united', 'kingdom', 'remove', 'spain', 'list', 'safe', 'country', 'travel']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.4282809578272788,0.5419291614167716
+284,0,"['increase', 'number', 'dubliners', 'dump', 'domestic', 'rubbish', 'public', 'bin', 'increase', 'waste', 'detect', 'park', 'coronavirus', 'pandemic', 'accord', 'dublin', 'city', 'council']",0.625,0.0,0.0,0.0,0.0,0.5,0.4642993301018463,0.5938681226375473
+285,0,"['man', 'one', 'hand', 'bloody', 'murder', 'co', 'cavan']",0.1875,0.0,0.0,0.0,0.0,0.14285714285714285,0.11497195141876815,0.5833683326333473
+286,0,"['man', 'die', 'follow', 'crash', 'co', 'wicklow']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.4780603816059402,0.1749965000699986
+287,0,"['council', 'clear', 'triple', 'amount', 'waste', 'dublin', 'park', 'lockdown']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.44779696094983945,0.46661066778664423
+288,0,"['live', 'best', 'friend', 'family', 'crave', 'dad']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.13592215384056794,0.7538849223015539
+289,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+290,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+291,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+292,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+293,0,"['fintan', 'newstalk', 'irish', 'times', 'ban', 'classic', 'case', 'cancel', 'culture']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3094784234700362,0.3000139997200056
+294,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+295,0,"['sponsored', 'buying', 'sell', 'property', 'summer', 'look', 'little', 'different', 'thing', 'approach', 'house', 'viewing', 'potential', 'sale']",0.5416666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.3497267759562842,0.6759064818703625
+296,0,"['uk', 'remove', 'spain', 'list', 'safe', 'country', 'travel']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.31467058802171266,0.4199916001679966
+297,0,"['seven', 'arrest', 'suspect', 'cocaine', 'cash', 'seize', 'gardaí']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4780603816059402,0.4199916001679966
+298,0,"['sponsored', 'switching', 'new', 'mortgage', 'provider', 'necessarily', 'hassle', 'make', 'actually', 'save', 'money', 'month']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.1936350598188189,0.6999860002799944
+299,0,"['pensioner', 'dy', 'apparent', 'stabbing', 'dublin']",0.08333333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5688324891527333,0.39997200055998877
+300,0,"['cattle', 'truck', 'crash', 'wexford', 'bridge', 'leave', 'driver', 'seriously', 'injured']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5506780676433746,0.1399972000559989
+301,0,"['david', 'mcwilliams', 'could', 'change', 'lahinch', 'ranelagh', 'good']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.4780603816059402,0.46661066778664423
+302,0,"['pensioner', 'die', 'follow', 'apparent', 'stab', 'dublin']",0.08333333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.6725668536572081,0.20005599888002237
+303,0,"['sponsored', 'draw', 'four', 'ireland', 'top', 'book', 'illustrator', 'sound', 'like', 'fun', 'free', 'event', 'teach', 'kid', 'new', 'trick']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.2284370858522594,0.612487750244995
+304,0,"['government', 'warn', 'issue', 'creche', 'hiking', 'fee']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.4780603816059402,0.3499930001399972
+305,0,"['number', 'street', 'dublin', 'pedestrianised', 'weekend', 'part', 'trial', 'see', 'remove', 'vehicular', 'traffic', 'encourage', 'people', 'come', 'city', 'centre']",0.5833333333333333,0.0,0.0,0.0,0.0,0.7142857142857143,0.32872211026995624,0.6774464510709786
+306,0,"['frank', 'mcnally', 'greens', 'robespierre', 'share', 'colour', 'theme', 'least', 'immortalise', 'thomas', 'carlyle', 'decade', 'later', 'incorruptible']",0.5,0.0,0.0,0.0,0.0,0.6428571428571428,0.43615997676234053,0.5923281534369312
+307,0,"['maker', 'dancing', 'stars', 'urge', 'government', 'take', 'seriously', 'impact', 'crisis', 'entertainment', 'industry', 'force', 'abandon', 'popular', 'television', 'show', 'next', 'year']",0.6875,0.0,0.0,0.0,0.0,0.6428571428571428,0.334731223789554,0.626347473050539
+308,0,"['one', 'death', 'confirm', 'case', 'rise']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3691338525497886,0.4199916001679966
+309,0,"['teachers', 'concern', 'lack', 'online', 'security', 'guidance', 'remote', 'learn', 'give', 'interaction', 'child', 'often', 'intimate', 'space', 'bedroom']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.41971207087486173,0.5500489990200196
+310,0,"['victoria', 'record', '357', 'new', 'case', 'saturday', 'continuation', 'high', 'number', 'chief', 'health', 'officer', 'brett', 'sutton', 'describe', 'stubborn', 'shift']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.44314942904344357,0.37687246255074897
+311,0,"['competition', 'win', 'two', 'night', 'stay', 'luxurious', 'faithlegg', 'waterford', 'include', 'breakfast', 'morning', 'dinner', 'evening', 'choice', 'enter']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3548644772434326,0.6000279994400112
+312,0,"['almost', '40', 'country', 'report', 'record', 'increase', 'coronavirus', 'infection', 'past', 'week', 'around', 'double', 'number', 'previous', 'week']",0.45833333333333326,0.0,0.0,0.0,0.0,0.5,0.4671677287003251,0.5039899202015959
+313,0,"['hundreds', 'additional', 'teacher', 'fund', 'enhanced', 'cleaning', 'regime', 'curriculum', 'change', 'form', 'centrepiece', 'school', 'reopen', 'package', 'worth', 'hundred', 'million', 'euro', 'unveil', 'monday']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.49269284534248314,0.496710065798684
+314,0,"['gardaí', 'say', 'man', '40', 'barricade', 'another', 'house', 'nearby', 'follow', 'incident']",0.2708333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.39863478750249626,0.5249895002099958
+315,0,"['dublin', 'city', 'centre', 'street', 'pedestrianised', 'weekend', 'trial']",0.125,0.0,0.0,0.0,0.0,0.7142857142857143,0.5890020514496307,0.3110737785244295
+316,0,"['letter', 'send', 'ronan', 'group', 'real', 'estate', 'control', 'irish', 'property', 'developer', 'johnny', 'ronan', 'bewley', 'offer', 'pay', 'rent', 'arrears', 'property', 'along', 'interest', 'legal', 'cost', 'via', 'irishtimesbiz']",0.7083333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.3314271190748508,0.502589948201036
+317,0,"['man', '70', 'dy', 'follow', 'apparent', 'stab', 'dublin']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.45536735471924195,0.1749965000699986
+318,0,"['man', 'die', 'follow', 'apparent', 'stabbing', 'incident', 'dublin', 'saturday', 'morning']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.40025053101682917,0.49993000139997196
+319,0,"['china', 'want', 'three', 'take', 'rise', 'superpower']",0.1875,1.0,0.0,0.0,1.0,0.4285714285714285,0.22086669208285692,0.6999860002799944
+320,0,"['third', 'series', 'young', 'offenders', 'return', 'conor', 'jock', 'favourite', 'cork', 'yob', 'soft', 'heart', 'soft', 'head', 'right', 'form']",0.5208333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.26409236969663963,0.6000279994400112
+321,0,"['us', 'president', 'would', 'president', 'often', 'boast', 'qualification', 'education', 'experience', 'achievement', 'donald', 'trump', 'boast', 'dementia', 'test']",0.625,0.0,0.0,0.0,0.0,0.7142857142857143,0.44229617123250375,0.7212655746885062
+322,0,"['number', 'patient', 'treat', 'hospital', 'low', 'level', 'since', 'peak', 'virus', 'ireland', 'head', 'hse', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2857142857142857,0.21785305811230338,0.746605067898642
+323,0,"['many', 'major', 'irish', 'criminal', 'include', 'leadership', 'kinahan', 'organise', 'crime', 'group', 'keep', 'asset', 'jurisdiction', 'effectively', 'put', 'beyond', 'reach', 'cab']",0.5,0.0,0.0,0.0,0.0,0.6428571428571428,0.501588511882069,0.46661066778664423
+324,0,"['another', 'dublin', 'building', 'site', 'close', 'due', 'coronavirus', 'third', 'week', 'worker', 'test', 'positive', 'site', 'operate', 'elliott', 'group', 'south', 'great', 'george', 'street']",0.625,0.0,0.0,0.0,0.0,0.5,0.28872791968483924,0.5199496010079798
+325,0,"['number', 'patient', 'irish', 'hospital', 'fall', '10']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.35097943104042995,0.4199916001679966
+326,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+327,0,"['miriam', 'lord', 'battle', 'fine', 'gael', 'week', 'revive', 'memory', 'great', 'heave', '2010', 'country', 'western', 'enda', 'kenny', 'rout', 'leadership', 'challenge', 'city', 'slicker', 'richard', 'bruton']",0.625,0.0,0.0,0.0,0.0,0.8571428571428571,0.4257938020804969,0.4241915161696766
+328,0,"['know', 'none', 'u', 'travel', 'really', 'good', 'think', 'think', 'fock']",0.4375,0.0,0.0,0.0,0.0,0.4285714285714285,0.12254234518817064,0.8166036679266415
+329,0,"['feel', 'like', 'investigate', 'sometimes', 'try', 'draw', 'information', 'people']",0.5,1.0,0.0,0.0,0.0,0.6428571428571428,0.21785305811230338,0.7933641327173456
+330,0,"['hse', 'contact', 'trace', 'centre', 'become', 'early', 'detection', 'warn', 'system', 'trace', 'cluster', 'back', 'one', 'source', 'link', 'two', 'case', 'different', 'part', 'country', 'incoming', 'international', 'flight']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.40284661329266747,0.4800503989920201
+331,0,['read'],0.0,0.0,0.0,0.0,0.0,0.0,0.08470853076266727,0.9333613327733444
+332,0,"['give', 'day', '30', 'call', 'new', 'confirm', 'case', 'worryingly', 'number', 'close', 'contact', 'case', 'rise', '55', 'per', 'cent', 'past', 'week', 'average', 'five', 'five', 'call', 'make', 'every', 'confirmed', 'case']",1.0,0.0,0.0,0.0,0.0,0.4285714285714285,0.16807363433364209,0.6868262634747304
+333,0,"['prof', 'ludwig', 'mühlhausen', 'go', 'broadcast', 'nazi', 'propaganda', 'ireland', 'second', 'world', 'war', 'appeal', 'personal', 'friend', 'president', 'ireland', 'dr', 'douglas', 'hyde', 'intervene', 'release', 'prisoner', 'war', 'camp']",0.8125,0.0,0.0,0.0,0.0,0.4285714285714285,0.3006372201949786,0.5090298194036119
+334,0,"['give', 'day', '30', 'call', 'new', 'confirm', 'case', 'worryingly', 'number', 'close', 'contact', 'case', 'rise', '55', 'per', 'cent', 'past', 'week', 'average', 'five', 'five', 'call', 'make', 'every', 'confirmed', 'case']",1.0,0.0,0.0,0.0,0.0,0.4285714285714285,0.16807363433364209,0.6868262634747304
+335,0,"['third', 'dublin', 'building', 'site', 'close', 'due', 'coronavirus']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.5007534084926385,0.1749965000699986
+336,0,"['thinking', 'anew', 'good', 'people', 'make', 'difference']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.3469491494653524,0.3110737785244295
+337,0,"['enthusiastic', 'nazi', 'go', 'donegal', 'learn', 'irish', 'spy']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.17782255868416763,0.3231135377292454
+338,0,"['q', 'amp', 'sort', 'measure', 'support', 'school', 'reopen']",0.125,1.0,0.0,0.0,0.0,0.3571428571428571,0.4881542399651436,0.46661066778664423
+339,0,"['government', 'plan', 'reopen', 'school', 'set', 'cost', 'hundred', 'million', 'euro']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3453878692155474,0.4307713845723085
+340,0,"['overseas', 'asset', 'organised', 'criminal', 'target']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5234464353793368,0.5249895002099958
+341,0,"['moving', 'domestic', 'violence', 'brief', 'justice', 'downgrade']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.2799944001119978
+342,0,"['covid', 'detective', 'inside', 'hse', 'contract', 'trace', 'centre']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.1749965000699986
+343,0,"['eye', 'nature', 'salmon', 'pink', 'egg', 'saw', 'tree', 'stump']",0.25,1.0,0.0,0.0,0.0,0.14285714285714285,0.12101737378138455,0.6533669326613467
+344,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+345,0,"['gannet', 'population', 'continue', 'thrive', 'despite', 'human', 'threat', 'number']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5193253816967122,0.3817723645527089
+346,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+347,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+348,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+349,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+350,0,"['sponsored', 'irish', 'executive', 'survey', 'believe', 'stake', 'innovation', 'never', 'high', 'get', 'right', 'require', 'new', 'way', 'innovate']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.40673165949567025,0.49993000139997196
+351,0,"['amid', 'continued', 'uncertainty', 'future', 'bewley', 'grafton', 'street', 'stop', 'flood', 'closure']",0.29166666666666663,1.0,0.0,0.0,0.0,0.5,0.40863787375415295,0.5765084698306033
+352,0,"['irish', 'coffee', 'group', 'bewley', 'make', 'offer', 'landlord', 'famous', 'grafton', 'street', 'cafe', 'could', 'save', 'cafe', 'closure']",0.4375,0.0,0.0,0.0,0.0,0.2857142857142857,0.24764446380916083,0.5384292314153717
+353,0,"['mobile', 'home', 'car', 'seize', 'drogheda', 'feud', 'gang', 'member']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.40544269556850576,0.2799944001119978
+354,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+355,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+356,0,"['award', 'loss', 'earnings', 'injure', 'woman', 'must', 'reconsider', 'court']",0.25,0.0,0.0,0.0,0.0,0.5714285714285714,0.34838334876459176,0.49993000139997196
+357,0,"['lack', 'online', 'security', 'remote', 'learn', 'concern', 'teacher', 'survey', 'find']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.41520977434054074,0.4307713845723085
+358,0,"['sponsored', 'buying', 'sell', 'property', 'summer', 'look', 'little', 'different', 'thing', 'approach', 'house', 'viewing', 'potential', 'sale']",0.5416666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.3497267759562842,0.6759064818703625
+359,0,"['irish', 'times', 'view', 'reopening', 'school', 'time', 'clarity', 'certainty']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.26625274585625347,0.5599888002239956
+360,0,"['sponsored', 'switching', 'new', 'mortgage', 'provider', 'necessarily', 'hassle', 'make', 'actually', 'save', 'money', 'month']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.1936350598188189,0.6999860002799944
+361,0,"['visitors', 'may', 'require', 'take', 'test', 'travel']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.37078590490714014,0.5090298194036119
+362,0,"['north', 'minister', 'health', 'call', 'action', 'track', 'international', 'arrival']",0.20833333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.4841058039685565,0.373372532549349
+363,0,"['objector', 'challenge', 'plan', 'wind', 'farm']",0.0625,0.0,0.0,0.0,0.0,0.4285714285714285,0.508323802262041,0.2333753324933501
+364,0,"['adrian', 'donohoe', 'murder', 'accuse', 'wore', 'shooting', 'like', 'badge', 'honour', 'court', 'tell']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.27382313962565585,0.2624947501049979
+365,0,"['dubliners', 'willing', 'sacrifice', 'car', 'space', 'safer', 'cycling', 'facility']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.2799944001119978
+366,0,"['state', 'win', 'rule', 'refugee', 'application', 'affect', '250', 'people']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.5028230125447054,0.3817723645527089
+367,0,"['bus', 'driver', 'lie', 'repeatedly', 'failed', 'damage', 'claim', 'judge', 'say']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.4202930123631611,0.12725745485090298
+368,0,"['student', 'knock', 'woman', 'ditch', 'car', 'cut']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.3116387996296499,0.5833683326333473
+369,0,"['coronavirus', 'donnelly', 'say', 'r', 'number', 'fall', 'warn', 'ireland', 'see', 'second', 'surge']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.246083183559356,0.2333753324933501
+370,0,"['stimulus', 'plan', 'potential', 'transform', 'urban', 'transport', 'ryan']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5486629268558357,0.3110737785244295
+371,0,"['terminally', 'ill', 'woman', 'seek', 'urgent', 'hearing', 'case', 'smear', 'slide']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.4202930123631611,0.25451490970180596
+372,0,"['irish', 'times', 'weekend', 'best', 'picnic', 'meal', 'robert', 'sheehan', 'enjoy', 'lockdown', 'john', 'boyne', 'online', 'battle', 'give', 'fall', 'love', 'subscribe']",0.6041666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.30786267995570327,0.612487750244995
+373,0,"['noah', 'donohoe', 'coroner', 'seek', 'end', 'online', 'speculation', 'death']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4780603816059402,0.2799944001119978
+374,0,"['stephen', 'collins', 'summit', 'outcome', 'give', 'credence', 'ireland', 'diplomatic', 'superpower']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.6596045966995262,0.2333753324933501
+375,0,"['criminal', 'run', 'amok', 'submachine', 'gun', 'jail', '15', 'year']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.2197048091062579,0.3231135377292454
+376,0,"['garda', 'harass', 'state', 'solicitor', 'lose', 'appeal', 'conviction']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.5890020514496307,0.3110737785244295
+377,0,"['funding', 'reopen', 'school', 'insufficient', 'warns', 'asti']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.5007534084926385,0.3499930001399972
+378,0,"['olive', 'olive', 'branch', 'woman', '30']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.29651616651235413,0.5249895002099958
+379,0,"['noah', 'donohoe', 'inquest', 'coroner', 'seek', 'end', 'online', 'speculation', 'death']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.5028230125447054,0.25451490970180596
+380,0,"['gangland', 'criminal', 'run', 'amok', 'submachine', 'gun', 'jail', '15', 'year']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.2705734981754807,0.3000139997200056
+381,0,"['schools', 'open', 'august', 'full', 'plan', 'unveil', 'next', 'week']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.22086669208285692,0.46661066778664423
+382,0,"['dubliners', 'willing', 'sacrifice', 'car', 'space', 'safer', 'cycling', 'facility', 'research', 'show']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5839551222700291,0.2333753324933501
+383,0,"['schools', 'reopen', 'fully', 'late', 'august', 'taoiseach', 'say']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.3110737785244295
+384,0,"['ireland', 'latest', 'data', 'start', 'something', 'positive']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.27556596409055434,0.4307713845723085
+385,0,"['isis', 'suspect', 'lisa', 'smith', 'charge', 'financing', 'terrorism']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5915255160394314,0.1749965000699986
+386,0,"['sculpture', 'grey', 'heron', 'steal', 'day', 'unveil', 'cobh']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.37078590490714014,0.5090298194036119
+387,0,"['lockdown', 'saw', 'sharp', 'increase', 'illegal', 'dump', 'backyard', 'burning']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.3354210918069096,0.0999580008399832
+388,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+389,0,"['dubliners', 'willing', 'sacrifice', 'car', 'space', 'safer', 'cycling', 'facility', 'research', 'find']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5839551222700291,0.2333753324933501
+390,0,"['retailers', 'decide', 'use', 'vat', 'reduction', 'tánaiste', 'say']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.4698001198191821,0.5090298194036119
+391,0,"['donohoe', 'deny', 'mixed', 'message', 'varadkar', 'vat', 'reduction']",0.16666666666666666,0.0,0.0,0.0,1.0,0.3571428571428571,0.44314942904344357,0.4307713845723085
+392,0,"['plan', 'reopen', 'school', 'end', 'august', 'unveiled']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.19062142584826547,0.6999860002799944
+393,0,"['coronavirus', 'government', 'travel', 'advice', 'simple', 'straightforward']",0.10416666666666666,0.0,0.0,0.0,0.0,0.7857142857142857,0.44779696094983945,0.3499930001399972
+394,0,"['retailers', 'decide', 'use', 'vat', 'reduction', 'leo', 'varadkar', 'say']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.43267432783254367,0.46661066778664423
+395,0,"['sculpture', 'heron', 'steal', 'shortly', 'unveiled']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.546139462266035,0.5249895002099958
+396,0,"['sculpture', 'heron', 'steal', 'day', 'unveiled']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4780603816059402,0.5249895002099958
+397,0,"['get', 'important', 'story', 'day', 'evening', 'update', 'new', 'newsletter', 'irish', 'times']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.30661002487155753,0.622147557048859
+398,0,"['england', 'could', 'without', 'star', 'six', 'nations', 'finale', 'cricket', 'team', 'enter', 'new', 'normal']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2142857142857143,0.3872882740591471,0.20005599888002237
+399,0,"['noah', 'donohoe', 'family', 'hop', 'inquest', 'answer', 'remain', 'question', 'teen', 'death']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.3499930001399972
+400,0,"['us', 'authority', 'deport', 'convict', 'ira', 'bomber']",0.0625,0.0,0.0,0.0,0.0,0.5,0.5990959098088339,0.0
+401,0,"['man', 'arrest', 'drug', 'cash', 'bow', 'arrow', 'seize', 'dublin']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.28139353339505835,0.46661066778664423
+402,0,"['man', '40', 'seriously', 'injure', 'assault', 'dublin', 'city', 'centre']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4235971170778644,0.2799944001119978
+403,0,"['july', 'stimuluspackage', 'worth', 'billion', 'irish', 'economy', 'plan', 'mean']",0.3333333333333333,1.0,0.0,0.0,0.0,0.7857142857142857,0.2630757220921157,0.736805263894722
+404,0,"['july', 'stimulus', 'package', 'main', 'point', '16', 'important', 'measure', 'announce', 'stimuluspackage']",0.29166666666666663,0.0,0.0,0.0,0.0,0.7857142857142857,0.5120999219359875,0.5249895002099958
+405,0,"['leaving', 'cert', 'predict', 'grade', 'could', 'lead', 'lawsuit', 'ministers', 'warn']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5193253816967122,0.25451490970180596
+406,0,"['anomalies', 'travel', 'rule', 'need', 'resolve', 'say', 'north', 'ministers']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.3094784234700362,0.39997200055998877
+407,0,"['q', 'amp', 'child', 'return', 'school', 'autumn']",0.14583333333333331,1.0,0.0,0.0,0.0,0.2857142857142857,0.31467058802171266,0.5599888002239956
+408,0,"['failure', 'cut', 'vat', 'rate', 'nail', 'coffin', 'border', 'hospitality', 'business']",0.25,0.0,0.0,0.0,0.0,0.5,0.22709365866056697,0.41173176536469264
+409,0,"['stephen', 'collins', 'ireland', 'dump', 'eu', 'frugal', 'four']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.37078590490714014,0.3817723645527089
+410,0,"['river', 'shannon', 'income', 'stream', 'struggle', 'recover', 'coronavirus']",0.1875,0.0,0.0,0.0,0.0,0.5,0.44779696094983945,0.46661066778664423
+411,0,"['coronavirus', 'ireland', 'latest', 'data', 'start', 'something', 'positive']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3314271190748508,0.4307713845723085
+412,0,"['plan', 'fully', 'reopen', 'school', 'end', 'august', 'unveiled']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.20574405896556114,0.6460870782584348
+413,0,"['hospital', 'send', 'patient', 'back', 'nursing', 'home', 'outbreak']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.4881542399651436,0.3110737785244295
+414,0,"['coronavirus', 'stimulus', 'package', 'gamble', 'ireland', 'future']",0.125,0.0,0.0,0.0,0.0,0.5,0.3377811666031262,0.5090298194036119
+415,0,"['july', 'stimulus', 'package', 'main', 'point']",0.0625,0.0,0.0,0.0,0.0,0.2857142857142857,0.532523646134016,0.0
+416,0,"['existing', 'budget', 'may', 'cover', 'cost', 'm20', 'busconnects', 'plan', 'minister', 'tell']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.40025053101682917,0.39997200055998877
+417,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+418,0,"['consumers', 'increasingly', 'confident', 'visit', 'shop', 'survey', 'show']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.7322222827369608,0.2799944001119978
+419,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+420,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+421,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+422,0,"['liar', 'dictionary', 'lacking', 'definition']",0.04166666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.7503767042463193,0.2799944001119978
+423,0,"['july', 'stimulus', 'surprise', 'tax', 'cut', 'scheme', 'expand']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.5284933645589384,0.15553688926221476
+424,0,"['government', 'announce', 'thousand', 'free', 'course', 'upskill', 'worker', 'hit', 'covid', 'crisis']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.43915545631138475,0.39997200055998877
+425,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+426,0,"['catherine', 'connolly', 'become', 'first', 'female', 'leas', 'cheann', 'comhairle', 'dáil', 'history']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.46509812464825817,0.20005599888002237
+427,0,"['stimulus', 'package', 'aim', 'turbocharge', 'economy', 'next', 'six', 'month']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.49621480311529875,0.2799944001119978
+428,0,"['woman', 'settle', 'high', 'court', 'action', 'londis', 'alleged', 'slip', 'muffin']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.43267432783254367,0.3499930001399972
+429,0,"['sponsored', 'irish', 'executive', 'survey', 'believe', 'stake', 'innovation', 'never', 'high', 'get', 'right', 'require', 'new', 'way', 'innovate']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.40673165949567025,0.49993000139997196
+430,0,"['travel', 'insurance', 'green', 'list', 'country', 'operate', 'normal']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3116387996296499,0.3499930001399972
+431,0,"['schools', 'end', 'august', 'remains', 'suppress', 'say', 'varadkar']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4291886789027469,0.4307713845723085
+432,0,"['government', 'stimulus', 'package', 'miserly', 'say', 'sinn', 'féin']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.0
+433,0,"['saoirse', 'mchugh', 'quits', 'greens', 'say', 'electoral', 'politics', 'work']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.4037906432111542,0.25451490970180596
+434,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+435,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+436,0,"['dog', 'gardaí', 'seek', 'help', 'reunite', 'suspected', 'steal', 'dog', 'owner']",0.22916666666666663,1.0,0.0,0.0,0.0,0.3571428571428571,0.32245883484922766,0.49993000139997196
+437,0,"['coronavirus', 'outbreak', 'household', 'claim', '68', 'life', 'new', 'figure', 'show']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.1399972000559989
+438,0,"['green', 'party', 'leadership', 'contest', 'eamon', 'ryan', 'win', 'narrow', 'margin']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4599059600965817,0.1399972000559989
+439,0,"['images', 'day', 'select']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.6000279994400112
+440,0,"['expansion', 'scheme', 'tax', 'rebate', 'help', 'thousand']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.37078590490714014,0.25451490970180596
+441,0,"['people', 'must', 'find', 'way', 'live', 'new', 'normal', 'say', 'hse']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.16683913367100567,0.20005599888002237
+442,0,"['two', 'third', 'heavy', 'drinker', 'denial', 'alcohol', 'consumption', 'study', 'find']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.4571101791841403,0.4307713845723085
+443,0,"['everyone', 'remember', 'name', 'sacrifice', 'much']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.30350561879345717,0.6460870782584348
+444,0,"['brothers', 'stag', 'car', 'crash', 'abhorrent', 'attempt', 'rip', 'insurance', 'body']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.3000139997200056
+445,0,"['coronavirus', 'nine', 'death', 'report', 'seven', 'new', 'case', 'nphet', 'say']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.49993000139997196
+446,0,"['sponsored', 'buying', 'sell', 'property', 'summer', 'look', 'little', 'different', 'thing', 'approach', 'house', 'viewing', 'potential', 'sale']",0.5416666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.3497267759562842,0.6759064818703625
+447,0,"['coronavirus', 'scientists', 'identify', 'gene', 'help', 'bat', 'fight', 'virus']",0.125,0.0,0.0,0.0,0.0,0.5,0.6696984550587296,0.15553688926221476
+448,0,"['john', 'delaney', 'deny', 'try', 'paralyse', 'odce', 'inquiry', 'fai']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.40544269556850576,0.2799944001119978
+449,0,"['second', 'dublin', 'construction', 'site', 'close', 'case', 'confirmed']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.5869869106620919,0.2799944001119978
+450,0,"['winner', 'euromillions', 'jackpot', 'contact', 'national', 'lottery']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.7049906504729228,0.1749965000699986
+451,0,"['woman', 'slit', 'civil', 'servant', 'throat', 'appeal', 'conviction']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3691338525497886,0.2799944001119978
+452,0,"['breaking', 'nine', 'death', 'seven', 'new', 'case', 'record', 'state']",0.25,0.0,0.0,0.0,0.0,0.2857142857142857,0.35097943104042995,0.5599888002239956
+453,0,"['injunction', 'grant', 'protest', 'outside', 'royal', 'irish', 'academy', 'music']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.2799944001119978
+454,0,"['child', 'oberstown', 'engage', 'education', 'send']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4291886789027469,0.861542769144617
+455,0,"['woman', 'award', 'fall', 'tramore', 'promenade', 'overturn']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.35428353575513327,0.3817723645527089
+456,0,"['woman', 'settle', 'case', 'londis', 'alleged', 'slip', 'muffin']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.4235971170778644,0.4199916001679966
+457,0,"['government', 'plan', 'green', 'home', 'mean']",0.1875,1.0,0.0,0.0,0.0,0.4285714285714285,0.35702485340304646,0.6999860002799944
+458,0,"['man', '75', 'fear', 'forever', 'assault', 'home', 'neighbour']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.18305103207886286,0.612487750244995
+459,0,"['boy', '6', 'settle', 'case', 'birth', 'mayo', 'hospital']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.18924168981355416,0.3817723645527089
+460,0,"['varadkar', 'say', 'school', 'end', 'august', 'remains', 'suppress']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4291886789027469,0.4307713845723085
+461,0,"['join', 'u', 'big', 'night', 'saturday', 'emma', 'donoghue', 'dublin', 'born', 'novelist', 'playwright', 'screenwriter', 'register', 'free', 'zoom', 'event']",0.45833333333333326,0.0,0.0,0.0,0.0,0.5714285714285714,0.37276473685166023,0.5039899202015959
+462,0,"['coronavirus', 'second', 'dublin', 'construction', 'site', 'close', 'case', 'detect']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.7302071419494217,0.15553688926221476
+463,0,"['woman', 'pay', 'false', 'document', 'effort', 'get', 'irish', 'passport']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.3419022202857507,0.3499930001399972
+464,0,"['coronavirus', 'people', 'must', 'find', 'way', 'live', 'new', 'normal', 'say', 'hse', 'chief', 'clinical', 'officer']",0.25,0.0,0.0,0.0,0.0,0.5,0.3018535664361056,0.16463670726585466
+465,0,"['coronavirus', 'outbreak', 'household', 'claim', '68', 'life', 'new', 'data', 'show']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.532523646134016,0.1399972000559989
+466,0,"['call', 'make', 'check', 'arrival', 'dublin', 'airport']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.29651616651235413,0.49993000139997196
+467,0,"['scientists', 'identify', 'gene', 'help', 'bat', 'fight', 'virus']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.5890020514496307,0.15553688926221476
+468,0,"['tragic', 'aspect', 'ruth', 'morrissey', 'case', 'come', 'fruition', 'chief', 'justice', 'say']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.22709365866056697,0.32941341173176536
+469,0,"['candidate', 'saoirse', 'mchugh', 'quit', 'green', 'party', 'say', 'electoral', 'politics', 'work']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5299275638581779,0.20005599888002237
+470,0,"['two', 'woman', 'charge', 'murder', 'man', '75', 'derry']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.1875896374562025,0.4199916001679966
+471,0,"['irish', 'household', 'among', 'best', 'eu']",0.22916666666666663,0.0,0.0,0.0,1.0,0.4285714285714285,0.17980139062868772,0.9000419991600168
+472,0,"['dcu', 'professor', 'say', 'staycation', 'voucher', 'introduce', 'october']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.6596045966995262,0.4199916001679966
+473,0,"['get', 'important', 'story', 'day', 'evening', 'irish', 'times', 'evening', 'update']",0.2708333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.612487750244995
+474,0,"['second', 'dublin', 'construction', 'site', 'close', 'coronavirus']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.7503767042463193,0.20005599888002237
+475,0,"['coronavirus', 'people', 'must', 'find', 'way', 'live', 'new', 'normal', 'say', 'hse']",0.1875,0.0,0.0,0.0,0.0,0.5,0.21870631592324308,0.20005599888002237
+476,0,"['gardaí', 'appeal', 'help', 'reunite', 'suspected', 'steal', 'dog', 'owner']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4202930123631611,0.3817723645527089
+477,0,"['china', 'launch', 'unman', 'probe', 'mars', 'first', 'independent', 'mission']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5143692246246575,0.2799944001119978
+478,0,"['liverpool', 'lift', 'premier', 'league', 'trophy', 'goalfest', 'six', 'nations', 'refixtures', 'confirm']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.7008695967902984,0.12725745485090298
+479,0,"['plan', 'development', 'former', 'premier', 'dairies', 'site', 'quash']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5506780676433746,0.2799944001119978
+480,0,"['bedrest', 'bear', 'clue', 'spaceflight', 'ageing']",0.125,0.0,0.0,0.0,0.0,0.5,0.45536735471924195,0.5249895002099958
+481,0,"['sligo', 'neolithic', 'tomb', 'vandalise', 'scale', 'never', 'see']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.24205290198427842,0.46661066778664423
+482,0,"['sinn', 'féin', 'must', 'detoxify', 'sideline']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.41323094239602065,0.39997200055998877
+483,0,"['russian', 'intelligence', 'could', 'exploit', 'irish', 'border', 'poll', 'security', 'expert', 'say']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.6414501751901677,0.0
+484,0,"['reform', 'nursing', 'home', 'sector', 'recommend', 'oireachtas', 'committee']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.714067861227602,0.2799944001119978
+485,0,"['outbreak', 'household', 'claim', '68', 'life', 'new', 'data', 'show']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4599059600965817,0.1399972000559989
+486,0,"['coronavirus', 'call', 'make', 'check', 'arrival', 'dublin', 'airport']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.34838334876459176,0.49993000139997196
+487,0,"['migrant', 'woman', 'create', 'ireland', 'first', 'carers']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.1399972000559989
+488,0,"['parents', 'say', 'loss', 'teach', 'post', 'could', 'jeopardise', 'safe', 'reopening', 'school']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.49901058402774,0.21531569368612624
+489,0,"['us', 'river', 'face', 'crisis', 'scientist', 'show', 'hope']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.26625274585625347,0.5833683326333473
+490,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+491,0,"['decisive', 'government', 'action', 'flatten', 'curve', 'need', 'continue']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.532523646134016,0.4199916001679966
+492,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+493,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+494,0,"['garda', 'whistleblower', 'maurice', 'mccabe', 'accountability']",0.125,0.0,0.0,0.0,0.0,0.7142857142857143,0.402410907176443,0.46661066778664423
+495,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+496,0,"['man', 'want', 'connection', 'death', '39', 'migrant', 'extradite']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.44175153858722294,0.4199916001679966
+497,0,"['public', 'consultation', 'soft', 'organ', 'donation', 'hold', 'north']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.3314271190748508,0.5384292314153717
+498,0,"['richard', 'bruton', 'elect', 'chairman', 'fine', 'gael', 'parliamentary', 'party']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.6091716137465281,0.15553688926221476
+499,0,"['survivor', 'live', 'spanish', 'flu', 'celebrate', '104th', 'birthday']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.3817723645527089
+500,0,"['gardaí', 'find', 'breach', 'rule', '20', 'pub', 'last', 'week']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.28825590472559603,0.25451490970180596
+501,0,"['wary', 'know', 'arriving', 'americans', 'well', 'aware', 'rule']",0.16666666666666666,1.0,0.0,0.0,0.0,0.3571428571428571,0.14523537207486892,0.373372532549349
+502,0,"['black', 'abolitionists', 'ireland', 'important']",0.08333333333333331,0.0,0.0,0.0,0.0,0.7142857142857143,0.8541110687507943,0.39997200055998877
+503,0,"['images', 'day', 'select']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.6000279994400112
+504,0,"['pr', 'firm', 'get', 'far', 'fee', 'child', 'hospital', 'last', 'year']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.21870631592324308,0.39997200055998877
+505,0,"['green', 'list', 'coalition', 'criticise', 'confusing', 'advice', 'travel', '15', 'country']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.4521177132690667,0.49993000139997196
+506,0,"['batter', 'wooden', 'ghost', 'boat', 'drift', 'sea', 'japan', 'month', 'cargo', 'corps', 'starved', 'north', 'korean', 'fisherman', 'whose', 'body', 'reduce', 'skeleton']",0.5625,0.0,0.0,0.0,0.0,0.3571428571428571,0.3475663997966706,0.5249895002099958
+507,0,"['doctor', 'dy', 'treat', 'patient', 'irish', 'hospital']",0.14583333333333331,0.0,0.0,0.0,1.0,0.3571428571428571,0.49621480311529875,0.4199916001679966
+508,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+509,0,"['women', 'receive', 'criminal', 'conviction', 'operating', 'therapist']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.7049906504729228,0.3499930001399972
+510,0,"['expect', 'first', 'vaccination', 'early', '2021', 'ryan', 'say']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.22994390283753618,0.46661066778664423
+511,0,"['pat', 'leahy', 'green', 'list', 'row', 'leave', 'wonder', 'sustainability', 'coalition']",0.22916666666666663,0.0,0.0,0.0,0.0,0.7142857142857143,0.4261931993537026,0.49993000139997196
+512,0,"['sponsored', 'irish', 'executive', 'survey', 'believe', 'stake', 'innovation', 'never', 'high', 'get', 'right', 'require', 'new', 'way', 'innovate']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.40673165949567025,0.49993000139997196
+513,0,"['minister', 'health', 'want', 'people', 'travel', 'holiday', 'summer']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.21709057240891028,0.5249895002099958
+514,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+515,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+516,0,"['need', 'know', 'list', 'change', 'go', 'come']",0.375,1.0,0.0,0.0,1.0,0.2142857142857143,0.15387687671332362,0.9333613327733444
+517,0,"['ni', 'executive', 'discuss', 'big', 'difference', 'travel', 'green', 'list']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3593667737777536,0.21531569368612624
+518,0,"['coronavirus', 'one', 'death', '17', 'new', 'case', 'confirm', 'state']",0.1875,0.0,0.0,0.0,0.0,0.5,0.35702485340304646,0.46661066778664423
+519,0,"['gardaí', 'search', 'two', 'house', 'social', 'medium', 'forex', 'trading', 'investigation']",0.14583333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.6232957536808089,0.1399972000559989
+520,0,"['coronavirus', '2m', 'physical', 'distancing', 'rule', 'apply', 'college', 'campus']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5506780676433746,0.2799944001119978
+521,0,"['man', 'accuse', 'sunset', 'house', 'murder', 'first', 'come', 'ireland', 'steal', 'car', 'court', 'tell']",0.25,0.0,0.0,0.0,0.0,0.2142857142857143,0.29047074414973784,0.2799944001119978
+522,0,"['report', 'reveals', 'trauma', 'nursing', 'home', 'resident', 'staff']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5028230125447054,0.3817723645527089
+523,0,"['man', 'beat', 'wife', 'roll', 'pin', 'jail', 'three', 'year']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.16384365412196145,0.5384292314153717
+524,0,"['one', 'death', '17', 'new', 'case', 'confirm', 'state']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.46661066778664423
+525,0,"['cleaner', 'fracture', 'ankle', 'fall', 'ladder', 'sue', 'damage']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4202930123631611,0.5090298194036119
+526,0,"['disabled', 'woman', 'award', 'claim', 'leave', 'home', 'due', 'mine', 'collapse']",0.25,0.0,0.0,0.0,0.0,0.2857142857142857,0.3267795871684549,0.46661066778664423
+527,0,"['hse', 'chief', 'note', 'worry', 'trend', 'coronavirus', 'case', 'number', 'rise', 'sharply']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.37332752391845037,0.10765784684306312
+528,0,"['two', 'metre', 'physical', 'distancing', 'rule', 'apply', 'college', 'campus']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.4599059600965817,0.2799944001119978
+529,0,"['hse', 'warn', 'people', 'wait', 'list', 'long', 'health', 'service', 'resume']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.32245883484922766,0.49993000139997196
+530,0,"['ca', 'stop', 'think']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.6000279994400112
+531,0,"['survey', 'reveal', 'high', 'level', 'anxiety', 'among', 'secondary', 'student', 'return', 'school']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.48504983388704315,0.3231135377292454
+532,0,"['pilgrims', 'warn', 'croagh', 'patrick', 'prevent', 'chaos']",0.125,0.0,0.0,0.0,0.0,0.9285714285714285,0.5193253816967122,0.25451490970180596
+533,0,"['death', 'northern', 'ireland', 'ninth', 'consecutive', 'day']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4599059600965817,0.4199916001679966
+534,0,"['shannon', 'pipeline', 'cost', 'likely', 'exceed', 'billion']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.1399972000559989
+535,0,"['leinster', 'euromillions', 'player', 'urge', 'check', 'account', 'irish', 'win']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.5358277508487194,0.25451490970180596
+536,0,"['witnesses', 'longer', 'require', 'swear', 'god', 'make', 'affirmation', 'file', 'affidavit', 'proposal', 'agree', 'cabinet', 'tuesday']",0.4375,0.0,0.0,0.0,0.0,0.5,0.4175516947152479,0.6416071678566428
+537,0,"['barge', 'owner', 'afraid', 'make', 'wave', 'fear', 'eviction']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.27175353557358906,0.5090298194036119
+538,0,"['doctor', 'dy', 'treat', 'patient', 'irish', 'hospital']",0.14583333333333331,0.0,0.0,0.0,1.0,0.3571428571428571,0.49621480311529875,0.4199916001679966
+539,0,"['hse', 'chief', 'note', 'worry', 'trend', 'case', 'number', 'rise', 'sharply']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.31746636893415403,0.10765784684306312
+540,0,"['coronavirus', 'hiqa', 'report', 'reveals', 'trauma', 'nursing', 'home', 'resident', 'staff']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.5358277508487194,0.25451490970180596
+541,0,"['dublin', 'creche', 'one', 'first', 'report', 'case', 'coronavirus']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3047764282991122,0.5090298194036119
+542,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+543,0,"['rape', 'sentence', 'become', 'severe', 'bankruptcy', 'asylum', 'case', 'fall']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.45329775066717504,0.3817723645527089
+544,0,"['green', 'list', 'coalition', 'criticise', 'confusing', 'advice', 'travel', '15', 'destination']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.49102263856362216,0.49993000139997196
+545,0,"['separate', 'investigation', 'way', 'death', 'two', 'young', 'woman', 'homeless', 'service', 'dublin']",0.3125,0.0,0.0,0.0,0.0,0.7142857142857143,0.35702485340304646,0.622147557048859
+546,0,"['funeral', 'ruth', 'morrissey', 'take', 'place', 'co', 'limerick']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.3110737785244295
+547,0,"['public', 'consultation', 'format', 'future', 'border', 'poll', 'begin']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.44175153858722294,0.4199916001679966
+548,0,"['staycation', 'warning', 'caravan', 'campervans', 'steal']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.508323802262041,0.3110737785244295
+549,0,"['big', 'night', 'liverpool', 'united', 'derry', 'starlet', 'face', 'racism']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.25761124121779877,0.6000279994400112
+550,0,"['green', 'list', 'government', 'make', 'hame', 'travel', 'advice', 'coveney', 'say']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.2705734981754807,0.3000139997200056
+551,0,"['emma', 'de', 'souza', 'appoint', 'international', 'voting', 'right', 'organisation']",0.14583333333333331,0.0,0.0,0.0,0.0,0.6428571428571428,0.714067861227602,0.1399972000559989
+552,0,"['michael', 'mcdowell', 'eu', 'budget', 'deal', 'collective', 'exercise', 'survival']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.5853348583047403,0.25451490970180596
+553,0,"['disadvantaged', 'child', 'special', 'need', 'affect', 'restriction']",0.16666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.6513443349127682,0.6362872742545149
+554,0,"['number', 'homeless', 'family', 'dublin', 'hotel', 'low', 'five', 'year']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.3817723645527089
+555,0,"['septic', 'tank', 'maintain', 'desludged', 'spark', 'concern']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.5284933645589384,0.46661066778664423
+556,0,"['hiqa', 'report', 'reveals', 'trauma', 'nursing', 'home', 'resident', 'staff']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.44175153858722294,0.2799944001119978
+557,0,"['embarrassing', 'system', 'oath', 'affirmation', 'abolish']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.3872882740591471,0.5090298194036119
+558,0,"['shannon', 'pipeline', 'cost', 'likely', 'exceed']",0.08333333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.26625274585625347,0.15553688926221476
+559,0,"['reprieve', 'live', 'boat', 'minister', 'deflect', 'standoff']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.4780603816059402,0.5599888002239956
+560,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+561,0,"['barge', 'owner', 'afraid', 'make', 'wave', 'fear', 'eviction']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.29651616651235413,0.4199916001679966
+562,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+563,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+564,0,"['breaking', 'government', 'release', 'list', '15', 'country', 'travel', 'without', 'quarantine', 'return']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.5428898208158598,0.3000139997200056
+565,0,"['woman', 'sue', 'allegedly', 'slip', 'muffin', 'londis', 'store']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.35428353575513327,0.5090298194036119
+566,0,"['minister', 'children', 'roderic', 'gorman', 'comment', 'case', 'dublin', 'creche', 'say', 'support', 'provide', 'person', 'impact', 'ensure', 'necessary', 'action', 'take', 'prevent', 'spread', 'virus']",0.8333333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.2925766570448234,0.6696066078678427
+567,0,"['health', 'worker', 'report', 'duty', 'sick', 'pandemic', 'big', 'problem']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.32245883484922766,0.39997200055998877
+568,0,"['young', 'people', 'view', 'gardaí', 'power', 'trip', 'lockdown', 'report']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.29047074414973784,0.46661066778664423
+569,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+570,0,"['ireland', '16th', 'euromillions', 'jackpot', 'win', 'since', 'game', 'begin', '2004', 'second', 'euromillions', 'jackpot', 'win', 'ireland', 'year']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.30014705081422577,0.5039899202015959
+571,0,"['winning', 'ticket', 'euromillions', 'jackpot', 'sell', 'ireland']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.5284933645589384,0.3110737785244295
+572,0,"['win', 'ticket', 'tonight', 'million', 'euromillions', 'jackpot', 'sell', 'ireland', 'national', 'lottery', 'say']",0.3125,0.0,0.0,0.0,0.0,0.5714285714285714,0.3600566417951092,0.48999020019599604
+573,0,"['judge', 'query', 'woman', 'adequate', 'notice', 'wardship', 'application']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5143692246246575,0.4199916001679966
+574,0,"['dublin', 'creche', 'one', 'first', 'report', 'case']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.2387487972695751,0.5090298194036119
+575,0,"['pilgrims', 'warn', 'croagh', 'patrick', 'prevent', 'chaos']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.45329775066717504,0.25451490970180596
+576,0,"['collective', 'northern', 'executive', 'undermine', 'bill', 'claim']",0.14583333333333331,0.0,0.0,0.0,0.0,0.7142857142857143,0.8229943902837537,0.2799944001119978
+577,0,"['ballina', 'bid', 'farewell', 'famous', 'fisherman']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.45536735471924195,0.5249895002099958
+578,0,"['coronavirus', 'severe', 'colder', 'weather', 'research', 'suggest']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.6596045966995262,0.3499930001399972
+579,0,"['jack', 'charlton', 'tributes', 'fire', 'california', 'giant', 'spoon', 'field', 'images', 'day', 'select', 'laurahutts']",0.3958333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.3008369188315815,0.6000279994400112
+580,0,"['unusual', 'witness', 'murder', 'trial', 'deport', 'us']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.23366555924695476,0.5384292314153717
+581,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+582,0,"['irish', 'radio', 'station', 'give', 'jack', 'charlton', 'musical']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.4679665232467368,0.15553688926221476
+583,0,"['michelle', 'neill', 'ni', 'quarantine', 'suggestion', 'political', 'landmine', 'say', 'dup', 'mp']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.1866162676746465
+584,0,"['investigations', 'way', 'two', 'woman', 'find', 'dead', 'homeless', 'centre']",0.16666666666666666,0.0,0.0,0.0,0.0,0.7142857142857143,0.4698001198191821,0.3817723645527089
+585,0,"['sponsored', 'irish', 'executive', 'survey', 'believe', 'stake', 'innovation', 'never', 'high', 'get', 'right', 'require', 'new', 'way', 'innovate']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.40673165949567025,0.49993000139997196
+586,0,"['coronavirus', 'quarter', 'parent', 'say', 'child', 'learn', 'suffer', 'lockdown']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.43570611622460664,0.5599888002239956
+587,0,"['former', 'waitress', 'award', 'show', 'polish', 'wine', 'glass']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.37332752391845037,0.5384292314153717
+588,0,"['q', 'amp', 'well', 'ireland', 'negotiation', 'european', 'council']",0.20833333333333331,1.0,0.0,0.0,0.0,0.5714285714285714,0.3872882740591471,0.6460870782584348
+589,0,"['state', 'examintions', 'commission', 'plan', 'run', 'postponed', 'leaving', 'cert', 'write', 'exams', 'november', '2020']",0.29166666666666663,0.0,0.0,0.0,0.0,0.5,0.47272298168218874,0.41173176536469264
+590,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+591,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+592,0,"['irish', 'travel', 'agents', 'association', 'itaatweets', 'say', 'unless', 'current', 'travel', 'restriction', 'lift', 'publication', 'green', 'list']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.508323802262041,0.39997200055998877
+593,0,"['alan', 'kelly', 'begin', 'wonder', 'taoiseach']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.15387687671332362,0.6000279994400112
+594,0,"['horse', 'rescue', 'set', 'fire', 'north', 'dublin']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.2783617450029956,0.5599888002239956
+595,0,"['coronavirus', '36', 'new', 'case', 'confirm', 'death', 'state']",0.1875,0.0,0.0,0.0,0.0,0.5,0.35702485340304646,0.5833683326333473
+596,0,"['state', 'health', 'watchdog', 'grant', 'order', 'shut', 'nursing', 'home', 'risk', 'resident']",0.25,0.0,0.0,0.0,0.0,0.3571428571428571,0.4114881179311223,0.373372532549349
+597,0,"['rugby', 'change', 'referee', 'gaa', 'make', 'smooth', 'return']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.3110737785244295
+598,0,"['man', 'allegedly', 'rap', 'woman', 'meet', 'gaa', 'club']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.31467058802171266,0.4199916001679966
+599,0,"['leo', 'varadkar', 'criticise', 'mixed', 'message', 'travel', 'ahead', 'decision', 'green', 'list']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3267795871684549,0.2799944001119978
+600,0,"['hiqa', 'grant', 'order', 'shut', 'nursing', 'home', 'coronavirus', 'risk', 'resident']",0.1875,0.0,0.0,0.0,0.0,0.5,0.43267432783254367,0.3499930001399972
+601,0,"['man', 'challenge', 'sex', 'abuse', 'finding', 'tusla']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.4074578363560447,0.46661066778664423
+602,0,"['man', 'contract', 'flesh', 'eating', 'bug', 'want', 'raise', 'awareness', 'rare', 'condition']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.401249024199844,0.3231135377292454
+603,0,"['postponed', 'leaving', 'cert', 'exam', 'plan', 'next', 'november']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.546139462266035,0.1749965000699986
+604,0,"['q', 'amp', 'ireland', 'win', 'eu', 'talk', 'via', 'irishtimesmain']",0.16666666666666666,1.0,0.0,0.0,0.0,0.7142857142857143,0.35428353575513327,0.5090298194036119
+605,0,"['staff', 'nurse', 'tell', 'oireachtas', 'committee', 'terrify', 'experience', 'contracting']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.21531569368612624
+606,0,"['parents', 'profoundly', 'autistic', 'man', 'find', 'situation', 'untenable', 'judge', 'hears']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.44779696094983945,0.11661766764664706
+607,0,"['neill', 'ni', 'quarantine', 'suggestion', 'political', 'landmine', 'say', 'dup', 'mp']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.23168672730243456,0.20005599888002237
+608,0,"['quarter', 'parent', 'say', 'child', 'learn', 'suffer', 'lockdown']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.3613456057222737,0.6000279994400112
+609,0,"['many', 'student', 'disengage', 'school', 'lockdown', 'buck', 'trend']",0.25,1.0,0.0,0.0,0.0,0.4285714285714285,0.3388704318936877,0.746605067898642
+610,0,"['hiqa', 'grant', 'court', 'order', 'shut', 'nursing', 'home', 'risk', 'resident']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.37332752391845037,0.3231135377292454
+611,0,"['government', 'accuse', 'endanger', 'reopening', 'school']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.7244340359094458,0.39997200055998877
+612,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+613,0,"['staff', 'nurse', 'tell', 'committee', 'terrify', 'experience', 'contracting']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.508323802262041,0.2333753324933501
+614,0,"['agree', 'publican', 'limerick', 'order', 'cease', 'trading']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.13766497830546642,0.612487750244995
+615,0,"['government', 'billion', 'stimulus', 'plan', 'delay', 'due', 'eu', 'leader', 'talk']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.35702485340304646,0.11661766764664706
+616,0,"['eid', 'celebration', 'confirm', 'take', 'place', 'croke', 'park', 'last', 'day', 'july']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.2705734981754807,0.39997200055998877
+617,0,"['q', 'amp', 'ireland', 'win', 'eu', 'talk']",0.125,1.0,0.0,0.0,0.0,0.2142857142857143,0.20574405896556114,0.622147557048859
+618,0,"['get', 'important', 'story', 'day', 'evening', 'update', 'new', 'newsletter', 'irish', 'times']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.30661002487155753,0.622147557048859
+619,0,"['simon', 'community', 'appeal', 'urgent', 'action', 'tenant']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.5284933645589384,0.3110737785244295
+620,0,"['q', 'amp', 'ireland', 'win', 'eu', 'talk']",0.125,1.0,0.0,0.0,0.0,0.2142857142857143,0.20574405896556114,0.622147557048859
+621,0,"['vast', 'majority', 'nurse', 'contract', 'virus', 'suffer', 'issue']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.4710709293248372,0.21531569368612624
+622,0,"['oireachtas', 'committee', 'hear', 'submission', 'healthcare', 'worker']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.727683677359621,0.3499930001399972
+623,0,"['childcare', 'cost', 'loom', 'large', 'play', 'date', 'come', 'end']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.2511301127389577,0.3499930001399972
+624,0,"['fintan', 'lack', 'preparation', 'reopen', 'school', 'terrify']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.4199916001679966
+625,0,"['government', 'stimulus', 'plan', 'delay', 'due', 'eu', 'leader', 'talk']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.23366555924695476,0.21531569368612624
+626,0,"['ppe', 'shortage', 'endanger', 'life', 'health', 'worker', 'siptu', 'say']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.4881542399651436,0.15553688926221476
+627,0,"['annual', 'cost', 'provide', 'childcare', 'could', 'top']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.4679665232467368,0.15553688926221476
+628,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+629,0,"['health', 'worker', 'may', 'hid', 'symptom', 'avoid', 'lose', 'pay', 'union']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.31746636893415403,0.21531569368612624
+630,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+631,0,"['people', 'history', 'gum', 'disease', 'likely', 'develop', 'cancer', 'study']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.3314271190748508,0.4307713845723085
+632,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+633,0,"['agree', 'limerick', 'publican', 'order', 'cease', 'trading']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.15732621680010173,0.5599888002239956
+634,0,"['face', 'valley', 'dolls', 'generation']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.17782255868416763,0.861542769144617
+635,0,"['sponsored', '100', 'point', 'system', 'rating', 'wine', 'one', 'use', 'many', 'critic', 'wine', 'competition', 'around', 'world']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.300455675979885,0.5478090438191235
+636,0,"['minister', 'accept', 'john', 'connors', 'apology', 'derange', 'campaign']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.4599059600965817,0.1399972000559989
+637,0,"['sister', 'sun', 'images', 'day', 'select', 'deputy', 'picture', 'editor', 'laura', 'hutton', 'laurahutts']",0.3333333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.3012907793693155,0.5895282094358112
+638,0,"['man', 'give', 'sentence', 'appal', 'abuse', 'stepdaughter']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.3872882740591471,0.25451490970180596
+639,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+640,0,"['bid', 'extradite', 'estonian', 'hitman', 'lithuania', 'delayed']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5234464353793368,0.3499930001399972
+641,0,"['hse', 'take', 'case', 'watchdog', 'bed', 'reduction', 'order', 'west', 'cork', 'care', 'facility']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.3000139997200056
+642,0,"['man', '33', 'plead', 'guilty', 'rape']",0.08333333333333331,0.0,0.0,0.0,0.0,0.14285714285714285,0.15387687671332362,0.39997200055998877
+643,0,"['stormont', 'relation', 'far', 'strain', 'split', 'travel', 'rule']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.5688324891527333,0.46661066778664423
+644,0,"['man', 'guilty', 'theft', 'heirloom', 'worth', 'elderly', 'woman']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.35428353575513327,0.3817723645527089
+645,0,"['sponsored', 'irish', 'executive', 'survey', 'believe', 'stake', 'innovation', 'never', 'high', 'get', 'right', 'require', 'new', 'way', 'innovate']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.35702485340304646,0.46661066778664423
+646,0,"['families', 'urge', 'smuggle', 'drug', 'prison', 'visit', 'resume']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.37078590490714014,0.5090298194036119
+647,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+648,0,"['coronavirus', 'northern', 'ireland', 'record', '23', 'new', 'case', 'weekend', 'death']",0.1875,0.0,0.0,0.0,0.0,0.5,0.46293774848864444,0.3499930001399972
+649,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+650,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+651,0,"['good', 'consumer', '20', 'commandment']",0.10416666666666666,0.0,0.0,0.0,1.0,0.5714285714285714,0.29651616651235413,0.6999860002799944
+652,0,"['significant', 'increase', 'seizure', 'illegal', 'fishing', 'net']",0.125,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.3817723645527089
+653,0,"['adrian', 'donohue', 'murder', 'accuse', 'give', 'gardaí', 'voluntary', 'statement']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.7049906504729228,0.0
+654,0,"['ireland', 'secure', 'eu', 'grant', 'dart', 'commuter', 'rail', 'expansion']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4235971170778644,0.1399972000559989
+655,0,"['barber', 'go', 'holiday', 'native', 'country', 'lock', 'could', 'get', 'back', 'month', 'bring', 'high', 'court', 'challenge', 'cut', 'jobless', 'follow', 'review']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.2633117295717372,0.7512249755004899
+656,0,"['first', 'human', 'trial', 'vaccine', 'develop', 'researcher', 'university', 'oxford', 'suggest', 'safe', 'trigger', 'two', 'type', 'immune', 'response']",0.5208333333333333,0.0,0.0,0.0,0.0,0.5,0.3613456057222737,0.6000279994400112
+657,0,"['gardaí', 'stop', 'people', 'climb', 'croagh', 'patrick', 'reek', 'sunday']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.43679538151516817,0.25451490970180596
+658,0,"['dublin', 'barber', 'challenge', 'covid', 'payment', 'cut', 'get', 'strand', 'abroad']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.6232957536808089,0.1399972000559989
+659,0,"['first', 'human', 'trial', 'oxford', 'vaccine', 'suggest', 'safe']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.35428353575513327,0.3817723645527089
+660,0,"['things', 'could', 'get', 'complicate', 'changeable', 'ireland', 'week', 'progress']",0.1875,0.0,0.0,0.0,0.0,0.5,0.3613456057222737,0.39997200055998877
+661,0,"['monday', 'weather', 'false', 'dawn', 'staycation', 'season', 'get', 'full', 'swing']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.25761124121779877,0.39997200055998877
+662,0,"['tds', 'strongly', 'encourage', 'wear', 'face', 'covering', 'leinster', 'house', 'convention', 'centre', 'new', 'advice', 'issue', 'ceann', 'comhairle']",0.4375,0.0,0.0,0.0,0.0,0.4285714285714285,0.3593667737777536,0.4846703065938681
+663,0,"['q', 'amp', 'travel', 'green', 'list', 'cause', 'problem']",0.16666666666666666,1.0,0.0,0.0,0.0,0.2142857142857143,0.2552511664215821,0.6362872742545149
+664,0,"['people', 'travel', 'outside', 'ireland', 'warn', 'invalidate', 'travel', 'insurance', 'even', 'country', 'visit', 'green', 'list', 'safe', 'country', 'due', 'publish', 'government']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.3529401085634408,0.6810863782724345
+665,0,"['inquest', 'death', 'valerie', 'french', 'kilroy', 'adjourn']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5234464353793368,0.3499930001399972
+666,0,"['tds', 'strongly', 'encourage', 'wear', 'mask', 'attend', 'dáil']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.4881542399651436,0.3110737785244295
+667,0,"['experts', 'warn', 'green', 'list', 'country', 'deem', 'comparatively', 'safe', 'term', 'infection', 'spread', 'confuse', 'people', 'might', 'consider', 'list', 'informal', 'permission', 'travel']",0.6041666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.40863787375415295,0.4528909421811564
+668,0,"['rent', 'freeze', 'ban', 'eviction', 'set', 'short', 'extension', 'new', 'law', 'prepare']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.39997200055998877
+669,0,"['construction', 'site', 'central', 'dublin', 'close', 'temporarily', 'number', 'build', 'worker', 'test', 'positive', 'coronavirus']",0.35416666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.5052920138699782,0.5599888002239956
+670,0,"['number', 'unemployment', 'payment', 'fall']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.5234464353793368,0.3499930001399972
+671,0,"['x', 'math', 'solve', 'problem', 'gender', 'bias']",0.16666666666666666,1.0,0.0,0.0,0.0,0.2142857142857143,0.15128079443748532,0.5599888002239956
+672,0,"['experts', 'warn', 'travel', 'green', 'list', 'create', 'confusion']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5007534084926385,0.1749965000699986
+673,0,"['ireland', 'road', 'middle', 'class', 'middle', 'day']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.30256158887497053,0.46661066778664423
+674,0,"['get', 'important', 'story', 'day', 'evening', 'irish', 'times', 'evening', 'update']",0.2708333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.612487750244995
+675,0,"['dublin', 'construction', 'site', 'close', 'worker', 'test', 'positive', 'coronavirus']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.6777590182088847,0.2799944001119978
+676,0,"['first', 'joint', 'postmark', 'post', 'royal', 'mail', 'read', 'jack', 'charlton', '1935', '2020', 'apply', 'across', 'stamped', 'mail', 'post', 'england', 'republic', 'ireland', 'august', '9th']",0.6666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.2842437775720278,0.49195016099678
+677,0,"['people', 'travel', 'abroad', 'warn', 'insurance', 'cover']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.6362872742545149
+678,0,"['figures', 'rape', 'crisis', 'network', 'ireland', 'show', 'number', 'people', 'report', 'experience', 'rape', 'child', 'sex', 'abuse', 'increase', 'sharply', 'first', 'four', 'month', 'coronavirus', 'pandemic']",0.6041666666666666,0.0,0.0,0.0,0.0,0.5,0.4383385073434636,0.4813103737925241
+679,0,"['state', 'urge', 'rapidly', 'develop', 'electronic', 'security', 'system', 'defend', 'ireland', 'potentially', 'devastating', 'cyber', 'attack', 'could', 'happen', 'matter', 'time']",0.5625,0.0,0.0,0.0,0.0,0.5,0.39315215220667,0.5419291614167716
+680,0,"['experts', 'warn', 'return', 'distance', 'learning', 'school', 'would', 'severe', 'impact', 'student', 'education', 'motivation', 'widen', 'digital', 'divide']",0.47916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.38057113810068455,0.5703485930281393
+681,0,"['initial', 'finding', 'research', 'random', 'sample', 'healthy', 'people', 'dublin', 'sligo', 'indicate', 'less', '5', 'per', 'population', 'expose', 'disease']",0.5625,0.0,0.0,0.0,0.0,0.4285714285714285,0.3328250095310714,0.6533669326613467
+682,0,"['tensions', 'grow', 'three', 'coalition', 'party', 'publication', 'green', 'list', 'country', 'deem', 'safe', 'travel', 'pandemic']",0.5,0.0,0.0,0.0,0.0,0.5,0.33720022511482683,0.6276074478510429
+683,0,"['funeral', 'ruth', 'morrissey', 'take', 'place', 'wednesday']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.36711871176224964,0.46661066778664423
+684,0,"['middle', 'class', 'middle', 'day', 'long', 'go', 'idea', 'young', 'people', 'take', 'cocaine', 'socialise']",0.45833333333333326,0.0,0.0,0.0,0.0,0.5,0.14523537207486892,0.6362872742545149
+685,0,"['familiar', 'sight', 'sound', 'gaa', 'chelsea', 'book', 'fa', 'cup', 'final', 'spot']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.28139353339505835,0.2333753324933501
+686,0,"['alliance', 'health', 'spokeswoman', 'go', 'holiday', 'italy']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.5234464353793368,0.3499930001399972
+687,0,"['thousands', 'health', 'community', 'staff', 'step', 'campaign', 'pay', 'restoration']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.4291886789027469,0.5384292314153717
+688,0,"['good', 'consumer', '20', 'commandment']",0.10416666666666666,0.0,0.0,0.0,1.0,0.5714285714285714,0.29651616651235413,0.6999860002799944
+689,0,"['choctaw', 'chief', 'welcome', 'award', 'ucc', 'scholarship']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.6206996714049707,0.20005599888002237
+690,0,"['jack', 'charlton', 'commemorate', 'special', 'postmark']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.6142185429261297,0.5249895002099958
+691,0,"['coronavirus', 'ireland', 'significant', 'herd', 'immunity', 'study', 'show']",0.125,0.0,0.0,0.0,0.0,0.5,0.43679538151516817,0.25451490970180596
+692,0,"['una', 'mullally', 'fianna', 'fáil', 'go', 'stroke', 'joke']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.4199916001679966
+693,0,"['drink', 'arrest', 'surge', 'dublin', 'pandemic']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5688324891527333,0.4199916001679966
+694,0,"['return', 'distance', 'learning', 'school', 'would', 'widen', 'digital', 'divide', 'expert', 'warn']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.4780603816059402,0.2333753324933501
+695,0,"['pharmacies', 'may', 'able', 'handle', 'second', 'wave', 'group', 'warn']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2895267142312511,0.4307713845723085
+696,0,"['reports', 'rape', 'child', 'sex', 'abuse', 'rise', 'sharply', 'pandemic']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.402410907176443,0.3499930001399972
+697,0,"['learning', 'online', 'school', 'drive', 'away']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.36711871176224964,0.46661066778664423
+698,0,"['drug', 'drive', 'middle', 'class', 'middle', 'day']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.2197048091062579,0.4307713845723085
+699,0,"['publication', 'travel', 'green', 'list', 'delay', 'tension', 'grow', 'within', 'coalition']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.401249024199844,0.21531569368612624
+700,0,"['ni', 'building', 'firm', 'face', 'legal', 'action', 'alleged', 'school', 'defect']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.5028230125447054,0.25451490970180596
+701,0,"['refugee', 'clear', 'suspicion', 'fire', 'nantes', 'cathedral']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5869869106620919,0.4199916001679966
+702,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+703,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+704,0,"['coronavirus', 'publication', 'green', 'list', 'country', 'delay']",0.125,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.3817723645527089
+705,0,"['mandatory', 'quarantine', 'new', 'arrival', 'would', 'effective', 'minister', 'say']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5537098560354373,0.3499930001399972
+706,0,"['ruth', 'morrissey', 'long', 'legal', 'fight', 'make', 'necessary', 'broken', 'promise']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3419022202857507,0.2333753324933501
+707,0,"['sponsored', '100', 'point', 'system', 'rating', 'wine', 'one', 'use', 'many', 'critic', 'wine', 'competition', 'around', 'world']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.300455675979885,0.5478090438191235
+708,0,"['tributes', 'pay', 'death', 'homeless', 'service', 'volunteer', 'cork']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4780603816059402,0.4199916001679966
+709,0,"['amazing', 'staycations', 'ireland', 'images', 'weekend', 'select', 'deputy', 'picture', 'editor', 'laura', 'hutton', 'laurahutts']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.5574859757093841,0.3499930001399972
+710,0,"['central', 'hotel', 'globe', 'risk', 'major', 'new', 'development', 'plan']",0.1875,0.0,0.0,0.0,0.0,0.5,0.35702485340304646,0.3499930001399972
+711,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+712,0,"['michael', 'viney', 'meeting', 'fox', 'city', 'like', 'meet', 'friend', 'another', 'country']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2142857142857143,0.2511301127389577,0.5249895002099958
+713,0,"['realise', 'fight', 'hear', 'vanessa', 'job', 'month', 'anxiety', 'operation', 'remove', 'liver', 'tumour', 'stall']",0.5208333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.22389848047491967,0.746605067898642
+714,0,"['state', 'apologise', 'ruth', 'morrissey', 'late', 'say', 'husband', 'death']",0.29166666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.19619483325163856,0.6631667366652667
+715,0,"['woman', 'die', 'hospital', 'traffic', 'collision', 'killarney']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.508323802262041,0.46661066778664423
+716,0,"['low', 'pay', 'commission', 'defers', 'guidance', 'national', 'minimum', 'wage']",0.125,0.0,0.0,0.0,0.0,0.4285714285714285,0.508323802262041,0.15553688926221476
+717,0,"['dr', 'ronan', 'glynn', 'act', 'chief', 'medical', 'officer', 'say', 'would', 'take', 'regain', 'foothold', 'community', 'complacency', 'priority', 'go', 'forward', 'reopening', 'school', 'resumption', 'healthcare']",0.75,0.0,0.0,0.0,0.0,0.5,0.37821106330446785,0.5599888002239956
+718,0,"['ruth', 'morrissey', 'brave', 'courageous', 'woman', 'work', 'tirelessly', 'others', 'future', 'generation', 'woman', 'country', 'taoiseach', 'micheál', 'martin', 'say']",0.47916666666666663,0.0,0.0,0.0,0.0,0.5,0.43615997676234053,0.5384292314153717
+719,0,"['president', 'michael', 'higgins', 'pay', 'tribute', 'ruth', 'morrissey', 'tremendous', 'courage', 'arduous', 'campaign', 'truth', 'justice', 'leave', 'legacy', 'courage', 'irish', 'people', 'campaign', 'woman', 'right', 'healthcare', 'particular']",0.75,0.0,0.0,0.0,0.0,0.5,0.3917179529074307,0.5804283914321714
+720,0,"['breaking', 'death', '10', 'new', 'case', 'confirm', 'state']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3453878692155474,0.5384292314153717
+721,0,"['coronavirus', 'death', '10', 'new', 'case', 'confirm', 'state']",0.1875,0.0,0.0,0.0,0.0,0.5,0.35702485340304646,0.5833683326333473
+722,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+723,0,"['government', 'prepare', 'make', 'tough', 'call', 'prioritise', 'public', 'health', 'calleary']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.25451490970180596
+724,0,"['competition', 'team', 'seavite', 'chance', 'win', 'hamper', 'product', 'include', 'seavite', 'cleanser', 'tone', 'sea', 'spray', 'face', 'serum', 'face', 'lotion', 'face', 'cream', 'bath', 'amp', 'shower', 'gel', 'body', 'exfoliator', 'body', 'lotion', 'body', 'cream']",0.7708333333333333,0.0,0.0,0.0,0.0,0.5,0.3600566417951092,0.38499230015399694
+725,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+726,0,"['tributes', 'pay', 'strong', 'brave', 'gentle', 'ruth', 'morrissey']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.31467058802171266,0.1399972000559989
+727,0,"['two', 'men', 'charge', 'cocaine', 'seizure', 'cork']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.28642230815315073,0.3110737785244295
+728,0,"['world', 'loss', 'without', 'tributes', 'pay', 'cervicalcheck', 'campaigner', 'ruth', 'morrissey', 'die', 'age', '39']",0.35416666666666663,0.0,0.0,0.0,0.0,0.6428571428571428,0.3008369188315815,0.5333893322133557
+729,0,"['dr', 'cillian', 'de', 'gascun', 'public', 'health', 'perspective', 'want', 'people', 'stay', 'home', 'summer', 'green', 'list', 'understand', 'logic', 'behind', 'risk', 'lead', 'confusion', 'provide', 'people', 'mixed', 'message']",0.8958333333333333,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.6533669326613467
+730,0,"['cervicalcheck', 'campaigner', 'ruth', 'morrissey', 'die']",0.0625,0.0,0.0,0.0,0.0,0.6428571428571428,0.7806401249024201,0.2333753324933501
+731,0,"['warning', 'list', 'lead', 'confusion', 'travel', 'advisory', 'remain']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.4710709293248372,0.4307713845723085
+732,0,"['dara', 'calleary', 'travel', 'still', 'recommend']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.5143692246246575,0.5599888002239956
+733,0,"['solar', 'giant', 'jupiter', 'saturn', 'visible', 'sky', 'month', 'new', 'moon', '20th']",0.35416666666666663,0.0,0.0,0.0,0.0,0.2142857142857143,0.22389848047491967,0.6999860002799944
+734,0,"['people', 'cover', 'travel', 'green', 'list', 'country', 'insurer', 'warn']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.3354210918069096,0.6000279994400112
+735,0,"['patsy', 'mcgarry', 'thanks', 'paul', 'mescal', 'make', 'lump', 'agricultural', 'irish', 'fella', 'definition', 'sexy']",0.3125,0.0,0.0,0.0,0.0,0.5714285714285714,0.35702485340304646,0.46661066778664423
+736,0,"['rare', 'tropical', 'seabird', 'find', 'co', 'wicklow', 'dy', 'day', 'intensive', 'care']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3593667737777536,0.3231135377292454
+737,0,"['one', 'change', 'time', 'ditch', 'mindset']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.36459524717244896,0.3499930001399972
+738,0,"['lives', 'lost', 'helen', 'bredan', 'dillon', 'marry', 'fall', 'race', 'fairyhouse']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.622147557048859
+739,0,"['older', 'child', 'spread', 'coronavirus', 'much', 'adult', 'study', 'find']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.43679538151516817,0.3817723645527089
+740,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+741,0,"['face', 'mask', '20', 'key', 'fact', 'wear', 'safely']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.30661002487155753,0.3110737785244295
+742,0,"['eu', 'summit', 'term', 'billion', 'pandemic', 'recovery', 'fund', 'stall', 'amid', 'heated', 'debate']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.2360074796216619,0.3110737785244295
+743,0,"['male', 'motorcyclist', '33', 'dy', 'follow', 'road', 'crash', 'co', 'tipperary']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.44175153858722294,0.1399972000559989
+744,0,"['husband', 'racist', 'say', 'black', 'lives', 'matter', 'irrelevant']",0.16666666666666666,1.0,0.0,0.0,0.0,0.4285714285714285,0.3212787974511193,0.5090298194036119
+745,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+746,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'family', 'getaway', 'castleknock', 'hotel', 'amp', 'spa']",0.29166666666666663,0.0,0.0,0.0,0.0,0.5,0.3552457200951292,0.41173176536469264
+747,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+748,0,"['eat', 'soup', 'drizzle', 'mór', 'everyone', 'else', 'sip', 'pina', 'coladas']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.2783617450029956,0.373372532549349
+749,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+750,0,"['sponsored', '100', 'point', 'system', 'rating', 'wine', 'one', 'use', 'many', 'critic', 'wine', 'competition', 'around', 'world']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.300455675979885,0.5478090438191235
+751,0,"['read', '36', 'hour', 'ireland', 'busy', 'tourist', 'town', 'miss', 'americans']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.14841239583900667,0.44211115777684445
+752,0,"['parent', 'see', '10', 'childcare', 'fee', 'hike', 'due', 'cost']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.3047764282991122,0.25451490970180596
+753,0,"['david', 'mcwilliams', 'apple', 'decision', 'show', 'ireland', 'tax']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.37078590490714014,0.5090298194036119
+754,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+755,0,"['growing', 'concern', 'finance', 'university', 'risk', 'default', 'loan', 'million', 'use', 'upgrade', 'college', 'campus']",0.3958333333333333,0.0,0.0,0.0,0.0,0.5714285714285714,0.42855327414991917,0.5727285454290915
+756,0,"['coronavirus', 'two', 'death', '21', 'new', 'case', 'report']",0.125,0.0,0.0,0.0,0.0,0.5,0.44779696094983945,0.3110737785244295
+757,0,"['former', 'debenhams', 'worker', 'call', 'action', 'protest', 'across', 'ireland']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4863206433926982,0.3817723645527089
+758,0,"['gardaí', 'investigate', 'assault', 'city', 'bin', 'staff', 'member']",0.10416666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.5234464353793368,0.1749965000699986
+759,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'escape', 'westport', 'include', 'breakfast', 'dinner', 'one', 'night', 'well', 'entry', 'westport', 'house', 'estate', 'gardens']",0.5625,0.0,0.0,0.0,0.0,0.5,0.3267795871684549,0.5133697326053479
+760,0,"['russian', 'man', 'seek', 'asylum', 'sue', 'state', 'imprison', 'alongside', 'axe', 'murderer']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.4710709293248372,0.3231135377292454
+761,0,"['vatican', 'back', 'campaign', 'reburial', 'tuam', 'baby', 'remain']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.40544269556850576,0.2799944001119978
+762,0,"['cash', 'seize', 'house', 'co', 'longford']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.20574405896556114,0.5599888002239956
+763,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+764,0,"['expect', '10', '15', 'country', 'travel', 'list', 'majority', 'europe', 'accord', 'government', 'source']",0.45833333333333326,0.0,0.0,0.0,0.0,0.4285714285714285,0.33645589383294305,0.7279854402911942
+765,0,"['three', 'arrest', 'worth', 'drug', 'seize', 'operation', 'munster']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.43679538151516817,0.3817723645527089
+766,0,"['utopia', 'avenue', 'happy', 'book', 'happy', 'band']",0.125,0.0,0.0,0.0,0.0,0.14285714285714285,0.22591362126245862,0.46661066778664423
+767,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+768,0,"['everyone', 'keep', 'ask', 'stay', 'want', 'strike', 'ireland', 'say', 'jail', 'student']",0.29166666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.12680863424286992,0.5478090438191235
+769,0,"['cabinet', 'seek', 'apply', 'muscle', 'address', 'insurance', 'cost', 'compensation', 'payouts']",0.1875,0.0,0.0,0.0,0.0,0.5714285714285714,0.5385690684966326,0.3499930001399972
+770,0,"['stardust', 'fire', 'haunt', 'christine', 'keegan', 'rest', 'life', 'funeral', 'tell']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.3000139997200056
+771,0,"['gardaí', 'investigate', 'allege', 'false', 'imprisonment', 'two', 'inland', 'fishery', 'staff', 'investigate', 'salmon', 'poach', 'mayo', 'coast']",0.375,0.0,0.0,0.0,0.0,0.6428571428571428,0.5428898208158598,0.46661066778664423
+772,0,"['per', 'cent', 'property', 'search', 'west', 'cork', 'surge', 'remote', 'work', 'make', 'people', 'wonder', 'time', 'consider', 'place', 'country']",0.5416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.211607937113084,0.5419291614167716
+773,0,"['steady', 'trickle', 'increase', 'every', 'day', 'eight', '10', '12', 'today', 'friday', 'entire', 'morning', 'patient', 'like', 'symptom']",0.6041666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.17980139062868772,0.6399272014559708
+774,0,"['leaving', 'cert', 'q', 'amp', 'start', 'college', 'light', 'delay', 'issue', 'result']",0.25,1.0,0.0,0.0,0.0,0.2142857142857143,0.29047074414973784,0.5599888002239956
+775,0,"['harry', 'mcgee', 'harrymcgee', 'cowen', 'affair', 'may', 'mean', 'many', 'fianna', 'fáil', 'tds', 'long', 'support', 'taoiseach']",0.375,0.0,0.0,0.0,0.0,0.4285714285714285,0.3267795871684549,0.39997200055998877
+776,0,"['get', 'important', 'story', 'day', 'evening', 'update', 'new', 'newsletter', 'irish', 'times']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.30661002487155753,0.622147557048859
+777,0,"['kinsale', 'see', 'foreign', 'visitor', 'hotel', 'remain', 'conscious', 'quarantine', 'status']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.5839551222700291,0.3499930001399972
+778,0,"['leave', 'dublin', 'galway', 'estafany', 'alquinta', 'strike', 'conversation', 'taxi', 'driver', 'tell', 'sorry', 'country']",0.5,0.0,0.0,0.0,0.0,0.5714285714285714,0.2683405043298297,0.6759064818703625
+779,0,"['christine', 'keegan', 'obituary', 'courageous', 'tireless', 'campaigner', 'stardust', 'fire', 'victim']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.6596045966995262,0.3499930001399972
+780,0,"['unfair', 'patient', 'go', 'hospital', 'one', 'thing', 'get']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.13514151371566552,0.622147557048859
+781,0,"['miriam', 'lord', 'week', 'cowen', 'misfortune', 'calleary', 'opportunity', 'mayo', 'overjoy', 'cry', 'ring', 'floor', 'heartache']",0.4375,0.0,0.0,0.0,0.0,0.5,0.310476916653051,0.5923281534369312
+782,0,"['time', 'consider', 'place', 'country']",0.14583333333333331,1.0,0.0,0.0,0.0,0.2857142857142857,0.1331263729281268,0.8399832003359932
+783,0,"['fintan', 'brexit', 'great', 'britain', 'act', 'like', 'happen']",0.25,1.0,0.0,0.0,0.0,0.3571428571428571,0.2783617450029956,0.6533669326613467
+784,0,"['thinking', 'anew', 'small', 'seed']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.12323221320552635,0.5090298194036119
+785,0,"['spain', 'portugal', 'france', 'safe', 'level', 'travel', 'green', 'list']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.09480238912187067,0.46661066778664423
+786,0,"['gardaí', 'investigate', 'allege', 'false', 'imprisonment', 'fishery', 'officer']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.8411488117931122,0.1749965000699986
+787,0,"['hse', 'pledge', 'home', 'care', 'help', 'free', 'hospital', 'capacity']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.31746636893415403,0.4307713845723085
+788,0,"['reform', 'insurance', 'sector', 'target', 'senior', 'ministers']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5688324891527333,0.3499930001399972
+789,0,"['jailed', 'chilean', 'student', 'give', 'dream', 'study', 'ireland']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.21785305811230338,0.5599888002239956
+790,0,"['universities', 'lack', 'cash', 'survive', 'beyond', 'short', 'time', 'frame']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.3212787974511193,0.12725745485090298
+791,0,"['species', 'pink', 'grasshopper', 'readers', 'nature', 'query']",0.125,0.0,0.0,0.0,1.0,0.5,0.44175153858722294,0.4199916001679966
+792,0,"['another', 'life', 'fox', 'dwell', 'among', 'u']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.1654049343717663,0.46661066778664423
+793,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+794,0,"['interest', 'rural', 'property', 'soar', 'effect', 'kick']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.4199916001679966
+795,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'family', 'getaway', 'castleknock', 'hotel', 'amp', 'spa']",0.29166666666666663,0.0,0.0,0.0,0.0,0.5,0.3552457200951292,0.41173176536469264
+796,0,"['competition', 'enter', 'chance', 'win', 'voucher', 'cinders']",0.1875,0.0,0.0,0.0,0.0,0.5,0.3419022202857507,0.5833683326333473
+797,0,"['travelling', 'dublin', 'horse', 'cart', 'health', 'check', 'india', 'johnny', 'depp', 'court', 'london', 'images', 'day', 'select', 'picture', 'editor']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.3121652778534213,0.5793084138317234
+798,0,"['gps', 'warn', 'surge', 'case', 'dublin', 'present', 'symptom']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.35702485340304646,0.46661066778664423
+799,0,"['irish', 'times', 'view', 'leaving', 'cert', 'yet', 'another', 'delay', 'discuss']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.3116387996296499,0.3499930001399972
+800,0,"['gardaí', 'seize', 'almost', 'million', 'worth', 'drug']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.36459524717244896,0.1749965000699986
+801,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+802,0,"['fifth', 'adoptee', 'apply', 'see', 'birth', 'cert', 'last', 'year', 'deny', 'access']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.2705734981754807,0.39997200055998877
+803,0,"['coronavirus', 'ireland', 'could', 'return', 'phase', '2', 'lockdown', 'case', 'rise', 'doctor', 'say']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.3613456057222737,0.3000139997200056
+804,0,"['cancer', 'patient', 'delay', 'quiet', 'meek', 'get', 'leave', 'behind']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.0746328268249733,0.46661066778664423
+805,0,"['messy', 'disappoint', 'leaving', 'cert', 'student', 'react', 'delay', 'exam', 'result']",0.16666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.5028230125447054,0.25451490970180596
+806,0,"['two', 'charge', 'involvement', 'james', 'mago', 'gately', 'attempt', 'murder']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3593667737777536,0.3231135377292454
+807,0,"['psychiatric', 'report', 'hellfire', 'club', 'attacker', 'raise', 'serious', 'issue', 'judge']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4780603816059402,0.11661766764664706
+808,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+809,0,"['gps', 'warn', 'surge', 'case', 'dublin', 'present', 'covid', 'symptom']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.3267795871684549,0.46661066778664423
+810,0,"['coronavirus', 'ireland']",0.08333333333333331,1.0,0.0,0.0,0.0,0.5,0.3354210918069096,1.0
+811,0,"['nch', 'livestream', 'series', 'elegy']",0.02083333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.0
+812,0,"['health', 'service', 'face', 'heavy', 'burden', 'winter', 'hse', 'warns']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.42762739865294197,0.15553688926221476
+813,0,"['leaving', 'cert', 'q', 'amp', 'start', 'college']",0.10416666666666666,1.0,0.0,0.0,0.0,0.2142857142857143,0.3192091933990524,0.5249895002099958
+814,0,"['gardaí', 'seize', 'almost', 'million', 'worth', 'drug', 'three', 'separate', 'operation']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.44779696094983945,0.2333753324933501
+815,0,"['three', 'death', '34', 'case', 'record']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.35097943104042995,0.5599888002239956
+816,0,"['sponsored', '100', 'point', 'system', 'rating', 'wine', 'one', 'use', 'many', 'critic', 'wine', 'competition', 'around', 'world']",0.41666666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.300455675979885,0.5478090438191235
+817,0,"['native', 'toad', 'release', 'specially', 'construct', 'pond', 'kerry']",0.1875,0.0,0.0,0.0,0.0,0.5,0.493183014723236,0.46661066778664423
+818,0,"['woman', 'warn', 'must', 'vacate', 'dublin', 'apartment', 'monday']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.42762739865294197,0.3110737785244295
+819,0,"['staycation', 'interest', 'soar']",0.0,0.0,0.0,0.0,0.0,0.4285714285714285,0.871412232449213,0.0
+820,0,"['fifth', 'adoptee', 'apply', 'see', 'birth', 'cert', '2019', 'deny', 'access']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.2446489842601166,0.49993000139997196
+821,0,"['landlord', 'face', 'fine', 'jail', 'noise', 'limit', 'breach', 'lockdown', 'house', 'party']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.44314942904344357,0.3231135377292454
+822,0,"['coronavirus', 'three', 'death', '34', 'case', 'record']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.4235971170778644,0.5599888002239956
+823,0,"['father', 'endanger', 'baby', 'girl', 'life', 'dangle', 'river', 'upside', 'court', 'tell']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.285169653069005,0.43749125017499646
+824,0,"['coronavirus', 'disability', 'service', 'must', 'reopen', 'urgently', 'dáil', 'committee', 'tell']",0.125,0.0,0.0,0.0,0.0,0.5,0.7705462665432167,0.0
+825,0,"['leaving', 'cert', 'q', 'amp', 'start', 'college', 'light', 'delay', 'issue', 'result']",0.25,1.0,0.0,0.0,0.0,0.2142857142857143,0.30256158887497053,0.5599888002239956
+826,0,"['aaron', 'brady', 'reject', 'suggestion', 'share', 'characteristic', 'psychopath']",0.14583333333333331,0.0,0.0,0.0,0.0,0.7857142857142857,0.6232957536808089,0.4199916001679966
+827,0,"['man', 'admit', 'abuse', 'boy', 'get', 'suspend', 'sentence', 'due', 'delay', 'bring', 'prosecution']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.5129713341684369,0.21531569368612624
+828,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+829,0,"['week', 'long', 'time', 'politics', 'micheál', 'martin']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.22389848047491967,0.5599888002239956
+830,0,"['450', 'cancer', 'miss', 'pause', 'screening', 'committee', 'tell']",0.16666666666666666,0.0,0.0,1.0,0.0,0.4285714285714285,0.5028230125447054,0.3817723645527089
+831,0,"['messy', 'disappoint', 'confuse', 'leaving', 'cert', 'student', 'react', 'delay', 'exam', 'result']",0.1875,0.0,0.0,0.0,0.0,0.6428571428571428,0.5537098560354373,0.2333753324933501
+832,0,"['minister', 'say', 'want', 'take', 'meanness', 'direct', 'provision']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.23168672730243456,0.49993000139997196
+833,0,"['missing', 'donegal', 'dentist', 'find', 'dead', 'extensive', 'garda', 'search']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.5890020514496307,0.15553688926221476
+834,0,"['estimated', 'drug', 'seize', 'gardaí', 'dublin', 'house']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.31467058802171266,0.4199916001679966
+835,0,"['native', 'toad', 'release', 'specially', 'construct', 'pond', 'kerry']",0.14583333333333331,0.0,0.0,1.0,0.0,0.5,0.5506780676433746,0.2799944001119978
+836,0,"['universities', 'say', 'leaving', 'cert', 'result', 'delay', 'mean', 'first', 'year', 'start', 'college', 'later']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.5129713341684369,0.10765784684306312
+837,0,"['judge', 'warn', 'woman', 'must', 'vacate', 'dublin', 'apartment', 'monday']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.40544269556850576,0.2799944001119978
+838,0,"['irish', 'times', 'weekend', 'irish', 'island', 'getaway', 'emma', 'donoghue', 'pandemic', 'novel', 'jarvis', 'cocker', 'back', 'new', 'album', 'subscribe']",0.47916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.32443766679374775,0.5384292314153717
+839,0,"['coronavirus', 'ireland', 'stand']",0.10416666666666666,1.0,0.0,0.0,0.0,0.5,0.3192091933990524,0.8749825003499929
+840,0,"['postmortem', 'find', 'noah', 'donohoe', 'die', 'drown']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5234464353793368,0.3499930001399972
+841,0,"['bread', 'delivery', 'man', 'jail', 'transport', 'gun', 'store', 'drug']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.49621480311529875,0.2799944001119978
+842,0,"['leaving', 'cert', 'student', 'pillar', 'post']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.3691338525497886,0.5599888002239956
+843,0,"['450', 'cancer', 'miss', 'due', 'pause', 'screening', 'committee', 'tell']",0.16666666666666666,0.0,0.0,1.0,0.0,0.4285714285714285,0.43679538151516817,0.25451490970180596
+844,0,"['high', 'court', 'tell', 'ireland', 'become', 'safe', 'ian', 'bailey']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.16683913367100567,0.39997200055998877
+845,0,"['garda', 'enforce', 'mandatory', 'mask', 'shop', 'last', 'resort']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.22086669208285692,0.3499930001399972
+846,0,"['backlog', 'criminal', 'trial', 'equal', 'half', 'year', 'case', 'due', 'delay']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.24205290198427842,0.373372532549349
+847,0,"['naval', 'service', 'detain', 'fish', 'boat', 'northwest', 'coast']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.546139462266035,0.1749965000699986
+848,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+849,0,"['postmortem', 'find', 'noah', 'donohoe', 'die', 'drown']",0.08333333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.5688324891527333,0.20005599888002237
+850,0,"['landlord', 'face', 'fine', 'jail', 'noise', 'level', 'breach', 'lockdown', 'house', 'party']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.44314942904344357,0.3231135377292454
+851,0,"['extension', 'relatively', 'small', 'say', 'brien']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2835539095546722,0.39997200055998877
+852,0,"['estimated', 'million', 'drug', 'seize', 'gardaí', 'dublin', 'house']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.3377811666031262,0.3817723645527089
+853,0,"['love', 'poem', 'dark', 'humour', 'flicker', 'like', 'whiplash']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.5486629268558357,0.15553688926221476
+854,0,"['450', 'cancer', 'case', 'miss', 'due', 'pause', 'screening']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3691338525497886,0.2799944001119978
+855,0,"['nine', 'death', 'northern', 'ireland', 'week', 'july', '10th']",0.16666666666666666,0.0,0.0,0.0,0.0,0.9999999999999999,0.4863206433926982,0.3817723645527089
+856,0,"['coronavirus', 'ireland', 'could', 'return', 'phase', '2', 'lockdown', 'case', 'rise', 'doctor', 'warns']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.3743260171014652,0.3000139997200056
+857,0,"['get', 'important', 'story', 'day', 'evening', 'irish', 'times', 'evening', 'update']",0.2708333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.33055570684240154,0.612487750244995
+858,0,"['leaving', 'cert', 'result', 'delay', 'another', 'upheaval', 'student', 'say', 'usi']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.35702485340304646,0.11661766764664706
+859,0,"['united', 'remain', 'hunt', 'win', 'luckless', 'palace', 'finau', 'lead', 'way', 'ohio']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.2511301127389577,0.5249895002099958
+860,0,"['two', 'machine', 'gun', 'ammunition', 'find', 'dublin', 'search']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.45536735471924195,0.1749965000699986
+861,0,"['stephen', 'collins', 'micheál', 'martin', 'bring', 'political', 'chaos', 'head']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4698001198191821,0.3817723645527089
+862,0,"['gardaí', 'seize', 'cannabis', 'worth', 'm9', 'motorway']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.43267432783254367,0.1749965000699986
+863,0,"['increase', 'confine', 'dublin', 'warn', 'chief', 'medical', 'officer']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.4698001198191821,0.3817723645527089
+864,0,"['book', 'kells', 'visitor', 'centre', 'old', 'library', 'work', 'plan', 'tcd']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.29651616651235413,0.3499930001399972
+865,0,"['bit', 'eerie', 'masks', 'perspex', 'screen', 'appear', 'knock', 'shrine']",0.1875,0.0,0.0,0.0,0.0,0.2142857142857143,0.11497195141876815,0.43749125017499646
+866,0,"['coronavirus', 'hospital', 'wait', 'list', 'lengthen', 'lockdown']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.8865348655665087,0.1749965000699986
+867,0,"['language', 'school', 'warn', 'job', 'loss', 'hit', 'economy']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.3377811666031262,0.3817723645527089
+868,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+869,0,"['ireland', 'could', 'see', '150', 'case', 'day', 'within', 'week', 'hse', 'warn', 'hospital', 'capacity']",0.2708333333333333,0.0,0.0,0.0,0.0,0.2857142857142857,0.30786267995570327,0.2624947501049979
+870,0,"['final', 'night', 'join', 'u', 'irish', 'times', 'summer', 'nights', 'festival', 'internationally', 'renowned', 'guest', 'irish', 'times', 'journalist', 'get', 'together', 'festival', 'conversation', 'culture', 'idea', 'itsummernights', 'sponsor', 'peugeotireland']",0.6458333333333333,0.0,0.0,0.0,0.0,0.7857142857142857,0.5634950892289817,0.41173176536469264
+871,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'family', 'getaway', 'castleknock', 'hotel', 'amp', 'spa']",0.29166666666666663,0.0,0.0,0.0,0.0,0.5,0.3552457200951292,0.41173176536469264
+872,0,"['competition', 'enter', 'chance', 'win', 'voucher', 'cinders']",0.1875,0.0,0.0,0.0,0.0,0.5,0.3419022202857507,0.5833683326333473
+873,0,"['michael', 'mcdowell', 'brace', 'desperate', 'trump', 'might']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4202930123631611,0.6362872742545149
+874,0,"['traffic', 'pollution', 'link', 'coronavirus', 'spread', 'netherlands']",0.125,0.0,0.0,0.0,0.0,0.5,0.6495107383403228,0.46661066778664423
+875,0,"['second', 'ever', 'woman', 'elect', 'chair', 'bar', 'council']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.2783617450029956,0.4199916001679966
+876,0,"['rare', 'white', 'jackdaw', 'see', 'donegal']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.1331263729281268,0.4199916001679966
+877,0,"['eamon', 'ryan', 'appear', 'asleep', 'dáil', 'vote', 'worker', 'call']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.49993000139997196
+878,0,"['judge', 'dismiss', 'gp', 'compensation', 'claim', 'slight', 'bump']",0.125,0.0,0.0,0.0,0.0,0.5714285714285714,0.24764446380916083,0.21531569368612624
+879,0,"['stand', 'ovation', 'jack', 'charlton', 'dáil']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.28642230815315073,0.622147557048859
+880,0,"['deem', 'safe', 'pub', 'serve', 'food', 'open', 'guideline', 'drohan', 'ask', 'problem', 'venue', 'entitle', 'open', 'system']",0.8125,1.0,0.0,0.0,0.0,0.4285714285714285,0.15552892907067517,0.8339633207335853
+881,0,"['micheál', 'martin', 'government', 'work', 'well', 'make', 'strong', 'start']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.30350561879345717,0.3231135377292454
+882,0,"['according', 'rtb', 'report', 'first', 'three', 'month', '2020', 'average', 'rent', 'dublin', 'galway', 'city', 'cork', 'city']",0.5208333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.20574405896556114,0.5500489990200196
+883,0,"['daughter', 'miss', 'retired', 'dentist', 'issue', 'appeal', 'safe', 'return']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.402410907176443,0.46661066778664423
+884,0,"['rent', 'increase', 'eviction', 'ban', 'extension', 'draw', 'ire', 'property', 'owner']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5193253816967122,0.25451490970180596
+885,0,"['niall', 'hatch', 'birdwatch', 'ireland', 'say', 'never', 'see', 'fully', 'white', 'crow', 'say', 'find', 'rare']",0.3958333333333333,0.0,0.0,0.0,0.0,0.3571428571428571,0.1679283989615672,0.5249895002099958
+886,0,"['next', 'final', 'show', 'festival', 'join', 'samantha', 'power', 'samanthajpower', 'discussion', 'fintan', 'fotoole', 'part', 'festival', 'conversation', 'culture', 'idea', 'itsummernights', 'sponsored', 'peugeotireland']",0.625,0.0,1.0,0.0,0.0,0.7142857142857143,0.4973222228273696,0.5514489710205795
+887,0,"['face', 'mask', 'need', 'know', 'need', 'one']",0.25,0.0,0.0,0.0,0.0,0.0714285714285714,0.14523537207486892,0.8399832003359932
+888,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+889,0,"['coronavirus', 'country', 'position', 'high', 'uncertainty', 'chief', 'medical', 'officer', 'warns']",0.1875,0.0,0.0,0.0,0.0,0.5,0.4261931993537026,0.3000139997200056
+890,0,"['pub', 'closure', 'lose', 'best', 'month', 'year']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.03716210082965721,0.49993000139997196
+891,0,"['lives', 'lost', 'helen', 'brendan', 'dillon', 'couple', 'die', 'within', 'fortnight']",0.22916666666666663,0.0,0.0,0.0,0.0,0.3571428571428571,0.401249024199844,0.4307713845723085
+892,0,"['leaving', 'cert', 'result', 'issue', 'september', '7th', 'say', 'department', 'education']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.41520977434054074,0.4307713845723085
+893,0,"['leaving', 'cert', 'student', 'may', 'wait', 'september', 'receive', 'result']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.49901058402774,0.5384292314153717
+894,0,"['next', 'join', 'melody', 'barnes', 'melodycbarnes', 'discuss', 'race', 'democracy', 'american', 'crisis', 'fintan', 'fotoole', 'part', 'festival', 'conversation', 'culture', 'idea', 'itsummernights', 'proudly', 'sponsor', 'peugeotireland']",0.6666666666666666,0.0,0.0,0.0,0.0,0.7142857142857143,0.5117731423488191,0.5199496010079798
+895,0,"['images', 'day', 'select']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.6000279994400112
+896,0,"['leaving', 'cert', 'student', 'may', 'wait', 'september', 'receive', 'result']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.508323802262041,0.46661066778664423
+897,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+898,0,"['kurd', 'smuggle', 'ireland', 'call', 'asylum', 'request']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.37332752391845037,0.6460870782584348
+899,0,"['rare', 'white', 'jackdaw', 'see', 'donegal']",0.08333333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.18557449666866377,0.3110737785244295
+900,0,"['dublin', 'city', 'council', 'bring', 'new', 'challenge', 'ronan', 'dockland', 'tower']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.4037906432111542,0.25451490970180596
+901,0,"['rent', 'increase', 'eviction', 'ban', 'extension', 'draw', 'ire', 'property', 'owner']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5193253816967122,0.25451490970180596
+902,0,"['ian', 'bailey', 'lawyer', 'question', 'france', 'take', '22', 'year', 'hold', 'du', 'plantier', 'murder', 'trial']",0.25,0.0,0.0,0.0,0.0,0.2857142857142857,0.25913621262458486,0.247095058098838
+903,0,"['burglar', 'caught', 'fall', 'asleep', 'house']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.5915255160394314,0.3499930001399972
+904,0,"['small', 'pleasures', 'intriguing', 'wise', 'mystery', 'woman', 'life']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.6369115698128279,0.1749965000699986
+905,0,"['total', 'death', 'relate', 'coronavirus', 'state']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.3314271190748508,0.7538849223015539
+906,0,"['coronavirus', 'one', 'death', '21', 'new', 'case', 'report']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3872882740591471,0.3817723645527089
+907,0,"['adrian', 'donohoe', 'murder', 'accuse', 'say', 'place', 'raider', 'accent']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.35702485340304646,0.3499930001399972
+908,0,"['second', 'ever', 'woman', 'elect', 'chair', 'bar', 'council']",0.125,0.0,0.0,0.0,0.0,0.2142857142857143,0.30661002487155753,0.3110737785244295
+909,0,"['garda', 'commissioner', 'dispute', 'claim', 'journalistic', 'privilege']",0.08333333333333331,0.0,0.0,0.0,0.0,0.5714285714285714,0.8541110687507943,0.20005599888002237
+910,0,"['final', 'night', 'join', 'u', 'irish', 'times', 'summer', 'nights', 'festival', 'internationally', 'renowned', 'guest', 'irish', 'times', 'journalist', 'get', 'together', 'festival', 'conversation', 'culture', 'idea', 'itsummernights', 'sponsor', 'peugeotireland']",0.6458333333333333,0.0,0.0,0.0,0.0,0.7857142857142857,0.5634950892289817,0.41173176536469264
+911,0,"['adrian', 'donohoe', 'murder', 'accuse', 'say', 'place', 'raider', 'accent']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.35702485340304646,0.3499930001399972
+912,0,"['protection', 'order', 'grant', 'woman', 'say', 'husband', 'make', 'take', 'lie', 'detector', 'test']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.3267795871684549,0.373372532549349
+913,0,"['face', 'mask', 'need', 'know', 'need', 'one']",0.25,0.0,0.0,0.0,0.0,0.0714285714285714,0.14523537207486892,0.8399832003359932
+914,0,"['rural', 'tds', 'voice', 'anger', 'decision', 'keep', 'pub', 'close']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.28825590472559603,0.3817723645527089
+915,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+916,0,"['unemployed', 'unskilled', 'worker', 'likely', 'admit', 'psychiatric', 'care']",0.1875,0.0,0.0,0.0,0.0,0.5,0.508323802262041,0.5833683326333473
+917,0,"['protection', 'order', 'grant', 'woman', 'say', 'husband', 'make', 'take', 'lie', 'detector', 'test']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.3743260171014652,0.3000139997200056
+918,0,"['cervicalcheck', 'ruth', 'morrissey', 'husband', 'pay', 'damage', 'supreme', 'court', 'tell']",0.16666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.5853348583047403,0.12725745485090298
+919,0,"['breaking', 'supreme', 'court', 'tell', 'terminally', 'ill', 'ruth', 'morrissey', 'husband', 'paul', 'pay', 'full', 'sum', 'damage', 'award', 'high', 'court', 'misreading', 'cervical', 'smear', 'test']",0.75,0.0,0.0,0.0,0.0,0.4285714285714285,0.31746636893415403,0.6102477950440991
+920,0,"['psni', 'apologise', 'journalist', 'trevor', 'birney', 'barry', 'mccaffrey']",0.125,0.0,0.0,0.0,0.0,0.5,0.6091716137465281,0.3110737785244295
+921,0,"['independent', 'td', 'michael', 'describe', 'decision', 'allow', 'pub', 'open', 'crazy']",0.25,0.0,0.0,0.0,0.0,0.5,0.3018535664361056,0.41173176536469264
+922,0,"['taoiseach', 'hold', 'productive', 'discussion', 'arlene', 'foster', 'michelle', 'neill']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.40025053101682917,0.3000139997200056
+923,0,"['cliff', 'taylor', '7', 'key', 'thing', 'government', 'consider', 'jump', 'start', 'recovery']",0.2708333333333333,0.0,0.0,0.0,0.0,0.4285714285714285,0.27382313962565585,0.5249895002099958
+924,0,"['northern', 'ireland', 'report', 'new', 'death']",0.08333333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.5169653069004957,0.20005599888002237
+925,0,"['eu', 'court', 'reject', 'data', 'transfer', 'tool', 'max', 'schrems', 'case']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.31467058802171266,0.1399972000559989
+926,0,"['race', 'time', 'inside', 'story', 'ireland', 'covid', 'tracker', 'app']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.26625274585625347,0.3499930001399972
+927,0,"['man', 'arrest', 'suspected', 'attack', 'substance']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.6369115698128279,0.3499930001399972
+928,0,"['evidence', 'iron', 'age', 'temples', 'uncover', 'navan', 'fort']",0.125,0.0,0.0,0.0,0.0,0.3571428571428571,0.36711871176224964,0.3110737785244295
+929,0,"['7', 'key', 'thing', 'government', 'consider', 'jump', 'start', 'recovery']",0.22916666666666663,0.0,0.0,0.0,0.0,0.4285714285714285,0.2446489842601166,0.6000279994400112
+930,0,"['coronavirus', 'unwinding', 'late', 'stage', 'roadmap', 'could', 'push', 'back', 'far']",0.20833333333333331,0.0,0.0,0.0,0.0,0.5,0.3388704318936877,0.46661066778664423
+931,0,"['muslim', 'group', 'seek', 'permission', 'croke', 'park', 'eid', 'event', 'go', 'ahead']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.3116387996296499,0.2333753324933501
+932,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+933,0,"['man', 'charge', 'possess', 'gun', 'use', 'kill', 'lyra', 'mckee', 'grant', 'bail']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.3419022202857507,0.2333753324933501
+934,0,"['coronavirus', 'government', 'urge', 'close', 'contact', 'case', 'get', 'test']",0.14583333333333331,0.0,0.0,0.0,0.0,0.5,0.5143692246246575,0.2799944001119978
+935,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+936,0,"['stephen', 'donnelly', 'reopening', 'pub', 'could', 'lead', 'second', 'wave']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.4235971170778644,0.2799944001119978
+937,0,"['united', 'leicester', 'action', 'battle', 'top', 'four', 'continue', 'tiger', 'return', 'ohio']",0.25,0.0,0.0,0.0,0.0,0.3571428571428571,0.3388704318936877,0.46661066778664423
+938,0,"['option', 'school', 'leaver', 'new', 'plan']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.42762739865294197,0.46661066778664423
+939,0,"['cornelius', 'lanczos', 'inspired', 'hamilton', 'quaternion']",0.0625,0.0,0.0,0.0,0.0,0.5,0.546139462266035,0.3499930001399972
+940,0,"['tributes', 'pay', 'former', 'cork', 'gaa', 'star', 'kieran', 'connor']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.22224642811756823,0.25451490970180596
+941,0,"['newton', 'emerson', 'orange', 'order', 'lock', 'twelfth', 'good']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2142857142857143,0.3691338525497886,0.4199916001679966
+942,0,"['world', 'string', 'primer']",0.10416666666666666,0.0,0.0,0.0,0.0,0.14285714285714285,0.04689287075867332,0.6999860002799944
+943,0,"['public', 'health', 'ahead', 'commercial', 'reality', 'say', 'hotelier']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.3872882740591471,0.1399972000559989
+944,0,"['two', 'three', 'cervicalcheck', 'tribunal', 'judge', 'longer', 'available']",0.125,0.0,0.0,0.0,0.0,0.6428571428571428,0.5688324891527333,0.3110737785244295
+945,0,"['driving', 'instructor', 'claim', 'lack', 'guidance', 'safe', 'return']",0.125,0.0,0.0,0.0,0.0,0.5,0.4679665232467368,0.3110737785244295
+946,0,"['coronavirus', 'ireland', 'reopen', 'delay', 'amid', 'rise', 'infection', 'rate']",0.1875,0.0,0.0,0.0,0.0,0.5,0.6142185429261297,0.3499930001399972
+947,0,"['delayed', 'reopen', 'teeth', 'say', 'devastate', 'publican']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.44175153858722294,0.4199916001679966
+948,0,"['insurers', 'ask', 'customer', 'history', 'life', 'policy']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.5688324891527333,0.4199916001679966
+949,0,"['handy', 'guide', 'sport', 'television', 'today']",0.14583333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.2783617450029956,0.6999860002799944
+950,0,"['computing', 'poise', 'make', 'quantum', 'leap']",0.0625,0.0,0.0,0.0,0.0,0.3571428571428571,0.44779696094983945,0.2333753324933501
+951,0,"['competition', 'enter', 'chance', 'win', 'two', 'night', 'family', 'getaway', 'castleknock', 'hotel', 'amp', 'spa']",0.29166666666666663,0.0,0.0,0.0,0.0,0.5,0.3552457200951292,0.41173176536469264
+952,0,"['second', 'legal', 'action', 'swine', 'flu', 'vaccine', 'list', 'november']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.44175153858722294,0.2799944001119978
+953,0,"['gardaí', 'seek', 'public', 'help', 'trace', 'woman', 'miss', 'co', 'donegal']",0.16666666666666666,0.0,0.0,0.0,0.0,0.2142857142857143,0.3377811666031262,0.25451490970180596
+954,0,"['cannabis', 'haul', 'worth', 'million', 'seize', 'belfast']",0.10416666666666666,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.1749965000699986
+955,0,"['séamus', 'woulfe', 'nominate', 'appointment', 'supreme', 'court']",0.125,0.0,0.0,0.0,0.0,0.5,0.5284933645589384,0.46661066778664423
+956,0,"['limit', 'put', 'house', 'gathering', 'pub', 'stay', 'shut', 'august', '10th']",0.25,0.0,0.0,0.0,0.0,0.4285714285714285,0.35097943104042995,0.373372532549349
+957,0,"['competition', 'enter', 'chance', 'win', 'music', 'inspire', 'city', 'break', 'hard', 'rock', 'hotel', 'dublin', 'include', 'dinner', 'cocktail', 'peruvian', 'inspire', 'bar', 'restaurant', 'zampas']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.39899787593268343,0.496710065798684
+958,0,"['eleven', 'publican', 'find', 'breach', 'measure']",0.14583333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.3691338525497886,0.5599888002239956
+959,0,"['end', 'relationship', 'man', 'deeply', 'love', 'child']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5714285714285714,0.21785305811230338,0.746605067898642
+960,0,"['state', 'staff', 'use', 'unpaid', 'time', 'isolate', 'overseas']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.24764446380916083,0.6460870782584348
+961,0,"['apple', 'verdict', 'victory', 'ireland', 'inc', 'politics', 'issue', 'remain', 'tricky']",0.22916666666666663,0.0,0.0,0.0,0.0,0.2857142857142857,0.3354210918069096,0.49993000139997196
+962,0,"['business', 'activity', 'dublin', 'fell', 'sharp', 'rate', 'almost', '20', 'year']",0.1875,0.0,0.0,0.0,0.0,0.2857142857142857,0.3419022202857507,0.3499930001399972
+963,0,"['competition', 'enter', 'chance', 'win', 'three', 'month', 'lovesvinyl', 'record', 'club', 'subscription', 'well', 'bluetooth', 'turntable']",0.375,0.0,0.0,0.0,0.0,0.5714285714285714,0.40457128333605663,0.5333893322133557
+964,0,"['coronavirus', 'two', 'death', 'brings', 'total', 'toll', 'state']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3377811666031262,0.3817723645527089
+965,0,"['coronavirus', 'robin', 'swann', 'recommend', 'mandatory', 'face', 'mask', 'northern', 'ireland', 'shop']",0.1875,0.0,0.0,0.0,0.0,0.5,0.5839551222700291,0.2333753324933501
+966,0,"['coronavirus', 'pubs', 'stay', 'close', 'august', '10th', 'amid', 'new', 'push', 'face', 'mask']",0.22916666666666663,0.0,0.0,0.0,0.0,0.5,0.3094784234700362,0.3000139997200056
+967,0,"['man', 'accuse', 'murder', 'denies', 'garda', 'response', 'time', 'test', 'five', 'night', 'earlier']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.44314942904344357,0.21531569368612624
+968,0,"['coronavirus', 'two', 'death', 'brings', 'total', 'toll', 'state']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.3377811666031262,0.3817723645527089
+969,0,"['tonight', 'join', 'anne', 'enright', 'interview', 'kathy', 'sheridan', 'kathysheridanit', 'write', 'feminism', 'extraordinary', 'memoir', 'late', 'irish', 'times', 'columnist', 'nuala', 'faolain', 'itsummernights', 'sponsored', 'peugeotireland']",0.5833333333333333,0.0,0.0,0.0,0.0,0.7857142857142857,0.5908356480220759,0.3817723645527089
+970,0,"['former', 'british', 'soldier', 'serve', 'north', 'persecute', 'veteran', 'say']",0.20833333333333331,0.0,0.0,0.0,0.0,0.4285714285714285,0.3388704318936877,0.46661066778664423
+971,0,"['damage', 'eye', 'assault', 'destroy', 'man', 'dream', 'play', 'football', 'dublin']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3571428571428571,0.26625274585625347,0.46661066778664423
+972,0,"['morphine', 'treatment', 'blame', 'prisoner', 'escape', 'custody', 'hospital', 'visit']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.6183395966087543,0.3817723645527089
+973,0,"['coronavirus', 'ireland', 'set', 'roll', 'back', 'easing', 'restriction']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.43679538151516817,0.5090298194036119
+974,0,"['ucc', 'president', 'retire', 'early', 'personal', 'reason']",0.10416666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.29651616651235413,0.2799944001119978
+975,0,"['man', '24', 'get', 'suspend', 'sentence', 'threaten', 'slit', 'garda', 'throat']",0.16666666666666666,0.0,0.0,0.0,0.0,0.5,0.30350561879345717,0.3231135377292454
+976,0,"['man', 'sue', 'tusla', 'alleged', 'leak', 'child', 'welfare', 'investigation', 'report']",0.16666666666666666,0.0,0.0,0.0,0.0,0.6428571428571428,0.4863206433926982,0.25451490970180596
+977,0,"['coronavirus', 'new', 'death', 'record', 'northern', 'ireland']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.546139462266035,0.3499930001399972
+978,0,"['man', 'entitle', 'pay', 'disability', 'allowance', 'return', 'romania']",0.1875,0.0,0.0,0.0,0.0,0.4285714285714285,0.402410907176443,0.5833683326333473
+979,0,"['competition', 'enter', 'chance', 'win', 'big', 'green', 'egg', 'bbq', 'trivento', 'winery', 'summer']",0.3125,0.0,0.0,0.0,0.0,0.5,0.28642230815315073,0.5444491110177796
+980,0,"['hearing', 'ian', 'bailey', 'propose', 'extradition', 'france', 'open', 'high', 'court']",0.1875,0.0,0.0,0.0,0.0,0.5,0.32245883484922766,0.39997200055998877
+981,0,"['best', 'new', 'crime', 'fiction', 'thomas', 'mullen', 'crime', 'series', 'inspire']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.5193253816967122,0.12725745485090298
+982,0,"['stay', 'top', 'late', 'news', 'daily', 'newsletter', 'morning', 'lunchtime', 'evening']",0.2708333333333333,0.0,0.0,0.0,0.0,0.5,0.3532487337290998,0.612487750244995
+983,0,"['mayo', 'td', 'dara', 'calleary', 'appoint', 'minister', 'agriculture']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.5915255160394314,0.1749965000699986
+984,0,"['european', 'commission', 'carefully', 'study', 'apple', 'decision']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.44175153858722294,0.1399972000559989
+985,0,"['calling', 'innovator', 'island', 'irish', 'times', 'innovation', 'awards', '2020', 'open', 'entry', 'whether', 'sole', 'trader', 'big', 'multinational', 'want', 'hear', 'innovative', 'story', 'entry', 'simple', 'free']",0.7708333333333333,0.0,0.0,0.0,0.0,0.6428571428571428,0.2749124049162175,0.6000279994400112
+986,0,"['one', '20', 'airport', 'arrival', 'contact', 'quarantine', 'check']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.4863206433926982,0.3817723645527089
+987,0,"['get', 'important', 'story', 'day', 'evening', 'update', 'new', 'newsletter', 'irish', 'times']",0.3125,0.0,0.0,0.0,0.0,0.4285714285714285,0.30661002487155753,0.622147557048859
+988,0,"['man', '27', 'arrest', 'relation', 'murder', 'lyra', 'mckee']",0.14583333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.24205290198427842,0.4199916001679966
+989,0,"['breaking', 'ireland', 'win', 'appeal', 'apple', 'tax', 'case']",0.125,0.0,0.0,0.0,0.0,0.2857142857142857,0.3469491494653524,0.15553688926221476
+990,0,"['chelsea', 'remain', 'third', 'norwich', 'win', 'gaa', 'dress', 'room', 'remain', 'closed']",0.20833333333333331,0.0,0.0,0.0,0.0,0.2857142857142857,0.3872882740591471,0.3231135377292454
+991,0,"['join', 'samantha', 'power', 'samanthajpower', 'discussion', 'fintan', 'fotoole', 'part', 'festival', 'conversation', 'culture', 'idea', 'itsummernights', 'sponsored', 'peugeotireland']",0.4375,0.0,0.0,0.0,0.0,0.7142857142857143,0.6217889366955321,0.46661066778664423
+992,0,"['dry', 'spell', 'sunshine', 'st', 'swithin', 'day', 'last', '40', 'day', '40', 'night']",0.3125,1.0,0.0,0.0,0.0,0.2857142857142857,0.1101973385618068,0.5157496850062998
+993,0,"['stardust', 'campaigner', 'true', 'warrior', 'christine', 'keegan', 'dy']",0.10416666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.44175153858722294,0.1399972000559989
+994,0,"['chilean', 'student', 'happy', 'free', 'detain', 'nearly', 'two', 'week', 'mountjoy']",0.25,0.0,0.0,0.0,0.0,0.2857142857142857,0.2698110124720876,0.49405011899762
+995,0,"['border', 'tough', 'control', 'country', 'impose', 'visitor']",0.16666666666666666,0.0,0.0,0.0,0.0,0.3571428571428571,0.5523301200007261,0.5090298194036119
+996,0,"['scientist', 'find', 'new', 'link', 'delirium', 'brain', 'energy', 'disruption']",0.16666666666666666,0.0,0.0,0.0,0.0,0.4285714285714285,0.634841965760761,0.25451490970180596
+997,0,"['access', 'scheme', 'may', 'widen']",0.08333333333333331,0.0,0.0,0.0,0.0,0.7142857142857143,0.5169653069004957,0.39997200055998877
+998,0,"['coronavirus', 'full', 'reopening', 'pub', 'could', 'scupper']",0.10416666666666666,0.0,0.0,0.0,0.0,0.5,0.5234464353793368,0.3499930001399972
+999,0,"['ireland', 'likely', 'face', 'imminent', 'second', 'wave', 'due', 'reopen', 'expert', 'warn']",0.1875,0.0,0.0,0.0,0.0,0.3571428571428571,0.3872882740591471,0.0999580008399832

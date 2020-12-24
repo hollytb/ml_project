@@ -1,0 +1,807 @@
+,class,text,word_count,question_mark,exclamation_mark,start_digit,start_question,longest_word_len,avg_word_len,ratio_stopwords
+0,0,"['honolulu', 'make', 'illegal', 'people', 'look', 'cell', 'phone', 'cross', 'street']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.2601586791036776,0.8129210571774055
+1,0,"['judges', 'order', 'faa', 'review', 'seat', 'size', 'legroom', 'commercial', 'airline']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.4243861906293558,0.43185351528761445
+2,0,"['trump', 'tweet', 'senate', 'republicans', 'look', 'like', 'fool', 'change', 'rule', 'require', '60', 'vote', 'end', 'filibuster']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.29993567063364424,0.41129728795992404
+3,0,"['police', 'arrest', 'two', 'men', 'girl', 'rap', 'twice', 'one', 'night', 'birmingham', 'england']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.30746756727779556,0.5080324753843496
+4,0,"['us', 'navy', 'aircraft', 'carrier', 'fire', 'warning', 'flare', 'iranian', 'vessel', 'persian', 'gulf', 'iran', 'say']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.32322826203495225,0.40646052858870274
+5,0,"['man', 'kill', 'police', 'apparent', 'address', 'shoot', 'back', 'head', 'run', 'away', 'attorney', 'say']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.23614238233086748,0.6581447572983244
+6,0,"['tesla', 'deliver', 'first', '30', 'model', '3', 'car', 'electric', 'car']",0.5,0.0,0.0,0.0,0.0,0.5333333333333333,0.45566634501983505,0.4607013301088271
+7,0,"['president', 'want', 'go', 'different', 'direction', 'support', 'reince', 'priebus', 'tell', 'cnn']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.2531360566098424,0.6717913283814131
+8,0,"['trump', 'say', 'reince', 'good', 'man', 'john', 'kelly', 'fantastic', 'job', 'kelly', 'star']",0.9375,0.0,0.0,0.0,0.0,0.19999999999999996,0.06408813123190749,0.6759371221281741
+9,0,"['reince', 'priebus', 'resign', 'privately', 'thursday', 'white', 'house', 'chief', 'staff', 'source', 'close', 'priebus', 'tell', 'cnn']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.45465538089480045
+10,0,"['president', 'donald', 'trump', 'select', 'john', 'kelly', 'new', 'white', 'house', 'chief', 'staff', 'replace', 'reince', 'priebus']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4318376755655624,0.38383140438763175
+11,0,"['korea', 'conduct', 'second', 'icbm', 'test', 'launch', 'month', 'pentagon', 'say', 'missile', 'go', '620', 'mile']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3174118151602874,0.45465538089480045
+12,0,"['go', 'destroy', 'vile', 'criminal', 'president', 'trump', 'say', 'long', 'island', 'us', 'hub', 'gang']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.17422536721346638,0.6045949214026602
+13,0,"['stabbing', 'attack', 'hamburg', 'germany', 'supermarket', 'leave', '1', 'dead', '4', 'injured', 'police', 'say', 'motif', 'consider']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.4765197812801545,0.38383140438763175
+14,0,"['us', 'detect', 'ballistic', 'missile', 'launch', 'north', 'korea', 'assess', 'situation', 'pentagon', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3597351774418356,0.7274140611504577
+15,0,"['john', 'mccain', 'plan', 'travel', 'back', 'arizona', 'start', 'cancer', 'treatment', 'monday', 'congressional', 'source', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.4318376755655624,0.38383140438763175
+16,0,"['paul', 'shanley', 'convict', 'child', 'rape', 'charge', 'wake', 'boston', 'globe', 'report', 'release', 'prison']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4318376755655624,0.47987562618759716
+17,0,"['us', 'economic', 'growth', 'accelerate', 'annual', 'rate', 'april', 'june', 'double', 'pace', 'first', 'quarter']",0.875,0.0,0.0,0.0,0.0,0.33333333333333326,0.26803902648225586,0.6045949214026602
+18,0,"['marine', 'corps', 'ground', 'aircraft', 'crash', 'kill', '15', 'marines', 'one', 'sailor', 'mississippi']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.3738340302348022,0.6363793401278287
+19,0,"['pakistani', 'pm', 'nawaz', 'sharif', 'order', 'step', 'supreme', 'court', 'follow', 'corruption', 'investigation']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.6892355526964724,0.3701848333045431
+20,0,"['least', '48', 'people', 'injure', 'train', 'accident', 'station', 'barcelona', 'spain', 'catalan', 'emergency', 'services', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.47987562618759716
+21,0,"['republican', 'sens', 'john', 'mccain', 'susan', 'collins', 'lisa', 'murkowski', 'join', 'democrats', 'oppose', 'gop', 'obamacare', 'repeal']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5597190951002464,0.3048885817930558
+22,0,"['time', 'move', 'gop', 'senate', 'leader', 'mitch', 'mcconnell', 'say', 'party', 'obamacare', 'repeal', 'fails']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.23276509059719097,0.5455173605113146
+23,0,"['utah', 'man', 'allegedly', 'kill', 'wife', 'cruise', 'ship', 'alaska', 'fbi', 'say']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.13401951324112793,0.6477802729314217
+24,0,"['senate', 'republicans', 'release', 'skinny', 'bill', 'repeal', 'obamacare', 'read', 'bill']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.43357992923769717,0.8129210571774055
+25,0,"['venezuela', 'ban', 'protest', 'start', 'friday', 'ahead', 'vote', 'special', 'assembly', 'could', 'dissolve', 'state', 'institution']",0.625,0.0,0.0,0.0,0.0,0.4,0.6227886780315215,0.40646052858870274
+26,0,"['boy', 'scouts', 'america', 'official', 'apologize', 'scout', 'community', 'political', 'content', 'trump', 'jamboree', 'speech']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6700975662056394,0.43185351528761445
+27,0,"['top', 'military', 'leader', 'include', 'joint', 'chiefs', 'chair', 'know', 'ban', 'transgender', 'service', 'member', 'come']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5863353704299346,0.21592675764380723
+28,0,"['france', 'plan', 'hot', 'spot', 'libya', 'process', 'refugee', 'claim', 'keep', 'try', 'dangerous', 'journey', 'europe']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3597351774418356,0.5455173605113146
+29,0,"['jerusalem', 'muslims', 'tell', 'return', 'pray', 'compound', 'israel', 'remove', 'security', 'measure']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5912672885172081,0.6096044221799966
+30,0,"['us', 'warn', 'traveler', 'mexico', 'taint', 'counterfeit', 'alcohol', 'follow', 'death', 'wisconsin', 'woman']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5528304921196525,0.539816894109518
+31,0,"['village', 'elder', 'pakistan', 'order', 'rape', 'girl', '17', 'brother', 'accuse', 'rap', 'another', 'girl']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.26803902648225586,0.6909656244601832
+32,0,"['singer', 'justin', 'bieber', 'hit', 'man', 'truck', 'try', 'drive', 'away', 'event', 'beverly', 'hills', 'police', 'say']",0.9375,0.0,0.0,0.0,0.0,0.06666666666666665,0.1949447839605445,0.6280877526343064
+33,0,"['tease', 'potential', 'senate', 'run', 'musician', 'kid', 'rock', 'say', 'create', 'promote', 'voter', 'registration']",0.625,0.0,0.0,0.0,0.0,0.4,0.5755065937600514,0.3048885817930558
+34,0,"['least', '1', 'person', 'kill', 'ride', 'malfunction', 'ohio', 'state', 'fair', 'columbus', 'fire', 'battalion', 'chief', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.3871555698509703,0.38383140438763175
+35,0,"['top', 'apple', 'supplier', 'foxconn', 'announces', 'white', 'house', 'build', '10', 'billion', 'factory', 'wisconsin']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.3871555698509703,0.5757471065814476
+36,0,"['us', 'federal', 'reserve', 'leave', 'key', 'interest', 'rate', 'unchanged', 'policymakers', 'say', 'monitor', 'inflation']",0.4375,0.0,0.0,0.0,0.0,0.4,0.7658143025624531,0.1233373639661427
+37,0,"['risk', 'suicide', 'attempt', 'among', 'soldier', 'go', 'base', 'number', 'past', 'attempt', 'unit', 'new', 'study', 'find']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.2616596976519783,0.5757471065814476
+38,0,"['uk', 'judge', 'terminally', 'ill', 'child', 'charlie', 'gard', 'go', 'hospice', 'unless', 'alternative', 'deal', 'reach', 'noon', 'thursday']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.36362065987217135
+39,0,"['steve', 'scalise', 'discharge', 'hospital', 'say', 'make', 'excellent', 'progress', 'since', 'ballfield', 'shooting']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.773185375790715,0.0
+40,0,"['president', 'trump', 'tweet', 'transgender', 'people', 'allow', 'serve', 'military']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.4377881419534684,0.8061841423389187
+41,0,"['national', 'strike', 'begin', 'venezuela', 'building', 'tension', 'ahead', 'controversial', 'vote', 'elect', 'special', 'assembly']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.54395840034309,0.5080324753843496
+42,0,"['russia', 'respond', 'angrily', 'us', 'congressional', 'vote', 'impose', 'new', 'sanction']",0.375,0.0,0.0,0.0,0.0,0.4666666666666667,0.4432829419963549,0.5315253066159958
+43,0,"['parts', 'french', 'riviera', 'evacuate', 'forest', 'fire', 'burn', 'swathe', 'land', 'threaten', 'thousand', 'people', 'police', 'say']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.5062989171223329,0.38383140438763175
+44,0,"['florida', 'police', 'department', 'recommend', 'charge', 'teen', 'taunt', 'drown', 'man', 'record', 'death']",0.625,0.0,0.0,0.0,0.0,0.4,0.5597190951002464,0.6096044221799966
+45,0,"['american', 'muslims', 'grow', 'liberal', 'survey', 'show']",0.0,0.0,0.0,0.0,0.0,0.1333333333333333,0.7466763160716201,0.24684746933840043
+46,0,"['california', 'man', 'face', 'charge', '3', 'deadly', 'snake', 'discover', 'package', 'sent', 'hong', 'kong', 'official', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.38795968693041716,0.45465538089480045
+47,0,"['senate', 'begin', 'debate', 'health', 'care', 'reject', 'previous', 'gop', 'measure', 'repeal', 'replace', 'obamacare']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.54395840034309,0.40646052858870274
+48,0,"['one', 'step', 'closer', 'liberate', 'citizen', 'obamacare', 'nightmare', 'trump', 'say', 'ohio', 'rally']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3871555698509703,0.6717913283814131
+49,0,"['house', 'pass', 'bill', 'would', 'impose', 'new', 'russia', 'sanction', 'limit', 'president', 'power', 'block']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.5080324753843496
+50,0,"['trump', 'say', 'disappoint', 'attorney', 'general', 'jeff', 'sessions', 'decline', 'say', 'would', 'fire']",0.6875,0.0,0.0,0.0,0.0,0.4,0.34250026803902656,0.6717913283814131
+51,0,"['senator', 'vote', 'motion', 'begin', 'debate', 'repeal', 'obamacare']",0.3125,0.0,0.0,0.0,1.0,0.19999999999999996,0.4020585397233838,0.7198134392813959
+52,0,"['trump', 'take', 'question', 'reporter', 'joint', 'news', 'conference', 'lebanese', 'prime', 'minister', 'watch', 'cnn']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.4765197812801545,0.5757471065814476
+53,0,"['john', 'mccain', 'speaks', 'senate', 'vote', 'advance', 'effort', 'dismantle', 'obamacare', 'watch', 'cnn']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.45566634501983505,0.3454828122300916
+54,0,"['senate', 'vote', 'advance', 'effort', 'dismantle', 'obamacare', 'vp', 'pence', 'cast', 'decide', 'vote', 'watch', 'cnn']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.45566634501983505,0.23026429435135604
+55,0,"['john', 'mccain', 'get', 'stand', 'ovation', 'enter', 'senate', 'less', 'week', 'reveal', 'brain', 'cancer']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2814409778063687,0.6045949214026602
+56,0,"['2', 'republican', 'senators', 'vote', 'whether', 'debate', 'health', 'care', 'bill', 'vp', 'pence', 'may', 'need', 'break', 'tie', 'watch', 'cnn']",0.875,0.0,0.0,1.0,0.0,0.2666666666666666,0.1850809477859976,0.3290723786491622
+57,0,"['barbara', 'sinatra', 'former', 'las', 'vegas', 'showgirl', 'last', 'frank', 'sinatra', 'four', 'wife', 'die', 'age', '90']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.20102926986169178,0.5182242183451373
+58,0,"['simpsons', 'creator', 'matt', 'groening', 'team', 'netflix', 'new', 'animated', 'comedy', 'fantasy', 'series', 'adult']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.4318376755655624,0.5757471065814476
+59,0,"['brain', 'disease', 'cte', 'find', '99', 'deceased', 'nfl', 'player', 'brain', 'donate', 'science', 'say', 'major', 'new', 'study']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.2814409778063687,0.43185351528761445
+60,0,"['us', 'navy', 'ship', 'fire', 'warn', 'shot', 'armed', 'iranian', 'patrol', 'boat', 'persian', 'gulf', 'us', 'defense', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.26803902648225586,0.3454828122300916
+61,0,"['two', 'main', 'rival', 'libya', 'power', 'struggle', 'agree', 'ceasefire', 'fresh', 'election', 'peace', 'talk']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.47987562618759716
+62,0,"['shooting', 'israeli', 'embassy', 'leave', '2', 'dead', 'spark', 'argument', 'furniture', 'delivery', 'jordan', 'official', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.49139594724991964,0.47987562618759716
+63,0,"['killer', 'whale', 'last', 'bear', 'captivity', 'seaworld', 'die', 'serious', 'health', 'problem', 'park', 'say']",0.6875,0.0,0.0,1.0,0.0,0.19999999999999996,0.41696150959579725,0.47987562618759716
+64,0,"['sri', 'lanka', 'face', 'unprecedented', 'dengue', 'fever', 'outbreak', '296', 'death', 'amp', '100k', 'case', '2017', 'red', 'cross', 'say']",0.75,0.0,0.0,0.0,0.0,0.4666666666666667,0.3597351774418356,0.2727586802556573
+65,0,"['sexual', 'transmission', 'hiv', 'negligible', 'someone', 'treatment', 'new', 'research', 'present', 'aids', 'conference', 'say']",0.625,0.0,0.0,0.0,0.0,0.4,0.5912672885172081,0.5080324753843496
+66,0,"['missile', 'launch', 'kodiak', 'alaska', 'facility', 'expect', 'weekend', 'accord', 'us', 'coast', 'guard']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.6096044221799966
+67,0,"['videos', 'obtain', 'cnn', 'suggest', 'russian', 'government', 'may', 'arm', 'taliban', 'afghanistan']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.49139594724991964,0.5757471065814476
+68,0,"['israel', 'remove', 'metal', 'detector', 'instal', 'holy', 'site', 'jerusalem', 'attack', 'nearly', 'two', 'week', 'ago']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.34845073442693253,0.6045949214026602
+69,0,"['mccain', 'return', 'ahead', 'tuesday', 'health', 'care', 'vote', 'first', 'time', 'since', 'brain', 'tumor', 'surgery']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.23614238233086748,0.4935221972706858
+70,0,"['us', 'say', 'ballistic', 'missile', 'equipment', 'see', 'arrive', 'kusong', 'north', 'korea', 'signal', 'launch', 'could', 'occur', 'within', 'day']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4765197812801545,0.19191570219381587
+71,0,"['federal', 'judge', 'allow', 'president', 'trump', 'election', 'integrity', 'commission', 'resume', 'collect', 'voter', 'data', 'state']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.7951913798649084,0.23026429435135604
+72,0,"['trump', 'say', 'tuesday', 'health', 'care', 'vote', 'chance', 'gop', 'keep', 'promise', 'end', 'obamacare', 'nightmare']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.23614238233086748,0.6581447572983244
+73,0,"['rudy', 'giuliani', 'hail', 'ag', 'sessions', 'decision', 'recuse', 'russia', 'probe', 'say', 'contender', 'replace']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.331510667953254,0.5455173605113146
+74,0,"['president', 'trump', 'make', 'case', 'soon', 'health', 'care', 'tuesday', 'senate', 'vote', 'loom', 'watch', 'cnn']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.24439798434652094,0.40646052858870274
+75,0,"['rare', 'public', 'remark', 'trump', 'adviser', 'jared', 'kushner', 'say', 'action', 'proper', 'campaign']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.2891873056717058,0.5455173605113146
+76,0,"['10th', 'victim', 'find', 'inside', 'sweltering', 'texas', 'parking', 'lot', 'die', 'authority', 'say']",0.5,0.0,0.0,1.0,0.0,0.5333333333333333,0.5628819556127371,0.3454828122300916
+77,0,"['parents', 'terminally', 'ill', 'british', 'baby', 'charlie', 'gard', 'drop', 'legal', 'fight', 'bring', 'son', 'us', 'treatment']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3127211321968477,0.38383140438763175
+78,0,"['several', 'people', 'injure', 'chainsaw', 'attack', 'northern', 'switzerland']",0.125,0.0,0.0,0.0,0.0,0.33333333333333326,0.8487991851613594,0.38383140438763175
+79,0,"['polish', 'president', 'veto', 'controversial', 'judicial', 'reform', 'protest']",0.125,0.0,0.0,0.0,0.0,0.4666666666666667,0.9083574568457167,0.38383140438763175
+80,0,"['driver', 'turned', 'deadly', 'transporter', 'undocumented', 'migrant', 'face', 'criminal', 'charge', 'court']",0.5625,0.0,0.0,0.0,0.0,0.5333333333333333,0.7036024445159215,0.539816894109518
+81,0,"['sri', 'lankan', 'naval', 'patrol', 'rescue', 'two', 'distressed', 'elephant', 'strand', 'sea', 'national', 'navy', 'say']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.5552160394553447,0.1233373639661427
+82,0,"['least', '24', 'people', 'kill', 'car', 'bomb', 'attack', 'kabul', 'afghan', 'interior', 'ministry', 'spokesman', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.2978181623244345,0.47987562618759716
+83,0,"['trump', 'administration', 'transfer', 'foreign', 'terror', 'suspect', 'us', 'trial', 'federal', 'court']",0.375,0.0,0.0,0.0,0.0,0.5333333333333333,0.5876219577570496,0.39868716531352566
+84,0,"['death', 'toll', '9', 'dozen', 'people', 'find', 'hot', 'truck', 'texas', 'walmart', 'parking', 'lot', 'official', 'say']",1.0,0.0,0.0,0.0,0.0,0.19999999999999996,0.12235981558914988,0.6759371221281741
+85,0,"['london', 'hospital', 'baby', 'charlie', 'gard', 'treat', 'rare', 'genetic', 'disorder', 'receive', 'death', 'threat']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.5211750830920983,0.5757471065814476
+86,0,"['britain', 'chris', 'froome', 'clinch', 'fourth', 'tour', 'de', 'france', 'victory']",0.1875,0.0,0.0,0.0,0.0,0.1333333333333333,0.5360780529645117,0.1727414061150458
+87,0,"['us', 'golfer', 'jordan', 'spieth', 'win', 'first', 'british', 'open', 'third', 'major', 'championship']",0.375,0.0,0.0,0.0,0.0,0.4,0.4639219470354885,0.2656762826049404
+88,0,"['israel', 'install', 'security', 'camera', 'jerusalem', 'holy', 'site', 'tension', 'edge', 'high']",0.375,0.0,0.0,0.0,0.0,0.7999999999999999,0.8350487831028197,0.2656762826049404
+89,0,"['white', 'house', 'communication', 'director', 'anthony', 'scaramucci', 'say', 'president', 'still', 'unsure', 'russia', 'meddle', 'us', 'election']",0.5625,0.0,0.0,0.0,0.0,0.5333333333333333,0.7371073228262035,0.21592675764380723
+90,0,"['8', 'people', 'find', 'dead', 'back', 'walmart', 'parking', 'lot', 'san', 'antonio', 'official', 'say']",0.875,0.0,0.0,1.0,0.0,0.5333333333333333,0.22335692076766378,0.6581447572983244
+91,0,"['90', 'people', 'hospitalize', 'alcohol', 'intoxication', 'chance', 'rapper', 'concert', 'hartford', 'ct', 'official', 'say']",0.5625,0.0,0.0,1.0,0.0,0.4,0.6365926878953576,0.43185351528761445
+92,0,"['wonder', 'woman', 'sequel', 'announce', 'first', 'film', 'big', 'opening', 'female', 'director']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.41781923448054026,0.6096044221799966
+93,0,"['army', 'soldier', 'indict', 'allegedly', 'attempt', 'provide', 'material', 'support', 'isis', 'justice', 'department', 'say']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.7058271684357242,0.3454828122300916
+94,0,"['john', 'heard', 'best', 'know', 'play', 'dad', 'home', 'alone', 'movie', 'die', 'medical', 'examiner', 'office', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.2891873056717058,0.45465538089480045
+95,0,"['congress', 'strike', 'deal', 'would', 'slap', 'russia', 'new', 'sanction', 'bill', 'likely', 'go', 'trump', 'desk', 'august']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3597351774418356,0.45465538089480045
+96,0,"['linkin', 'park', 'cancel', 'tour', 'frontman', 'chester', 'bennington', 'death']",0.125,0.0,0.0,0.0,0.0,0.33333333333333326,0.7594349737321755,0.19191570219381587
+97,0,"['hawaii', 'test', 'system', 'event', 'north', 'korean', 'nuclear', 'missile', 'strike']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.38530610056824277,0.6477802729314217
+98,0,"['2', 'police', 'officer', 'plead', 'guilty', 'federal', 'racketeering', 'charge', 'admit', 'commit', 'armed', 'robbery']",0.5625,0.0,0.0,1.0,0.0,0.4,0.7371073228262035,0.32389013646571085
+99,0,"['general', 'confirm', 'us', 'stop', 'arm', 'rebel', 'syria', 'say', 'move', 'make', 'appease', 'russia']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.43357992923769717,0.3048885817930558
+100,0,"['new', 'disclosure', 'document', 'show', 'jared', 'kushner', 'ivanka', 'trump', 'asset', 'could', 'worth', '762', 'million']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.5092741503162861,0.23026429435135604
+101,0,"['minneapolis', 'police', 'chief', 'resigns', 'wake', 'last', 'weekend', 'fatal', 'shooting', 'woman', 'call', '911']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.35474965154926563,0.5080324753843496
+102,0,"['cdc', 'warn', 'eat', 'yellow', 'maradol', 'type', 'papaya', 'link', 'salmonella', 'outbreak', '12', 'state']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.4523158571888066,0.43185351528761445
+103,0,"['white', 'house', 'press', 'secretary', 'sean', 'spicer', 'resign', 'accord', 'three', 'white', 'house', 'official']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.6288731639326686,0.1328381413024702
+104,0,"['mueller', 'ask', 'white', 'house', 'save', 'document', 'relate', 'june', '2016', 'meeting', 'include', 'trump', 'russian', 'lawyer']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4161573925163504,0.36362065987217135
+105,0,"['pop', 'singer', 'justin', 'bieber', 'ban', 'perform', 'beijing', 'bad', 'behavior', 'bureau', 'culture', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.27441835531253345,0.5757471065814476
+106,0,"['least', '2', 'people', 'tourist', 'kill', 'earthquake', 'shake', 'greek', 'island', 'kos', 'mayor', 'say']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.24123512383403045,0.6909656244601832
+107,0,"['body', 'spanish', 'surrealist', 'painter', 'salvador', 'dali', 'exhume', 'paternity', 'test']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.44036131660769806,0.6168595612368284
+108,0,"['president', 'trump', 'reshuffle', 'legal', 'team', 'mueller', 'investigation', 'move', 'full', 'steam', 'ahead']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.593518816339659,0.3701848333045431
+109,0,"['hugh', 'freeze', 'resign', 'ole', 'miss', 'head', 'football', 'coach']",0.125,0.0,0.0,0.0,0.0,0.1333333333333333,0.34250026803902656,0.19191570219381587
+110,0,"['linkin', 'park', 'singer', 'chester', 'bennington', 'die', 'age', '41', 'official', 'say', 'death', 'treat', 'possible', 'suicide']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.4318376755655624,0.38383140438763175
+111,0,"['simpson', 'grant', 'parole', 'serve', '9', 'year', 'armed', 'robbery', 'kidnap', 'live', 'coverage']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.49139594724991964,0.3454828122300916
+112,0,"['simpson', 'daughter', 'tell', 'parole', 'board', 'one', 'really', 'know', 'much', 'live', 'coverage']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.34250026803902656,0.5757471065814476
+113,0,"['simpson', 'daughter', 'testify', 'support', 'father', 'parole', 'hearing', 'follow', 'live']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.36855366141310175,0.6477802729314217
+114,0,"['simpson', 'stress', 'nevada', 'parole', 'board', 'never', 'pull', 'gun', 'someone', 'else', 'follow', 'live', 'coverage']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.23614238233086748,0.5757471065814476
+115,0,"['watch', 'live', 'simpson', 'make', 'case', 'parole', '2007', 'robbery', 'kidnap', 'decision', 'expect', 'today']",0.875,0.0,0.0,0.0,0.0,0.2666666666666666,0.22335692076766378,0.6581447572983244
+116,0,"['dozens', 'arrest', 'philippines', 'police', 'crackdown', 'kidnapping', 'gang', 'target', 'rich', 'foreigner', 'manila', 'casino']",0.5,0.0,0.0,0.0,1.0,0.33333333333333326,0.7951913798649084,0.3454828122300916
+117,0,"['hill', 'investigator', 'say', 'facebook', 'hold', 'key', 'answer', 'whether', 'trump', 'campaign', 'collude', 'russia']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.6509595797148067,0.24684746933840043
+118,0,"['texas', 'police', 'seize', '2', 'million', 'liquid', 'meth', 'traffic', 'stop']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.26803902648225586,0.43185351528761445
+119,0,"['baltimore', 'police', 'investigate', 'body', 'camera', 'purport', 'show', 'officer', 'plant', 'evidence', 'scene', 'drug', 'arrest']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.5211750830920983,0.47987562618759716
+120,0,"['south', 'korea', 'postpone', 'propose', 'talk', 'north', 'korea', 'north', 'korea', 'yet', 'say', 'participate']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4161573925163504,0.6363793401278287
+121,0,"['qatar', 'ambassador', 'us', 'say', 'nation', 'live', 'indefinitely', 'ongoing', 'embargo', 'arab', 'state']",0.75,0.0,0.0,0.0,0.0,0.4,0.3738340302348022,0.7274140611504577
+122,0,"['john', 'mccain', 'aggressive', 'brain', 'tumor', 'remove', 'last', 'week', 'doctor', 'tell', 'sanjay', 'gupta']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.33898895679210894,0.40646052858870274
+123,0,"['authorities', 'identify', 'another', 'victim', 'serial', 'killer', 'john', 'wayne', 'gacy']",0.25,0.0,0.0,0.0,0.0,0.33333333333333326,0.6457328186984024,0.3140438763171532
+124,0,"['united', 'airlines', 'say', 'number', 'passenger', 'involuntary', 'bump', 'flight', '85', 'since', 'incident']",0.5,0.0,0.0,0.0,0.0,0.7333333333333333,0.8487991851613594,0.3454828122300916
+125,0,"['supreme', 'court', 'leave', 'place', 'temporary', 'travel', 'ban', 'exemption', 'grandparent', 'relative']",0.4375,0.0,0.0,0.0,0.0,0.4,0.6700975662056394,0.4935221972706858
+126,0,"['trump', 'ask', 'republican', 'senator', 'leave', 'town', 'august', 'recess', 'without', 'pass', 'health', 'care', 'reform', 'plan']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.43028304921196514,0.45465538089480045
+127,0,"['saudi', 'police', 'say', 'release', 'woman', 'detain', 'wear', 'miniskirt', 'viral', 'video']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.4977752760801972,0.3701848333045431
+128,0,"['tv', 'rating', '40', 'us', 'women', 'open', 'hold', 'trump', 'golf', 'course', 'attend', 'president']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.19357778492548516,0.5757471065814476
+129,0,"['china', 'warn', 'neighbor', 'india', 'withdraw', 'troop', 'dispute', 'doklam', 'border', 'area', 'standoff', 'enters', 'fifth', 'week']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5597190951002464,0.3048885817930558
+130,0,"['hundreds', 'german', 'choir', 'boys', 'allegedly', 'abused', 'report', 'say']",0.125,0.0,0.0,0.0,0.0,0.19999999999999996,0.5509810228369252,0.19191570219381587
+131,0,"['electronic', 'device', 'flight', 'subject', 'extra', 'scrutiny']",0.125,0.0,0.0,0.0,0.0,0.2666666666666666,0.7296558378899967,0.38383140438763175
+132,0,"['missing', 'swiss', 'couple', 'find', 'frozen', 'alps', '75', 'year']",0.1875,0.0,0.0,0.0,0.0,0.06666666666666665,0.3216468317787071,0.3454828122300916
+133,0,"['trump', 'putin', 'meet', 'second', 'time', 'g20', 'summit', 'previously', 'undisclosed', 'talk', 'white', 'house', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.33333333333333326,0.3350487831028197,0.5182242183451373
+134,0,"['mitch', 'mcconnell', 'say', 'senate', 'hold', 'procedural', 'vote', 'repeal', 'obamacare', 'without', 'replacement', 'early', 'next', 'week']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.49139594724991964,0.38383140438763175
+135,0,"['ohio', 'prosecutor', 'wo', 'pursue', '3rd', 'attempt', 'try', 'officer', 'ray', 'tensing', 'fatal', 'shooting', 'unarmed', 'black', 'motorist']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4161573925163504,0.36362065987217135
+136,0,"['trump', 'say', 'plan', 'let', 'obamacare', 'fail', '3', 'republicans', 'say', 'vote', 'bill']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.2891873056717058,0.5455173605113146
+137,0,"['white', 'house', 'staff', 'worry', 'jared', 'kushner', 'wo', 'grant', 'final', 'security', 'clearance', 'administration', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.5333333333333333,0.6070279832743648,0.3048885817930558
+138,0,"['police', 'saudi', 'arabia', 'say', 'woman', 'appear', 'viral', 'video', 'wear', 'miniskirt', 'detain']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.2468907472928059,0.7274140611504577
+139,0,"['special', 'counsel', 'investigator', 'want', 'hear', '8th', 'person', 'trump', 'russia', 'meet', 'person', 'lawyer', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.4318376755655624,0.38383140438763175
+140,0,"['russia', 'say', 'right', 'retaliate', 'dispute', 'compound', 'seize', 'us', 'alleged', 'election', 'meddling']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.7274140611504577
+141,0,"['celebrity', 'defector', 'return', 'north', 'korea', 'star', 'propaganda', 'video']",0.1875,0.0,0.0,0.0,0.0,0.2666666666666666,0.6164897609091884,0.3454828122300916
+142,0,"['cnn', 'get', 'exclusive', 'access', 'navy', 'test', 'world', 'first', 'laser', 'weapon']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.1497802079982844,0.5080324753843496
+143,0,"['former', 'mexican', 'president', 'vicente', 'fox', 'tell', 'cnn', 'surprise', 'ban', 'venezuela', 'visit']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.44674064543797565,0.5757471065814476
+144,0,"['woman', 'fatally', 'shoot', 'minneapolis', 'police', 'call', '911', 'report', 'possible', 'sexual', 'assault', 'source', 'say']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.3174118151602874,0.5455173605113146
+145,0,"['jordanian', 'soldier', 'receive', 'life', 'sentence', 'hard', 'labor', '2016', 'killing', '3', 'green', 'berets', 'entrance', 'airbase']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.43028304921196514,0.45465538089480045
+146,0,"['delta', 'hit', 'back', 'call', 'public', 'attack', 'worker', 'customer', 'ann', 'coulter', 'seat']",0.9375,0.0,0.0,0.0,0.0,0.19999999999999996,0.17058003645330766,0.7851096907928831
+147,0,"['spanish', 'police', 'arrest', '65', 'people', 'horsemeat', 'scam', 'europol', 'say']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.5360780529645117,0.2879599239937813
+148,0,"['officials', 'investigate', 'shoot', 'death', 'australian', 'woman', 'kill', 'minneapolis', 'police', 'officer']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.7058271684357242,0.5757471065814476
+149,0,"['columbia', 'university', 'settle', 'lawsuit', 'file', 'student', 'handling', 'sexual', 'assault', 'allegation']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.5211750830920983,0.7676628087752635
+150,0,"['south', 'korea', 'propose', 'military', 'talk', 'north', 'korea', 'attempt', 'defuse', 'rise', 'tension', 'korean', 'peninsula']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.49139594724991964,0.47987562618759716
+151,0,"['9', 'people', 'dead', '1', 'miss', 'flash', 'flooding', 'sweep', 'away', 'family', 'swim', 'hole', 'arizona', 'police', 'say']",0.9375,0.0,0.0,1.0,0.0,0.1333333333333333,0.1949447839605445,0.5496631542580757
+152,0,"['martin', 'landau', 'publicist', 'say', 'actor', 'die', 'unexpected', 'complication', 'hospitalize', 'la']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.777313176798542,0.4607013301088271
+153,0,"['actor', 'martin', 'landau', 'star', '1960s', 'tv', 'show', 'mission', 'impossible', 'die', '89']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.2769647260641148,0.4607013301088271
+154,0,"['george', 'romero', 'filmmaker', 'behind', 'horror', 'flick', 'night', 'living', 'dead', 'die', '77']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.2891873056717058,0.6363793401278287
+155,0,"['least', '16', 'hindu', 'pilgrim', 'kill', 'bus', 'crash', 'plummet', 'gorge', 'kashmir', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3216468317787071,0.6909656244601832
+156,0,"['doctor', 'get', 'first', 'female', 'lead', 'bbc', 'say', 'jodie', 'whittaker', 'star', 'series']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.25463707515814304,0.5182242183451373
+157,0,"['sentence', '10', 'year', 'spy', 'iran', 'say', 'without', 'reveal', 'person', 'identity']",0.625,0.0,0.0,0.0,0.0,0.6,0.5281977055859333,0.6096044221799966
+158,0,"['roger', 'federer', 'crush', 'marin', 'cilic', 'win', 'record', 'eighth', 'wimbledon', 'men', 'tennis', 'title', '19th', 'grand', 'slam']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.41781923448054026,0.20314389359129384
+159,0,"['uk', 'considers', 'increase', 'penalty', 'acid', 'attack', 'life', 'sentence', 'string', 'weekend', 'attack']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.41781923448054026,0.6096044221799966
+160,0,"['senate', 'delay', 'debate', 'gop', 'health', 'bill', 'mccain', 'recovers', 'surgery', 'majority', 'leader', 'mcconnell', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.38383140438763175
+161,0,"['john', 'mccain', 'surgery', 'remove', 'blood', 'clot', 'left', 'eye', 'statement', 'mccain', 'office', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.22783317250991741,0.6045949214026602
+162,0,"['trump', 'appoint', 'white', 'house', 'special', 'counsel', 'expect', 'oversee', 'legal', 'response', 'russia', 'investigation']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.5062989171223329,0.5757471065814476
+163,0,"['garbine', 'muguruza', 'beat', 'venus', 'williams', 'win', 'first', 'wimbledon', 'title']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.38144633858689825,0.2656762826049404
+164,0,"['2', 'woman', 'kill', 'knife', 'attack', 'egyptian', 'red', 'sea', 'town', 'hurghada', 'german', 'germany', 'foreign', 'ministry', 'say']",0.75,0.0,0.0,1.0,0.0,0.1333333333333333,0.3597351774418356,0.36362065987217135
+165,0,"['honolulu', 'official', 'say', 'apartment', 'deadly', 'blaze', 'start', 'sprinkler']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.5986115578428219,0.6909656244601832
+166,0,"['3', 'people', 'die', 'fire', 'residential', 'building', 'honolulu', 'mayor', 'say']",0.5625,0.0,0.0,1.0,0.0,0.33333333333333326,0.2847914656373969,0.6477802729314217
+167,0,"['trump', 'administration', 'ask', 'supreme', 'court', 'resolve', 'uncertainty', 'surround', 'travel', 'ban']",0.25,0.0,0.0,0.0,0.0,0.5333333333333333,0.8650423501661841,0.1570219381585766
+168,0,"['authorities', 'charge', 'two', 'men', 'homicide', 'four', 'young', 'men', 'go', 'miss', 'pennsylvania']",0.625,0.0,0.0,0.0,0.0,0.4,0.3862978449662271,0.6096044221799966
+169,0,"['tulsa', 'officer', 'acquit', 'shoot', 'death', 'unarmed', 'black', 'man', 'announce', 'resign']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.33898895679210894,0.7113491103817585
+170,0,"['two', 'ukrainians', 'kill', '4', 'people', 'injure', 'knife', 'attack', 'red', 'sea', 'resort', 'town', 'egyptian', 'news', 'agency', 'report']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3871555698509703,0.19191570219381587
+171,0,"['judge', 'give', 'ok', 'us', 'doctor', 'develop', 'experimental', 'therapy', 'examine', 'baby', 'charlie', 'gard', 'london']",0.625,0.0,0.0,0.0,0.0,0.4,0.41781923448054026,0.40646052858870274
+172,0,"['jimmy', 'carter', 'discharge', 'winnipeg', 'hospital', 'return', 'habitat', 'humanity', 'project']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.7058271684357242,0.5757471065814476
+173,0,"['two', 'teen', 'arrest', 'series', 'acid', 'attack', 'london', 'police', 'say']",0.5,0.0,0.0,0.0,0.0,0.1333333333333333,0.24123512383403045,0.6909656244601832
+174,0,"['two', 'israeli', 'police', 'officer', 'kill', 'shoot', 'jerusalem', 'old', 'city', 'police', 'say']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.29484292913048127,0.3454828122300916
+175,0,"['fugitive', 'escape', 'federal', 'custody', '25', 'year', 'ago', 'find', 'arrest', 'thanks', 'dmv']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.2531360566098424,0.6717913283814131
+176,0,"['least', '2', 'people', 'seriously', 'injure', 'shooting', 'jerusalem', 'old', 'city', 'israeli', 'police', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.32322826203495225,0.5080324753843496
+177,0,"['pilot', 'allegedly', 'stole', 'helicopter', 'attack', 'venezuela', 'high', 'court', 'appear', 'opposition', 'rally', 'attendee', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.7036024445159215,0.32389013646571085
+178,0,"['man', 'confess', 'involvement', 'murder', 'four', 'miss', 'pennsylvania', 'men', 'lawyer', 'say']",0.4375,0.0,0.0,0.0,0.0,0.4,0.5169400664736787,0.4935221972706858
+179,0,"['christopher', 'fresh', 'kid', 'ice', 'wong', 'founding', 'member', 'rap', 'group', '2', 'live', 'crew', 'die', 'age', '53', 'agent', 'say']",1.0,0.0,0.0,0.0,0.0,0.33333333333333326,0.09906722418784186,0.45068232855415447
+180,0,"['new', 'gop', 'health', 'care', 'bill', 'would', 'allow', 'cheap', 'plan', 'benefit', 'senate', 'leader', 'still', 'look', 'vote']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.4020585397233838,0.2727586802556573
+181,0,"['senate', 'judiciary', 'committee', 'write', 'trump', 'ask', 'testify', 'release', 'email', 'chairman', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.44674064543797565,0.5757471065814476
+182,0,"['first', 'cnn', 'sens', 'graham', 'cassidy', 'unveil', 'detail', 'alternative', 'plan', 'replace', 'obamacare']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4523158571888066,0.539816894109518
+183,0,"['chinese', 'nobel', 'peace', 'prize', 'winner', 'liu', 'xiaobo', 'democracy', 'advocate', 'spend', 'year', 'prison', 'die', 'official', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.36362065987217135
+184,0,"['parents', 'seek', 'take', 'baby', 'charlie', 'gard', 'us', 'medical', 'care', 'storm', 'london', 'court', 'judge', 'comment']",0.8125,0.0,0.0,0.0,0.0,0.06666666666666665,0.29484292913048127,0.5182242183451373
+185,0,"['parents', 'baby', 'charlie', 'gard', 'return', 'britain', 'high', 'court', 'continue', 'fight', 'keep', 'life', 'support']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.2814409778063687,0.6045949214026602
+186,0,"['pres', 'trump', 'land', 'france', 'second', 'trip', 'europe', 'week', 'guest', 'honor', 'bastille', 'day', 'parade']",1.0,0.0,0.0,0.0,0.0,0.1333333333333333,0.11070011793717183,0.6759371221281741
+187,0,"['chuck', 'blazer', 'key', 'help', 'bring', 'fifa', 'official', 'corruption', 'scandal', 'die', '72', 'lawyer', 'say']",0.875,0.0,0.0,0.0,0.0,0.2666666666666666,0.23614238233086748,0.6581447572983244
+188,0,"['body', 'one', 'four', 'miss', 'pennsylvania', 'men', 'find', 'bucks', 'county', 'district', 'attorney', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4,0.4020585397233838,0.43185351528761445
+189,0,"['michigan', 'increase', 'penalty', 'female', 'genital', 'mutilation', 'raise', 'maximum', 'sentence', '15', 'year']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.6164897609091884,0.4607013301088271
+190,0,"['mother', 'murdered', 'bella', 'bond', 'get', 'probation', 'despite', 'help', 'dispose', 'daughter', 'body']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.5807601586791036,0.3454828122300916
+191,0,"['suspect', 'indict', 'kidnapping', 'connection', 'disappearance', 'illinois', 'graduate', 'student', 'china']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.6700975662056394,0.7557436517533253
+192,0,"['brazil', 'luiz', 'inacio', 'lula', 'da', 'silva', 'find', 'guilty', 'corruption', 'case', 'sentence', 'jail']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.46906829634394764,0.32389013646571085
+193,0,"['russian', 'foreign', 'minister', 'say', 'us', 'make', 'elephant', 'fly', 'scrutiny', 'trump', 'email']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.2468907472928059,0.6363793401278287
+194,0,"['steve', 'scalise', 'leave', 'icu', 'month', 'shoot', 'gop', 'baseball', 'practice', 'remain', 'serious', 'condition']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.41696150959579725,0.47987562618759716
+195,0,"['senators', 'grill', 'fbi', 'chief', 'nominee', 'trump', 'email', 'russia', 'meeting']",0.3125,0.0,0.0,0.0,0.0,0.1333333333333333,0.44674064543797565,0.2879599239937813
+196,0,"['senators', 'hold', 'hear', 'fbi', 'director', 'nominee', 'amid', 'russia', 'donald', 'trump', 'turmoil', 'watch', 'cnn']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.4188109788785248,0.21592675764380723
+197,0,"['trump', 'tweet', 'great', 'witch', 'hunt', 'political', 'history', 'defend', 'son', 'controversial', 'release', 'email']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.6533451270504986,0.43185351528761445
+198,0,"['iceberg', 'weigh', 'one', 'trillion', 'ton', 'break', 'away', 'western', 'antarctica']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.47863728958936425,0.6168595612368284
+199,0,"['china', 'dispatch', 'troop', 'djibouti', 'advance', 'formally', 'establish', 'country', 'first', 'overseas', 'military', 'base']",0.5625,0.0,0.0,0.0,0.0,0.4,0.7036024445159215,0.43185351528761445
+200,0,"['questions', 'linger', 'marine', 'corps', 'plane', 'crash', 'mississippi']",0.125,0.0,0.0,0.0,0.0,0.33333333333333326,0.6700975662056394,0.38383140438763175
+201,0,"['trump', 'russia', 'meeting', 'retrospect', 'probably', 'would', 'thing', 'little', 'differently']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.3705371502090704,0.6096044221799966
+202,0,"['house', 'include', 'president', 'trump', 'full', 'billion', 'border', 'wall', 'funding', 'request', '2018', 'budget']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4188109788785248,0.32389013646571085
+203,0,"['israel', 'former', 'defense', 'minister', 'say', 'believe', 'prime', 'minister', 'netanyahu', 'indict', 'corruption', 'charge']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6868500053607804,0.43185351528761445
+204,0,"['robert', 'mueller', 'investigator', 'plan', 'examine', 'meeting', 'email', 'donald', 'trump', 'disclose']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.6126568028304922,0.3701848333045431
+205,0,"['mitch', 'mcconnell', 'delay', 'senate', 'recess', '3rd', 'week', 'august', 'complete', 'work', 'health', 'care', 'bill', 'issue']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.45465538089480045
+206,0,"['four', '10', 'us', 'adult', 'say', 'harass', 'online', 'study', 'pew', 'research', 'center', 'say']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.2847914656373969,0.32389013646571085
+207,0,"['donald', 'trump', 'tweet', 'email', 'chain', 'say', 'meeting', 'russian', 'lawyer']",0.625,0.0,0.0,0.0,1.0,0.06666666666666665,0.22861048568671594,0.7113491103817585
+208,0,"['least', 'seven', 'pilgrim', 'kill', 'indian', 'administer', 'kashmir', 'police', 'confirm']",0.25,0.0,0.0,0.0,0.0,0.4,0.6700975662056394,0.3140438763171532
+209,0,"['local', 'federal', 'authority', 'investigate', 'explosion', 'us', 'air', 'force', 'recruit', 'office', 'bixby', 'oklahoma']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.5597190951002464,0.5080324753843496
+210,0,"['us', 'india', 'japan', 'begin', 'naval', 'exercise']",0.0,0.0,0.0,0.0,0.0,0.19999999999999996,0.3637557628390693,0.24684746933840043
+211,0,"['16', 'people', 'dead', 'military', 'plane', 'crash', 'leflore', 'county', 'mississippi', 'official', 'say']",0.5,0.0,0.0,1.0,0.0,0.33333333333333326,0.38418033665701734,0.4607013301088271
+212,0,"['swat', 'team', 'arrest', 'active', 'duty', 'soldier', 'hawaii', 'charge', 'support', 'isis', 'fbi', 'say']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.2829419963546693,0.5757471065814476
+213,0,"['rafael', 'nadal', 'wimbledon', 'lose', 'gilles', 'muller']",0.3125,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.7198134392813959
+214,0,"['friend', 'ask', 'leak', 'chief', 'comey', 'memo', 'trump', 'meeting', 'say', 'none', 'content', 'mark', 'classified']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.34563632464886895,0.45465538089480045
+215,0,"['mosul', 'completely', 'free', 'isis', 'iraq', 'pm', 'say', 'day', 'declare', 'city', 'liberate']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.2531360566098424,0.6717913283814131
+216,0,"['kellyanne', 'conway', 'clash', 'cnn', 'chris', 'cuomo', 'donald', 'trump', 'meeting', 'russian', 'lawyer']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.5271523533826525,0.3454828122300916
+217,0,"['china', 'say', 'dissident', 'liu', 'xiaobo', 'condition']",0.1875,0.0,0.0,0.0,0.0,0.4,0.6700975662056394,0.3454828122300916
+218,0,"['cardinal', 'george', 'pell', 'top', 'pope', 'adviser', 'arrive', 'australia', 'face', 'sex', 'charge']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.3446177763482363,0.3701848333045431
+219,0,"['red', 'flag', 'warning', 'issue', 'across', '6', 'state', 'west', 'firefighter', 'battle', 'dozen', 'large', 'blaze']",0.625,0.0,0.0,0.0,0.0,0.4,0.4020585397233838,0.40646052858870274
+220,0,"['new', 'york', 'state', 'trooper', 'shoot', 'dead', 'respond', 'domestic', 'dispute', 'police', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.3350487831028197,0.539816894109518
+221,0,"['florida', 'swimmer', 'attack', 'shark', 'authority', 'say']",0.0,0.0,0.0,0.0,0.0,0.33333333333333326,0.7084003430899539,0.24684746933840043
+222,0,"['teen', 'girl', 'nepal', 'die', 'bite', 'snake', 'banish', 'cowshed', 'menstruation', 'ritual']",0.8125,0.0,0.0,0.0,0.0,0.4,0.2814409778063687,0.8637070305752289
+223,0,"['70', 'firefighter', 'battle', 'large', 'blaze', 'london', 'tourist', 'attraction', 'camden', 'market', 'fire', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4,0.5863353704299346,0.32389013646571085
+224,0,"['john', 'mccain', 'say', 'gop', 'bill', 'repeal', 'replace', 'obamacare', 'probably', 'die']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.3254797898574031,0.3701848333045431
+225,0,"['adam', 'schiff', 'question', 'whether', 'trump', 'press', 'putin', 'hard', 'election', 'meddling', 'g20', 'summit']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.4735445480862015,0.23026429435135604
+226,0,"['iraq', 'leader', 'claim', 'victory', 'isis', 'mosul', 'report', 'say', 'militant', 'hold', 'one', 'neighborhood']",0.75,0.0,0.0,0.0,0.0,0.4,0.38795968693041716,0.6363793401278287
+227,0,"['wounded', 'officer', 'lawsuit', 'allege', 'black', 'lives', 'matter', 'leader', 'responsible', 'baton', 'rouge', 'ambush']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.5062989171223329,0.5757471065814476
+228,0,"['hundreds', 'home', 'santa', 'barbara', 'ca', 'evacuation', 'order', 'due', 'wildfire', 'official', 'say']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.41696150959579725,0.5757471065814476
+229,0,"['venezuela', 'release', 'opposition', 'leader', 'leopoldo', 'lopez', 'house', 'arrest', 'due', 'health', 'concern', 'detain', '2014']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.5062989171223329,0.47987562618759716
+230,0,"['trump', 'urge', 'action', 'north', 'korea', 'meet', 'chinese', 'president', 'xi', 'jinping']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.42267074085986933,0.39868716531352566
+231,0,"['merkel', 'rebuke', 'trump', 'stance', 'climate', 'change', 'say', 'deplore', 'decision', 'pull', 'paris', 'climate', 'accord']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.4020585397233838,0.5455173605113146
+232,0,"['nba', 'player', 'taj', 'gibson', 'arrest', 'week', 'new', 'york', 'drive', 'suspended', 'license', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.2750884528787392,0.5455173605113146
+233,0,"['american', 'tourist', 'allegedly', 'beat', 'death', 'group', '10', 'men', 'visit', 'greek', 'island', 'state', 'medium', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2814409778063687,0.5182242183451373
+234,0,"['two', 'us', 'lancer', 'bomber', 'fly', 'korean', 'peninsula', 'response', 'north', 'korean', 'missile', 'nuke', 'threat', 'us', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3082448804545943,0.3454828122300916
+235,0,"['video', 'show', 'venus', 'williams', 'drive', 'lawfully', 'enter', 'intersection', 'fatal', 'crash', 'occur', 'police', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4,0.4765197812801545,0.47987562618759716
+236,0,"['white', 'house', 'surprise', 'mcconnell', 'suggestion', 'gop', 'might', 'need', 'work', 'democrats', 'prop', 'obamacare']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4161573925163504,0.5455173605113146
+237,0,"['police', 'fire', 'teargas', 'g20', 'protester', 'crowd', 'grow', 'aggressive', 'setting', 'fire', 'loot', 'champagne']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5528304921196525,0.43185351528761445
+238,0,"['us', 'official', 'denies', 'russian', 'claim', 'trump', 'accept', 'putin', 'assurance', 'russia', 'interfere', 'us', 'election']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.54395840034309,0.40646052858870274
+239,0,"['trump', 'putin', 'agree', 'ceasefire', 'southwest', 'syria', 'secretary', 'state', 'tillerson', 'say', 'watch', 'cnn']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4523158571888066,0.43185351528761445
+240,0,"['trump', 'speak', 'length', 'putin', 'election', 'meddle', 'secretary', 'state', 'tillerson', 'say', 'watch', 'cnn']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.48582073549908866,0.43185351528761445
+241,0,"['president', 'trump', 'russian', 'president', 'putin', 'conclude', 'g20', 'meeting', 'talk', 'two', 'hour', 'watch', 'cnn']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4765197812801545,0.47987562618759716
+242,0,"['trump', 'putin', 'hold', 'meeting', 'sideline', 'g20', 'watch', 'cnn']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.23825989064007702,0.8637070305752289
+243,0,"['trump', 'putin', 'photograph', 'shake', 'hand', 'brief', 'encounter', 'ahead', 'g20', 'meeting']",0.4375,0.0,0.0,0.0,0.0,0.4,0.4977752760801972,0.4935221972706858
+244,0,"['side', 'rest', 'former', 'sheriff', 'joe', 'arpaio', 'criminal', 'contempt', 'trial', 'judge', 'expect', 'rule', 'next', 'week']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.3597351774418356,0.45465538089480045
+245,0,"['man', 'arrest', 'attack', 'delta', 'flight', 'attendant', 'official', 'say', 'earlier', 'report', 'say', 'try', 'enter', 'cockpit']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5597190951002464,0.3048885817930558
+246,0,"['gonorrhea', 'bacteria', 'become', 'hard', 'case', 'impossible', 'treat', 'antibiotic', 'say']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4651281226546584,0.8129210571774055
+247,0,"['delta', 'flight', 'beijing', 'return', 'seattle', 'passenger', 'try', 'enter', 'cockpit', 'people', 'familiar', 'incident', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.5211750830920983,0.47987562618759716
+248,0,"['ohio', 'man', 'plead', 'guilty', 'try', 'join', 'isis', 'us', 'department', 'justice', 'say']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.22335692076766378,0.4607013301088271
+249,0,"['budget', 'stalemate', 'illinois', 'finally', 'house', 'vote', 'override', 'governor', 'veto']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4318376755655624,0.7676628087752635
+250,0,"['russian', 'spy', 'ramp', 'effort', 'us']",0.25,0.0,0.0,0.0,0.0,0.9999999999999999,0.6213680711911655,0.7851096907928831
+251,0,"['bill', 'cosby', 'retrial', 'set', 'begin', 'november', '6', 'judge', 'rule', 'last', 'case', 'end', 'mistrial']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.19044172831564277,0.5455173605113146
+252,0,"['german', 'riot', 'police', 'use', 'water', 'cannon', 'clash', 'protester', 'ahead', 'g20', 'summit', 'trump', 'world', 'leader']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.41696150959579725,0.38383140438763175
+253,0,"['microsoft', 'slash', 'thousand', 'job', 'mostly', 'sale', 'position', 'outside', 'us', 'part', 'major', 'reorganization']",0.625,0.0,0.0,0.0,0.0,0.5333333333333333,0.5281977055859333,0.5080324753843496
+254,0,"['trump', 'say', 'nobody', 'really', 'know', 'sure', 'russia', 'meddle', 'election']",0.3125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3573764340087917,0.43185351528761445
+255,0,"['mom', 'question', 'police', '4', 'child', 'father', 'find', 'fatally', 'stab', 'fifth', 'child', 'find', 'injury']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.4765197812801545,0.47987562618759716
+256,0,"['tv', 'shopping', 'network', 'qvc', 'corporate', 'owner', 'buy', 'longtime', 'rival', 'home', 'shopping', 'network', 'stock']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.44936742789750195,0.3048885817930558
+257,0,"['trump', 'say', 'one', 'really', 'know', 'sure', 'russia', 'meddle', 'election']",0.375,0.0,0.0,0.0,0.0,0.1333333333333333,0.2371073228262035,0.5315253066159958
+258,0,"['earthquake', 'hit', 'western', 'montana', 'usgs', 'say']",0.0625,0.0,0.0,1.0,0.0,0.33333333333333326,0.7036024445159215,0.21592675764380723
+259,0,"['trump', 'chide', 'north', 'korea', 'recent', 'missile', 'test', 'say', 'behave', 'dangerous', 'manner']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3174118151602874,0.7274140611504577
+260,0,"['earthquake', 'strike', 'central', 'philippines', 'accord', 'usgs', 'tsunami', 'warning', 'place']",0.4375,0.0,0.0,1.0,0.0,0.33333333333333326,0.7084003430899539,0.4935221972706858
+261,0,"['qatar', 'airways', 'say', 'us', 'ban', 'electronic', 'device', 'large', 'smartphone', 'cabin', 'lift', 'thursday']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3573764340087917,0.5757471065814476
+262,0,"['steve', 'scalise', 'readmitted', 'intensive', 'care', '3', 'week', 'shot', 'due', 'infection', 'concern', 'office', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.45465538089480045
+263,0,"['responsible', 'shoot', 'mh17', 'prosecute', 'netherlands', 'official', 'say', 'suspect', 'identify']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.8129210571774055
+264,0,"['hobby', 'lobby', 'pay', 'fine', 'forfeit', 'thousand', 'artifact', 'smuggle', 'us', 'iraq', 'doj', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.23825989064007702,0.5757471065814476
+265,0,"['prosecutor', 'say', 'man', 'charge', 'kidnap', 'chinese', 'graduate', 'student', 'tap', 'explain', 'abduct']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5597190951002464,0.6096044221799966
+266,0,"['us', 'ambassador', 'haley', 'say', 'military', 'action', 'response', 'north', 'korea', 'missile', 'test', 'remain', 'table']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.4765197812801545,0.38383140438763175
+267,0,"['confirmation', 'hearing', 'christopher', 'wray', 'president', 'trump', 'pick', 'fbi', 'director', 'set', 'july', '12']",0.5625,0.0,0.0,0.0,0.0,0.4,0.46906829634394764,0.43185351528761445
+268,0,"['man', 'accuse', 'stab', 'officer', 'yell', 'allahu', 'akbar', 'flint', 'michigan', 'airport', 'indict']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.4318376755655624,0.6717913283814131
+269,0,"['two', 'venezuelan', 'lawmaker', 'reportedly', 'hurt', 'clash', 'outside', 'congress', 'country', 'mark', 'independence', 'day']",0.5,0.0,0.0,0.0,0.0,0.4,0.7058271684357242,0.3454828122300916
+270,0,"['north', 'korea', 'late', 'missile', 'type', 'us', 'official', 'say', 'focus', 'use', 'second', 'stage']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.14677817090168332,0.6581447572983244
+271,0,"['us', 'soldier', 'wasilla', 'alaska', 'kill', 'indirect', 'fire', 'attack', 'afghanistan']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.6477802729314217
+272,0,"['uk', 'police', 'say', 'find', 'last', 'visible', 'remains', 'inside', 'grenfell', 'tower', 'site', 'last', 'month', 'fire']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.3871555698509703,0.19191570219381587
+273,0,"['new', 'york', 'police', 'officer', 'shoot', 'head', 'die', 'hospital', 'authority', 'say']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.21284979092955947,0.7113491103817585
+274,0,"['officer', 'critical', 'condition', 'shoot', 'head', 'new', 'york', 'police', 'department', 'say']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.2829419963546693,0.7676628087752635
+275,0,"['4', 'arab', 'state', 'diplomatic', 'standoff', 'qatar', 'say', 'response', 'demand', 'saudi', 'state', 'medium', 'say']",0.8125,0.0,0.0,1.0,0.0,0.2666666666666666,0.3082448804545943,0.6045949214026602
+276,0,"['icbm', 'launch', 'escalate', 'north', 'korean', 'threat', 'require', 'global', 'action', 'secretary', 'state', 'rex', 'tillerson', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.54395840034309,0.3048885817930558
+277,0,"['us', 'south', 'korean', 'military', 'conduct', 'joint', 'exercise', 'counteract', 'north', 'korea', 'action', 'us', 'army', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.43357992923769717,0.3048885817930558
+278,0,"['us', 'expert', 'think', 'probable', 'north', 'korea', 'launch', 'icbm', 'step', 'toward', 'gain', 'capability', 'strike', 'us']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.38795968693041716,0.36362065987217135
+279,0,"['vatican', 'hospital', 'rome', 'offer', 'take', 'infant', 'whose', 'parent', 'lose', 'legal', 'appeal', 'keep', 'life', 'support']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.27441835531253345,0.5757471065814476
+280,0,"['officials', 'weigh', 'option', 'measure', 'response', 'us', 'confirm', 'north', 'korea', 'test', 'missile', 'source', 'say']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.6365926878953576,0.21592675764380723
+281,0,"['white', 'house', 'say', 'trump', 'g20', 'meeting', 'putin', 'formal', 'bilateral', 'rather', 'brief']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.5455173605113146
+282,0,"['maine', 'governor', 'sign', 'new', 'budget', 'end', 'government', 'shutdown']",0.25,0.0,0.0,0.0,0.0,0.2666666666666666,0.5726385761766914,0.3140438763171532
+283,0,"['41', 'state', 'defy', 'trump', 'administration', 'request', 'private', 'voter', 'info', 'cnn', 'inquiry', '50', 'state', 'find']",0.75,0.0,0.0,1.0,0.0,0.6,0.4020585397233838,0.45465538089480045
+284,0,"['new', 'jersey', 'budget', 'deadlock', 'break', 'beaches', 'park', 'close', 'open', 'fourth']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.2891873056717058,0.8182760407669719
+285,0,"['north', 'korea', 'launch', 'ballistic', 'missile', 'jet', 'water', 'east', 'korean', 'peninsula', 'south', 'korea', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.44674064543797565,0.47987562618759716
+286,0,"['spacex', 'scrub', 'second', 'try', 'launch', 'falcon', '9', 'rocket', 'carry', 'communication', 'satellite']",0.3125,0.0,0.0,0.0,0.0,0.5333333333333333,0.7594349737321755,0.14389359129383314
+287,0,"['federal', 'reserve', 'chair', 'janet', 'yellen', 'hospitalize', 'three', 'night', 'london', 'release', 'monday', 'fed', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.47987562618759716
+288,0,"['silicon', 'valley', 'investor', 'resigns', 'report', 'say', 'make', 'inappropriate', 'advance', 'toward', 'female', 'job', 'candidate']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.777313176798542,0.23026429435135604
+289,0,"['fox', 'sports', 'oust', 'president', 'jamie', 'horowitz', 'attorney', 'pledge', 'defend', 'slanderous', 'accusation']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6700975662056394,0.539816894109518
+290,0,"['police', 'kill', 'arm', 'man', 'try', 'steal', 'helicopter', 'engine', 'run', 'airport', 'near', 'portland', 'authority', 'say']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.4765197812801545,0.38383140438763175
+291,0,"['3', 'major', 'us', 'automaker', 'report', 'sharp', 'decline', 'june', 'sale', 'compare', 'year', 'ago']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.19708909617240256,0.5080324753843496
+292,0,"['ten', 'people', 'take', 'hospital', 'taxi', 'struck', 'pedestrian', 'east', 'boston', 'police', 'interview', 'driver']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.5757471065814476
+293,0,"['developing', 'pedestrians', 'strike', 'vehicle', 'east', 'boston', 'injury', 'report']",0.3125,0.0,0.0,0.0,0.0,0.33333333333333326,0.6030878095850756,0.5757471065814476
+294,0,"['venus', 'williams', 'break', 'tear', 'wimbledon', 'win', 'ask', 'involvement', 'fatal', 'car', 'crash']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.43357992923769717,0.6096044221799966
+295,0,"['man', 'charge', 'plot', 'assassinate', 'french', 'president', 'macron', 'bastille', 'day', 'event', 'trump', 'guest', 'honor']",0.8125,0.0,0.0,0.0,0.0,0.33333333333333326,0.34845073442693253,0.6045949214026602
+296,0,"['11', 'confirm', 'dead', 'another', 'seven', 'people', 'still', 'miss', 'follow', 'bus', 'crash', 'bavaria', 'german', 'official', 'say']",0.625,0.0,0.0,1.0,0.0,0.19999999999999996,0.48088881741181533,0.20314389359129384
+297,0,"['police', 'say', 'shoot', 'leave', '8', 'slightly', 'wound', 'southern', 'france', 'terrorism', 'nearby', 'mosque', 'target']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.38795968693041716,0.5455173605113146
+298,0,"['uk', 'government', 'aware', 'plan', 'trump', 'visit', 'despite', 'medium', 'report', 'stop', 'scotland', 'g20', 'meeting']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.3216468317787071,0.5182242183451373
+299,0,"['several', 'people', 'kill', '17', 'miss', 'collision', 'bus', 'truck', 'bavaria', 'german', 'government', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.4651281226546584,0.5080324753843496
+300,0,"['suicide', 'bomber', 'kill', 'least', '14', 'camp', 'internally', 'displaced', 'people', 'iraq', 'isis', 'claim', 'responsibility']",0.6875,0.0,0.0,0.0,0.0,0.5333333333333333,0.4318376755655624,0.47987562618759716
+301,0,"['amtrak', 'train', 'derails', 'near', 'golf', 'course', 'washington', 'state']",0.125,0.0,0.0,0.0,0.0,0.2666666666666666,0.5211750830920983,0.19191570219381587
+302,0,"['government', 'service', 'maine', 'new', 'jersey', 'shut', 'lawmaker', 'state', 'fail', 'pass', 'budget']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.37227940388120495,0.6717913283814131
+303,0,"['recent', 'ebola', 'outbreak', 'democratic', 'republic', 'congo', 'world', 'health', 'organization', 'say']",0.4375,0.0,0.0,0.0,0.0,0.4,0.574380829848826,0.4935221972706858
+304,0,"['death', 'toll', 'rise', 'least', '20', 'suicide', 'bomb', 'attack', 'damascus', 'syrian', 'foreign', 'ministry', 'say']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.30746756727779556,0.40646052858870274
+305,0,"['suspect', 'pa', 'road', 'rage', 'killing', 'recent', 'high', 'school', 'graduate', 'surrender', 'authority', 'face', 'murder', 'charge']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5281977055859333,0.3048885817930558
+306,0,"['trump', 'punch', 'cnn', 'juvenile', 'tweet', 'cnn', 'call', 'sad', 'day', 'president', 'encourage', 'violence', 'reporter']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.5455173605113146
+307,0,"['former', 'israeli', 'prime', 'minister', 'ehud', 'olmert', 'leave', 'prison', 'serve', '16', 'month', 'corruption', 'charge']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.6164897609091884,0.23026429435135604
+308,0,"['suicide', 'bomber', 'blow', 'central', 'damascus', 'killing', 'wound', 'several', 'people', 'syrian', 'state', 'tv', 'report']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.4765197812801545,0.47987562618759716
+309,0,"['manny', 'pacquiao', 'lose', 'wbo', 'welterweight', 'title', 'australian', 'jeff', 'horn', 'shock', 'defeat', 'philippines', 'boxer']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.47987562618759716
+310,0,"['body', 'boy', 'miss', 'since', 'april', 'find', 'la', 'county', 'sheriff', 'dept', 'say', 'father', 'hold', 'suspicion', 'murder']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.29484292913048127,0.43185351528761445
+311,0,"['patient', 'barricade', 'door', 'iv', 'machine', 'staff', 'hid', 'patient', 'bathrooms', 'heroism', 'nyc', 'hospital', 'shooting']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.5062989171223329,0.47987562618759716
+312,0,"['bronx', 'hospital', 'shooter', 'seek', 'source', 'say']",0.1875,0.0,0.0,0.0,0.0,0.33333333333333326,0.6700975662056394,0.3454828122300916
+313,0,"['25', 'shot', 'early', 'saturday', 'nightclub', 'little', 'rock', 'arkansas', 'police', 'say']",0.375,0.0,0.0,1.0,0.0,0.19999999999999996,0.2989707301383082,0.39868716531352566
+314,0,"['trump', 'launch', 'new', 'twitter', 'attack', 'msnbc', 'despite', 'day', 'bipartisan', 'criticism', 'initial', 'attack']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5755065937600514,0.40646052858870274
+315,0,"['man', 'arrest', 'connection', 'disappearance', 'chinese', 'grad', 'student', 'last', 'see', 'june', '9', 'illinois']",0.875,0.0,0.0,0.0,0.0,0.4666666666666667,0.24890103999142288,0.6581447572983244
+316,0,"['pentagon', 'delay', 'july', '1', 'decision', 'allow', 'transgender', 'people', 'enlist', 'military', 'additional', '6', 'month']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4161573925163504,0.5455173605113146
+317,0,"['china', 'flag', 'raise', 'hong', 'kong', 'city', 'mark', '20', 'year', 'since', 'handover', 'british', 'chinese', 'rule']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.22335692076766378,0.5757471065814476
+318,0,"['shooting', 'suspect', 'bronx', 'hospital', 'identify', 'doctor', 'work', 'law', 'enforcement', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6030878095850756,0.539816894109518
+319,0,"['woman', 'find', 'dead', 'near', 'body', 'new', 'york', 'city', 'hospital', 'shooter', 'official', 'say', 'gunman', 'shot']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.38530610056824277,0.21592675764380723
+320,0,"['shooter', 'dead', 'hospital', 'new', 'york', 'city', 'nypd', 'official', 'tweet', '6', 'people', 'believe', 'hurt']",0.8125,0.0,0.0,0.0,0.0,0.4,0.26803902648225586,0.5182242183451373
+321,0,"['multiple', 'people', 'shoot', 'hospital', 'new', 'york', 'city', 'nypd', 'spokeswoman', 'say']",0.375,0.0,0.0,0.0,0.0,0.4,0.5463975554840785,0.2656762826049404
+322,0,"['president', 'trump', 'speaking', 'beside', 'south', 'korean', 'president', 'moon', 'declare', 'us', 'patience', 'north', 'korean', 'regime']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5912672885172081,0.3048885817930558
+323,0,"['trump', 'behavior', 'frighten', 'really', 'sad', 'country', 'msnbc', 'host', 'say', 'president', 'twitter', 'attack']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5281977055859333,0.5080324753843496
+324,0,"['german', 'lawmaker', 'vote', 'legalize', 'marriage', 'day', 'chancellor', 'merkel', 'soften', 'stance', 'issue']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5755065937600514,0.5080324753843496
+325,0,"['nobel', 'chinese', 'dissident', 'liu', 'xiaobo', 'wo', 'allow', 'travel', 'overseas', 'receive', 'cancer', 'treatment']",0.5625,0.0,0.0,0.0,0.0,0.4,0.6533451270504986,0.32389013646571085
+326,0,"['us', 'teen', 'birth', 'rate', 'drop', 'low', '67', 'since', '1991', 'national', 'center', 'health', 'statistics', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.2891873056717058,0.36362065987217135
+327,0,"['german', 'lawmaker', 'vote', 'legalize', 'marriage', 'friday', 'day', 'merkel', 'drop', 'opposition']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6533451270504986,0.539816894109518
+328,0,"['white', 'house', 'nominate', 'jerome', 'adams', 'indiana', 'health', 'commissioner', 'pence', 'next', 'surgeon', 'general']",0.5625,0.0,0.0,0.0,0.0,0.4,0.5863353704299346,0.32389013646571085
+329,0,"['wo', 'final', 'deal', 'health', 'care', 'bill', 'week', 'despite', 'push', 'gop', 'leader']",0.75,0.0,0.0,0.0,0.0,0.06666666666666665,0.0775972981666131,0.7274140611504577
+330,0,"['obama', 'former', 'national', 'security', 'adviser', 'susan', 'rice', 'testify', 'house', 'intel', 'committee', 'next', 'month', 'source', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5597190951002464,0.20314389359129384
+331,0,"['greta', 'van', 'susteren', 'msnbc', 'six', 'month', 'show', 'debut', 'cable', 'news', 'network']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.2045673850112577,0.7274140611504577
+332,0,"['isis', 'likely', 'oust', 'mosul', 'within', 'day', 'fight', 'remain', 'difficult', 'coalition', 'spokesman', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.5455173605113146
+333,0,"['shutdown', 'mcdonald', 'india', 'capital', 'city', 'keep', 'burgeon', 'middle', 'class', 'mcnuggets']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.461616811407741,0.7676628087752635
+334,0,"['first', 'lady', 'melania', 'trump', 'stand', 'president', 'follow', 'tweet', 'criticize', 'msnbc', 'mika', 'brzezinski']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.7275383295807869,0.24684746933840043
+335,0,"['president', 'trump', 'tweet', 'hateful', 'sexist', 'comment', 'msnbc', 'morning', 'joe']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.5092741503162861,0.5757471065814476
+336,0,"['walgreens', 'rite', 'aid', 'fall', 'apart', 'deal', 'would', 'leave', 'two', 'major', 'us', 'pharmacy', 'chain']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.3216468317787071,0.5182242183451373
+337,0,"['narendra', 'modi', 'become', 'first', 'indian', 'prime', 'minister', 'visit', 'israel', 'visit', 'schedule', 'july', '4']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.2891873056717058,0.5455173605113146
+338,0,"['fireworks', 'product', 'suppose', 'make', 'smoke', 'recall', 'report', 'explode']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.34563632464886895,1.0
+339,0,"['woman', 'charge', 'manslaughter', 'shoot', 'death', 'boyfriend', 'try', 'record', 'stunt', 'video', 'youtube']",0.6875,0.0,0.0,0.0,0.0,0.4,0.5360780529645117,0.6717913283814131
+340,0,"['protests', 'expect', 'chinese', 'pres', 'xi', 'jinping', 'arrives', 'hong', 'kong', '20th', 'anniversary', 'city', 'handover', 'china']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.45465538089480045
+341,0,"['revised', 'version', 'president', 'trump', 'travel', 'ban', 'go', 'effect', '8', 'thursday', 'administration', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.5333333333333333,0.4966495121689718,0.3048885817930558
+342,0,"['california', 'say', 'herbicide', 'glyphosate', 'key', 'ingredient', 'weed', 'killer', 'roundup', 'cause', 'cancer']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.48088881741181533,0.6096044221799966
+343,0,"['perjury', 'charge', 'state', 'trooper', 'arrest', 'sandra', 'bland', 'dismiss', 'agree', 'give', 'cop', 'license']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4765197812801545,0.5757471065814476
+344,0,"['australia', 'top', 'catholic', 'official', 'charge', 'multiple', 'historical', 'sexual', 'assault', 'offense', 'police', 'say']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.7594349737321755,0.3454828122300916
+345,0,"['helicopter', 'attacker', 'launch', 'grenade', 'venezuela', 'find', 'news', 'agency', 'report']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.7058271684357242,0.5757471065814476
+346,0,"['trump', 'adviser', 'struggle', 'convince', 'russia', 'still', 'pose', 'threat', 'senior', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.44936742789750195,0.6096044221799966
+347,0,"['china', 'free', 'activist', 'investigate', 'factory', 'make', 'shoe', 'ivanka', 'trump', 'brand', 'advocacy', 'group', 'say']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.5597190951002464,0.40646052858870274
+348,0,"['michael', 'bond', 'creator', 'popular', 'child', 'character', 'paddington', 'bear', 'die', 'age', '91']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.21866623780422434,0.6363793401278287
+349,0,"['former', 'senior', 'police', 'officer', 'among', '6', 'people', 'charge', '1989', 'uk', 'football', 'stadium', 'disaster', '96', 'fan', 'die']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3082448804545943,0.3454828122300916
+350,0,"['begin', 'issue', 'nation', 'first', 'gender', 'neutral', 'driver', 'license']",0.1875,0.0,0.0,0.0,0.0,0.1333333333333333,0.6164897609091884,0.1727414061150458
+351,0,"['three', 'gop', 'senator', 'announce', 'oppose', 'senate', 'health', 'care', 'bill', 'vote', 'delay']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.26803902648225586,0.6909656244601832
+352,0,"['los', 'angeles', 'fine', 'carl', 'million', 'allegedly', 'underpaying', 'worker']",0.25,0.0,0.0,0.0,0.0,0.33333333333333326,0.3608341374504127,0.2656762826049404
+353,0,"['lockdown', 'us', 'army', 'base', 'alabama', 'lift', 'investigator', 'find', 'active', 'shooter']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.3127211321968477,0.7676628087752635
+354,0,"['alton', 'sterling', 'child', 'sue', 'baton', 'rouge', 'father', 'fatal', 'shoot', 'death', 'convenience', 'store', 'last', 'year']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.49139594724991964,0.38383140438763175
+355,0,"['3', 'current', 'former', 'chicago', 'cop', 'face', 'state', 'felony', 'charge', 'connection', 'shoot', 'death', 'laquan', 'mcdonald']",0.75,0.0,0.0,1.0,0.0,0.2666666666666666,0.43028304921196514,0.45465538089480045
+356,0,"['white', 'house', 'hold', 'brief', 'amid', 'criticism', 'shift', 'away', 'daily', 'press', 'watch', 'live']",0.625,0.0,0.0,0.0,0.0,0.4,0.5597190951002464,0.3048885817930558
+357,0,"['mcconnell', 'tell', 'gop', 'senator', 'health', 'care', 'bill', 'need', 'work', 'delays', 'vote', 'july', '4', 'recess', 'source', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3597351774418356,0.2727586802556573
+358,0,"['major', 'company', 'across', 'europe', 'say', 'target', 'massive', 'cyber', 'attack', 'ukraine', 'seem', 'hit', 'hard']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.38383140438763175
+359,0,"['us', 'army', 'post', 'alabama', 'lockdown', 'due', 'possible', 'active', 'shoot', 'redstone', 'arsenal', 'official', 'tweet']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.48582073549908866,0.32389013646571085
+360,0,"['china', 'slide', 'lowest', 'rung', 'us', 'list', 'human', 'traffic', 'offender']",0.3125,0.0,0.0,0.0,0.0,0.33333333333333326,0.3573764340087917,0.43185351528761445
+361,0,"['queen', 'elizabeth', 'get', 'pay', 'boost', 'refurbish', 'buckingham', 'palace', 'accountant', 'see', 'good', 'value', 'money']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.48088881741181533,0.40646052858870274
+362,0,"['white', 'house', 'warn', 'syria', 'would', 'pay', 'heavy', 'price', 'chemical', 'attack', 'us', 'identify', 'potential', 'preparation']",0.6875,0.0,0.0,0.0,0.0,0.4,0.37525463707515816,0.3454828122300916
+363,0,"['federal', 'judge', 'temporarily', 'block', 'deportation', 'iraqi', 'national', 'united', 'states']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.574380829848826,0.6168595612368284
+364,0,"['senate', 'gop', 'health', 'care', 'bill', 'would', 'leave', '22m', 'americans', 'health', 'insurance', '2026', 'obamacare', 'cbo', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.2727586802556573
+365,0,"['court', 'order', 'salvador', 'dali', 'remain', 'exhume', 'woman', 'claim', 'child', 'file', 'paternity', 'claim']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.38795968693041716,0.6363793401278287
+366,0,"['russia', 'envoy', 'center', 'firestorm', 'encounter', 'associate', 'president', 'trump', 'leave', 'us']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.3597351774418356,0.8182760407669719
+367,0,"['man', 'find', 'guilty', 'murder', 'kill', 'bella', 'bond']",0.3125,0.0,0.0,0.0,0.0,0.4,0.44674064543797565,0.43185351528761445
+368,0,"['supreme', 'court', 'rule', 'missouri', 'policy', 'exclude', 'preschool', 'grant', 'program', 'unconstitutional']",0.625,0.0,0.0,0.0,0.0,0.6666666666666666,0.6070279832743648,0.6096044221799966
+369,0,"['supreme', 'court', 'allow', 'part', 'president', 'trump', 'travel', 'ban', 'go', 'effect', 'hear', 'oral', 'argument', 'fall']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3350487831028197,0.5182242183451373
+370,0,"['supreme', 'court', 'hear', 'case', 'involve', 'baker', 'refuse', 'make', 'wedding', 'cake', 'couple']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.38530610056824277,0.43185351528761445
+371,0,"['philando', 'castile', 'family', 'get', '3m', 'settlement', 'minnesota', 'city', 'acquittal', 'officer', 'fatally', 'shoot']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.49139594724991964,0.5757471065814476
+372,0,"['embattled', 'uk', 'prime', 'minister', 'secure', 'govern', 'majority', 'deal', 'political', 'party', 'northern', 'ireland']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.5757471065814476
+373,0,"['7', 'people', 'dead', 'fall', 'cable', 'car', 'strong', 'wind', 'portion', 'kashmir']",0.75,0.0,0.0,1.0,0.0,0.7999999999999999,0.4020585397233838,0.7274140611504577
+374,0,"['takata', 'file', 'bankruptcy', 'fail', 'recover', 'defective', 'exploding', 'airbags', 'crisis']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.6509595797148067,0.6168595612368284
+375,0,"['least', '9', 'dead', 'tourist', 'boat', 'carry', '150', 'people', 'sink', 'northwest', 'colombia', 'authority', 'say']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.34250026803902656,0.47987562618759716
+376,0,"['turkish', 'police', 'use', 'water', 'cannon', 'tear', 'gas', 'break', 'pride', 'rally', 'form', 'defiance', 'parade', 'ban']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.26803902648225586,0.5182242183451373
+377,0,"['death', 'toll', 'jump', '140', 'truck', 'explodes', 'pakistani', 'villager', 'gather', 'collect', 'fuel', 'container']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5281977055859333,0.5080324753843496
+378,0,"['pilot', 'urge', 'passenger', 'pray', 'airasia', 'x', 'flight', 'malaysia', 'perth', 'australia', 'start', 'shake']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5025731746542297,0.43185351528761445
+379,0,"['six', 'hurt', 'car', 'hit', 'crowd', 'mark', 'end', 'ramadan', 'newcastle', 'england', 'police', 'think', 'terrorism']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.3573764340087917,0.38383140438763175
+380,0,"['two', 'islamic', 'center', 'california', 'site', 'possible', 'hate', 'crime', 'last', 'day', 'ramadan', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.3738340302348022,0.5455173605113146
+381,0,"['8', 'people', 'arrest', 'connection', 'deadly', 'explosion', 'upscale', 'mall', 'bogota', 'colombia', 'police', 'say']",0.6875,0.0,0.0,1.0,0.0,0.2666666666666666,0.4020585397233838,0.5757471065814476
+382,0,"['least', '24', 'dead', '109', 'miss', 'desperate', 'search', 'continue', 'landslide', 'china', 'sichuan', 'province']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.5757471065814476
+383,0,"['least', '120', 'people', 'kill', '130', 'others', 'injure', 'oil', 'tanker', 'truck', 'explode', 'pakistan', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3350487831028197,0.5182242183451373
+384,0,"['chinese', 'pres', 'xi', 'jinping', 'visit', 'hong', 'kong', '20th', 'anniversary', 'city', 'handover', 'beijing', 'state', 'medium', 'say']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.3738340302348022,0.36362065987217135
+385,0,"['member', 'nebraska', 'dem', 'party', 'fire', 'record', 'say', 'glad', 'scalise', 'shot', 'surface']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2814409778063687,0.6909656244601832
+386,0,"['judge', 'order', 'ivanka', 'trump', 'must', 'answer', 'question', 'shoe', 'design', 'lawsuit']",0.25,0.0,0.0,0.0,0.0,0.19999999999999996,0.523882277259569,0.1570219381585766
+387,0,"['mother', 'arrest', 'leave', 'child', 'hot', 'car', 'punishment', 'sheriff', 'office', 'say', 'child', 'dead']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.6363793401278287
+388,0,"['israel', 'launch', 'strike', 'syrian', 'military', 'position', 'response', 'projectiles', 'fire', 'israel', 'idf', 'say']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5863353704299346,0.43185351528761445
+389,0,"['uk', 'parliament', 'computer', 'system', 'hit', 'cyberattack']",0.25,0.0,0.0,0.0,0.0,0.33333333333333326,0.3776937922161465,0.7851096907928831
+390,0,"['eighteen', 'large', 'wildfire', 'burn', 'southwest', 'region', 'already', 'grip', 'deadly', 'heatwave']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.46906829634394764,0.6477802729314217
+391,0,"['french', 'journalist', 'véronique', 'robert', 'become', 'third', 'journalist', 'die', 'mine', 'blast', 'mosul', 'iraq']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5025731746542297,0.43185351528761445
+392,0,"['china', 'president', 'order', 'effort', 'save', '120', 'people', 'miss', 'landslide']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.4977752760801972,0.4935221972706858
+393,0,"['man', 'arrest', 'suspicion', 'murder', 'month', 'son', 'go', 'miss']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.42267074085986933,0.5315253066159958
+394,0,"['turkey', 'cut', 'theory', 'evolution', 'high', 'school', 'curriculum', 'move', 'eliminate', 'controversial', 'topic']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.4966495121689718,0.6096044221799966
+395,0,"['air', 'force', 'thunderbirds', 'flip', 'land', 'sends', 'two', 'aerobatic', 'team', 'hospital', 'commander', 'say']",0.75,0.0,0.0,0.0,0.0,0.4,0.38795968693041716,0.5455173605113146
+396,0,"['federal', 'agency', 'investigate', 'seaworld', 'matter', 'relate', 'cnn', 'blackfish', 'documentary', 'company', 'say']",0.375,0.0,0.0,0.0,0.0,0.4666666666666667,0.9175243915514097,0.2656762826049404
+397,0,"['prosecutors', 'ask', 'reinstate', 'aaron', 'hernandez', 'murder', 'conviction', 'despite', 'nfl', 'player', 'suicide']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.7525731746542295,0.2656762826049404
+398,0,"['white', 'house', 'copy', 'trump', 'tweet', 'formal', 'response', 'house', 'senate', 'inquiry', 'comey', 'tape']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4355634180336656,0.43185351528761445
+399,0,"['turkey', 'cut', 'theory', 'evolution', 'high', 'school', 'curriculum']",0.1875,0.0,0.0,0.0,0.0,0.2666666666666666,0.5092741503162861,0.5182242183451373
+400,0,"['ten', 'air', 'force', 'plane', 'include', 'two', 'doomsday', 'aircraft', 'damage', 'tornado', 'last', 'week', 'air', 'force', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.3862978449662271,0.10157194679564692
+401,0,"['saudi', 'security', 'force', 'prevent', 'imminent', 'attack', 'grand', 'mosque', 'mecca', 'interior', 'ministry', 'say']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.48582073549908866,0.43185351528761445
+402,0,"['senators', 'ask', 'def', 'sec', 'mattis', 'investigate', 'torture', 'claim', 'yemen', 'prison', 'us', 'force', 'interrogate', 'prisoner']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5755065937600514,0.3048885817930558
+403,0,"['silicon', 'valley', 'investor', 'justin', 'caldbeck', 'step', 'aside', 'firm', 'sexual', 'harassment', 'allegation']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.7466763160716201,0.3701848333045431
+404,0,"['first', 'cnn', 'house', 'defense', 'bill', 'would', 'boost', 'spending', 'fighter', 'jet', 'ship']",0.4375,0.0,0.0,0.0,0.0,0.1333333333333333,0.30634180336657013,0.3701848333045431
+405,0,"['steve', 'scalise', 'icu', 'fellow', 'shoot', 'victim', 'matt', 'mika', 'hospital', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.19708909617240256,0.6096044221799966
+406,0,"['hundreds', 'household', 'london', 'tower', 'evacuate', 'safety', 'concern', 'grenfell', 'fire', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5755065937600514,0.6096044221799966
+407,0,"['dean', 'heller', 'become', 'fifth', 'republican', 'senator', 'say', 'wo', 'back', 'health', 'care', 'bill']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.26803902648225586,0.43185351528761445
+408,0,"['spacex', 'launch', 'rocket', 'second', 'time', 'try', 'put', 'used', 'rocket', 'booster', 'back', 'space']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.21866623780422434,0.6363793401278287
+409,0,"['second', 'mistrial', 'former', 'univ', 'cincinnati', 'officer', 'ray', 'tensing', 'fatal', 'shooting', 'black', 'man', 'traffic', 'stop']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.38795968693041716,0.45465538089480045
+410,0,"['bill', 'cosby', 'juror', 'tell', 'cnn', 'panel', 'deadlocked', 'confusion', 'way', 'charge', 'write']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3871555698509703,0.6717913283814131
+411,0,"['president', 'trump', 'sign', 'bill', 'give', 'department', 'veterans', 'affairs', 'power', 'fire', 'failed', 'employee']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.5986115578428219,0.3454828122300916
+412,0,"['sears', 'holdings', 'close', 'additional', '20', 'store', 'move', 'include', '18', 'sears', 'store', 'two', 'kmarts']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.44674064543797565,0.38383140438763175
+413,0,"['london', 'police', 'charge', 'darren', 'osborne', 'murder', 'monday', 'attack', 'near', 'mosque']",0.4375,0.0,0.0,0.0,0.0,0.6666666666666666,0.6509595797148067,0.3701848333045431
+414,0,"['london', 'police', 'consider', 'manslaughter', 'charge', 'last', 'week', 'deadly', 'grenfell', 'tower', 'fire', 'kill', 'least', '79']",0.625,0.0,0.0,0.0,0.0,0.4,0.5124370108287768,0.3048885817930558
+415,0,"['qatar', 'tell', 'close', 'al', 'jazeera', 'reduce', 'iran', 'tie', 'stern', 'list', 'demand', 'arab', 'state']",0.75,0.0,0.0,0.0,0.0,0.06666666666666665,0.2045673850112577,0.5455173605113146
+416,0,"['north', 'korea', 'state', 'medium', 'say', 'death', 'us', 'student', 'otto', 'warmbier', '17', 'month', 'detention', 'mystery']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3082448804545943,0.5182242183451373
+417,0,"['seattle', 'police', 'release', 'recording', 'deadly', 'shooting', 'charleena', 'lyles', 'pregnant']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.5807601586791036,0.6909656244601832
+418,0,"['russian', 'warship', 'fire', '6', 'missile', 'isis', 'target', 'syria', 'friday', 'accord', 'state', 'medium']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.36855366141310175,0.43185351528761445
+419,0,"['federal', 'judge', 'temporarily', 'block', 'deportation', '100', 'iraqis', 'michigan', 'grant', 'stay']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.48582073549908866,0.539816894109518
+420,0,"['crowd', 'uk', 'festival', 'laugh', 'actor', 'johnny', 'depp', 'appear', 'make', 'threatening', 'remark', 'president', 'trump']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4966495121689718,0.40646052858870274
+421,0,"['choi', 'woman', 'center', 'scandal', 'bring', 'korean', 'president', 'get', 'sentence']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5193256138093707,0.43185351528761445
+422,0,"['us', 'japanese', 'missile', 'test', 'miss', 'target', 'military', 'stop', 'short', 'call', 'failure']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.3033129623673205,0.7274140611504577
+423,0,"['obama', 'call', 'senate', 'health', 'bill', 'massive', 'transfer', 'wealth', 'poor', 'rich']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.3127211321968477,0.6717913283814131
+424,0,"['group', 'democrats', 'meet', 'brainstorm', 'whether', 'way', 'force', 'house', 'minority', 'leader', 'nancy', 'pelosi']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3871555698509703,0.47987562618759716
+425,0,"['76ers', 'select', 'washington', 'guard', 'markelle', 'fultz', '1', 'overall', 'nba', 'draft']",0.3125,0.0,0.0,1.0,0.0,0.2666666666666666,0.3797308888174118,0.2879599239937813
+426,0,"['former', 'government', 'employee', 'charge', 'share', 'secret', 'chinese', 'agent']",0.25,0.0,0.0,0.0,0.0,0.2666666666666666,0.6700975662056394,0.4710658144757298
+427,0,"['yellowstone', 'grizzly', 'bear', 'population', 'take', 'endanger', 'specie', 'list', 'everyone', 'celebrate']",0.5,0.0,0.0,0.0,0.0,0.4,0.7058271684357242,0.5757471065814476
+428,0,"['marines', 'temporarily', 'suspend', 'flight', 'operation', '14', 'fighter', 'due', 'software', 'issue']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.6126568028304922,0.3701848333045431
+429,0,"['first', 'cnn', 'house', 'intel', 'panel', 'interview', 'clinton', 'campaign', 'chief', 'john', 'podesta', 'next', 'week', 'source', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.20314389359129384
+430,0,"['bill', 'cosby', 'hold', 'series', 'town', 'hall', 'educate', 'youth', 'sexual', 'assault', 'publicist', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.24439798434652094,0.5080324753843496
+431,0,"['wall', 'street', 'bank', 'strong', 'enough', 'shield', 'americans', 'another', 'financial', 'crisis', 'fed', 'stress', 'test', 'determine']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5755065937600514,0.3048885817930558
+432,0,"['cosby', 'juror', 'say', 'jury', 'close', 'evenly', 'split', 'conflict', 'another', 'juror', 'account', 'report', '2', 'holdout']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.49139594724991964,0.38383140438763175
+433,0,"['manson', 'family', 'member', 'patricia', 'krenwinkle', '69', 'deny', 'parole', '14th', 'time']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.44674064543797565,0.2879599239937813
+434,0,"['hbo', 'host', 'john', 'oliver', 'sue', 'coal', 'ceo', 'character', 'assassination', 'scathing', 'comedy', 'segment']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.5092741503162861,0.3454828122300916
+435,0,"['suspect', 'amor', 'ftouhi', 'charge', 'stabbing', 'police', 'officer', 'michigan', 'airport', 'wednesday', 'official', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4318376755655624,0.5757471065814476
+436,0,"['suspect', 'stabbing', 'cop', 'michigan', 'airport', 'try', 'buy', 'gun', 'deny', 'canadian', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3216468317787071,0.6045949214026602
+437,0,"['man', 'fire', 'rifle', 'inside', 'dc', 'pizzeria', 'tie', 'false', 'story', 'child', 'sex', 'slavery', 'sentence', '4', 'year', 'prison']",0.9375,0.0,0.0,0.0,0.0,0.19999999999999996,0.21930953146778176,0.4710658144757298
+438,0,"['3', 'republican', 'senator', 'publicly', 'oppose', 'health', 'care', 'proposal', 'party', 'source', 'say', 'endanger', 'passage']",0.5625,0.0,0.0,1.0,0.0,0.2666666666666666,0.5863353704299346,0.32389013646571085
+439,0,"['president', 'trump', 'make', 'tape', 'conversation', 'former', 'fbi', 'director', 'james', 'comey']",0.75,0.0,0.0,0.0,0.0,0.4666666666666667,0.21059826310710839,0.7403696666090862
+440,0,"['president', 'trump', 'praise', 'senate', 'health', 'care', 'bill', 'say', 'need', 'little', 'negotiation']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.41993674278975024,0.4607013301088271
+441,0,"['mark', 'zuckerberg', 'say', 'rare', 'interview', 'facebook', 'move', 'friendship', 'community', 'building']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.6096044221799966
+442,0,"['tropical', 'storm', 'cindy', 'tropical', 'depression', 'remain', 'threat', 'gulf', 'coast']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.2847914656373969,0.7557436517533253
+443,0,"['mark', 'zuckerberg', 'speak', 'facebook', 'summit', 'focus', 'new', 'tool', 'community', 'building', 'watch', 'live']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.4523158571888066,0.43185351528761445
+444,0,"['full', 'text', 'senate', 'closely', 'guard', 'health', 'care', 'bill']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.3127211321968477,0.43185351528761445
+445,0,"['two', 'holdout', 'block', 'jury', 'bill', 'cosby', 'assault', 'trial', 'convict', 'comedian', 'report', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.46906829634394764,0.43185351528761445
+446,0,"['magnitude', 'earthquake', 'strike', 'guatemala', 'pacific', 'coast', 'usgs', 'report']",0.1875,0.0,0.0,0.0,0.0,0.2666666666666666,0.777313176798542,0.1727414061150458
+447,0,"['intel', 'official', 'tell', 'investigator', 'trump', 'suggest', 'say', 'collusion', 'russia', 'source', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.5863353704299346,0.539816894109518
+448,0,"['britain', 'prince', 'harry', 'say', 'think', 'member', 'royal', 'family', 'want', 'king', 'queen']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.2045673850112577,0.6363793401278287
+449,0,"['tropical', 'storm', 'cindy', 'make', 'landfall', 'southwestern', 'louisiana', 'bring', 'heavy', 'rain', 'gusty', 'wind', 'area']",0.625,0.0,0.0,0.0,0.0,0.4,0.5124370108287768,0.40646052858870274
+450,0,"['taliban', 'release', 'video', 'purport', 'show', 'us', 'australian', 'citizen', 'kidnap', 'afghanistan', 'last', 'year']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4443819020049318,0.6363793401278287
+451,0,"['judge', 'bill', 'cosby', 'trial', 'release', 'name', 'juror', 'alternate', 'keep', 'deliberation', 'confidential']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.5062989171223329,0.6717913283814131
+452,0,"['hundreds', 'people', 'turn', 'funeral', 'prayer', 'service', 'muslim', 'teen', 'brutally', 'attack', 'kill', 'sunday']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.4020585397233838,0.5757471065814476
+453,0,"['amor', 'ftouhi', 'yell', 'allahu', 'akbar', 'stab', 'officer', 'neck', 'flint', 'michigan', 'airport', 'fbi', 'agent', 'say']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.2071137557628393,0.4710658144757298
+454,0,"['fbi', 'say', 'investigate', 'stabbing', 'police', 'officer', 'flint', 'michigan', 'airport', 'act', 'terrorism']",0.8125,0.0,0.0,0.0,0.0,0.4666666666666667,0.26803902648225586,0.777336327517706
+455,0,"['former', 'wisconsin', 'officer', 'fatally', 'shot', 'sylville', 'smith', 'spark', 'day', 'unrest', 'acquit', 'charge']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5124370108287768,0.5080324753843496
+456,0,"['fbi', 'investigate', 'whether', 'stab', 'police', 'officer', 'michigan', 'airport', 'act', 'terrorism']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.593518816339659,0.4935221972706858
+457,0,"['death', 'penalty', 'sought', 'pair', 'inmate', 'accuse', 'kill', '2', 'correction', 'officer', 'prison', 'bus', 'escape']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.5062989171223329,0.38383140438763175
+458,0,"['police', 'officer', 'critical', 'condition', 'stab', 'neck', 'flint', 'michigan', 'airport', 'authority', 'say']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.54395840034309,0.6096044221799966
+459,0,"['fbi', 'hold', 'press', 'conference', 'late', 'shoot', 'gop', 'baseball', 'practice', 'watch', 'live']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.38418033665701734,0.4607013301088271
+460,0,"['prince', 'philip', 'hospitalize', 'precautionary', 'measure', 'buckingham', 'palace', 'say']",0.1875,0.0,0.0,0.0,0.0,0.4666666666666667,0.8577248847432186,0.3454828122300916
+461,0,"['tropical', 'storm', 'cindy', 'head', 'toward', 'gulf', 'coast', 'state', 'million', 'brace', 'heavy', 'rain', 'potential', 'flash', 'flooding']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.49139594724991964,0.2879599239937813
+462,0,"['belgian', 'authority', 'know', 'identity', 'brussels', 'central', 'station', 'attack', 'suspect', 'official', 'say']",0.3125,0.0,0.0,0.0,0.0,0.33333333333333326,0.8264447303527394,0.14389359129383314
+463,0,"['uber', 'travis', 'kalanick', 'resign', 'ceo', 'amid', 'grow', 'investor', 'pressure']",0.25,0.0,0.0,0.0,0.0,0.19999999999999996,0.6700975662056394,0.1570219381585766
+464,0,"['saudi', 'arabia', 'king', 'depose', 'sit', 'crown', 'prince']",0.0625,0.0,0.0,0.0,0.0,0.06666666666666665,0.5360780529645117,0.21592675764380723
+465,0,"['cnn', 'project', 'republican', 'karen', 'handel', 'win', 'georgia', 'special', 'election']",0.25,0.0,0.0,0.0,0.0,0.2666666666666666,0.7919213037418249,0.3140438763171532
+466,0,"['clarification', 'story', 'update', 'accurately', 'reflect', 'chicago', 'status', 'justice', 'department', 'program']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.6700975662056394,0.7113491103817585
+467,0,"['republican', 'ralph', 'norman', 'win', 'special', 'election', 'south', 'carolina', '5th', 'district']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.5670097566205641,0.39868716531352566
+468,0,"['otto', 'warmbier', 'family', 'decline', 'autopsy', 'leave', 'former', 'korea', 'detainee', 'cause', 'death', 'mystery']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.5455173605113146
+469,0,"['settlement', 'reach', 'lawsuit', 'file', 'parent', 'michael', 'brown', 'ferguson', 'man', 'kill', 'police', 'officer', '2014']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.34845073442693253,0.6045949214026602
+470,0,"['doj', 'unveil', 'initiative', 'combat', 'violent', 'crime', '12', 'city', 'across', 'nation', 'notably', 'absent', 'chicago']",0.5625,1.0,0.0,0.0,1.0,0.2666666666666666,0.48582073549908866,0.32389013646571085
+471,0,"['incident', 'brussels', 'central', 'station', 'failed', 'bombing', 'suspect', 'shoot', 'police', 'belgian', 'official', 'say']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.38795968693041716,0.6363793401278287
+472,0,"['trump', 'tweet', 'chinese', 'effort', 'deal', 'korea', 'work', 'stump', 'aide']",0.5625,0.0,0.0,0.0,0.0,0.06666666666666665,0.26803902648225586,0.6477802729314217
+473,0,"['three', 'rail', 'station', 'close', 'brussels', 'accord', 'belgian', 'railway', 'official']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.6082341588935347,0.5315253066159958
+474,0,"['loud', 'bang', 'report', 'brussels', 'central', 'station', 'one', 'individual', 'neutralize', 'belgium', 'official', 'say']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.6879757692720061,0.3454828122300916
+475,0,"['belgian', 'police', 'report', 'incident', 'individual', 'brussels', 'rail', 'station', 'control', 'watch', 'cnn']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.44936742789750195,0.6096044221799966
+476,0,"['white', 'house', 'hold', 'press', 'brief', 'first', 'since', 'june', '12', 'watch', 'cnn']",0.5,0.0,0.0,0.0,0.0,0.1333333333333333,0.2769647260641148,0.3454828122300916
+477,0,"['us', 'tighten', 'sanction', 'russia', 'bid', 'force', 'end', 'occupation', 'crimea']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.1497802079982844,0.8129210571774055
+478,0,"['armed', 'russian', 'jet', 'fly', 'come', 'within', '5', 'foot', 'us', 'aircraft', 'baltic', 'sea', 'us', 'official', 'say']",0.875,0.0,0.0,0.0,0.0,0.33333333333333326,0.22335692076766378,0.41129728795992404
+479,0,"['us', 'fighter', 'jet', 'shoot', 'drone', 'syria', 'official', 'say', '3rd', 'downing', 'aircraft', 'month']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2814409778063687,0.6045949214026602
+480,0,"['fbi', 'director', 'nominee', 'delete', 'line', 'bio', 'show', 'odds', 'russia']",0.375,0.0,0.0,0.0,0.0,0.1333333333333333,0.2989707301383082,0.5315253066159958
+481,0,"['australia', 'suspend', 'air', 'operation', 'syria']",0.0625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6030878095850756,0.6477802729314217
+482,0,"['two', 'journalist', 'die', 'follow', 'blast', 'iraqi', 'city', 'mosul']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.25771952396268905,0.664363447918466
+483,0,"['democrats', 'seek', 'first', 'big', 'win', 'trump', 'era', 'today', 'georgia']",0.25,0.0,0.0,0.0,0.0,0.19999999999999996,0.23147850327007613,0.3140438763171532
+484,0,"['tributes', 'pay', 'former', 'archbishop', 'bombay', 'cardinal', 'ivan', 'dias', 'die', 'rome', 'monday']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.33898895679210894,0.6096044221799966
+485,0,"['gop', 'analytics', 'contractor', 'accidentally', 'expose', 'personal', 'data', 'almost', '200', 'million', 'us', 'voter', 'security', 'firm', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4,0.6700975662056394,0.10796337882190361
+486,0,"['otto', 'warmbier', 'us', 'college', 'student', 'free', 'north', 'korea', 'hold', '17', 'month', 'die', 'family', 'say']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.26803902648225586,0.5182242183451373
+487,0,"['man', 'suspect', 'drive', 'van', 'worshiper', 'near', 'london', 'mosque', 'identify', 'darren', 'osborne', 'british', 'medium', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.54395840034309,0.3048885817930558
+488,0,"['attacker', 'ram', 'police', 'van', 'paris', 'dead', 'french', 'official', 'say', 'man', 'car', 'explosive']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.32322826203495225,0.5080324753843496
+489,0,"['corrected', 'photo', 'paris', 'police', 'take', 'arm', 'man', 'car', 'ram', 'police', 'van']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.4020585397233838,0.5080324753843496
+490,0,"['police', 'operation', 'underway', 'paris', 'car', 'ram', 'mobile', 'police', 'unit', 'authority', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.41696150959579725,0.5757471065814476
+491,0,"['nfl', 'redskins', 'may', 'benefit', 'supreme', 'court', 'rule', 'uphold', 'trademark', 'protection', 'term', 'see', 'offensive']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6070279832743648,0.40646052858870274
+492,0,"['supreme', 'court', 'take', 'important', 'case', 'decade', 'way', 'lawmaker', 'craft', 'vote', 'district']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2814409778063687,0.777336327517706
+493,0,"['british', 'prime', 'minister', 'say', 'deadly', 'crash', 'near', 'london', 'mosque', 'attack', 'target', 'muslims']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.43185351528761445
+494,0,"['white', 'house', 'host', 'summit', 'monday', 'top', 'talent', 'technology']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.2989707301383082,0.664363447918466
+495,0,"['least', '79', 'people', 'dead', 'miss', 'presume', 'dead', 'last', 'week', 'fire', 'london', 'apartment', 'police', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.26803902648225586,0.5182242183451373
+496,0,"['police', 'treat', 'london', 'van', 'incident', 'terrorist', 'attack', 'authority', 'say']",0.3125,0.0,0.0,0.0,0.0,0.33333333333333326,0.5360780529645117,0.43185351528761445
+497,0,"['white', 'house', 'senior', 'adviser', 'jared', 'kushner', 'travel', 'israel', 'ramallah', 'west', 'bank', 'week']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.3275972981666131,0.5757471065814476
+498,0,"['london', 'mayor', 'sadiq', 'khan', 'call', 'van', 'incident', 'kill', 'one', 'man', 'near', 'mosque', 'horrific', 'terrorist', 'attack']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.41781923448054026,0.20314389359129384
+499,0,"['one', 'man', 'dead', '8', 'people', 'hospitalize', 'van', 'slam', 'crowd', 'near', 'london', 'mosque', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.4,0.26098960008577254,0.45465538089480045
+500,0,"['early', 'say', 'london', 'collision', 'terror', 'incident', 'metropolitan', 'police', 'spokesman', 'tell', 'cnn']",0.8125,0.0,0.0,0.0,0.0,0.4,0.26803902648225586,0.777336327517706
+501,0,"['least', 'one', 'person', 'arrest', 'vehicle', 'hit', 'pedestrian', 'london', 'authority', 'say']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.6477802729314217
+502,0,"['officers', 'respond', 'report', 'vehicle', 'collision', 'pedestrian', 'london', 'police', 'say']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.5092741503162861,0.6909656244601832
+503,0,"['brooks', 'koepka', 'win', '117th', 'us', 'open', 'earn', 'first', 'major', 'title']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.29036667738822786,0.2879599239937813
+504,0,"['two', 'three', 'gunman', 'attack', 'luxury', 'resort', 'mali', 'kill', 'one', 'attacker', 'still', 'miss']",0.875,0.0,0.0,0.0,0.0,0.1333333333333333,0.15953682856223872,0.7403696666090862
+505,0,"['outside', 'group', 'use', 'obama', 'voice', 'context', 'radio', 'ad', 'georgia', 'special', 'election']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.3033129623673205,0.6363793401278287
+506,0,"['least', '2', 'people', 'kill', '30', 'others', 'rescue', 'attack', 'gunman', 'luxury', 'resort', 'mali']",0.875,0.0,0.0,0.0,0.0,0.06666666666666665,0.09571673635681366,0.7403696666090862
+507,0,"['coalition', 'say', 'shoot', 'syrian', 'warplane', 'raqqa']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.664363447918466
+508,0,"['french', 'president', 'emmanuel', 'macron', 'party', 'project', 'win', 'huge', 'majority', 'parliament']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.6924252171116116,0.2879599239937813
+509,0,"['iran', 'say', 'launch', 'missile', 'syria', 'target', 'isis', 'fighter', 'retaliation', 'june', '7th', 'attack', 'tehran']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.461616811407741,0.47987562618759716
+510,0,"['three', 'men', 'arrest', 'shoot', 'death', 'two', 'maryland', 'teen', 'find', 'dead', 'night', 'graduation']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.6363793401278287
+511,0,"['shots', 'fire', 'tourist', 'resort', 'near', 'mali', 'capital', 'un', 'mission', 'country', 'report']",0.625,0.0,0.0,0.0,0.0,0.06666666666666665,0.2916800686179908,0.6096044221799966
+512,0,"['trump', 'investigation', 'one', 'lawyer', 'tell', 'cnn', 'despite', 'trump', 'tweet', 'investigate']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.4020585397233838,0.7676628087752635
+513,0,"['wildfire', 'kill', 'least', '39', 'people', 'portugal', 'victim', 'burn', 'car', 'try', 'flee', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3350487831028197,0.6045949214026602
+514,0,"['3', 'people', 'kill', '11', 'others', 'injure', 'explosion', 'shopping', 'mall', 'bogota', 'colombia']",0.6875,0.0,0.0,1.0,0.0,0.19999999999999996,0.23825989064007702,0.6717913283814131
+515,0,"['bodies', '7', 'miss', 'sailor', 'uss', 'fitzgerald', 'find', 'flooded', 'compartment', 'collision', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.4,0.5597190951002464,0.5080324753843496
+516,0,"['number', 'miss', 'sailor', 'find', 'flooded', 'compartment', 'uss', 'fitzgerald', 'collision', 'us', 'navy', 'say']",0.625,0.0,0.0,0.0,0.0,0.4,0.44936742789750195,0.5080324753843496
+517,0,"['stephen', 'furst', 'actor', 'play', 'flounder', 'house', 'die', '63']",0.3125,0.0,0.0,0.0,0.0,0.1333333333333333,0.29036667738822786,0.43185351528761445
+518,0,"['steve', 'scalise', 'condition', 'upgrade', 'serious', 'follow', 'additional', 'surgery', 'hospital', 'say']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.7275383295807869,0.3701848333045431
+519,0,"['baseball', 'shoot', 'victim', 'matt', 'mika', 'show', 'positive', 'result', 'additional', 'surgery', 'family', 'say']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.7084003430899539,0.24684746933840043
+520,0,"['prosecutors', 'say', 'retry', 'cosby', 'case', 'jury', 'deadlocked', 'mistrial', 'declare']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4355634180336656,0.7557436517533253
+521,0,"['us', 'military', 'personnel', 'wound', 'evacuate', 'apparent', 'insider', 'attack', 'afghan', 'soldier']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.6126568028304922,0.4935221972706858
+522,0,"['judge', 'declare', 'mistrial', 'bill', 'cosby', 'sexual', 'offense', 'case']",0.125,0.0,0.0,0.0,0.0,0.1333333333333333,0.5509810228369252,0.19191570219381587
+523,0,"['jurors', 'arrive', 'back', 'court', 'bill', 'cosby', 'trial', '6th', 'day', 'deliberation']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.26803902648225586,0.4935221972706858
+524,0,"['3', 'lapd', 'juvenile', 'cadet', 'charge', 'steal', 'crash', '3', 'police', 'vehicle', 'official', 'say']",0.5,0.0,0.0,1.0,0.0,0.19999999999999996,0.4377881419534684,0.3454828122300916
+525,0,"['4', 'arkansas', 'woman', 'face', 'manslaughter', 'charge', 'death', 'boy', 'leave', 'inside', 'day', 'care', 'van', 'day', 'police', 'say']",1.0,0.0,0.0,1.0,0.0,0.4,0.13401951324112793,0.5256520988080844
+526,0,"['seven', 'crew', 'member', 'miss', 'us', 'navy', 'destroyer', 'collide', 'japanese', 'merchant', 'vessel', 'navy', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.3738340302348022,0.5455173605113146
+527,0,"['russian', 'mob', 'link', 'man', 'support', 'syria', 'chemical', 'weapon', 'program', 'accord', 'document', 'obtain', 'cnn']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.54395840034309,0.40646052858870274
+528,0,"['us', 'navy', 'destroyer', 'take', 'water', 'collide', 'merchant', 'ship', 'japan', 'coast', 'navy', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.29484292913048127,0.6045949214026602
+529,0,"['trump', 'late', 'financial', 'disclosure', 'form', 'release', 'show', 'investment', 'income', 'holding']",0.3125,0.0,0.0,0.0,0.0,0.33333333333333326,0.9158089417819233,0.2879599239937813
+530,0,"['officer', 'fatally', 'shoot', 'philando', 'castile', 'find', 'guilty', 'castile', 'fiancee', 'broadcast', 'death', 'facebook', 'live']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5755065937600514,0.40646052858870274
+531,0,"['verdict', 'reach', 'trial', 'cop', 'shoot', 'philando', 'castile', 'death', 'broadcast', 'facebook', 'live', 'fiance']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3082448804545943,0.6909656244601832
+532,0,"['american', 'household', 'pay', 'housing', 'afford', 'report', 'show']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.4735445480862015,0.8061841423389187
+533,0,"['trump', 'place', 'restriction', 'travel', 'business', 'cuba', 'avoids', 'full', 'rollback', 'obama', 'outreach']",0.5625,0.0,0.0,0.0,0.0,0.4,0.5193256138093707,0.539816894109518
+534,0,"['president', 'trump', 'announce', 'change', 'us', 'policy', 'toward', 'cuba', 'watch', 'live']",0.3125,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.2879599239937813
+535,0,"['former', 'german', 'chancellor', 'helmut', 'kohl', 'die', '87', 'lead', 'german', 'reunification', 'cold', 'war']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.38530610056824277,0.43185351528761445
+536,0,"['judge', 'find', 'woman', 'texting', 'suicide', 'case', 'guilty', 'involuntary', 'manslaughter']",0.25,0.0,0.0,0.0,0.0,0.4,0.6700975662056394,0.3140438763171532
+537,0,"['judge', 'michelle', 'carter', 'texting', 'suicide', 'case', 'expect', 'read', 'decision', 'soon', 'watch', 'live']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.35474965154926563,0.5080324753843496
+538,0,"['tweet', 'president', 'trump', 'confirm', 'investigate', 'fire', 'fbi', 'director']",0.4375,0.0,0.0,0.0,0.0,0.4,0.45949930309853104,0.6168595612368284
+539,0,"['amazon', 'plan', 'buy', 'whole', 'foods', 'market', 'billion', 'company', 'announce']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.4432829419963549,0.39868716531352566
+540,0,"['death', 'toll', 'hit', '30', 'wednesday', 'london', 'fire', 'sign', 'blaze', 'set', 'deliberately', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.4,0.3597351774418356,0.36362065987217135
+541,0,"['uk', 'police', 'arrest', 'man', 'near', 'parliament', 'suspicion', 'carry', 'knife']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.2783585290018227,0.5315253066159958
+542,0,"['russia', 'say', 'may', 'kill', 'isis', 'leader', 'abu', 'bakr', 'last', 'month', 'airstrike', 'syria']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.26803902648225586,0.47987562618759716
+543,0,"['deal', 'prop', 'british', 'pm', 'theresa', 'may', 'government', 'could', 'put', 'northern', 'ireland', 'peace', 'risk', 'politician', 'warn']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.3738340302348022,0.36362065987217135
+544,0,"['threatening', 'letter', 'send', 'home', 'georgia', 'congressional', 'candidate', 'karen', 'handel', 'neighbor', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.7371073228262035,0.43185351528761445
+545,0,"['jury', 'cosby', 'trial', 'fails', 'reach', 'verdict', 'fourth', 'day', 'deliberation', 'judge', 'refuse', 'request', 'mistrial']",0.8125,0.0,0.0,0.0,0.0,0.4666666666666667,0.36185268575104534,0.6045949214026602
+546,0,"['escaped', 'georgia', 'inmates', 'suspect', 'kill', 'correction', 'officer', 'capture', 'official', 'say']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.8350487831028197,0.39868716531352566
+547,0,"['vp', 'pence', 'hire', 'lawyer', 'represent', 'russia', 'probe']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.1531574997319609,0.8637070305752289
+548,0,"['dc', 'police', 'issue', 'warrant', 'turkish', 'security', 'official', 'follow', 'last', 'month', 'violence', 'ambassador', 'residence']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.7951913798649084,0.23026429435135604
+549,0,"['judge', 'trial', 'woman', 'accuse', 'berate', 'boyfriend', 'commit', 'suicide', 'via', 'text', 'deliver', 'decision', 'friday']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4161573925163504,0.5455173605113146
+550,0,"['us', 'student', 'release', 'korea', 'suffer', 'extensive', 'brain', 'damage', 'show', 'current', 'sign', 'botulism', 'doctor', 'say']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.36362065987217135
+551,0,"['driver', 'arrest', 'strike', 'secret', 'service', 'officer', 'near', 'trump', 'motorcade', 'wednesday', 'night']",0.3125,0.0,0.0,0.0,0.0,0.19999999999999996,0.8487991851613594,0.14389359129383314
+552,0,"['jurors', 'say', 'ca', 'reach', 'unanimous', 'decision', 'cosby', 'trial', 'judge', 'tell', 'keep', 'deliberating']",0.5625,0.0,0.0,0.0,0.0,0.4,0.4523158571888066,0.43185351528761445
+553,0,"['family', 'freed', 'american', 'doubt', 'korea', 'explanation', 'coma', 'hospital', 'say', 'neurological', 'injury']",0.625,0.0,0.0,0.0,0.0,0.4,0.5281977055859333,0.40646052858870274
+554,0,"['fbi', 'arrest', 'fugitive', 'polygamist', 'mormon', 'sect', 'leader', 'lyle', 'jeffs', 'almost', 'year', 'lam']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.35180122225796073,0.43185351528761445
+555,0,"['least', '7', 'kill', '66', 'injure', 'explosion', 'near', 'kindergarten', 'eastern', 'china', 'state', 'broadcaster', 'report']",0.75,0.0,0.0,0.0,0.0,0.4,0.3738340302348022,0.5455173605113146
+556,0,"['pakistan', 'sentence', 'man', 'death', 'facebook', 'post', 'prosecutor', 'call', 'blasphemous']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.5169400664736787,0.6168595612368284
+557,0,"['4', 'kentucky', 'national', 'guardsmen', 'charge', 'connection', 'alleged', 'sexual', 'assault', 'female', 'soldier', 'authority', 'say']",0.625,0.0,0.0,1.0,0.0,0.33333333333333326,0.6227886780315215,0.40646052858870274
+558,0,"['officials', 'investigate', 'potential', 'threat', 'container', 'aboard', 'ship', 'port', 'charleston', 'coast', 'guard', 'say']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.38795968693041716,0.6363793401278287
+559,0,"['suspect', 'fatal', 'shooting', 'san', 'francisco', 'ups', 'facility', 'identify', 'jimmy', 'lam', 'source', 'close', 'investigation', 'say']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.5062989171223329,0.38383140438763175
+560,0,"['trump', 'pay', 'visit', 'hospital', 'steve', 'scalise', 'underwent', 'surgery', 'wednesday', 'shoot']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.6509595797148067,0.3701848333045431
+561,0,"['special', 'counsel', 'mueller', 'investigate', 'president', 'trump', 'obstruction', 'justice', 'washington', 'post', 'report']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.7951913798649084,0.4607013301088271
+562,0,"['security', 'secretary', 'jeh', 'johnson', 'testify', 'next', 'wednesday', 'house', 'intel', 'committee', 'source', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.7203548836710625,0.32389013646571085
+563,0,"['southern', 'baptist', 'convention', 'denounce', 'white', 'nationalist', 'movement', 'decry', 'every', 'form', 'racism']",0.4375,0.0,0.0,0.0,0.0,0.33333333333333326,0.8615578428219148,0.24684746933840043
+564,0,"['month', 'anticipation', 'fight', 'finally', 'happen', 'las', 'vegas']",0.4375,0.0,0.0,0.0,0.0,0.7999999999999999,0.6494853650691541,0.664363447918466
+565,0,"['gop', 'claudia', 'tenney', 'receive', 'threaten', 'email', 'ballfield', 'shoot', 'one', '216', 'go']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.4735445480862015,0.3454828122300916
+566,0,"['iranian', 'vessel', 'train', 'laser', 'us', 'helicopter', 'act', 'us', 'military', 'call', 'unsafe', 'unprofessional']",0.6875,0.0,0.0,0.0,0.0,0.5333333333333333,0.3275972981666131,0.5757471065814476
+567,0,"['betsy', 'devos', 'freeze', 'rule', 'protect', 'student', 'borrower', 'hold', 'college', 'accountable']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,1.0,0.1328381413024702
+568,0,"['jury', 'bill', 'cosby', 'case', 'ask', 'rehear', 'accuser', 'testimony', 'night', 'allege', 'assault']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.2978181623244345,0.6717913283814131
+569,0,"['hospital', 'say', 'steve', 'scalise', 'surgery', 'critical', 'condition', 'shoot', 'gop', 'baseball', 'practice']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.43028304921196514,0.6363793401278287
+570,0,"['federal', 'reserve', 'raise', 'key', 'interest', 'rate', 'say', 'job', 'market', 'continue', 'strengthen']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.5757471065814476
+571,0,"['least', '2', 'die', 'shoot', 'san', 'francisco', 'ups', 'facility', 'police', 'say', 'gunman', 'shot', 'condition', 'unknown']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3082448804545943,0.5182242183451373
+572,0,"['congressman', 'say', 'lobbyist', 'worst', 'injury', 'among', 'five', 'victim', 'hurt', 'shoot', 'lawmaker', 'baseball', 'practice']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.40646052858870274
+573,0,"['sanders', 'condemn', 'shoot', 'say', 'suspect', 'apparently', 'volunteer', 'suspect', 'facebook', 'feed', 'post']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.8130427790286265,0.3454828122300916
+574,0,"['reports', 'shooting', 'san', 'francisco', 'prompt', 'police', 'ask', 'people', 'shelter', 'place']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.2759193738608341,0.7113491103817585
+575,0,"['lawmaker', 'tell', 'cnn', 'allege', 'shooter', 'baseball', 'practice', 'ask', 'whether', 'player', 'democrats', 'republicans']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6700975662056394,0.43185351528761445
+576,0,"['speaker', 'ryan', 'unite', 'shock', 'unite', 'anguish', 'shooting', 'congressman', 'watch', 'live']",0.8125,0.0,0.0,0.0,0.0,0.33333333333333326,0.22783317250991741,0.8637070305752289
+577,0,"['authorities', 'continue', 'investigate', 'crime', 'assailant', 'die', 'injury', 'trump', 'say']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.461616811407741,0.8637070305752289
+578,0,"['president', 'trump', 'man', 'shoot', 'congressman', 'others', 'baseball', 'practice', 'die', 'watch', 'live']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.45566634501983505,0.4607013301088271
+579,0,"['president', 'trump', 'address', 'shoot', 'injured', 'congressman', 'others', 'baseball', 'practice', 'watch', 'live']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.8350487831028197,0.2656762826049404
+580,0,"['michigan', 'state', 'official', 'charge', 'involuntary', 'manslaughter', '12', 'death', 'tie', 'flint', 'water', 'crisis']",0.5625,0.0,0.0,0.0,0.0,0.4,0.5863353704299346,0.43185351528761445
+581,0,"['shooter', 'attack', 'lawmaker', 'play', 'baseball', 'ided', 'law', 'enforcement', 'official', 'james', 'hodgkinson', 'illinois']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.5080324753843496
+582,0,"['president', 'trump', 'speak', 'et', 'shoot', 'attack', 'gop', 'lawmaker', 'play', 'baseball', 'watch', 'live']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.331510667953254,0.5455173605113146
+583,0,"['police', 'say', 'much', 'early', 'determine', 'motive', 'shoot', 'gop', 'congressional', 'baseball', 'practice', 'watch', 'live']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.2436742789750186,0.4710658144757298
+584,0,"['congressman', 'doctor', 'iraq', 'war', 'veteran', 'say', 'treat', 'scalise', 'gunshot', 'wound', 'scene', 'attack']",0.875,0.0,0.0,0.0,0.0,0.33333333333333326,0.24890103999142288,0.6581447572983244
+585,0,"['scalise', 'stable', 'condition', 'undergoing', 'surgery', 'shoot', 'office', 'say']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.5670097566205641,0.5315253066159958
+586,0,"['former', 'gabby', 'giffords', 'tweet', 'support', 'victim', 'shoot', 'gop', 'congress', 'member', 'baseball', 'practice']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.4765197812801545,0.47987562618759716
+587,0,"['aide', 'texas', 'williams', 'also', 'shoot', 'attack', 'gop', 'baseball', 'practice']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.184276830706551,0.6477802729314217
+588,0,"['medics', 'take', 'five', 'scene', 'shooting', 'gop', 'baseball', 'practice', 'suspect', 'custody', 'police', 'say']",0.9375,0.0,0.0,0.0,0.0,0.1333333333333333,0.1583842607483652,0.7851096907928831
+589,0,"['house', 'democrats', 'pray', 'republican', 'colleague', 'others', 'injure', 'shooting', 'gop', 'baseball', 'practice']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.48088881741181533,0.6096044221799966
+590,0,"['president', 'trump', 'statement', 'say', 'prayer', 'shoot', 'victim', 'responder', 'baseball', 'practice', 'shoot']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.7036024445159215,0.539816894109518
+591,0,"['shooting', 'gop', 'baseball', 'practice', 'appear', 'deliberate', 'attack', 'source', 'say', 'watch', 'live']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.41993674278975024,0.4607013301088271
+592,0,"['mo', 'brooks', 'say', 'use', 'belt', 'tourniquet', 'victim', 'shooting', 'gop', 'baseball', 'practice']",0.875,0.0,0.0,0.0,0.0,0.2666666666666666,0.12126085558057254,0.7403696666090862
+593,0,"['steve', 'scalise', 'shoot', 'congressional', 'baseball', 'event', 'virginia', 'mo', 'brooks', 'tell', 'cnn']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.36855366141310175,0.32389013646571085
+594,0,"['fire', 'apartment', 'building', 'london', 'kill', 'least', '6', 'people', 'number', 'expect', 'rise', 'police', 'say']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.22335692076766378,0.6581447572983244
+595,0,"['london', 'borough', 'market', 'reopen', 'terror', 'attack']",0.0,0.0,0.0,0.0,0.0,0.06666666666666665,0.7466763160716201,0.24684746933840043
+596,0,"['number', 'death', 'massive', 'blaze', 'london', 'apartment', 'build', 'official', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.3275972981666131,0.8637070305752289
+597,0,"['30', 'patient', 'transport', 'london', 'hospital', 'massive', 'apartment', 'building', 'fire', 'official', 'say']",0.5625,0.0,0.0,1.0,0.0,0.33333333333333326,0.6030878095850756,0.539816894109518
+598,0,"['huge', 'blaze', 'engulf', 'apartment', 'block', 'west', 'london', 'accord', 'london', 'fire', 'brigade']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.34250026803902656,0.5757471065814476
+599,0,"['american', 'college', 'student', 'otto', 'warmbier', 'land', 'back', 'us', '17', 'month', 'detention', 'north', 'korea']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.3350487831028197,0.6045949214026602
+600,0,"['gov', 'ralph', 'northam', 'win', 'virginia', 'democratic', 'primary', 'governor', 'cnn', 'project']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.47863728958936425,0.3701848333045431
+601,0,"['time', 'cut', '300', 'position', 'layoff', 'buyout', 'reduce', 'global', 'staff', '4']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.34845073442693253,0.4607013301088271
+602,0,"['house', 'approve', 'bill', 'aim', 'create', 'accountability', 'department', 'veterans', 'affairs', 'string', 'scandal']",0.625,0.0,0.0,0.0,0.0,0.5333333333333333,0.638576176691326,0.6096044221799966
+603,0,"['ag', 'jeff', 'sessions', 'leaks', 'result', 'investigation', 'fear', 'may', 'find', 'wish', 'leak']",0.625,0.0,0.0,0.0,0.0,0.5333333333333333,0.1850809477859976,0.5757471065814476
+604,0,"['cotton', 'spy', 'fiction', 'hear', 'plot', 'line', 'like', 'sessions', 'like', 'looking', 'glass']",0.8125,1.0,0.0,0.0,0.0,0.1333333333333333,0.24123512383403045,0.777336327517706
+605,0,"['closing', 'argument', 'deliver', 'texting', 'suicide', 'case', 'judge', 'decide', 'michelle', 'carter', 'fate']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.6717913283814131
+606,0,"['heinrich', 'ag', 'sessions', 'obstruct', 'congressional', 'investigation', 'silence', 'speaks', 'volume']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.6700975662056394,0.6477802729314217
+607,0,"['martin', 'heinrich', 'ag', 'jeff', 'sessions', 'answer', 'question', 'impede', 'investigation']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.652219363139273,0.3454828122300916
+608,0,"['would', 'good', 'stay', 'decision', 'fire', 'comey', 'sessions', 'think', 'responsibility']",0.875,1.0,0.0,0.0,1.0,0.5333333333333333,0.21059826310710839,0.9870443945413716
+609,0,"['sessions', 'people', 'suggest', 'innuendo', 'honest', 'matter', 'amp', 'try', 'honest']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4161573925163504,0.7274140611504577
+610,0,"['sessions', 'say', 'know', 'president', 'record', 'conversation', 'white', 'house']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.38418033665701734,0.8061841423389187
+611,0,"['sessions', 'able', 'discuss', 'confirm', 'deny', 'nature', 'conversation', 'trump', 'comey', 'firing']",0.8125,0.0,0.0,0.0,0.0,0.4666666666666667,0.3082448804545943,0.6909656244601832
+612,0,"['person', 'white', 'house', 'order', 'unlawful', 'act', 'ag', 'jeff', 'sessions']",0.6875,1.0,0.0,0.0,0.0,0.1333333333333333,0.13401951324112793,0.8637070305752289
+613,0,"['president', 'trump', 'health', 'care', 'message', 'senator', 'get']",0.1875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4288624423716092,0.3454828122300916
+614,0,"['ag', 'jeff', 'sessions', 'reason', 'recusal', 'felt', 'require', 'rule', 'doj']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.06700975662056408,0.9500777336327518
+615,0,"['attorney', 'general', 'sessions', 'confidence', 'special', 'counsel', 'robert', 'mueller']",0.25,0.0,0.0,0.0,0.0,0.2666666666666666,0.4845341481719738,0.39868716531352566
+616,0,"['ag', 'jeff', 'sessions', 'emphatically', 'defend', 'action', 'senate', 'panel', 'call', 'collusion', 'accusation', 'detestable', 'lie']",0.5625,0.0,0.0,0.0,0.0,0.4,0.6533451270504986,0.32389013646571085
+617,0,"['jeff', 'sessions', 'testify', 'defend', 'honor', 'scurrilous', 'false', 'allegation']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.6082341588935347,0.664363447918466
+618,0,"['sessions', 'suggestion', 'participate', 'collusion', 'russian', 'government', 'hurt', 'us', 'appalling', 'lie']",0.6875,0.0,0.0,0.0,0.0,0.4,0.34845073442693253,0.6909656244601832
+619,0,"['department', 'justice', 'release', 'attorney', 'general', 'jeff', 'sessions', 'prepare', 'remark']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.7371073228262035,0.43185351528761445
+620,0,"['senate', 'intel', 'chair', 'senatorburr', 'outline', 'question', 'committee', 'want', 'ag', 'sessions', 'answer']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.690709767342125,0.2656762826049404
+621,0,"['ag', 'jeff', 'sessions', 'arrive', 'testify', 'senate', 'intelligence', 'committee']",0.375,0.0,0.0,0.0,0.0,0.4,0.5463975554840785,0.664363447918466
+622,0,"['soon', 'attorney', 'general', 'jeff', 'sessions', 'testify', 'senate', 'watch']",0.3125,0.0,0.0,0.0,0.0,0.1333333333333333,0.49139594724991964,0.5757471065814476
+623,0,"['uber', 'ceo', 'travis', 'kalanick', 'take', 'indefinite', 'leave', 'absence', 'company', 'finish', 'probe', 'several', 'pr', 'crisis']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4020585397233838,0.45465538089480045
+624,0,"['jurors', 'deliberate', 'bill', 'cosby', 'trial', 'ask', 'judge', 'define', 'phrase', 'without', 'knowledge', 'charge']",0.75,0.0,0.0,0.0,0.0,0.4,0.29993567063364424,0.5757471065814476
+625,0,"['parents', 'north', 'korean', 'prisoner', 'otto', 'warmbier', 'say', 'learn', 'coma', 'year']",0.875,0.0,0.0,0.0,0.0,0.4,0.2616596976519783,0.8225945759198481
+626,0,"['verizon', 'complete', 'yahoo', 'deal', 'yahoo', 'ceo', 'marissa', 'mayer', 'resign', '23m', 'severance', 'package']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.5552160394553447,0.1233373639661427
+627,0,"['north', 'korea', 'release', 'otto', 'warmbier', 'american', 'college', 'student', 'jail', 'since', 'january', '2016', 'parent', 'tell', 'cnn']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.5281977055859333,0.20314389359129384
+628,0,"['pair', 'inmate', 'kill', 'two', 'correction', 'officer', 'putnam', 'county', 'georgia', 'authority', 'say', 'manhunt', 'underway']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5124370108287768,0.40646052858870274
+629,0,"['trump', 'friend', 'chris', 'ruddy', 'tell', 'cnn', 'president', 'weigh', 'whether', 'dismiss', 'special', 'counsel', 'russia', 'probe']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4765197812801545,0.38383140438763175
+630,0,"['iran', 'supreme', 'leader', 'blame', 'us', 'create', 'isis', 'foster', 'instability', 'middle', 'east']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.4735445480862015,0.4607013301088271
+631,0,"['bangladeshi', 'diplomat', 'new', 'york', 'accuse', 'force', 'servant', 'work', 'without', 'pay']",0.375,0.0,0.0,0.0,0.0,0.33333333333333326,0.4432829419963549,0.39868716531352566
+632,0,"['senators', 'strike', 'agreement', 'roll', 'additional', 'sanction', 'russia', 'amp', 'make', 'difficult', 'president', 'lift']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.4584807547978984,0.6363793401278287
+633,0,"['golden', 'state', 'warriors', 'win', 'second', 'nba', 'championship', '3', 'year', 'beat', 'cleveland', 'cavaliers', 'game', '5']",0.6875,0.0,0.0,0.0,0.0,0.4,0.461616811407741,0.2879599239937813
+634,0,"['russian', 'opposition', 'leader', 'navalny', 'find', 'guilty', 'call', 'unlawful', 'protest', 'sentence', '30', 'day', 'detention']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5912672885172081,0.40646052858870274
+635,0,"['ag', 'sessions', 'say', 'seek', 'another', 'supreme', 'court', 'review', 'trump', 'travel', 'ban', 'case', 'cite', 'plot', 'infiltrate', 'us']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.23147850327007613,0.3926412160994991
+636,0,"['former', 'nba', 'star', 'dennis', 'rodman', 'expect', 'land', 'north', 'korea', 'tuesday', 'source', 'tell', 'cnn']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.3015439047925379,0.32389013646571085
+637,0,"['nyc', 'theater', 'stand', 'behind', 'production', 'depict', 'julius', 'caesar', 'resemble', 'president', 'trump']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.6700975662056394,0.3701848333045431
+638,0,"['ivanka', 'trump', 'company', 'end', 'talk', 'apparel', 'maker', 'learn', 'back', 'government', 'japan', 'letter', 'say']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.43028304921196514,0.5455173605113146
+639,0,"['psychiatrist', 'say', 'woman', 'trial', 'urge', 'boyfriend', 'kill', 'intoxicate', 'antidepressant']",0.5625,0.0,0.0,0.0,0.0,0.6,0.4765197812801545,0.6717913283814131
+640,0,"['montana', 'greg', 'gianforte', 'plead', 'guilty', 'misdemeanor', 'assault', 'reporter', 'incident']",0.375,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.2656762826049404
+641,0,"['never', 'president', 'act', 'disregard', 'constitutional', 'prescription', 'ags', 'say', 'trump', 'suit']",0.6875,0.0,0.0,0.0,0.0,0.5333333333333333,0.49139594724991964,0.7676628087752635
+642,0,"['appeals', 'court', 'rule', 'president', 'trump', 'revise', 'travel', 'ban', 'allow', 'government', 'review', 'vetting', 'procedure']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.7203548836710625,0.32389013646571085
+643,0,"['bill', 'cosby', 'decline', 'testify', 'trial', 'aggravated', 'indecent', 'assault', 'defense', 'rest', 'case']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.41781923448054026,0.6096044221799966
+644,0,"['jeff', 'immelt', 'lead', 'general', 'electric', 'since', '2001', 'step', 'company', 'names', 'john', 'flannery', 'new', 'ceo']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.3174118151602874,0.45465538089480045
+645,0,"['correction', 'general', 'electric', 'say', 'jeff', 'immelt', 'step', 'john', 'flannery', 'take', 'effective', 'august', '1']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5281977055859333,0.40646052858870274
+646,0,"['wife', 'russian', 'opposition', 'leader', 'navalny', 'tweet', 'detain', 'authority', 'planned', 'protest', 'moscow']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.6096044221799966
+647,0,"['general', 'electric', 'announce', 'ceo', 'jeff', 'immelt', 'step', 'john', 'flannery', 'replace', 'effective', 'immediately']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6868500053607804,0.43185351528761445
+648,0,"['people', 'gather', 'pulse', 'orlando', 'overnight', 'vigil', '49', 'people', 'kill', 'nightclub', 'year', 'ago']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.25463707515814304,0.6909656244601832
+649,0,"['bombs', 'shake', 'philippines', 'city', 'marawi', 'battle', 'eradicate', 'militant', 'enter', '3rd', 'week']",0.5625,0.0,0.0,0.0,0.0,0.5333333333333333,0.5863353704299346,0.43185351528761445
+650,0,"['accuse', 'body', 'slam', 'reporter', 'agree', 'plead', 'guilty', 'misdemeanor', 'assault', 'official', 'say']",0.5,0.0,0.0,0.0,0.0,0.6666666666666666,0.777313176798542,0.3454828122300916
+651,0,"['dear', 'evan', 'hansen', 'win', 'best', 'musical', '71st', 'annual', 'tony', 'awards']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.24571137557628386,0.43185351528761445
+652,0,"['engine', 'part', 'tear', 'china', 'eastern', 'airlines', 'jet', 'takeoff', 'passenger', 'crew', 'hurt']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.38530610056824277,0.539816894109518
+653,0,"['us', 'force', 'conduct', 'airstrike', 'somalia', 'kill', '8', 'militant', 'sunday', 'us', 'africa', 'command', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.4966495121689718,0.3048885817930558
+654,0,"['french', 'president', 'emmanuel', 'macron', 'party', 'project', 'win', 'overwhelming', 'majority', 'parliamentary', 'election']",0.375,0.0,0.0,0.0,0.0,0.4666666666666667,0.7237053715020907,0.3454828122300916
+655,0,"['rafael', 'nadal', 'win', 'historic', '10th', 'french', 'open', 'title', 'defeat', 'stan', 'wawrinka', 'straight', 'set']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.5360780529645117,0.1233373639661427
+656,0,"['police', 'release', 'photo', 'london', 'attacker', 'fake', 'explosive', 'belt', 'water', 'bottle', 'cover', 'silver', 'tape']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5281977055859333,0.40646052858870274
+657,0,"['severed', 'head', 'headless', 'body', 'find', 'jackson', 'mississippi', 'neighborhood', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4,0.4355634180336656,0.6477802729314217
+658,0,"['nick', 'gordon', 'bobbi', 'kristina', 'brown', 'charge', 'domestic', 'violence', 'current', 'girlfriend']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6700975662056394,0.539816894109518
+659,0,"['saif', 'gadhafi', 'son', 'late', 'libyan', 'leader', 'moammar', 'gadhafi', 'release', 'militia', 'group', 'hold', 'say']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.38795968693041716,0.45465538089480045
+660,0,"['least', 'one', 'win', 'ticket', 'sell', 'saturday', '448', 'million', 'powerball', 'jackpot', 'lottery', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5193256138093707,0.32389013646571085
+661,0,"['oreo', 'one', 'pence', 'family', 'cat', 'die', 'one', 'right']",0.5,0.0,0.0,0.0,0.0,0.0,0.008925699581859181,0.6909656244601832
+662,0,"['sessions', 'appear', 'senate', 'intel', 'panel', 'tuesday', 'address', 'question', 'arise', 'comey', 'testimony']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.652219363139273,0.4607013301088271
+663,0,"['3', 'us', 'service', 'member', 'kill', 'apparent', 'insider', 'attack', 'joint', 'military', 'operation', 'official', 'say']",0.6875,0.0,0.0,1.0,0.0,0.19999999999999996,0.5062989171223329,0.38383140438763175
+664,0,"['ann', 'taylor', 'dress', 'barn', 'loft', 'lane', 'bryant', 'closure', '250', '650', 'store', 'close', 'parent', 'group', 'say']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.3127211321968477,0.2879599239937813
+665,0,"['adam', 'west', 'star', 'tv', 'popular', 'campy', 'batman', 'tv', 'show', 'dy', '88']",0.6875,0.0,0.0,0.0,0.0,0.06666666666666665,0.0,0.5757471065814476
+666,0,"['jelena', 'ostapenko', 'upset', 'simona', 'halep', 'french', 'open', 'woman', 'single', 'final', 'clinch', 'first', 'grand', 'slam', 'title']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.331510667953254,0.2727586802556573
+667,0,"['us', 'special', 'operations', 'forces', 'help', 'philippines', 'battle', 'fighters', 'us', 'embassy', 'say']",0.5,0.0,0.0,0.0,0.0,0.5333333333333333,0.7237053715020907,0.3454828122300916
+668,0,"['police', 'tulsa', 'shot', 'kill', 'mentally', 'ill', 'man', 'arm', 'knife', 'official', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.22861048568671594,0.6096044221799966
+669,0,"['joe', 'biden', 'encourage', 'onetime', 'rival', 'mitt', 'romney', 'run', 'senate', 'last', 'night', 'accord', 'person', 'room']",0.875,0.0,0.0,0.0,0.0,0.2666666666666666,0.2616596976519783,0.4935221972706858
+670,0,"['2', 'recent', 'guest', 'las', 'vegas', 'resort', 'hotel', 'contract', 'legionnaires', 'disease', 'health', 'official', 'say']",0.5625,0.0,0.0,1.0,0.0,0.4,0.5025731746542297,0.32389013646571085
+671,0,"['us', 'official', 'credit', 'russia', 'help', 'calm', 'situation', 'southern', 'syria', 'follow', 'us', 'airstrikes']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.5986115578428219,0.3454828122300916
+672,0,"['man', 'allegedly', 'shoot', '3', 'racially', 'charge', 'incident', 'kansas', 'bar', 'indict', 'federal', 'hate', 'crime', 'charge']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.24890103999142288,0.5757471065814476
+673,0,"['house', 'senate', 'investigator', 'call', 'comey', 'memo', 'recording', 'wh', 'kept', 'talk', 'trump']",0.75,0.0,0.0,0.0,0.0,0.4666666666666667,0.3174118151602874,0.7274140611504577
+674,0,"['ford', 'offer', 'buyout', 'salaried', 'worker', 'hop', 'accept']",0.375,0.0,0.0,0.0,0.0,0.1333333333333333,0.4020585397233838,0.5315253066159958
+675,0,"['trump', 'sum', 'comey', 'testimony', 'senate', 'intel', 'panel', 'collusion', 'obstruction', 'leaker']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.6096044221799966
+676,0,"['cnn', 'cancel', 'reza', 'aslan', 'show', 'believer', 'profane', 'tweet']",0.25,0.0,0.0,0.0,0.0,0.19999999999999996,0.5726385761766914,0.3140438763171532
+677,0,"['british', 'pm', 'may', 'say', 'form', 'government', 'guide', 'country', 'crucial', 'brexit', 'talk']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.3573764340087917,0.5757471065814476
+678,0,"['president', 'trump', 'claim', 'total', 'complete', 'vindication', 'comey', 'testimony', 'call', 'fired', 'fbi', 'director', 'leaker']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6365926878953576,0.32389013646571085
+679,0,"['paul', 'nuttall', 'step', 'leader', 'brexit', 'campaign', 'party', 'ukip', 'fail', 'win', 'seat', 'ge2017']",0.8125,0.0,0.0,0.0,0.0,0.33333333333333326,0.3082448804545943,0.6909656244601832
+680,0,"['theresa', 'may', 'visit', 'buckingham', 'palace', 'seek', 'permission', 'queen', 'elizabeth', 'ii', 'form', 'new', 'government', 'ge2017']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.43028304921196514,0.45465538089480045
+681,0,"['chicago', 'man', 'charge', 'battery', 'apparent', 'racist', 'altercation', 'catch', 'video']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.4377881419534684,0.6909656244601832
+682,0,"['two', 'american', 'men', 'charge', 'provide', 'material', 'support', 'hezbollah', 'islamic', 'jihad', 'organization']",0.4375,0.0,0.0,0.0,0.0,0.4,0.7466763160716201,0.3701848333045431
+683,0,"['japan', 'pass', 'historic', 'bill', 'allow', 'emperor', 'akihito', 'become', 'first', 'japanese', 'monarch', 'abdicate', '200', 'year']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.49139594724991964,0.38383140438763175
+684,0,"['jared', 'kushner', 'expect', 'meet', 'senate', 'intel', 'committee', 'soon', 'month', 'source', 'say']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.35180122225796073,0.539816894109518
+685,0,"['comey', 'tell', 'senator', 'ag', 'jeff', 'sessions', 'may', 'third', 'undisclosed', 'encounter', 'russia', 'ambassador', 'source', 'say']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5912672885172081,0.3048885817930558
+686,0,"['reality', 'winner', 'federal', 'contractor', 'charge', 'leak', 'information', 'intercept', 'plead', 'guilty']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.7951913798649084,0.4607013301088271
+687,0,"['texas', 'couple', 'charge', 'murder', 'connection', 'chokehold', 'death', 'man', 'outside', 'denny', 'restaurant']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.41696150959579725,0.6717913283814131
+688,0,"['usda', 'call', 'drugmaker', 'remove', 'powerful', 'opioid', 'opana', 'er', 'market', 'cite', 'consequence', 'abuse']",0.625,0.0,0.0,0.0,0.0,0.4,0.44936742789750195,0.5080324753843496
+689,0,"['exit', 'poll', 'project', 'uk', 'conservatives', 'may', 'lose', '17', 'seat']",0.125,0.0,0.0,0.0,0.0,0.4666666666666667,0.4020585397233838,0.0
+690,0,"['british', 'pound', 'fall', 'exit', 'poll', 'project', 'hung', 'parliament']",0.375,0.0,0.0,0.0,0.0,0.2666666666666666,0.3608341374504127,0.5315253066159958
+691,0,"['south', 'carolina', 'republican', 'trey', 'gowdy', 'select', 'next', 'chairman', 'powerful', 'house', 'oversight', 'committee']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6030878095850756,0.43185351528761445
+692,0,"['trump', 'private', 'attorney', 'accuses', 'chief', 'comey', 'disclosure', 'conversation', 'president']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.880695829312748,0.3701848333045431
+693,0,"['white', 'house', 'report', 'trump', 'rift', 'ag', 'jeff', 'sessions', 'president', 'confidence', 'cabinet']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.22335692076766378,0.6581447572983244
+694,0,"['comey', 'call', 'trump', 'liar', 'five', 'time', 'today', 'white', 'house', 'fire', 'back', 'president', 'liar']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.16082341588935334,0.6045949214026602
+695,0,"['columbia', 'law', 'professor', 'daniel', 'richman', 'confirm', 'provide', 'information', 'medium', 'comey', 'request']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.6164897609091884,0.4607013301088271
+696,0,"['comey', 'call', 'trump', 'release', 'tape', 'meeting', 'exist', 'good']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.10424037739894931,0.7676628087752635
+697,0,"['james', 'comey', 'testify', 'hop', 'leak', 'trump', 'memo', 'would', 'lead', 'special', 'counsel', 'russia']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.3454828122300916
+698,0,"['special', 'counsel', 'robert', 'mueller', 'watch', 'comey', 'testimony', 'source', 'say', 'attorney', 'general', 'jeff', 'sessions']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.6365926878953576,0.32389013646571085
+699,0,"['lordy', 'hope', 'tape', 'trump', 'flynn', 'request', 'james', 'comey', 'testifies', 'hear']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.3305725313605661,0.5757471065814476
+700,0,"['comey', 'say', 'believe', 'fire', 'president', 'trump', 'russia', 'investigation']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.2916800686179908,0.7113491103817585
+701,0,"['james', 'comey', 'confirm', 'president', 'trump', 'investigation', 'fbi', 'director']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.5360780529645117,0.7403696666090862
+702,0,"['james', 'comey', 'say', 'take', 'note', 'trump', 'meeting', 'due', 'concern', 'might', 'lie']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.10579500375254636,0.5455173605113146
+703,0,"['former', 'fbi', 'chief', 'james', 'comey', 'say', 'trump', 'administration', 'defame', 'spread', 'lie', 'fbi']",0.5625,0.0,0.0,0.0,0.0,0.5333333333333333,0.2978181623244345,0.38383140438763175
+704,0,"['comey', 'fbi', 'honest', 'fbi', 'strong', 'fbi', 'always', 'independent']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.06347164147099815,0.9091380203834859
+705,0,"['former', 'fbi', 'director', 'james', 'comey', 'swear', 'begin', 'senate', 'testimony']",0.375,0.0,0.0,0.0,0.0,0.19999999999999996,0.31958293127479376,0.5315253066159958
+706,0,"['warner', 'tell', 'comey', 'foreign', 'adversary', 'attack', 'u', 'right', 'home', 'plain', 'simple']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.331510667953254,0.6363793401278287
+707,0,"['fired', 'fbi', 'director', 'comey', 'set', 'answer', 'question', 'conversation', 'president', 'watch']",0.75,0.0,0.0,0.0,0.0,0.4666666666666667,0.4020585397233838,0.7274140611504577
+708,0,"['singer', 'phil', 'collins', 'hospitalize', 'fall', 'hit', 'head', 'postpones', 'london', 'performance']",0.375,0.0,0.0,0.0,0.0,0.4,0.8144365819663344,0.39868716531352566
+709,0,"['britain', 'go', 'poll', 'thursday', '52', 'day', 'prime', 'minister', 'theresa', 'may', 'call', 'snap', 'general', 'election']",0.6875,0.0,0.0,0.0,0.0,0.1333333333333333,0.3871555698509703,0.38383140438763175
+710,0,"['montana', 'plead', 'contest', 'charge', 'assaulted', 'reporter', 'email', 'document', 'show']",0.5,0.0,0.0,0.0,0.0,0.6666666666666666,0.652219363139273,0.5757471065814476
+711,0,"['wreckage', 'body', 'miss', 'myanmar', 'military', 'flight', 'discover', 'andaman', 'sea', 'military', 'say']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5360780529645117,0.539816894109518
+712,0,"['3', 'people', 'arrest', 'connection', 'last', 'week', 'london', 'bridge', 'attack', 'british', 'authority', 'say']",0.5625,0.0,0.0,1.0,0.0,0.33333333333333326,0.5193256138093707,0.43185351528761445
+713,0,"['north', 'korea', 'fire', 'multiple', 'projectile', 'assume', 'missile', 'south', 'korea', 'official', 'report']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.8041170794467674,0.24684746933840043
+714,0,"['pentagon', 'chief', 'weapon', 'tester', 'say', 'us', 'ability', 'shoot', 'intercontinental', 'ballistic', 'missile']",0.625,0.0,0.0,0.0,0.0,0.6666666666666666,0.5755065937600514,0.6096044221799966
+715,0,"['trump', 'change', 'course', 'qatar', 'offer', 'mediate', 'among', 'gulf', 'nation', 'phone', 'call', 'qatari', 'emir']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.2891873056717058,0.5455173605113146
+716,0,"['34', 'voter', 'approve', 'trump', 'poll', 'say', 'even', 'believe', 'nothing', 'wrong', 'come', 'russia']",0.875,0.0,0.0,0.0,0.0,0.06666666666666665,0.21059826310710839,0.4935221972706858
+717,0,"['read', 'director', 'comey', 'prepare', 'remark', 'thursday', 'senate', 'hearing', 'russian', 'election', 'interference']",0.4375,0.0,0.0,0.0,0.0,0.4,0.8615578428219148,0.24684746933840043
+718,0,"['fired', 'fbi', 'chief', 'comey', 'tell', 'congress', 'trump', 'ask', 'let', 'go', 'probe', 'chief', 'flynn', 'russia', 'tie']",0.9375,0.0,0.0,0.0,0.0,0.1333333333333333,0.17058003645330766,0.4710658144757298
+719,0,"['iran', 'revolutionary', 'guard', 'statement', 'slam', 'saudi', 'arabia', 'tehran', 'attack', 'tie', 'trump', 'recent', 'visit', 'kingdom']",0.6875,0.0,0.0,0.0,0.0,0.4666666666666667,0.49139594724991964,0.38383140438763175
+720,0,"['myanmar', 'military', 'flight', '120', 'people', 'board', 'miss', 'search', 'underway', 'andaman', 'sea', 'official', 'say']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3216468317787071,0.6045949214026602
+721,0,"['death', 'toll', 'london', 'attack', 'rise', '8', 'police', 'say', 'body', 'pull', 'thames', 'believe', 'miss', 'frenchman']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.27441835531253345,0.5757471065814476
+722,0,"['president', 'trump', 'say', 'pick', 'lead', 'fbi', 'christopher', 'wray', 'work', 'doj', 'george', 'bush']",0.875,0.0,0.0,0.0,0.0,0.33333333333333326,0.14677817090168332,0.6581447572983244
+723,0,"['isis', 'issue', 'claim', 'responsibility', 'give', 'evidence', 'deadly', 'twin', 'attack', 'iran', 'capital', 'tehran']",0.6875,0.0,0.0,0.0,0.0,0.5333333333333333,0.4020585397233838,0.5757471065814476
+724,0,"['least', '7', 'people', 'kill', 'amp', '35', 'hurt', 'twin', 'attack', 'iran', 'capital', 'medium', 'report']",0.6875,0.0,0.0,0.0,0.0,0.4,0.3127211321968477,0.38383140438763175
+725,0,"['hostages', 'hold', 'iran', 'parliament', '3', 'hurt', 'attacker', 'storm', 'build', 'medium', 'say']",0.625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5281977055859333,0.5080324753843496
+726,0,"['2', 'hurt', 'bomb', 'attack', 'shoot', 'spree', 'ayatollah', 'khomeini', 'shrine', 'iran', 'capital', 'medium', 'say']",0.625,0.0,0.0,1.0,0.0,0.4,0.48088881741181533,0.3048885817930558
+727,0,"['three', 'people', 'wound', 'attacker', 'storm', 'iran', 'parliament', 'build', 'accord', 'state', 'medium']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.46906829634394764,0.43185351528761445
+728,0,"['british', 'prime', 'minister', 'say', 'uk', 'human', 'right', 'law', 'change', 'get', 'way', 'fight', 'terror']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.22783317250991741,0.6045949214026602
+729,0,"['north', 'korea', 'accuse', 'trump', 'paris', 'climate', 'pact']",0.25,0.0,0.0,0.0,0.0,0.06666666666666665,0.42642328723062084,0.4710658144757298
+730,0,"['portland', 'man', 'accuse', 'stab', 'three', 'men', 'defend', 'two', 'woman', 'train', 'indict', '15', 'charge']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.2616596976519783,0.6581447572983244
+731,0,"['trump', 'sessions', 'heat', 'exchange', 'since', 'ag', 'recuse', 'russia', 'probe', 'source', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.6717913283814131
+732,0,"['man', 'convict', 'sexually', 'assault', '6', 'sister', 'gift', 'parent']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.3182963439476787,0.8637070305752289
+733,0,"['top', 'oil', 'lobby', 'meet', 'interior', 'secretary', 'trump', 'hotel', 'day', 'administration', 'kill', 'rule', 'oil', 'company', 'oppose']",0.6875,0.0,0.0,0.0,0.0,0.5333333333333333,0.49139594724991964,0.2879599239937813
+734,0,"['testimony', 'james', 'comey', 'dispute', 'trump', 'blanket', 'claim', 'tell', 'investigation']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.21059826310710839,0.8225945759198481
+735,0,"['us', 'investigator', 'suspect', 'russian', 'hacker', 'plant', 'fake', 'news', 'help', 'spark', 'qatar', 'crisis']",0.375,0.0,0.0,0.0,0.0,0.4666666666666667,0.6494853650691541,0.1328381413024702
+736,0,"['coalition', 'say', 'strike', 'regime', 'force', 'enter', 'zone', 'syria']",0.5,0.0,0.0,0.0,0.0,0.4666666666666667,0.5450037525463707,0.4607013301088271
+737,0,"['man', 'try', 'attack', 'officer', 'near', 'notre', 'dame', 'cathedral', 'paris', 'shoot', 'injure', 'police', 'report', 'say']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.2616596976519783,0.5757471065814476
+738,0,"['least', '7', 'civilian', 'kill', '16', 'injure', 'explosion', 'near', 'mosque', 'herat', 'western', 'afghanistan']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.35474965154926563,0.5080324753843496
+739,0,"['police', 'name', '3rd', 'london', 'attacker', 'youssef', 'zaghba', '22', 'italian', 'moroccan', 'descent', 'live', 'east', 'london']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.34563632464886895,0.45465538089480045
+740,0,"['force', 'syria', 'launch', 'offensive', 'seize', 'city', 'raqqa', '3', 'year', 'isis', 'rule']",0.875,0.0,0.0,0.0,0.0,0.19999999999999996,0.21059826310710839,0.7403696666090862
+741,0,"['unlikely', 'tragic', 'start', 'iconic', 'senator', 'career', 'meet', 'dianne', 'feinstein', 'first', 'badass', 'woman', 'washington']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.49139594724991964,0.47987562618759716
+742,0,"['qatar', 'leader', 'address', 'nation', 'tuesday', 'day', 'country', 'thrust', 'center', 'diplomatic', 'crisis']",0.8125,0.0,0.0,0.0,0.0,0.2666666666666666,0.3216468317787071,0.777336327517706
+743,0,"['death', 'toll', 'one', 'afghanistan', 'bad', 'terror', 'attack', 'year', 'rise', 'least', '150', 'president', 'ghani', 'say']",0.75,0.0,0.0,0.0,0.0,0.4,0.331510667953254,0.45465538089480045
+744,0,"['london', 'terror', 'attack', 'one', 'suspect', 'know', 'police', 'mi5']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.26803902648225586,0.5757471065814476
+745,0,"['india', 'hit', 'back', 'trump', 'war', 'word', 'climate', 'change']",0.3125,0.0,0.0,0.0,0.0,0.06666666666666665,0.15634716414709993,0.5757471065814476
+746,0,"['mosul', 'battle', 'isis', 'rage', 'terror', 'suffer', 'civilian']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.3446177763482363,0.8637070305752289
+747,0,"['contractor', 'charge', 'leak', 'nsa', 'memo', 'russia', 'hack', 'online', 'news', 'outlet']",0.5,0.0,0.0,1.0,0.0,0.2666666666666666,0.5271523533826525,0.4607013301088271
+748,0,"['two', 'arrest', 'include', 'landlord', 'connection', 'ghost', 'ship', 'warehouse', 'fire', 'kill', '36', 'oakland']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.5193256138093707,0.43185351528761445
+749,0,"['uk', 'police', 'release', 'name', 'age', 'two', 'london', 'attacker', 'prime', 'minister', 'say', 'third', 'assailant', 'identity', 'also', 'know']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.4765197812801545,0.19191570219381587
+750,0,"['trump', 'announces', 'plan', 'privatize', 'us', 'air', 'traffic', 'control', 'system', 'say', 'best', 'path', 'toward', 'modernization']",0.625,0.0,0.0,0.0,0.0,0.4666666666666667,0.48088881741181533,0.3048885817930558
+751,0,"['former', 'employee', 'fatally', 'shot', 'five', 'people', 'suburban', 'orlando', 'business', 'kill', 'sheriff', 'say']",0.5625,0.0,0.0,0.0,0.0,0.1333333333333333,0.6030878095850756,0.43185351528761445
+752,0,"['british', 'health', 'official', 'say', '18', 'london', 'attack', 'victim', 'critical', 'care', '21', 'total', 'still', 'hospitalize', '36']",0.75,0.0,0.0,0.0,0.0,0.4,0.4161573925163504,0.36362065987217135
+753,0,"['sheriff', 'office', 'say', 'multiple', 'fatality', 'incident', 'investigation', 'orlando', 'florida', 'business', 'headquarters']",0.4375,0.0,0.0,0.0,0.0,0.4666666666666667,0.9381365926878953,0.3701848333045431
+754,0,"['bill', 'cosby', 'arrive', 'keshia', 'knight', 'pulliam', 'tv', 'rudy', 'huxtable', 'start', 'trial', 'sexual', 'offense', 'charge']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.38795968693041716,0.45465538089480045
+755,0,"['trump', 'tweet', 'doj', 'submit', 'politically', 'correct', 'version', 'travel', 'ban', 'supreme', 'court']",0.5,0.0,0.0,0.0,0.0,0.33333333333333326,0.3174118151602874,0.2727586802556573
+756,0,"['british', 'pm', 'theresa', 'may', 'say', 'police', 'identify', '3', 'london', 'attacker', 'amp', 'release', 'name', 'later']",0.6875,0.0,0.0,0.0,0.0,0.2666666666666666,0.41696150959579725,0.38383140438763175
+757,0,"['uk', 'police', 'seize', 'evidence', 'make', 'arrest', 'two', 'early', 'morning', 'raid', 'east', 'london', 'monday']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.3705371502090704,0.40646052858870274
+758,0,"['saudi', 'arabia', 'bahrain', 'uae', 'amp', 'egypt', 'break', 'relation', 'qatar', 'say', 'support', 'terrorism']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.331510667953254,0.6363793401278287
+759,0,"['president', 'trump', 'london', 'attack', 'necessary', 'prevent', 'threat', 'spread', 'shore']",0.8125,0.0,0.0,0.0,0.0,0.19999999999999996,0.2616596976519783,0.9048194852306098
+760,0,"['police', 'disperse', 'compete', 'rally', 'portland', 'protester', 'throw', 'object', 'officer']",0.3125,0.0,0.0,0.0,0.0,0.2666666666666666,0.8264447303527394,0.43185351528761445
+761,0,"['facebook', 'say', 'want', 'make', 'platform', 'hostile', 'terrorist', 'attack', 'london', 'leave', 'seven', 'dead']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.22335692076766378,0.5757471065814476
+762,0,"['medium', 'wing', 'claim', 'group', 'responsible', 'london', 'attack', 'offer', 'nothing', 'back', 'claim']",0.75,0.0,0.0,0.0,0.0,0.33333333333333326,0.4020585397233838,0.6363793401278287
+763,0,"['canadian', 'citizen', 'kill', 'london', 'terror', 'attack', 'identify', 'chrissy', 'archibald', 'official', 'say']",0.4375,0.0,0.0,0.0,0.0,0.2666666666666666,0.6509595797148067,0.3701848333045431
+764,0,"['ariana', 'grande', 'performs', 'somewhere', 'rainbow', 'close', 'tearful', 'tribute', 'manchester', 'bombing', 'victim']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.54395840034309,0.5080324753843496
+765,0,"['player', 'coach', 'derek', 'fisher', 'charge', 'dui', 'roll', 'cadillac', 'suburban', 'la', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.331510667953254,0.5455173605113146
+766,0,"['bar', 'patron', 'take', 'cover', 'one', 'witness', 'think', 'game', 'see', 'london', 'attack', 'unfold', 'eye']",0.75,0.0,0.0,0.0,0.0,0.06666666666666665,0.23614238233086748,0.4935221972706858
+767,0,"['breitbart', 'writer', 'blast', 'tweet', 'uk', 'terror', 'attack', 'happen', 'muslims', 'live']",0.5625,0.0,0.0,0.0,0.0,0.19999999999999996,0.2071137557628393,0.6280877526343064
+768,0,"['ariana', 'grande', 'hold', 'manchester', 'benefit', 'concert', 'wake', 'terror', 'attack']",0.5,0.0,0.0,0.0,0.0,0.2666666666666666,0.45566634501983505,0.5757471065814476
+769,0,"['police', 'arrest', '12', 'people', 'east', 'london', 'terror', 'attack']",0.25,0.0,0.0,0.0,0.0,0.1333333333333333,0.4020585397233838,0.4710658144757298
+770,0,"['man', 'carry', 'deadly', 'attack', 'manila', 'casino', 'debt', 'gambling', 'problem', 'police', 'say']",0.75,0.0,0.0,0.0,0.0,0.1333333333333333,0.21866623780422434,0.7274140611504577
+771,0,"['48', 'people', 'take', 'hospital', 'london', 'terror', 'attack', 'emergency', 'worker', 'say', '6', 'people', 'kill', 'attack']",0.75,0.0,0.0,1.0,0.0,0.19999999999999996,0.38795968693041716,0.45465538089480045
+772,0,"['6', 'victim', 'kill', 'london', 'terror', 'attack', 'metropolitan', 'police', 'official', 'say', '3', 'attacker', 'also', 'kill']",0.6875,0.0,0.0,1.0,0.0,0.4,0.44674064543797565,0.38383140438763175
+773,0,"['least', '20', 'people', 'take', 'hospital', 'terror', 'attack', 'around', 'london', 'bridge', 'ambulance', 'service', 'say']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.47987562618759716
+774,0,"['london', 'police', 'treat', 'event', 'london', 'bridge', 'borough', 'market', 'terrorist', 'incident']",0.4375,0.0,0.0,0.0,0.0,0.19999999999999996,0.574380829848826,0.4935221972706858
+775,0,"['uk', 'prime', 'minister', 'theresa', 'may', 'terrible', 'incident', 'london', 'treat', 'potential', 'act', 'terrorism']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.2616596976519783,0.5757471065814476
+776,0,"['officers', 'respond', 'third', 'incident', 'london', 'vauxhall', 'area', 'city']",0.625,0.0,0.0,0.0,0.0,0.1333333333333333,0.1813284014152461,0.9144930039730523
+777,0,"['white', 'house', 'pres', 'trump', 'brief', 'national', 'security', 'team', 'situation', 'unfold', 'london', 'bridge']",0.75,0.0,0.0,0.0,0.0,0.19999999999999996,0.4020585397233838,0.6363793401278287
+778,0,"['extra', 'olives', 'bust', 'papa', 'john', 'employee', 'police', 'say', 'sell', 'cocaine', 'store']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.41781923448054026,0.5080324753843496
+779,0,"['trump', 'believe', 'climate', 'change', 'human', 'role', 'us', 'ambassador', 'nikki', 'haley', 'tell', 'cnn', 'jake', 'tapper']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.24890103999142288,0.4935221972706858
+780,0,"['explosions', 'funeral', 'protester', 'kill', '6', 'people', 'injure', '87', 'kabul', 'afghanistan', 'official', 'say']",0.5625,0.0,0.0,0.0,0.0,0.5333333333333333,0.6365926878953576,0.32389013646571085
+781,0,"['singer', 'ariana', 'grande', 'make', 'surprise', 'visit', 'fan', 'injure', 'terror', 'attack', 'concert', 'manchester']",0.75,0.0,0.0,0.0,0.0,0.2666666666666666,0.3597351774418356,0.6363793401278287
+782,0,"['106', 'chilean', 'agent', 'sentence', 'kidnapping', 'disappearance', 'militant', 'pinochet', 'era']",0.4375,0.0,0.0,1.0,0.0,0.5333333333333333,0.9189986061970623,0.4935221972706858
+783,0,"['un', 'security', 'council', 'unanimously', 'pass', 'new', 'sanction', 'north', 'korea', 'regime', 'late', 'missile', 'launch']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.6868500053607804,0.32389013646571085
+784,0,"['soundgarden', 'frontman', 'chris', 'cornell', 'several', 'prescription', 'drug', 'system', 'die', 'toxicology', 'report', 'say']",0.625,0.0,0.0,0.0,0.0,0.4,0.6227886780315215,0.5080324753843496
+785,0,"['state', 'president', 'sentence', 'jail', 'fail', 'report', 'allegation', 'sexual', 'assault', 'jerry', 'sandusky']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.54395840034309,0.5080324753843496
+786,0,"['man', 'arrest', 'wear', 'wed', 'band', 'steal', 'veteran', 'kill', 'defend', 'stranger', 'portland', 'train', 'police', 'say']",0.625,0.0,0.0,0.0,0.0,0.19999999999999996,0.5597190951002464,0.3048885817930558
+787,0,"['ireland', 'rule', 'party', 'elect', 'leo', 'varadkar', 'gay', 'son', 'indian', 'immigrant', 'become', 'next', 'prime', 'minister']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.3871555698509703,0.38383140438763175
+788,0,"['isis', 'say', 'behind', 'deadly', 'philippines', 'casino', 'attack', 'despite', 'repeat', 'police', 'claim', 'terrorism']",0.625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5124370108287768,0.5080324753843496
+789,0,"['34', 'body', 'find', 'inside', 'manila', 'casino', 'attack', 'early', 'friday', 'gunman', 'local', 'official', 'say']",0.6875,0.0,0.0,1.0,0.0,0.1333333333333333,0.3127211321968477,0.47987562618759716
+790,0,"['trump', 'administration', 'thursday', 'night', 'ask', 'supreme', 'court', 'reinstate', 'travel', 'ban']",0.4375,0.0,0.0,0.0,0.0,0.5333333333333333,0.5552160394553447,0.4935221972706858
+791,0,"['apple', 'ceo', 'tim', 'cook', 'say', 'try', 'talk', 'trump', 'keep', 'us', 'paris', 'climate', 'accord', 'enough']",1.0,0.0,0.0,0.0,0.0,0.06666666666666665,0.13401951324112793,0.6007946104681292
+792,0,"['germany', 'france', 'italy', 'rebuff', 'trump', 'claim', 'get', 'good', 'climate', 'deal']",0.4375,0.0,0.0,0.0,0.0,0.06666666666666665,0.28717701297308884,0.4935221972706858
+793,0,"['philippines', 'national', 'police', 'chief', 'say', 'shoot', 'manila', 'resort', 'robbery', 'terrorist', 'attack']",0.5625,0.0,0.0,0.0,0.0,0.33333333333333326,0.5025731746542297,0.539816894109518
+794,0,"['obama', 'lament', 'president', 'trump', 'decision', 'withdraw', 'us', 'landmark', 'paris', 'climate', 'agreement']",0.5,0.0,0.0,0.0,0.0,0.19999999999999996,0.5986115578428219,0.4607013301088271
+795,0,"['elon', 'musk', 'quit', 'trump', 'economic', 'advisory', 'council', 'follow', 'president', 'pullout', 'paris', 'climate', 'deal']",0.5625,0.0,0.0,0.0,0.0,0.2666666666666666,0.6533451270504986,0.32389013646571085
+796,0,"['president', 'trump', 'announce', 'withdraw', 'us', 'paris', 'climate', 'accord', 'white', 'house', 'tell', 'lawmaker']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.461616811407741,0.5757471065814476
+797,0,"['gunfire', 'explosion', 'report', 'resorts', 'world', 'manila', 'philippines', 'police', 'fire', 'truck', 'swat', 'team', 'scene']",0.6875,0.0,0.0,0.0,0.0,0.33333333333333326,0.49139594724991964,0.47987562618759716
+798,0,"['chief', 'comey', 'testify', 'publicly', 'june', '8', 'talk', 'trump', 'russia', 'meddling', 'us', 'election']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.3216468317787071,0.6045949214026602
+799,0,"['president', 'trump', 'sign', 'waiver', 'keep', 'us', 'embassy', 'tel', 'aviv', 'avoid', 'controversial', 'move', 'jerusalem']",0.875,0.0,0.0,0.0,0.0,0.4666666666666667,0.3597351774418356,0.5455173605113146
+800,0,"['10', 'philippines', 'soldier', 'kill', 'botch', 'airstrike', 'militant', 'southern', 'island', 'mindanao']",0.625,0.0,0.0,1.0,0.0,0.33333333333333326,0.6227886780315215,0.6096044221799966
+801,0,"['trump', 'tweet', 'announce', 'decision', 'whether', 'withdraw', 'us', 'paris', 'climate', 'deal', '3', 'thursday']",0.8125,0.0,0.0,0.0,0.0,0.1333333333333333,0.29484292913048127,0.5182242183451373
+802,0,"['noose', 'find', 'history', 'museum', 'dc', 'second', 'noose', 'find', 'smithsonian', 'ground', 'week']",0.75,0.0,0.0,0.0,0.0,0.6,0.3738340302348022,0.6363793401278287
+803,0,"['us', 'air', 'force', 'vet', 'get', '35', 'year', 'prison', 'try', 'join', 'isis']",0.4375,0.0,0.0,0.0,0.0,0.0,0.03830277688431438,0.3701848333045431
+804,0,"['police', 'release', 'dashcam', 'video', 'tiger', 'woods', 'arrest', 'include', 'sobriety', 'test', 'conduct', 'cite', 'dui']",0.6875,0.0,0.0,0.0,0.0,0.19999999999999996,0.5062989171223329,0.47987562618759716
+805,0,"['first', 'cnn', 'congress', 'investigate', 'another', 'possible', 'meeting', 'sessions', 'russia', 'kislyak', 'source', 'say']",0.5625,0.0,0.0,0.0,0.0,0.4666666666666667,0.6868500053607804,0.43185351528761445

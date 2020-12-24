@@ -1,0 +1,998 @@
+,class,text,word_count,question_mark,exclamation_mark,start_digit,start_question,longest_word_len,avg_word_len,ratio_stopwords
+0,0,"['fleeing', 'refugee', 'tell', 'assad', 'regime', 'battle', 'retake', 'aleppo', 'fierce', 'midday', 'sun', 'bore', 'hamida']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.32990243379436046,0.4375
+1,0,"['olympic', 'bet', 'rule', 'place', 'since', '2006', 'irish', 'sailor', 'peter', 'leary', 'centre', 'olympic', 'games', 'b']",0.7916666666666666,0.0,0.0,0.0,0.0,0.1875,0.17256352524927643,0.43474999999999997
+2,0,"['thousands', 'turn', 'cavan', 'rally', 'support', 'seán', 'quinn', 'thousands', 'supporter', 'bankrupt', 'businessman', 'seán', 'q']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.34725
+3,0,"['france', 'gain', 'revenge', 'us', 'olympic', 'swim', 'france', 'avenge', 'defeat', 'united', 'states', 'beijing', 'four']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.493701082877667,0.34725
+4,0,"['senegal', 'stun', 'uruguay', 'wembley', 'olympic', 'football', 'review', 'senegal', 'blow', 'group', 'wide', 'open', 'shock']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.47882491690790185,0.27775
+5,0,"['louth', 'bos', 'fitzpatrick', 'step', 'gaa', 'louth', 'senior', 'football', 'manager', 'peter', 'fitzpatrick', 'step']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.390625
+6,0,"['hamilton', 'hold', 'firm', 'hungary', 'formula', '1', 'lewis', 'hamilton', 'dominate', 'hungarian', 'grand', 'prix', 'today', 'lead']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.34725
+7,0,"['palin', 'selection', 'mistake', 'say', 'cheney', 'former', 'us', 'vice', 'president', 'dick', 'cheney', 'say', 'remark', 'air', 'today']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.20837499999999998
+8,0,"['gilmore', 'visit', 'somalia', 'tánaiste', 'eamon', 'gilmore', 'visit', 'somalia', 'announce', 'million', 'l']",0.6249999999999999,0.0,0.0,0.0,0.0,0.25,0.5743004181408814,0.220625
+9,0,"['gb', 'mark', 'armitstead', 'olympic', 'cycling', 'lizzie', 'armitstead', 'win', 'silver', 'claim', 'great', 'britain', 'first', 'med']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.367625
+10,0,"['prayer', 'test', 'putin', 'tolerance', 'three', 'young', 'woman', 'stag', 'irreverent', 'protest', 'vl']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5585129194810764,0.294125
+11,0,"['adlington', 'flirt', 'danger', 'pool', 'olympic', 'simming', 'britain', 'rebecca', 'adlington', 'great', 'hope', 'oly']",0.6249999999999999,0.0,0.0,0.0,0.0,0.6875,0.5743004181408814,0.441125
+12,0,"['west', 'brom', 'want', 'keep', 'long']",0.16666666666666669,0.0,0.0,0.0,0.0,0.0,0.10654551302669668,0.20837499999999998
+13,0,"['working', 'late', 'pregnancy', 'baby', 'expectant', 'mother', 'work', 'due', 'date', 'likely', 'babie']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.5
+14,0,"['romania', 'vote', 'impeachment', 'romanians', 'vote', 'today', 'whether', 'impeach', 'unpopular', 'president', 'traian', 'base']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.3125
+15,0,"['darragh', 'quinn', 'picture', 'match', 'fermanagh', 'herald', 'local', 'newspaper', 'belfast', 'sunday', 'paper', 'publish']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.367625
+16,0,"['german', 'finance', 'minister', 'warn', 'greece', 'germany', 'finance', 'minister', 'say', 'interview', 'publish', 'today', 'ca']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.32899999999999996
+17,0,"['irish', 'swimmer', 'pace', 'olympics', 'joy', 'sycerika', 'mcmahon', 'melanie', 'nocher', 'aquatic', 'cen']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4215985847539402,0.5263749999999999
+18,0,"['romney', 'pledge', 'close', 'israel', 'tie', 'us', 'republican', 'presidential', 'candidate', 'mitt', 'romney', 'would', 'back', 'israel', 'wer']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5234802187198456,0.20837499999999998
+19,0,"['inquiry', 'olympics', 'empty', 'seat', 'london', 'olympic', 'organiser', 'open', 'investigation', 'empty', 'seat']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.390625
+20,0,"['syrian', 'opposition', 'group', 'urge', 'foreign', 'intervention', 'far', 'report', 'clash', 'aleppo', 'today', 'gover']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.731960973517744,0.390625
+21,0,"['boxers', 'safey', 'day', 'one', 'olympics', 'yesterday', 'first', 'morning', 'london', '2012', 'yield', 'gold', 'medal', 'chin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.875,0.493701082877667,0.34725
+22,0,"['set', 'reek', 'climb', 'people', 'set', 'ascend', 'croagh', 'patrick', 'mayo', 'today', 'part']",0.8333333333333333,0.0,0.0,0.0,0.0,0.1875,0.19588292055323253,0.511375
+23,0,"['man', 'seriously', 'hurt', 'robbery', 'shop', 'employee', 'seriously', 'ill', 'hospital', 'follow', 'robbery', 'dublin', 'la']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+24,0,"['kerry', 'meet', 'donegal', 'quarter', 'gaa', 'donegal', 'take', 'kerry', 'football', 'aft']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5743004181408814,0.441125
+25,0,"['lowry', 'share', 'second', 'austria', 'golf', 'home', 'favourite', 'bernd', 'wiesberger', 'snatch', 'victory', 'superb']",0.5416666666666666,0.0,0.0,0.0,0.0,0.375,0.8034469818805617,0.25
+26,0,['challenge'],0.12499999999999999,0.0,0.0,0.0,1.0,0.3125,0.2494907258496838,1.0
+27,0,"['man', 'arrest', 'galway', 'assault', 'man', 'arrest', 'pensioner', 'assault', 'home', 'galway']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.625
+28,0,"['officers', 'hold', 'alleged', 'misconduct', 'two', 'police', 'officer', 'arrest', 'suspend', 'duty', 'five', 'ot']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.41662499999999997
+29,0,"['british', 'racer', 'run', 'road', 'olympic', 'road', 'race', 'disguise', 'feeling', 'even', 'behin']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.3933740752653586,0.4605
+30,0,"['ebola', 'outbreak', 'uganda', 'kill', '13', 'outbreak', 'deadly', 'ebola', 'virus', 'kill', '13', 'people', 'uganda', 'effo']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+31,0,"['man', 'body', 'find', 'bank', 'foyle', 'psni', 'officer', 'appeal', 'help', 'try', 'identify', 'man', 'whose', 'body']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.2597030127586576,0.41662499999999997
+32,0,"['nevin', 'outclass', 'danish', 'opponent', 'olympic', 'boxing', 'mullingar', 'bantamweight', '56kg', 'john', 'joe', 'nevin', 'show', 'class']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.7855687788141953,0.08337499999999999
+33,0,"['germany', 'warn', 'ecb', 'bond', 'buy', 'germany', 'economy', 'minister', 'philipp', 'roesler', 'warn', 'european', 'central', 'ban']",0.6249999999999999,0.0,0.0,0.0,0.0,0.25,0.6058218076551946,0.220625
+34,0,"['three', 'bank', 'libor', 'rig', 'new', 'detail', 'court', 'document', 'source', 'close', 'libor', 'scandal']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.47882491690790185,0.34725
+35,0,"['china', 'scrap', 'project', 'protest', 'chinese', 'official', 'cancel', 'industrial', 'waste', 'pipeline', 'project', 'today', 'afte']",0.5416666666666666,0.0,0.0,0.0,0.0,0.375,0.857054787177013,0.166625
+36,0,"['two', 'men', 'attack', 'north', 'one', 'man', 'stab', 'another', 'hit', 'head', 'hammer', 'attack']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.19588292055323253,0.53575
+37,0,"['phelps', 'squeeze', 'final', 'olympic', 'swimming', 'olympic', 'champion', 'michael', 'phelps', 'scrap', 'int']",0.49999999999999994,0.0,0.0,0.0,0.0,1.0,0.9616972231156856,0.267875
+38,0,"['un', 'fail', 'agree', 'treaty', 'member', 'state', 'fail', 'reach', 'agreement', 'new', 'un', 'treaty', 'regulate']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.375
+39,0,"['irish', 'team', 'hit', 'bet', 'allegation', 'olympic', 'council', 'ireland', 'oci', 'confirm', 'allegation']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.48612500000000003
+40,0,"['us', 'gunman', 'psychiatrist', 'former', 'university', 'colorado', 'graduate', 'student', 'accuse', 'kill', '12', 'people']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5743004181408814,0.294125
+41,0,"['syrian', 'force', 'aleppo', 'city', 'syrian', 'military', 'helicopter', 'reportedly', 'pound', 'central', 'district', 'aleppo']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.234375
+42,0,"['cyclists', 'lead', 'irish', 'challenge', 'olympics', 'opening', 'ceremony', 'widely', 'regard', 'triumph', 'real']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.48612500000000003
+43,0,"['london', 'get', 'golden', 'moment', 'games', 'open', 'london', '2012', 'provide', 'refreshing', 'antidote', 'earnestly', 'brilliant']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.294125
+44,0,"['london', 'get', 'golden', 'moment', 'london', '2012', 'provide', 'refreshing', 'antidote', 'earnestly', 'brilliant', 'stodg']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+45,0,"['man', 'win', 'threat', 'appeal', 'british', 'man', 'win', 'high', 'court', 'challenge', 'conviction', 'tweet', 'h']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.32990243379436046,0.4375
+46,0,"['top', 'zetas', 'leader', 'hold', 'mexico', 'arrest', 'one', 'top', 'trafficker', 'zetas', 'drug', 'cartel', 'accuse', 'oversee']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.32899999999999996
+47,0,"['english', 'fa', 'bring', 'case', 'terry']",0.20833333333333331,0.0,0.0,0.0,0.0,0.1875,0.34904042028519344,0.357125
+48,0,"['gas', 'price', 'set', 'rise', 'bad', 'news', 'irish', 'consumer', 'today', 'bord', 'gáis', 'energy', 'announce']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.47625
+49,0,"['inimitable', 'irishtimeslaura', 'start', 'live', 'blog', 'olympic', 'games', 'open', 'ceremony', 'read']",0.7083333333333333,0.0,0.0,0.0,0.0,0.6875,0.478020799828455,0.592125
+50,0,"['russian', 'force', 'kill', 'eight', 'dagestan', 'russian', 'security', 'force', 'kill', 'eight', 'suspected', 'militant', 'north', 'cau']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.220625
+51,0,"['footage', 'extreme', 'world', 'weather', 'think', 'bad', 'ireland', 'come', 'weather', 'take', 'look']",0.8749999999999999,1.0,0.0,0.0,0.0,0.1875,0.1492709338479682,0.6521250000000001
+52,0,"['taylor', 'meet', 'old', 'rival', 'underwood']",0.16666666666666669,0.0,0.0,0.0,0.0,0.3125,0.4192398413208963,0.20837499999999998
+53,0,"['mancini', 'give', 'wenger', 'another', 'headache', 'arsenal', '0', 'manchester', 'city', '2', 'roberto', 'mancini', 'may', 'concern', 'st']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+54,0,"['baby', 'killer', 'sentence', 'adjourn', 'wicklow', 'man', 'find', 'guilty', 'kill']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.4605
+55,0,"['israeli', 'court', 'delay', 'settler', 'eviction', 'israel', 'supreme', 'court', 'grant', 'government', 'request', 'delay', 'evic']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+56,0,"['uk', 'minister', 'drop', 'olympic', 'bell', 'clanger', 'british', 'minister', 'charge', 'london', 'olympics', 'say', 'today', 'coul']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.32899999999999996
+57,0,"['berlin', 'may', 'limit', 'draghi', 'firepower', 'germany', 'powerful', 'bundesbank', 'push', 'back', 'today', 'european', 'central', 'ba']",0.5416666666666666,0.0,0.0,0.0,0.0,0.375,0.8212983810442801,0.08337499999999999
+58,0,"['countdown', 'olympics', 'open', 'begin', 'bells', 'ring', 'across', 'uk', 'today', 'final', 'countdown', 'start']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.5
+59,0,"['nasri', 'ban', 'three', 'match', 'soccer', 'samir', 'nasri', 'jeremy', 'menez', 'hand', 'suspension', 'france']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.441125
+60,0,"['call', 'new', 'ruc', 'murder', 'inquiry', 'police', 'side', 'border', 'must', 'launch', 'fresh', 'investigation', 'mu']",0.7499999999999999,0.0,0.0,0.0,0.0,0.625,0.35670633644258587,0.4375
+61,0,"['trainee', 'remand', 'moloney', 'case', 'trainee', 'mechanic', 'accuse', 'kill', 'journalist', 'eugene', 'moloney', 'die', 'afte']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+62,0,"['furlong', 'suspect', 'face', 'murder', 'trial', 'us', 'man', 'accuse', 'murder', 'irish', 'exchange', 'student', 'nicol']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.32899999999999996
+63,0,"['name', 'new', 'hse', 'chief', 'new', 'head', 'health', 'service', 'executive', 'announce', 'morning', 'mi']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.47625
+64,0,"['retail', 'sale', 'falter', 'weak', 'demand', 'retail', 'sale', 'decline', 'june', 'consumer', 'rein', 'spending', 'food', 'drink']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.32899999999999996
+65,0,"['irish', 'horse', 'get', 'clean', 'bill', 'health', 'olympics', 'five', 'irish', 'horse', 'eventing', 'competition', 'olympic']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.34725
+66,0,"['spain', 'bailout', 'spain', 'first', 'time', 'concede', 'might', 'need', 'full', 'bailout', 'wort']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.379275222472392,0.32899999999999996
+67,0,"['ec', 'propose', 'talk', 'talk', 'support', 'european', 'commission', 'propose', 'sum', 'million', 'share', 'among', 'h']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.32990243379436046,0.375
+68,0,"['ioc', 'win', 'war', 'drug', 'rogge', 'olympics', 'crackdown', 'dope', 'offender', 'london', 'olympic']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4639219470354884,0.41662499999999997
+69,0,"['rise', 'visitor', 'number', 'ireland', 'number', 'visitor', 'ireland', 'increase', 'per', 'cent', 'april', 'ju']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.47625
+70,0,"['amazon', 'profit', 'margin', 'rise']",0.08333333333333333,0.0,0.0,0.0,0.0,0.125,0.6649512168971802,0.0
+71,0,"['aib', 'increase', 'variable', 'rate', 'thousands', 'aib', 'customer', 'home', 'loan', 'see']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.3933740752653586,0.4605
+72,0,"['red', 'cross', 'pull', 'damascus', 'staff', 'international', 'committee', 'red', 'cross', 'move', 'foreign']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5625,0.35670633644258587,0.5625
+73,0,"['quinn', 'would', 'jail', 'term', 'bankrupt', 'former', 'billionaire', 'sean', 'quinn', 'say', 'former', 'anglo', 'irish', 'bank', 'w']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.40749973196097355,0.19737500000000002
+74,0,"['aib', 'overhaul', 'branch', 'network', 'loss', 'narrow', 'allied', 'irish', 'banks', 'today', 'announce', 'plan', 'major', 'restructur']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.27775
+75,0,"['professionals', 'carcass', 'high', 'court', 'judge', 'express', 'general', 'concern', 'various', 'profess']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.7855687788141953,0.333375
+76,0,"['mission', 'prey', 'report', 'criticise', 'key', 'error', 'rté', 'decision', 'broadcast', 'mission', 'prey', 'programme', 'w']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.39475000000000005
+77,0,"['explosive', 'safe', 'cork', 'defence', 'forces', 'member', 'carry', 'controlled', 'explosion', 'improvised', 'explos']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5900611128980379,0.367625
+78,0,"['dunne', 'thinking', 'call', 'quit']",0.16666666666666669,0.0,0.0,0.0,0.0,0.25,0.4192398413208963,0.41662499999999997
+79,0,"['twitter', 'joke', 'man', 'win', 'appeal']",0.12499999999999999,0.0,0.0,0.0,0.0,0.1875,0.41031414173903713,0.0
+80,0,"['irish', 'firm', 'win', 'us', 'approval', 'drug', 'irish', 'drug', 'company', 'amarin', 'win', 'us', 'approval', 'first', 'drug', 'treatm']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.357125
+81,0,"['olympic', 'official', 'keep', 'hand', 'pant', 'top', 'official', 'say', 'lawyer', 'worry', 'ambush', 'marketing', 'underm']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.34725
+82,0,"['smartphone', 'ring', 'samsung', 'profit', 'samsung', 'electronics', 'world', 'top', 'technology', 'firm', 'revenue', 'reporte']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6817036560523212,0.3125
+83,0,"['fire', 'crew', 'battle', 'border', 'blaze', 'fire', 'crew', 'battle', 'huge', 'blaze', 'clothes', 'recycle', 'plant', 'warehouse', 'near']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.263125
+84,0,"['spain', 'jobless', 'rate', 'hit', 'record', 'high', 'spanish', 'unemployment', 'hit', 'high', 'level', 'second', 'quarter', 'since', 'th']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5086040527500802,0.20837499999999998
+85,0,"['barclays', 'regret', 'libor', 'profit', 'rise', 'british', 'bank', 'barclays', 'say', 'confident', 'repair', 'damage', 'ca']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+86,0,"['us', 'warns', 'massacre', 'aleppo', 'president', 'bashar', 'force', 'renew', 'ground', 'aerial', 'bombardment', 'al']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.493701082877667,0.34725
+87,0,"['search', 'miss', 'man', 'co', 'kerry', 'search', 'operation', 'man', 'go', 'miss', 'fish', 'valentia', 'isla']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.47625
+88,0,"['facebook', 'figure', 'fail', 'quell', 'unease', 'facebook', 'report', 'drastic', 'slowdown', 'revenue', 'growth', 'fail', 'offe']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.34725
+89,0,"['draghi', 'comment', 'drive', 'asian', 'share', 'asian', 'share', 'rally', 'today', 'lead', 'high', 'strong', 'result', 'smartphone', 'gi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.20837499999999998
+90,0,"['woman', 'rescue', 'howth', 'fall', 'woman', 'rescue', 'yesterday', 'evening', 'fall', 'path', 'near', 'bailey']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.4605
+91,0,"['man', 'airlift', 'mayo', 'accident', 'man', 'sustain', 'serious', 'back', 'injury', 'hang', 'glide', 'accident', 'achill']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+92,0,"['kenny', 'wish', 'olympians', 'well', 'london', '2012', 'taoiseach', 'enda', 'kenny', 'say', 'ireland', 'proud', 'olympians', 'h']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+93,0,"['media', 'law', 'public', 'interest', 'legislation', 'medium', 'merger', 'publish', 'autumn', 'place']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.5
+94,0,"['two', 'dead', 'separate', 'crash', 'two', 'men', 'twenty', 'die', 'road', 'traffic', 'collision', 'mayo', 'dublin', 'yesterday']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.41031414173903713,0.375
+95,0,"['state', 'raise', 'surprise', 'return', 'bond', 'market', 'government', 'take', 'major', 'step', 'towards', 'exit', 'inte']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.32899999999999996
+96,0,"['professional', 'carcass', 'firm', 'judge', 'say', 'certain', 'professionals', 'feast', 'carc']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.441125
+97,0,"['goal', 'founder', 'leave', 'aid', 'agency', 'boardroom', 'battle', 'goal', 'chief', 'executive', 'john', 'shea', 'leave', 'aid', 'ag']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.24461241556770663,0.340875
+98,0,"['greece', 'fail', 'win', 'approval', 'cut', 'greece', 'fail', 'clinch', 'political', 'agreement', 'plan', 'save', 'nearly']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.375
+99,0,"['creighton', 'say', 'ireland', 'safe', 'bet', 'minister', 'state', 'european', 'affairs', 'lucinda', 'creighton', 'say', 'governmen']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5900611128980379,0.294125
+100,0,"['man', 'die', 'mayo', 'road', 'crash', 'man', '20', 'die', 'follow', 'road', 'traffic', 'incident', 'co', 'mayo', 'evening']",0.8749999999999999,0.0,0.0,0.0,0.0,0.3125,0.19588292055323253,0.43474999999999997
+101,0,"['castro', 'talk', 'us', 'cuban', 'president', 'raul', 'castro', 'say', 'today', 'government', 'willing', 'mend', 'fe']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.32990243379436046,0.375
+102,0,"['romney', 'cause', 'stir', 'britain', 'us', 'republican', 'presidential', 'candidate', 'mitt', 'romney', 'overseas', 'trip', 'get']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.8212983810442801,0.08337499999999999
+103,0,"['spanish', 'coach', 'wo', 'press', 'panic', 'button', 'olympics', 'spain', 'manager', 'luis', 'milla', 'believe', 'chase', 'game']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.294125
+104,0,"['mixed', 'rating', 'news', 'rté', 'people', 'talk', 'joe', 'listen', 'accordin']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2597030127586576,0.71425
+105,0,"['mystery', 'twitter', 'go', 'productivity', 'office', 'ireland', 'across', 'world', 'may', 'spike']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4356974375469068,0.592125
+106,0,"['parties', 'agree', 'treaty', 'referral', 'supreme', 'court', 'government', 'independent', 'td', 'thomas', 'pringle', 'agree']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.367625
+107,0,"['ward', 'lose', 'bid', 'olympic', 'place', 'olympics', 'joe', 'ward', 'lose', '11th', 'hour', 'appeal', 'court', 'arbitration', 'fo']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.375
+108,0,"['bai', 'take', 'action', 'broadcasting', 'authority', 'ireland', 'decide', 'take', 'immediate', 'acti']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4215985847539402,0.5263749999999999
+109,0,"['varadkar', 'hint', 'medium', 'legislation', 'privacy', 'law', 'consider', 'protect', 'public', 'medium', 'merg']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.48612500000000003
+110,0,"['greek', 'high', 'jumper', 'fail', 'test', 'olympics', 'greece', 'world', 'indoor', 'high', 'jump', 'champion', 'dimitris', 'chondrokoukis', 'pulle']",0.5416666666666666,0.0,0.0,0.0,0.0,0.6875,0.8212983810442801,0.08337499999999999
+111,0,"['goal', 'founder', 'court', 'action', 'settle', 'high', 'court', 'proceeding', 'bring', 'goal', 'founder', 'chief', 'executive', 'john']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.44982309424252176,0.263125
+112,0,"['children', 'read', 'one', 'five', 'parent', 'read', 'child', 'accord', 'result', 'surv']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2202476680604698,0.681875
+113,0,"['new', 'york', 'times', 'post', 'quarterly', 'loss', 'new', 'york', 'times', 'report', 'quarterly', 'loss', 'decline', 'abo']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+114,0,"['us', 'jobless', 'claim', 'hit', 'monthly', 'low', 'number', 'americans', 'file', 'new', 'claim', 'jobless', 'benefit', 'fell', 'last', 'week']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.19737500000000002
+115,0,"['huge', 'rise', 'call', 'abuse', 'helpline', 'helpline', 'parent', 'carers', 'professional', 'work', 'child', 'rec']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.41662499999999997
+116,0,"['capello', 'sign', 'deal', 'russia', 'soccer', 'fabio', 'capello', 'appoint', 'russia', 'new', 'coach', 'today', 'th']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.32899999999999996
+117,0,"['census', 'reveals', 'extent', 'job', 'loss', 'almost', 'four', 'every', '10', 'people', 'age', '25', 'unemployed', 'ti']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.2202476680604698,0.45449999999999996
+118,0,"['murray', 'hard', 'way']",0.2916666666666667,0.0,0.0,0.0,0.0,0.125,0.01718130159751252,0.833375
+119,0,"['welcome', 'foi', 'proposal', 'proposal', 'reform', 'freedom', 'information', 'remit', 'welcome', 'b']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.441125
+120,0,"['three', 'hold', 'galway', 'robbery', 'three', 'men', 'arrest', 'follow', 'attempted', 'robbery', 'post', 'office']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.4605
+121,0,"['china', 'prosecute', 'bo', 'wife', 'china', 'charge', 'gu', 'kailai', 'wife', 'deposed', 'chongqing', 'party', 'chief', 'bo', 'xilai']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.3933740752653586,0.263125
+122,0,"['leinster', 'move', 'clermont', 'tie', 'aviva', 'rugby', 'leinster', 'move', 'heineken', 'cup', 'pool', 'match', 'clermont']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.41662499999999997
+123,0,"['city', 'keep', 'right', 'kompany', 'soccer', 'manchester', 'city', 'skipper', 'vincent', 'kompany', 'claim', 'last', 'season', 'thrill', 'p']",0.5416666666666666,0.0,0.0,0.0,0.0,0.75,0.637370001072156,0.147
+124,0,"['quinn', 'appeal', 'set', 'october', 'appeal', 'son', 'bankrupt', 'businessman', 'sean', 'quinn', 'jail', 'ou']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.5
+125,0,"['fugitive', 'rapist', 'locate', 'dublin', 'rapist', 'run', 'police', 'northern', 'ireland', 'find', 'dublin']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.5625
+126,0,"['ireland', 'market', 'first', 'time', 'since', '2010', 'ireland', 'primary', 'bond', 'market', 'f']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.32990243379436046,0.4375
+127,0,"['armitage', 'test', 'positive', 'morphine', 'rugby', 'toulon', 'flanker', 'steffon', 'armitage', 'produce', 'abnormal', 'doping', 'te']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.637370001072156,0.220625
+128,0,"['dcc', 'deal', 'clear', 'uk', 'authority', 'uk', 'competition', 'commission', 'provisionally', 'clear', 'business', 'service', 'gr']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.5532593545620242,0.27775
+129,0,"['chaos', 'atm', 'give', 'money', 'police', 'britain', 'call', 'calm', 'crowd', 'gather', 'cash']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.31650048247024765,0.5
+130,0,"['unions', 'reject', 'hse', 'proposal', 'trade', 'union', 'siptu', 'reject', 'proposal', 'put', 'forward', 'hse', 'staff', 'work', 'l']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.3125
+131,0,"['hickey', 'get', 'seat', 'top', 'table', 'olympics', 'may', 'clear', 'cut', 'would', 'prefer', 'pa']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.19588292055323253,0.568125
+132,0,"['fighting', 'continue', 'syrian', 'city', 'damascus', 'syria', 'second', 'big', 'city', 'aleppo', 'come', 'shell', 'fire', 'fro']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5743004181408814,0.220625
+133,0,"['italy', 'borrowing', 'cost', 'surge', 'italy', 'yield', 'hit', 'high', 'per', 'cent', 'sale']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.289696579822022,0.375
+134,0,"['green', 'light', 'gm', 'potato', 'test', 'environmental', 'protection', 'agency', 'epa', 'hasgiven', 'genetical']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.6817036560523212,0.3125
+135,0,"['ryanair', 'seek', 'eu', 'approval', 'bid', 'ryanair', 'seek', 'eu', 'regulatory', 'approval', 'third', 'takeover', 'bid', 'aer']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+136,0,"['earthquake', 'strike', 'mauritius', 'magnitude', 'earthquake', 'strike', 'indian', 'ocean', 'island', 'mauritius', 'tod']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.367625
+137,0,"['premiership', 'drive', 'bskyb', 'profit', 'satellite', 'broadcaster', 'bskyb', 'unveil', 'record', 'profit', 'today', 'dramatic', 'footba']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.857054787177013,0.166625
+138,0,"['call', 'replace', 'food', 'pyramid', 'traditional', 'food', 'pyramid', 'scrap', 'replace', 'food', 'plate', 'fi']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.3933740752653586,0.4605
+139,0,"['united', 'drug', 'snap', 'pharmexx', 'pharmaceutical', 'healthcare', 'service', 'firm', 'united', 'drug', 'announce', 'acquisi']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.731960973517744,0.3125
+140,0,"['glanbia', 'acquire', 'us', 'firm', 'glanbia', 'acquire', 'us', 'dietary', 'beverage', 'firm', 'aseptic', 'solutions', 'million']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.20837499999999998
+141,0,"['quinn', 'insurance', 'cost', 'may', 'lead', 'extended', 'levy', 'policymakers', 'likely', 'continue', 'pay', 'home', 'motor']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5086040527500802,0.34725
+142,0,"['prospect', 'greek', 'exit', '90', 'chance', 'greece', 'leave', 'euro', 'next', 'month', 'rise']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2341856974375468,0.47625
+143,0,"['organisers', 'apologise', 'flag', 'farce', 'london', '2012', 'organiser', 'apologise', 'north', 'korean', 'olympic', 'team', 'fo']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.294125
+144,0,"['barroso', 'athens', 'pressure', 'mount', 'european', 'commission', 'president', 'jose', 'manuel', 'barroso', 'visit', 'greece', 'today']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.234375
+145,0,"['maths', 'use', 'solve', 'irish', 'myth', 'researchers', 'use', 'mathematics', 'conclude', 'ancient', 'irish', 'epic', 'táin', 'bó', 'c']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.263125
+146,0,"['shares', 'hope', 'us', 'stimulus', 'asian', 'share', 'rise', 'today', 'bargain', 'hunting', 'hope', 'grow', 'us', 'stimulus']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+147,0,"['irish', 'student', 'world', 'best', 'two', 'student', 'come', 'first', 'world', 'respective', 'accountancy', 'exam']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.41662499999999997
+148,0,"['call', 'un', 'resolution', 'syria', 'arab', 'nation', 'announce', 'plan', 'go', 'un', 'general', 'assembly', 'seek', 'app']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2852203280797684,0.41662499999999997
+149,0,"['local', 'government', 'efficiency', 'near', 'almost', 'million', 'save', 'efficiency', 'local', 'gover']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.6984560952074622,0.3125
+150,0,"['new', 'guardian', 'jackson', 'child', 'michael', 'jackson', 'three', 'child', 'give', 'new', 'guardian', 'yesterday', 'e']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.34725
+151,0,"['quinn', 'insurance', 'cost', 'may', 'lead', 'extend', 'levy', 'policy', 'policyholders', 'likely', 'continue', 'pay', 'fo']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.34725
+152,0,"['hse', 'want', 'long', 'week', 'staff', 'health', 'service', 'executive', 'management', 'propose', 'staff', 'work', 'additional']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+153,0,"['irish', 'boxer', 'one', 'last', 'bash', 'gain', 'entry', 'olympics', 'irish', 'amateur', 'champion', 'joe', 'ward']",0.6666666666666666,0.0,0.0,0.0,0.0,0.75,0.5086040527500802,0.27775
+154,0,"['former', 'dancer', 'sue', 'minister', 'woman', 'sue', 'minister', 'justice', 'allege', 'hope', 'become', 'teacher']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.4605
+155,0,"['appeal', 'issue', 'drogheda', 'death', 'post', 'mortem', 'body', 'architect', 'die', 'six', 'day', 'allege']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.53575
+156,0,"['tribunal', 'hears', 'belfast', 'former', 'detective', 'sergeant', 'base', 'dundalk', 'garda', 'station', 'claim', 'today']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5900611128980379,0.294125
+157,0,"['gun', 'sale', 'denver', 'shoot', 'gun', 'sale', 'surge', 'batman', 'cinema', 'massacre', 'amid', 'fear', 'polit']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.39475000000000005
+158,0,"['moroccan', 'medal', 'favourite', 'test', 'positive', 'olympics', 'morocco', 'mariem', 'alaoui', 'selsouli', 'favourite', 'woman']",0.49999999999999994,0.0,0.0,0.0,0.0,0.6875,0.637370001072156,0.294125
+159,0,"['hogan', 'regulate', 'waste', 'collection', 'waste', 'collection', 'company', 'hold', 'account', 'significantly', 'str']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.621582502412351,0.441125
+160,0,"['chelsea', 'complete', 'oscar', 'deal', 'soccer', 'chelsea', 'complete', 'signing', 'brazil', 'playmaker', 'oscar', 'internaci']",0.5833333333333333,0.0,0.0,0.0,0.0,0.3125,0.7152085343626032,0.3125
+161,0,"['receiver', 'appoint', 'quinn', 'worldwide', 'asset', 'mesmerisingly', 'complex', 'scheme', 'devise', 'bankrupt', 'businessm']",0.49999999999999994,0.0,0.0,0.0,0.0,0.5625,0.9425592366248526,0.267875
+162,0,"['irish', 'fail', 'make', 'man', 'booker', 'cut', 'past', 'winner', 'hilary', 'mantel', 'three', 'former', 'shortlist', 'author', 'find', 'themselv']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.138875
+163,0,"['papachristou', 'ban', 'harsh', 'say', 'coach', 'olympics', 'triple', 'jumper', 'paraskevi', 'papachristou', 'expulsion', 'greek', 'ol']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.8034469818805617,0.166625
+164,0,"['hogan', 'plan', 'reform', 'aspect', 'local', 'government', 'government', 'extremely', 'likely', 'cut', 'number']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.44901897716307493,0.48612500000000003
+165,0,"['plan', 'gay', 'marriage', 'scotland', 'scotland', 'could', 'introduce', 'marriage', 'snp', 'government', 'announce']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.3125
+166,0,"['married', 'bliss', 'n', 'korean', 'leader', 'north', 'korean', 'leader', 'kim', 'marry', 'state', 'medium', 'say', 'today', 'put']",0.7083333333333333,0.0,0.0,0.0,0.0,0.1875,0.4639219470354884,0.138875
+167,0,"['mills', 'accept', 'defeat', 'olympics', 'row', 'olympics', 'joanna', 'mills', 'appeal', 'exclusion', 'irish', 'olympic']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.441125
+168,0,"['greece', 'struggle', 'convince', 'troika', 'trying', 'convince', 'increasingly', 'sceptical', 'international', 'lender']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.8391765841106466,0.41662499999999997
+169,0,"['ford', 'predict', '1bn', 'loss', 'europe', 'us', 'car', 'maker', 'ford', 'report', 'profi']",0.5833333333333333,0.0,0.0,0.0,0.0,0.875,0.6481987777420392,0.234375
+170,0,"['bale', 'could', 'face', 'olympic', 'ban', 'soccer', 'gareth', 'bale', 'could', 'ban', 'play', 'tottenham', 'olympics']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5086040527500802,0.41662499999999997
+171,0,"['rodgers', 'praise', 'carroll', 'soccer', 'liverpool', 'manager', 'brendan', 'rodgers', 'plan', 'hold', 'talk', 'andy', 'ca']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6875,0.7152085343626032,0.3125
+172,0,"['new', 'school', 'patron', 'announce', 'patron', '14', 'new', 'secondary', 'school', 'announce', 'minister', 'education', 'r']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.34725
+173,0,"['kenny', 'child', 'right', 'pledge', 'taoiseach', 'enda', 'kenny', 'say', 'expect', 'legislation', 'pave', 'way', 'refere']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.39475000000000005
+174,0,"['gardaí', 'information', 'ira', 'existence', 'previously', 'undisclosed', 'psni', 'intelligence', 'document']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.9425592366248526,0.357125
+175,0,"['woman', 'die', 'co', 'galway', 'crash', 'woman', '50', 'die', 'car', 'drive', 'collide', 'wall']",0.9166666666666666,0.0,0.0,0.0,0.0,0.25,0.10654551302669668,0.625
+176,0,"['progress', 'public', 'reform', 'significant', 'progress', 'make', 'reform', 'public', 'service', 'wit']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.390625
+177,0,"['bruton', 'hopeful', 'game', 'job', 'group', 'task', 'drive', 'growth', 'job', 'creation', 'digital', 'gaming', 'sector']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.39475000000000005
+178,0,"['joyce', 'dubliners', 'open', 'theatre', 'festival', 'adaptation', 'dubliners', 'james', 'joyce', 'open', 'capital']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.2980057896429721,0.53575
+179,0,"['travel', 'tax', 'unfair', 'advantage', 'ryanair', 'aer', 'lingus', 'aer', 'arann', 'may', 'reimburse', 'government', 'fo']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.27775
+180,0,"['henry', 'hint', 'arsenal', 'return', 'soccer', 'thierry', 'henry', 'would', 'welcome', 'opportunity', 'take', 'third', 'spell', 'ar']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4215985847539402,0.39475000000000005
+181,0,"['state', 'ask', 'end', 'vhi', 'guarantee', 'european', 'commission', 'ask', 'state', 'end', 'unlimited', 'guarantee']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.4605
+182,0,"['nama', 'report', 'tax', 'profit', 'million', 'last', 'year', 'national', 'asset', 'management', 'agency', 'nama', 'make']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.379275222472392,0.32899999999999996
+183,0,"['charlotte', 'church', 'win', 'libel', 'damage', 'charlotte', 'church', 'accept', 'substantial', 'undisclosed', 'libel', 'damage']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.8391765841106466,0.25
+184,0,"['postmortem', 'drogheda', 'assault', 'victim', 'postmortem', 'examination', 'carry', 'today', 'body', 'man']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.625
+185,0,"['satellites', 'show', 'greenland', 'ice', 'melt', 'scant', 'four', 'day', 'month', 'surface', 'greenland', 'ice', 'sheet', 'melt']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.32899999999999996
+186,0,"['eu', 'towards', 'disaster', 'euro', 'zone', 'face', 'economic', 'disaster', 'unless', 'financially', 'strong', 'state']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.8212983810442801,0.166625
+187,0,"['britain', 'sink', 'deep', 'recession', 'britain', 'economy', 'shrink', 'far', 'expect', 'second', 'quarter', '20']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.41662499999999997
+188,0,"['tullow', 'report', '48', 'rise', 'profit', 'tullow', 'oil', 'report', '48', 'per', 'cent', 'increase', 'profit', '829', 'mill']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2469443550981022,0.29762500000000003
+189,0,"['shooting', 'victim', 'wife', 'give', 'birth', 'woman', 'escape', 'injury', 'colorado', 'cinema', 'shoot', 'rampa']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5743004181408814,0.294125
+190,0,"['man', 'court', 'wexford', 'crash', 'man', 'due', 'court', 'today', 'charge', 'connection', 'fatal', 'crash', 'courto']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.2202476680604698,0.511375
+191,0,"['apple', 'number', 'fail', 'meet', 'target', 'apple', 'result', 'fell', 'short', 'wall', 'street', 'expectation', 'european', 'eco']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.493701082877667,0.27775
+192,0,"['record', 'lowdown', 'licence', 'marlay', 'park', 'gig']",0.49999999999999994,0.0,0.0,0.0,0.0,0.1875,0.19588292055323253,0.71425
+193,0,"['madonna', 'verdict', 'say', 'gig']",0.3333333333333333,0.0,0.0,0.0,0.0,0.1875,0.19588292055323253,0.75
+194,0,"['sharp', 'rise', 'ni', 'suicide', 'rate', 'suicide', 'rate', 'northern', 'ireland', 'double', 'since', 'signing', 'belfast']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.39475000000000005
+195,0,"['elan', 'miss', 'target', 'poor', 'trial', 'irish', 'biotech', 'group', 'elan', 'post', 'second', 'quarter', 'revenu']",0.5416666666666666,0.0,0.0,0.0,0.0,0.875,0.8212983810442801,0.08337499999999999
+196,0,"['providence', 'upgrades', 'cork', 'oil', 'find', 'irish', 'exploration', 'group', 'providence', 'resources', 'say', 'today', 'barryroe', 'oilfield']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.857054787177013,0.08337499999999999
+197,0,"['turkey', 'close', 'syria', 'border', 'turkey', 'border', 'gate', 'syria', 'close', 'today', 'response', 'wo']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.53575
+198,0,"['fears', 'spain', 'keep', 'euro', 'weak', 'euro', 'stick', 'near', 'low', 'today', 'asia', 'investor', 'give', 'ri']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.208078696258175,0.39775
+199,0,"['fighting', 'intensifies', 'syrian', 'city', 'aleppo', 'syria', 'send', 'thousand', 'troop', 'surge', 'towards', 'aleppo', 'earl']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.34725
+200,0,"['bale', 'visit', 'batman', 'attack', 'survivor', 'batman', 'star', 'christian', 'bale', 'meet', 'survivor', 'colorado', 'cinema', 'shootin']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.220625
+201,0,"['jackson', 'family', 'dispute', 'raise', 'concern', 'michael', 'jackson', 'family', 'member', 'find', 'centre']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6984560952074622,0.390625
+202,0,"['emergency', 'funding', 'cié', 'agree', 'cabinet', 'agree', 'provide', 'million', 'emergency', 'funding']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3933740752653586,0.4605
+203,0,"['uk', 'france', 'agree', 'military', 'deal', 'britain', 'france', 'sign', 'two', 'agreement', 'today', 'cooperation', 'u']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.34725
+204,0,"['gilmore', 'begin', 'east', 'africa', 'visit', 'tánaiste', 'eamon', 'gilmore', 'today', 'begin', 'visit', 'east', 'africa', 'poor']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.3701082877666989,0.25
+205,0,"['irish', 'bank', 'chief', 'charge', 'loan', 'offence', 'former', 'anglo', 'irish', 'bank', 'chairman', 'seán', 'fitzpatrick', 'yesterday']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.078125
+206,0,"['emergency', 'funding', 'cié', 'agree', 'cabinet', 'agree', 'provide', 'million', 'emergency', 'funding']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3933740752653586,0.4605
+207,0,"['plan', 'would', 'allow', 'public', 'go', 'court', 'child', 'risk', 'person', 'able', 'apply', 'court', 'see']",0.8749999999999999,0.0,0.0,0.0,0.0,0.25,0.16093063149994646,0.5435
+208,0,"['man', 'die', 'drogheda', 'row', 'gardai', 'investigate', 'death', 'man', 'follow', 'altercation', 'dro']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.493701082877667,0.41662499999999997
+209,0,"['cable', 'fault', 'hit', 'dublin', 'power', 'cable', 'fault', 'leave', 'electricity', 'customer', 'without', 'power', 'south', 'dublin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.20837499999999998
+210,0,"['emergency', 'funding', 'cié', 'cabinet', 'agree', 'provide', 'million', 'emergency', 'funding']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.47882491690790185,0.41662499999999997
+211,0,"['ghana', 'president', 'atta', 'mills', 'die', 'ghanaian', 'president', 'john', 'atta', 'mills', 'die', 'capital', 'accra']",0.5833333333333333,0.0,0.0,0.0,0.0,0.3125,0.4806743861906294,0.234375
+212,0,"['warrant', 'issue', 'mcfeely', 'warrant', 'issue', 'dublin', 'district', 'court', 'arrest', 'developer', 'tom', 'mc']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.5
+213,0,"['third', 'arrest', 'fitzpatrick', 'former', 'chairman', 'chief', 'executive', 'anglo', 'irish', 'bank', 'seán', 'fitzpatrick', 'b']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.34725
+214,0,"['rovers', 'send', 'crash', 'europe', 'fk', 'ekranus', '2', 'shamrock', 'rovers', '1', 'ekranus', 'win', 'aggregate', 'contrast']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.379275222472392,0.32899999999999996
+215,0,"['bolt', 'skip', 'open', 'session', 'olympics', 'usain', 'bolt', '100', 'per', 'cent', 'fit', 'heat', '100', 'metre', 'london']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5625,0.272461670419213,0.41662499999999997
+216,0,"['greece', 'need', 'debt', 'restructuring', 'greece', 'unlikely', 'able', 'pay', 'owe', 'debt', 'restruct']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5625,0.32990243379436046,0.5625
+217,0,"['taylor', 'troop', 'colour', 'ireland']",0.20833333333333331,0.0,0.0,0.0,0.0,0.1875,0.34904042028519344,0.53575
+218,0,"['fugitive', 'ni', 'rapist', 'may', 'dublin', 'police', 'northern', 'ireland', 'believe', 'fugitive', 'rapist', 'may', 'live', 'r']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+219,0,"['one', 'trap', 'dorset', 'landslide', 'one', 'person', 'believe', 'trap', 'rock', 'landslide', 'beach']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.5952500000000001
+220,0,"['quinn', 'swop', 'place', 'jailed', 'son', 'bankrupt', 'former', 'billionaire', 'sean', 'quinn', 'say', 'would', 'trade', 'place']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.493701082877667,0.20837499999999998
+221,0,"['man', 'hold', 'fatal', 'wexford', 'crash', 'male', 'late', 'teen', 'arrest', 'connection', 'fatal', 'road', 'tr']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.2202476680604698,0.511375
+222,0,"['anglo', 'inquiry', 'take', 'three', 'year', 'high', 'court', 'tell', 'expect', 'take', 'three', 'year', 'complete']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2597030127586576,0.47625
+223,0,"['leveson', 'conclude', 'press', 'inquiry', 'leveson', 'inquiry', 'press', 'behaviour', 'end', 'today']",0.4166666666666667,0.0,0.0,0.0,0.0,0.3125,0.7542886244237162,0.20837499999999998
+224,0,"['dublin', 'set', 'big', 'screen', 'hard', 'imagine', 'dublin', 'location', 'late', 'bollywood']",0.7083333333333333,0.0,0.0,0.0,0.0,0.625,0.35670633644258587,0.5
+225,0,"['child', 'porn', 'charge', 'comedian', 'son', 'son', 'comedian', 'ronnie', 'barker', 'charge', 'make', 'indecent']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.4605
+226,0,"['katla', 'familiar', 'company', 'naas', 'racing', 'katla', 'face', 'familiar', 'foe', 'bid', 'victory']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5585129194810764,0.441125
+227,0,"['permanent', 'tsb', 'cut', '250', 'job', 'permanent', 'tsb', 'today', 'confirm', 'plan', 'cut', '250', 'job', 'c']",0.7499999999999999,0.0,0.0,0.0,0.0,0.6875,0.3433043851184733,0.3125
+228,0,"['quinn', 'lawyer', 'seek', 'quit', 'case', 'lawyers', 'businessman', 'peter', 'darragh', 'quinn', 'today', 'ask', 'high', 'court', 'perm']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.263125
+229,0,"['united', 'come', 'short', 'moura', 'bid', 'soccer', 'lucas', 'moura', 'agent', 'claim', 'propose', 'move', 'manchester', 'united']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.3701082877666989,0.375
+230,0,"['boa', 'seek', 'idowu', 'medical', 'record', 'olympics', 'british', 'olympic', 'association', 'write', 'triple', 'jumper', 'phillip']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.8212983810442801,0.166625
+231,0,"['consultants', 'talk', 'extension', 'bid', 'reject', 'body', 'oversee', 'implementation', 'croke', 'park', 'agreement']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.731960973517744,0.390625
+232,0,"['brooks', 'coulson', 'charge', 'british', 'prime', 'minister', 'david', 'cameron', 'chief', 'rupert', 'murdoch', 'former']",0.5833333333333333,0.0,0.0,0.0,0.0,0.25,0.6649512168971802,0.234375
+233,0,"['property', 'price', 'slide', 'residential', 'property', 'price', 'across', 'country', 'fell', 'per', 'cent', '12']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.4375
+234,0,"['shares', 'weaken', 'poor', 'eu', 'data', 'european', 'share', 'stay', 'weak', 'today', 'steep', 'decline', 'previous', 'day']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.32899999999999996
+235,0,"['iraq', 'blast', 'death', 'toll', 'rise', 'two', 'bomb', 'kill', 'nine', 'people', 'iraq', 'late', 'yesterday', 'police', 'hospital', 'source']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.19737500000000002
+236,0,"['two', 'pipebombs', 'find', 'sligo', 'army', 'bomb', 'disposal', 'team', 'make', 'safe', 'two', 'pipebombs', 'co', 'sligo', 'late', 'last', 'night']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.30309853114613505,0.1875
+237,0,"['fierce', 'fight', 'continue', 'syrian', 'city', 'fierce', 'clash', 'persist', 'overnight', 'syria', 'commercial', 'capital', 'al']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.5532593545620242,0.27775
+238,0,"['euro', 'zone', 'downturn', 'continue', 'july', 'euro', 'zone', 'private', 'sector', 'shrank', 'sixth', 'month', 'july', 'manufac']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.375
+239,0,"['moody', 'lower', 'outlook', 'eu', 'core', 'rating', 'agency', 'moody', 'revise', 'outlook', 'germany', 'netherlands']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.47882491690790185,0.41662499999999997
+240,0,"['former', 'anglo', 'irish', 'chief', 'seán', 'fitzpatrick', 'arrest', 'former', 'chairman', 'chief', 'executive', 'anglo', 'irish', 'bank']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.220625
+241,0,"['cisco', 'cut', 'job', 'worldwide', 'tech', 'giant', 'cisco', 'systems', 'say', 'plan', 'cut', 'job', '2', 'per', 'cent', 'th']",0.8749999999999999,0.0,0.0,0.0,0.0,0.3125,0.1259515385440121,0.27175
+242,0,"['china', 'pmi', 'peak', 'china', 'flash', 'factory', 'purchasing', 'manager', 'index', 'rise', 'july', 'high', 'leve']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.27775
+243,0,"['abolition', 'council', 'agenda', 'cabinet', 'meeting', 'proposals', 'abolish', 'number', 'town', 'council', 'reform', 'f']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+244,0,"['first', 'us', 'woman', 'space', 'dy', 'sally', 'ride', 'first', 'us', 'woman', 'travel', 'space', 'advocate', 'science', 'ed']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.208078696258175,0.39775
+245,0,"['sharp', 'rise', 'ni', 'suicide', 'rate', 'suicide', 'rate', 'northern', 'ireland', 'double', 'since', 'signing', 'good', 'fri']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.375
+246,0,"['two', 'former', 'anglo', 'executive', 'charge', 'loan', 'investor', 'two', 'former', 'executive', 'anglo', 'irish', 'b']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.220625
+247,0,"['minister', 'waste', 'move', 'may', 'hit', 'poolbeg', 'plans', 'regulate', 'waste', 'collection', 'market', 'allow', 'local', 'authoriti']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+248,0,"['greener', 'pasture', 'await', 'animal', 'star', 'olympic', 'ceremony', 'seventy', 'sheep', '12', 'horse', '10', 'chicken', '10', 'duck', 'nine', 'g']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.4639219470354884,0.06949999999999999
+249,0,"['giffords', 'climb', 'french', 'alps', 'former', 'arizona', 'congresswoman', 'gabrielle', 'giffords', 'still', 'recover', 'wound']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.8391765841106466,0.25
+250,0,"['corruption', 'limit', 'politician', 'political', 'corruption', 'ireland', 'matter', 'politician', 'acc']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.58825
+251,0,"['new', 'corp', 'announces', 'shake', 'news', 'corp', 'medium', 'company', 'found', 'rupert', 'murdoch', 'announce', 'shake']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.4375
+252,0,"['wenger', 'want', 'rvp', 'resolution', 'soccer', 'arsenal', 'manager', 'arsene', 'wenger', 'reiterate', 'desire', 'keep', 'robin', 'van', 'pe']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6058218076551946,0.220625
+253,0,"['ireland', 'evans', 'hand', 'tough', 'draw', 'olympics', 'ireland', 'number', 'one', 'player', 'pair', 'olympic', 'champion', 'li']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6875,0.5234802187198456,0.27775
+254,0,"['teen', 'lose', 'parent', 'irish', 'may', 'experience', 'death', 'one', 'pare']",0.7499999999999999,0.0,0.0,1.0,0.0,0.4375,0.30309853114613505,0.5
+255,0,"['sanctions', 'likely', 'cripple', 'penn', 'state', 'us', 'sports', 'us', 'national', 'collegiate', 'athletic', 'association', 'ncaa', 'ann']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6817036560523212,0.15625
+256,0,"['rodgers', 'fight', 'keep', 'key', 'pair', 'soccer', 'liverpool', 'bos', 'brendan', 'rodgers', 'insist', 'plan', 'let', 'slovak']",0.7083333333333333,0.0,0.0,0.0,0.0,0.6875,0.4215985847539402,0.39475000000000005
+257,0,"['bbc', 'apologise', 'olympian', 'irish', 'gaffe', 'bbc', 'apologise', 'olympian', 'daley', 'thompson', 'comment']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.441125
+258,0,"['imf', 'meet', 'greek', 'official', 'international', 'monetary', 'fund', 'say', 'today', 'meet', 'greek', 'authority', 'tomo']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.34725
+259,0,"['man', '24', 'jail', 'kill', 'father', 'limerick', 'man', 'sentence', 'eight', 'year', 'prison', 'w']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.30309853114613505,0.4375
+260,0,"['mcdonald', 'miss', 'profit', 'estimate', 'mcdonald', 'report', 'quarterly', 'profit', 'today', 'hurt', 'sl']",0.49999999999999994,0.0,0.0,0.0,0.0,0.8125,0.9042832636431865,0.178625
+261,0,"['man', 'jail', 'dublin', 'murder', 'dublin', 'man', 'sentence', 'life', 'prison', 'find', 'guilty', 'sh']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2202476680604698,0.568125
+262,0,"['northern', 'rock', 'sell', 'britain', 'make', 'million', 'sterling', 'sale', 'failed', 'le']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2597030127586576,0.53575
+263,0,"['get', 'late', 'olympics', 'ireland', 'arthur', 'keeffe', 'set', 'compete', 'modern']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.40749973196097355,0.32899999999999996
+264,0,"['pompey', 'brink', 'extinction', 'soccer', 'portsmouth', 'administrator', 'trevor', 'birch', 'warn', 'club', 'could', 'li']",0.6249999999999999,0.0,0.0,0.0,0.0,0.75,0.6058218076551946,0.441125
+265,0,"['former', 'anglo', 'finance', 'director', 'due', 'court', 'former', 'finance', 'director', 'anglo', 'irish', 'bank', 'arrest']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.39475000000000005
+266,0,"['four', 'die', 'spanish', 'wildfire', 'two', 'large', 'forest', 'fire', 'rag', 'border', 'area', 'france', 'northern', 'cata']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.32899999999999996
+267,0,"['brazilian', 'duo', 'closer', 'pl', 'move', 'soccer', 'alex', 'ferguson', 'confirm', 'manchester', 'united', 'talk', 'sign', 'bra']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+268,0,"['court', 'action', 'adjourn', 'high', 'court', 'fix', 'next', 'thursday', 'hearing', 'date', 'application', 'g']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.4375
+269,0,"['bids', 'disqualify', 'ni', 'director', 'rise', 'number', 'insolvency', 'service', 'bid', 'disqualify', 'failed', 'company', 'directo']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.294125
+270,0,"['17', 'die', 'indian', 'violence', 'least', '17', 'people', 'include', 'child', 'kill', 'many', 'wound', 'f']",0.7083333333333333,0.0,0.0,1.0,0.0,0.4375,0.379275222472392,0.32899999999999996
+271,0,"['boi', 'aib', 'agree', 'review', 'rate', 'swap', 'far', 'seven', 'bank', 'agree', 'review', 'sale', 'complex', 'financial', 'p']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.41662499999999997
+272,0,"['uk', 'signal', 'tax', 'avoidance', 'clampdown', 'britain', 'say', 'today', 'would', 'toughen', 'oversight', 'tax', 'avoidance', 'scheme', 'wh']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.20837499999999998
+273,0,"['doreen', 'lawrence', 'carry', 'torch', 'doreen', 'lawrence', 'say', 'quite', 'emotional', 'carry', 'olympic', 'flame']",0.6666666666666666,0.0,0.0,0.0,1.0,0.3125,0.3835102390908117,0.375
+274,0,"['uk', 'police', 'search', 'miss', 'girl', 'police', 'britain', 'initiate', 'search', 'two', 'young', 'sister', 'go', 'mi']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+275,0,"['arab', 'league', 'offer', 'assad', 'safe', 'exit', 'arab', 'league', 'secretary', 'general', 'offer', 'syrian', 'president', 'bashar', 'assa']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.19737500000000002
+276,0,"['morning', 'top', 'stories', 'greece', 'depression', 'oil', 'dip', '104']",0.4583333333333333,0.0,0.0,0.0,0.0,0.375,0.3608341374504128,0.384625
+277,0,"['man', 'shot', 'leg', 'derry', 'man', 'shoot', 'leg', 'derry', 'last', 'night', 'police', 'north', 'say']",0.9166666666666666,0.0,0.0,0.0,0.0,0.3125,0.11769593652835852,0.520875
+278,0,"['man', '18', 'dy', 'co', 'cavan', 'crash', 'man', '18', 'die', 'lose', 'control', 'van', 'drive', 'co', 'cavan']",0.9583333333333331,0.0,0.0,0.0,0.0,0.1875,0.013616382545298511,0.5
+279,0,"['envelope', 'maker', 'create', '32', 'job', 'envelope', 'supply', 'company', 'establish', 'manufacturing', 'facility', 'kilken']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.41662499999999997
+280,0,"['least', '39', 'dead', 'iraq', 'attack', 'death', 'toll', 'string', 'bomb', 'attack', 'iraq', 'today', 'rise', '39', 'l']",0.9583333333333331,0.0,0.0,0.0,0.0,0.1875,0.04578106572316931,0.5
+281,0,"['oil', 'dip', '104', 'fresh', 'euro', 'fear', 'brent', 'crude', 'slip', '104', 'per', 'barrel', 'today', 'fear', 'global', 'eco']",0.8333333333333333,0.0,0.0,0.0,0.0,0.1875,0.19588292055323253,0.340875
+282,0,"['greece', 'depression', 'greece', 'great', 'depression', 'similar', 'american', 'one', '1930s', 'th']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.289696579822022,0.5625
+283,0,"['boy', '4', 'dy', 'national', 'aquatic', 'centre', 'investigation', 'begin', 'boy', '4', 'die', 'follow', 'incident']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5625,0.30309853114613505,0.4375
+284,0,"['obama', 'honour', 'shoot', 'victim', 'president', 'barack', 'obama', 'meet', 'friend', 'family', 'colorado', 'movie', 'theatre']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.294125
+285,0,"['euro', 'hit', 'low', 'yen', 'euro', 'hammer', 'near', 'trough', 'yen', 'plunge']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2597030127586576,0.53575
+286,0,"['rake', 'pull', 'barclay', 'race', 'leadership', 'crisis', 'barclays', 'continue', 'plague', 'embattled', 'bank', 'today']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.41662499999999997
+287,0,"['authorities', 'force', 'peter', 'quinn', 'return', 'authority', 'republic', 'powerless', 'force', 'retur']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.44982309424252176,0.592125
+288,0,"['us', 'shoot', 'suspect', 'police', 'say', 'batman', 'shoot', 'suspect', 'james', 'holmes', 'refuse']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6649512168971802,0.234375
+289,0,"['cuban', 'dissident', 'paya', 'die', 'car', 'crash']",0.20833333333333331,0.0,0.0,0.0,0.0,0.3125,0.34904042028519344,0.178625
+290,0,"['peter', 'quinn', 'force', 'return', 'leave', 'state', 'authorities', 'republic', 'powerless', 'fo']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.23244344376541226,0.681875
+291,0,"['abolition', 'council', 'agenda', 'cabinet', 'proposals', 'abolish', 'number', 'town', 'council', 'reform', 'freedom']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.5263749999999999
+292,0,"['six', 'eminent', 'former', 'member', 'start', 'campaign', 'save', 'seanad', 'campaign', 'save', 'seanad', 'abolish']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+293,0,"['royals', 'unable', 'take', 'dublin', 'crown', 'gaa', 'dublin', 'donegal', 'secure', 'successive', 'provincial', 'title']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.7855687788141953,0.25
+294,0,"['irishman', 'die', 'channel', 'swim', 'irishman', 'die', 'attempt', 'swim', 'english', 'channel']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.46875
+295,0,"['sky', 'limit', 'wiggins']",0.12499999999999999,0.0,0.0,0.0,0.0,0.1875,0.30309853114613505,0.5
+296,0,"['group', 'expect', 'recommend', 'abortion', 'law', 'say', 'lynch', 'minister', 'state', 'department', 'health', 'kathleen', 'lyn']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.34725
+297,0,"['heavens', 'cut', 'rest', 'racing', 'great', 'heavens', 'show', 'tremendous', 'turn', 'foot', 'win', 'darley', 'irish', 'oaks']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.4375
+298,0,"['alonso', 'move', 'far', 'clear']",0.08333333333333333,0.0,0.0,0.0,0.0,0.1875,0.6649512168971802,0.3125
+299,0,"['aer', 'arann', 'pilot', 'action', 'call', 'planned', 'industrial', 'action', 'pilot', 'aer', 'arann', 'schedule', 'commence', 'later']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.27775
+300,0,"['modric', 'anger', 'soccer', 'tottenham', 'manager', 'andre', 'criticise', 'midfielder', 'luka', 'modric', 'r']",0.49999999999999994,0.0,0.0,0.0,0.0,0.6875,0.9425592366248526,0.178625
+301,0,"['least', '10', 'kill', 'beijing', 'flood', 'heavy', 'rain', 'storm', 'six', 'decade', 'hit', 'chinese', 'capital', 'kill']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+302,0,"['mcgeeney', 'relieve', 'get', 'job', 'gaa', 'kildare', 'manager', 'kieran', 'mcgeeney', 'heap', 'praise', 'limerick']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.41662499999999997
+303,0,"['psni', 'attack', 'derry', 'disorder', 'police', 'attack', 'petrol', 'bomb', 'derry', 'last', 'night', 'third', 'eveni']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.39475000000000005
+304,0,"['wind', 'get', 'challenge', 'player']",0.16666666666666669,0.0,0.0,0.0,0.0,0.3125,0.3745845395089523,0.41662499999999997
+305,0,"['three', 'court', 'gang', 'activity', 'three', 'men', 'due', 'appear', 'special', 'sitting', 'carlow', 'district', 'cour']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.4375
+306,0,"['murdoch', 'quits', 'director', 'role', 'rupert', 'murdoch', 'step', 'role', 'director', 'number', 'board', 'li']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.5
+307,0,"['heavy', 'fighting', 'damascus', 'rebels', 'battle', 'syrian', 'president', 'bashar', 'force', 'near', 'main', 'intelligence']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.8034469818805617,0.166625
+308,0,"['norway', 'massacre', 'victim', 'remember', 'norway', 'commemorate', '77', 'victim', 'bomb', 'gun', 'massacre', 'shock']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.41662499999999997
+309,0,"['quinns', 'hit', 'back', 'sentence', 'quinn', 'family', 'hit', 'back', 'two', 'relative', 'hand', 'jail', 'sentence']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.4375
+310,0,"['man', 'injure', 'dublin', 'shoot', 'man', '20', 'take', 'hospital', 'follow', 'shoot', 'blanchardsto']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.35670633644258587,0.5625
+311,0,"['months', 'plan', 'go', 'colorado', 'shooting', 'deliveries', 'receive', 'man', 'accuse', 'commit', 'cinema']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.48612500000000003
+312,0,"['obama', 'meet', 'denver', 'victim', 'us', 'president', 'barack', 'obama', 'fly', 'colorado', 'today', 'meet', 'victim', 'batman']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+313,0,"['pakistani', 'airstrikes', 'kill', '15', 'pakistani', 'military', 'jet', 'strike', 'militant', 'hideout', 'northwest', 'country']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+314,0,"['mcdowell', 'right', 'thick']",0.20833333333333331,0.0,0.0,0.0,0.0,0.25,0.15758014366891826,0.71425
+315,0,"['ireland', 'beat', 'end']",0.12499999999999999,0.0,0.0,0.0,0.0,0.1875,0.30309853114613505,0.5
+316,0,"['galvin', 'stung', 'action', 'critic', 'gaa', 'emotional', 'paul', 'galvin', 'pay', 'tribute', 'teammate', 'kerry']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.41662499999999997
+317,0,"['kingdom', 'come', 'good', 'summer', 'sun', 'gaa', 'kerry', 'back', 'run', 'year', 'champ']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.272461670419213,0.47625
+318,0,"['wiggins', 'wrap', 'maiden', 'tour', 'cycling', 'bradley', 'wiggins', 'set', 'become', 'first', 'british', 'winner', 'tour']",0.7499999999999999,0.0,0.0,0.0,0.0,0.625,0.40749973196097355,0.4605
+319,0,"['cannabis', 'worth', 'seize', 'dublin', 'drugs', 'value', 'million', 'seize', 'dublin', 'today']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.30309853114613505,0.5
+320,0,"['danedream', 'edge', 'king', 'george', 'racing', 'last', 'season', 'prix', 'de', 'l', 'arc', 'de', 'triomphe', 'heroine', 'danedream', 'lunge', 'late', 'den']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.3235231049640829,0.11900000000000001
+321,0,"['smalling', 'face', 'lengthy', 'spell', 'soccer', 'chris', 'smalling', 'rule', '10', 'week', 'broken', 'metatarsal', 'bef']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.41662499999999997
+322,0,"['takar', 'land', 'prize', 'curragh', 'racing', 'takar', 'trouble', 'justify', 'long', 'favouritism', 'kare', 'ra']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.493701082877667,0.41662499999999997
+323,0,"['south', 'africa', 'bus', 'crash', 'kill', '16', 'sixteen', 'people', 'kill', 'collision', 'two', 'bus', 'south', 'africa', 'r']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.3125
+324,0,"['spanish', 'king', 'lose', 'wwf', 'title', 'spanish', 'branch', 'world', 'wildlife', 'fund', 'oust', 'king', 'juan', 'carlos', 'h']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.357125
+325,0,"['woman', '21', 'kill', 'cavan', 'crash', 'woman', 'die', 'follow', 'single', 'vehicle', 'crash', 'co', 'cavan', 'early', 'hou']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.19588292055323253,0.39775
+326,0,"['bathing', 'ban', 'lift', 'clare', 'beach', 'ban', 'swimming', 'three', 'beach', 'co', 'clare', 'lift', 'today']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.47625
+327,0,"['delaney', 'take', '10', 'per', 'cent', 'pay', 'cut', 'soccer', 'fai', 'chief', 'executive', 'john', 'delaney', 'confirm', 'take', 'vol']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.3125
+328,0,"['obama', 'call', 'shooting', 'heinous', 'us', 'president', 'barack', 'obama', 'call', 'shooting', 'movie', 'theatre', 'colorado', 'yes']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.27775
+329,0,"['westwood', 'still', 'tread', 'water', 'golf', 'world', 'number', 'three', 'lee', 'westwood', 'may', 'discuss', 'win', 'first']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.34725
+330,0,"['vatican', 'censure', 'peruvian', 'university', 'vatican', 'strip', 'pontifical', 'catholic', 'university', 'peru', 'one']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.390625
+331,0,"['draghi', 'say', 'euro', 'danger', 'european', 'central', 'bank', 'president', 'mario', 'draghi', 'say', 'euro', 'dange']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.4375
+332,0,"['wenger', 'determine', 'keep', 'van', 'persie', 'soccer', 'arsene', 'wenger', 'reiterate', 'desire', 'keep', 'star', 'striker', 'robin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5900611128980379,0.294125
+333,0,"['olympic', 'torch', 'arrive', 'london', 'olympic', 'torch', 'receive', 'rapturous', 'reception', 'thousand']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.390625
+334,0,"['psni', 'attack', 'petrol', 'bomb', 'police', 'attack', 'petrol', 'bomb', 'missile', 'overnight']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.51475
+335,0,"['attacks', 'kill', '15', 'pakistan', 'bomb', 'explode', 'compound', 'northwest', 'pakistan', 'today', 'kill', 'nine', 'people']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.39475000000000005
+336,0,"['gardaí', 'seek', 'whereabouts', 'peter', 'darragh', 'quinn', 'arrest', 'warrant', 'peter', 'darragh', 'quinn', 'nephew', 'bankrup']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.34725
+337,0,"['four', 'remain', 'custody', 'raid', 'gardaí', 'continue', 'question', 'four', 'people', 'follow', 'number', 'raid']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.4605
+338,0,"['syrian', 'force', 'fight', 'back', 'capital', 'government', 'force', 'pound', 'rebel', 'damascus', 'overnight', 'battle', 'reverse']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.234375
+339,0,"['police', 'detonate', 'explosive', 'apartment', 'police', 'investigate', 'colorado', 'shooting', 'rampage', 'prepare', 'today']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.731960973517744,0.390625
+340,0,"['us', 'seek', 'explanation', 'kill', 'america', 'wake', 'terrible', 'news', 'yesterday', 'morning', 'strain', 'se']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.4605
+341,0,"['new', 'inquiry', 'mcareavey', 'murder', 'new', 'police', 'team', 'take', 'investigation', 'judicial', 'inquiry']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5625,0.4215985847539402,0.5263749999999999
+342,0,"['seán', 'quinn', 'jnr', 'begin', 'prison', 'term', 'court', 'contempt', 'son', 'bankrupt', 'businessman', 'seán', 'quinn', 'spend', 'f']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.35670633644258587,0.3125
+343,0,"['colorado', 'shoot', '12', 'kill', '59', 'wound', 'batman', 'screen', 'america', 'wake', 'terrible', 'news', 'yesterda']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.34725
+344,0,"['swimming', 'ban', 'clare', 'beach', 'swimming', 'ban', 'three', 'beach', 'co', 'clare', 'concern']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.4605
+345,0,"['suspect', 'home', 'trap', 'police', 'try', 'enter', 'home', 'man', 'suspect', 'death', 'least']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.30309853114613505,0.5
+346,0,"['ferguson', 'confirm', 'van', 'persie', 'bid', 'soccer', 'alex', 'ferguson', 'today', 'confirm', 'manchester', 'united', 'make', 'bid', 'arse']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+347,0,"['ulster', 'bank', 'credit', 'card', 'payment', 'process', 'number', 'payment', 'make', 'ulster', 'bank', 'account', 'bee']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+348,0,"['open', 'door', 'closing', 'mcilroy', 'golf', 'rory', 'mcilroy', 'hung', 'difficult', 'second', 'round', 'give']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.4605
+349,0,"['compensation', 'trainee', 'pilot', 'minister', 'transport', 'leo', 'varadkar', 'rule', 'financial', 'compensation']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.731960973517744,0.46875
+350,0,"['protest', 'train', 'announcement', 'people', 'visual', 'impairment', 'come', 'together', 'protest']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.731960973517744,0.546875
+351,0,"['case', 'inm', 'payment', 'resolve', 'high', 'court', 'action', 'director', 'independent', 'news', 'media']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.40749973196097355,0.4605
+352,0,"['ryanair', 'cut', '11', 'madrid', 'route', 'ryanair', 'cancel', '11', 'route', 'madrid', 'four', 'barcelona', 'well']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2597030127586576,0.47625
+353,0,"['european', 'regulator', 'examine', 'euribor', 'trading', 'behaviour', 'european', 'regulator', 'ask', 'several', 'bank', 'invest']",0.49999999999999994,0.0,0.0,0.0,0.0,0.375,0.9999999999999999,0.178625
+354,0,"['china', 'upholds', 'ai', 'weiwei', 'fine', 'chinese', 'court', 'today', 'uphold', 'million', 'fine', 'tax', 'evasion', 'count']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.32990243379436046,0.3125
+355,0,"['greece', 'pressure', 'ecb', 'move', 'european', 'central', 'bank', 'say', 'today', 'would', 'stop', 'accepting', 'collateral', 'greek']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.32899999999999996
+356,0,"['cavendish', 'find', 'extra', 'gear', 'cycling', 'sensational', 'sprint', 'finish', 'saw', 'mark', 'cavendish', 'claim', '22nd', 'tour', 'de', 'fra']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.138875
+357,0,"['ground', 'give', 'weld', 'headache', 'racing', 'princess', 'highway', 'overcome', 'testing', 'condition', 'late', 'setbac']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.441125
+358,0,"['stocks', 'slide', 'spain', 'woe', 'us', 'european', 'stock', 'slide', 'today', 'euro', 'hit', 'record', 'low', 'several', 'curre']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.3125
+359,0,"['witnesses', 'describe', 'smoke', 'gunfire', 'witnesses', 'mask', 'shooting', 'cinema', 'denver', 'last', 'night', 'le']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+360,0,"['valencia', 'seek', 'spanish', 'government', 'aid', 'spain', 'heavily', 'indebted', 'eastern', 'region', 'valencia', 'say', 'today', 'would']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+361,0,"['paris', 'batman', 'premiere', 'cancel', 'paris', 'premiere', 'new', 'batman', 'film', 'dark', 'knight', 'rises', 'cancel']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+362,0,"['funds', 'invest', '2011', 'irish', 'venture', 'capital', 'fund', 'support', 'enterprise', 'ireland', 'invest', 'total']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.493701082877667,0.27775
+363,0,"['iraq', 'close', 'border', 'syria', 'iraqi', 'army', 'seal', 'main', 'border', 'cross', 'syria', 'concrete', 'blast', 'wall']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.32899999999999996
+364,0,"['trapattoni', 'give', 'youth', 'head', 'soccer', 'republic', 'ireland', 'manager', 'giovanni', 'trapattoni', 'use', 'next', 'month', 'f']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.294125
+365,0,"['lofty', 'target', 'rodgers']",0.12499999999999999,0.0,0.0,0.0,0.0,0.1875,0.41031414173903713,0.5
+366,0,"['document', 'hint', 'ruc', 'link', 'kill', 'british', 'government', 'intelligence', 'document', 'suggest', 'catholic', 'ruc', 'offi']",0.6249999999999999,0.0,0.0,0.0,1.0,0.5,0.621582502412351,0.294125
+367,0,"['dcc', 'growth', 'expectation', 'business', 'service', 'group', 'dcc', 'report', 'solid', 'start', 'financial', 'year']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.526991529966763,0.294125
+368,0,"['obama', 'denver', 'shoot', 'us', 'president', 'barack', 'obama', 'say', 'shock', 'sadden', 'horr']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.36517636967942513,0.4605
+369,0,"['anderlecht', 'lie', 'wait', 'rovers', 'soccer', 'shamrock', 'rovers', 'meet', 'anderlecht', 'belgium', 'champions', 'leagu']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.441125
+370,0,"['weekend', 'spectacle', 'festival', 'ahead', 'look', 'ahead', 'across', 'country', 'weekend']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.41661305886137023,0.51475
+371,0,"['online', 'reaction', 'denver', 'shoot', 'masked', 'gunman', 'shoot', 'dead', '14', 'people', 'wound', 'least', '50', 'others']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.41662499999999997
+372,0,"['microsoft', 'post', 'first', 'loss', 'accounting', 'charge', 'relate', 'microsoft', 'acquisition', 'online', 'adver']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.3125
+373,0,"['scores', 'injure', 'spain', 'austerity', 'march', 'fifteen', 'people', 'arrest', '39', 'people', 'injured', 'overnight', 'central']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.294125
+374,0,"['take', 'rein', 'forest']",0.16666666666666669,0.0,0.0,0.0,0.0,0.3125,0.4192398413208963,0.41662499999999997
+375,0,"['14', 'dead', 'shoot', 'batman', 'premiere', 'denver', 'mask', 'gunman', 'shoot', 'dead', '14', 'people', 'wound', 'least', '5']",0.8333333333333333,0.0,0.0,1.0,0.0,0.25,0.2202476680604698,0.39775
+376,0,"['curragh', 'get', 'green', 'light', 'racing', 'weekend', 'darley', 'irish', 'oaks', 'meeting', 'curragh', 'go', 'ahead', 'pl']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.2980057896429721,0.357125
+377,0,"['ministers', 'approve', 'spain', 'bailout', 'euro', 'zone', 'finance', 'minister', 'expect', 'approve', 'agreement', 'today', 'le']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.34725
+378,0,"['dotcom', 'launch', 'defence', 'video', 'kim', 'dotcom', 'internet', 'tycoon', 'centre', 'us', 'investigation', 'online', 'p']",0.7083333333333333,0.0,0.0,0.0,1.0,0.5625,0.4215985847539402,0.39475000000000005
+379,0,"['open', 'shut', 'case', 'fan', 'golf', 'spectators', 'ask', 'delay', 'arrival', 'second', 'day', 'british']",0.7499999999999999,0.0,0.0,0.0,0.0,0.625,0.3433043851184733,0.5625
+380,0,"['vodafone', 'boost', 'subscriber', 'telecoms', 'operator', 'vodafone', 'increase', 'total', 'subscriber', 'base', 'quarter', 'ju']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.731960973517744,0.3125
+381,0,"['apple', 'hold', 'china', 'ipad', 'launch', 'apple', 'stag', 'launch', 'late', 'ipad', 'china', 'today', 'free']",0.7916666666666666,0.0,0.0,0.0,0.0,0.125,0.30309853114613505,0.3125
+382,0,"['internet', 'revenue', 'rise', '21', 'google', 'google', 'core', 'internet', 'business', 'increase', 'revenue', '21', 'per', 'cent', 'se']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.2980057896429721,0.29762500000000003
+383,0,"['saving', 'sick', 'pay', 'reform', 'government', 'believe', 'substantial', 'saving', 'generate', 'result']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5743004181408814,0.441125
+384,0,"['concern', 'irish', 'debt', 'deal', 'possibility', 'german', 'finnish', 'dutch', 'mps', 'dispute', 'new', 'debt', 'deal', 'irel']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3433043851184733,0.375
+385,0,"['high', 'court', 'judge', 'consider', 'quinn', 'contempt', 'order', 'high', 'court', 'judge', 'consider', 'today', 'whether', 'bankrupt', 'busin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.20837499999999998
+386,0,"['syria', 'rebel', 'seize', 'border', 'post', 'rebels', 'seize', 'control', 'section', 'syria', 'international', 'border', 'torch']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.234375
+387,0,"['concern', 'grow', 'possible', 'opposition', 'debt', 'deal', 'possibility', 'german', 'finnish', 'dutch', 'mps', 'dispute']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.41662499999999997
+388,0,"['hopes', 'resolution', 'syria', 'crisis', 'fade', 'hopes', 'diplomatic', 'resolution', 'crisis', 'syria', 'fade', 'yesterd']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.4605
+389,0,"['reilly', 'deny', 'obstruct', 'settlement', 'shine', 'patient', 'minister', 'health', 'james', 'reilly', 'reject', 'claim', 'th']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.731960973517744,0.234375
+390,0,"['ul', 'olympic', 'athlete', 'way', 'ireland', 'sporting', 'campus', 'university', 'limerick', 'bid', 'farewell', 'nin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.3701082877666989,0.4375
+391,0,"['national', 'carers', 'strategy', 'launch', 'minister', 'state', 'department', 'health', 'kathleen', 'lynch', 'say', 'ho']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.41662499999999997
+392,0,"['flaw', 'eu', 'food', 'policy', 'coveney', 'big', 'flaw', 'eu', 'policy', 'food', 'main', 'focus', 'com']",0.9166666666666666,0.0,0.0,0.0,0.0,0.1875,0.03505950466387897,0.44999999999999996
+393,0,"['campaigners', 'press', 'gay', 'marriage', 'provision', 'civil', 'partnership', 'gay', 'lesbian', 'couple', 'transfo']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.5383831885922591,0.41662499999999997
+394,0,"['zoo', 'welcome', 'new', 'giraffe', 'calf', 'dublin', 'zoo', 'celebrate', 'birth', 'female', 'rothschild', 'giraffe', 'calf']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.4639219470354884,0.294125
+395,0,"['gilmore', 'hse', 'resignation', 'tánaiste', 'eamon', 'gilmore', 'say', 'regrettable', 'first', 'heard', 'healt']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.35670633644258587,0.375
+396,0,"['weather', 'compensation', 'farmer', 'minister', 'agriculture', 'simon', 'coveney', 'rule', 'compensation', 'scheme']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.7152085343626032,0.46875
+397,0,"['progress', 'job', 'government', 'say', 'today', 'deliver', 'five', '77', 'measure', 'job']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.5952500000000001
+398,0,"['court', 'rule', 'quinns', 'contempt', 'high', 'court', 'judge', 'consider', 'tomorrow', 'whether', 'bankrupt', 'businessman', 'seán', 'qu']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.27775
+399,0,"['wiggins', 'title', 'within', 'grasp', 'cycling', 'bradley', 'wiggins', 'almost', 'certain', 'catch', 'move', 'withi']",0.7083333333333333,0.0,0.0,0.0,0.0,0.625,0.4215985847539402,0.5263749999999999
+400,0,"['child', 'benefit', 'important', 'principle', 'keeping', 'child', 'benefit', 'universal', 'payment', 'important', 'princ']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.41662499999999997
+401,0,"['review', 'shannon', 'level', 'urge', 'report', 'problem', 'summer', 'flooding', 'shannon', 'call', 'urge']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.5952500000000001
+402,0,"['nadal', 'rule', 'london', 'games', 'olympics', 'reigning', 'olympic', 'champion', 'rafa', 'nadal', 'miss', 'london', 'olympics', 'aft']",0.6249999999999999,0.0,0.0,0.0,0.0,0.75,0.6058218076551946,0.294125
+403,0,"['fans', 'urge', 'relive', 'poznan', 'invasion', 'irish', 'soccer', 'fan', 'encourage', 'visit', 'photographic', 'exhibition']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.6058218076551946,0.367625
+404,0,"['abbey', 'emmy', 'longlist', 'drama', 'downton', 'abbey', 'thriller', 'american', 'horror', 'story', 'earn', 'favour', 'e']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.493701082877667,0.27775
+405,0,"['progress', 'make', 'goal', 'case', 'significant', 'progress', 'make', 'discussion', 'founder', 'chief', 'execut']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.4639219470354884,0.39475000000000005
+406,0,"['ptsb', 'credit', 'rating', 'downgrade', 'permanent', 'tsb', 'credit', 'rating', 'today', 'downgrade']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5427522247239199,0.294125
+407,0,"['man', 'jail', 'cork', 'sexual', 'assault', 'restaurant', 'owner', '34', 'today', 'sentence', 'six', 'year', 'jail', 'se']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.19588292055323253,0.45449999999999996
+408,0,"['gaeltacht', 'bill', 'prompt', 'dáil', 'walkout', 'fianna', 'fáil', 'sinn', 'féin', 'technical', 'group', 'walk', 'dáil']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.39475000000000005
+409,0,"['sick', 'leave', 'entitlement', 'halve', 'sick', 'leave', 'arrangement', 'staff', 'public', 'serv']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.5900611128980379,0.367625
+410,0,"['nokia', 'loss', 'widen', 'far', 'nokia', 'make', 'slightly', 'small', 'loss', 'expect', 'end', 'second', 'quarter']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5086040527500802,0.41662499999999997
+411,0,"['wholesale', 'price', 'per', 'cent', 'irish', 'wholesale', 'price', 'rise', 'per', 'cent', 'june', 'accord', 'new', 'figure']",0.7916666666666666,0.0,0.0,0.0,1.0,0.3125,0.30309853114613505,0.25
+412,0,"['retail', 'sale', 'still', 'decline', 'retail', 'sale', 'continue', 'decline', 'second', 'quarter', '2012', 'accord']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.41662499999999997
+413,0,"['depuy', 'recall', 'costly', 'liability', 'patient', 'ongoing', 'pain', 'suffer', 'arise', 'depuy', 'hip']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.47882491690790185,0.41662499999999997
+414,0,"['bin', 'hammam', 'fifa', 'ban', 'overturn', 'soccer', 'mohamed', 'bin', 'hammam', 'lifetime', 'fifa', 'ban', 'impose', 'allegedly', 'pay', 'b']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.44982309424252176,0.19737500000000002
+415,0,"['ntma', 'hold', 'auction', 'national', 'treasury', 'management', 'agency', 'ntma', 'today', 'confirm', 'plan', 'hold']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5743004181408814,0.367625
+416,0,"['apple', 'run', 'samsung', 'ad', 'apple', 'instruct', 'british', 'judge', 'run', 'ad', 'say', 'samsung']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.47625
+417,0,"['former', 'egyptian', 'spy', 'chief', 'die', 'egypt', 'former', 'head', 'intelligence', 'omar', 'suleiman', 'die', 'united', 'states', 'wher']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5086040527500802,0.20837499999999998
+418,0,"['file', 'dpp', 'dublin', 'robbery', 'four', 'people', 'arrest', 'connection', 'garda', 'investigation', 'arm', 'robb']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4356974375469068,0.4605
+419,0,"['ebay', 'revenues', '23', 'per', 'cent', 'ebay', 'post', 'quarterly', 'revenue', 'earnings', 'consumer']",0.5833333333333333,0.0,0.0,0.0,0.0,1.0,0.6984560952074622,0.3125
+420,0,"['singh', 'song', 'royal', 'lytham', 'golf', 'four', 'day', 'win', 'tournament', 'secure', 'place', 'british', 'open']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.3433043851184733,0.5
+421,0,"['israel', 'blame', 'iran', 'bus', 'bombing', 'israel', 'blame', 'hizbullah', 'suicide', 'bomb', 'attack', 'yesterd']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6058218076551946,0.294125
+422,0,"['man', 'die', 'donegal', 'crash', 'man', 'die', 'follow', 'road', 'crash', 'co', 'donegal']",0.5833333333333333,0.0,0.0,0.0,0.0,0.3125,0.1623780422429505,0.390625
+423,0,"['mauritian', 'editor', 'due', 'court', 'editor', 'mauritian', 'sunday', 'times', 'due', 'court', 'today', 'publicati']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.5
+424,0,"['payzone', 'turnover', '5', 'per', 'cent', 'irish', 'group', 'payzone', 'report', '5', 'per', 'cent', 'rise', 'turnover']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2597030127586576,0.29762500000000003
+425,0,"['great', 'wide', 'open', 'streak', 'go', 'forever', 'last', '15', 'majors', 'produce']",0.9166666666666666,1.0,0.0,0.0,0.0,0.25,0.010319502519566814,0.721125
+426,0,"['fujitsu', 'invest', 'research', 'programme', 'technology', 'firm', 'fujitsu', 'invest', 'new', 'research', 'programme']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.5263749999999999
+427,0,"['revenues', 'britvic', 'ireland', 'revenues', 'britvic', 'irish', 'division', 'fell', 'per', 'cent', 'third', 'quarte']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.40749973196097355,0.39475000000000005
+428,0,"['ibm', 'raise', 'earnings', 'forecast', 'ibm', 'raise', 'earnings', 'target', 'even', 'post', 'quarterly', 'revenue', 'sh']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.27775
+429,0,"['fg', 'politician', 'resist', 'abortion', 'liberalisation', 'large', 'group', 'fine', 'gael', 'tds', 'senators', 'lay', 'strong']",0.7083333333333333,0.0,0.0,0.0,0.0,0.625,0.4356974375469068,0.39475000000000005
+430,0,"['texters', 'charge', 'síneadh', 'fada', 'mobile', 'phone', 'user', 'text', 'irish', 'claim', 'rip', 'becau']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.35670633644258587,0.5
+431,0,"['us', 'see', 'assad', 'control', 'thousands', 'syrians', 'take', 'street', 'damascus', 'yesterday', 'cheering', 'chan']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.34725
+432,0,"['imf', 'urge', 'action', 'child', 'benefit', 'medical', 'card', 'international', 'monetary', 'fund', 'suggest']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.7152085343626032,0.3125
+433,0,"['imf', 'urge', 'action', 'child', 'benefit', 'medical', 'card', 'international', 'monetary', 'fund', 'suggest']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.7152085343626032,0.3125
+434,0,"['syrian', 'bombing', 'key', 'regime', 'figure', 'kill', 'attack', 'thousands', 'syrians', 'take', 'street', 'damascus', 'yester']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.34725
+435,0,"['tablets', 'tds', 'senators', 'bring', 'healthy', 'workload', 'politicians', 'often', 'stand', 'accuse', 'pinch', 'sw']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.367625
+436,0,"['400', 'march', 'household', 'tax', '400', 'people', 'march', 'leinster', 'house', 'evening', 'protest', 'hou']",0.7499999999999999,0.0,0.0,1.0,0.0,0.3125,0.35670633644258587,0.5
+437,0,"['15', 'dead', 'ferry', 'sink', 'zanzibar', 'ferry', '280', 'people', 'board', 'sink', 'east', 'african', 'coast']",0.8749999999999999,0.0,0.0,1.0,0.0,0.25,0.208078696258175,0.511375
+438,0,"['crack', 'slow', 'play', 'open', 'golf', 'england', 'andrew', 'willey', 'last', 'player', 'penalise', 'slow', 'play']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.23244344376541226,0.511375
+439,0,"['three', 'kill', 'bulgaria', 'bomb', 'three', 'people', 'kill', '20', 'injured', 'explosion', 'bus', 'carrying']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.53575
+440,0,"['online', 'reaction', 'tourism', 'ireland', 'campaign']",0.16666666666666669,0.0,0.0,0.0,0.0,0.25,0.8212983810442801,0.20837499999999998
+441,0,"['state', 'welfare', 'benefit', 'high', 'imf', 'social', 'welfare', 'benefit', 'high', 'ireland', 'need', 'revise']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.36517636967942513,0.4605
+442,0,"['committee', 'question', 'permanent', 'tsb', 'permanent', 'tsb', 'high', 'standard', 'variable', 'rate', 'svr', 'mortgage', 'afterno']",0.5416666666666666,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.220625
+443,0,"['wiggins', 'keep', 'hold', 'yellow', 'cycling', 'daniel', 'martin', 'post', 'best', 'finish', 'tour', 'de', 'france', 'day']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5625,0.32990243379436046,0.4375
+444,0,"['europeans', 'gm', 'food', 'europeans', 'tend', 'strongly', 'consumption', 'genetically', 'modify']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.8212983810442801,0.41662499999999997
+445,0,"['mandela', 'life', 'timeline', 'former', 'south', 'african', 'president', 'nelson', 'mandela', 'turn', '94', 'today', 'key', 'date']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.32899999999999996
+446,0,"['sa', 'celebrate', 'mandela', '94th', 'birthday', 'south', 'africans', 'celebrate', 'nelson', 'mandela', '94th', 'birthday', 'today', 'giant']",0.5416666666666666,0.0,0.0,0.0,0.0,0.375,0.8212983810442801,0.08337499999999999
+447,0,"['pilot', 'training', 'centre', 'enters', 'examinership', 'pilot', 'training', 'college', 'centre']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.6984560952074622,0.46875
+448,0,"['nxsystems', 'create', '20', 'job', 'payment', 'firm', 'nxsystems', 'create', '20', 'job', 'dublin']",0.5833333333333333,0.0,0.0,0.0,0.0,0.3125,0.3801597512597833,0.3125
+449,0,"['dublin', 'city', 'councillor', 'jail', 'dublin', 'city', 'councillor', 'send', 'jail', 'failure', 'pay', 'fi']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.47625
+450,0,"['boy', 'want', 'fly', 'rory', 'staunton', 'always', 'look']",0.4166666666666667,0.0,0.0,0.0,0.0,0.25,0.2405650262678244,0.520875
+451,0,"['deadline', 'give', 'pyrite', 'proposal', 'construction', 'industry', 'federation', 'irish', 'concrete', 'federation', 'homebo']",0.49999999999999994,0.0,0.0,0.0,0.0,0.5,0.9616972231156856,0.267875
+452,0,"['demolition', 'start', 'nama', 'apartment', 'demolition', 'today', 'begin', 'derelict', 'apartment', 'block', 'longford']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.441125
+453,0,"['late', 'opening', 'ceremony', 'rule', 'irish', 'athlete', 'olympics', 'debate', 'surround', 'irish', 'olympic', 'team', 'h']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.6058218076551946,0.294125
+454,0,"['report', 'degraded', 'bog', 'publish', 'cutaway', 'bog', 'bellacorrick', 'co', 'mayo', 'use']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.36517636967942513,0.5263749999999999
+455,0,"['new', 'munster', 'ulster', 'coach', 'situ', 'rugby', 'rob', 'penney', 'mark', 'anscombe', 'arrive', 'ireland']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.39475000000000005
+456,0,"['force', 'oath', 'former', 'garda', 'detective', 'sergeant', 'morning', 'accuse', 'betray']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5585129194810764,0.441125
+457,0,"['migrants', 'petition', 'regularisation', 'members', 'justice', 'undocumented', 'campaign', 'today', 'hand', 'pet']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.621582502412351,0.51475
+458,0,"['ecb', 'play', 'big', 'role', 'crisis', 'european', 'central', 'bank', 'could', 'play', 'big', 'role', 'fight', 'euro']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.31650048247024765,0.3125
+459,0,"['irish', 'firm', 'eye', 'emerge', 'market', 'irish', 'company', 'could', 'create', 'job', 'expand', 'emerge']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.39475000000000005
+460,0,"['portrush', 'tell', 'hold', 'breath', 'golf', 'chance', 'rory', 'mcilroy', 'darren', 'clarke', 'graeme', 'mcdowell', 'add']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.47882491690790185,0.34725
+461,0,"['open', 'weather', 'still', 'cause', 'headache', 'golf', 'officials', 'british', 'open', 'today', 'admit', 'number', 'bunker', 'r']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.34725
+462,0,"['girl', '6', 'join', 'springsteen', 'stage', 'girl', 'envy', 'every', 'fan', 'find', 'sta']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.2341856974375468,0.53575
+463,0,"['permanent', 'tsb', 'discuss', 'mortgage', 'rate', 'chief', 'executive', 'permanent', 'tsb', 'appear', 'oireachtas']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.48612500000000003
+464,0,"['olympics', 'security', 'firm', 'face', 'penalty', 'british', 'government', 'activate', 'penalty', 'clause', 'security']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.5532593545620242,0.34725
+465,0,"['fiscal', 'responsibility', 'bill', 'publish', 'minister', 'finance', 'today', 'publish', 'fiscal', 'responsibility', 'bill', '2012']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.8324756084485901,0.3125
+466,0,"['woods', 'favourite', 'harrington', 'mcilroy', 'golf', 'since', 'tiger', 'woods', 'win', '2008', 'open', '15', 'different', 'player']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5427522247239199,0.220625
+467,0,"['gardaí', 'arrest', 'seven', 'raid', 'gardaí', 'today', 'raid', 'property', 'make', 'several', 'arrest', 'part', 'operation']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+468,0,"['judge', 'reject', 'apple', 'samsung', 'secrecy', 'bid', 'us', 'judge', 'reject', 'several', 'request', 'apple', 'samsung', 'keep', 'port']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.263125
+469,0,"['new', 'yahoo', 'ceo', 'sit', 'earnings', 'call', 'yahoo', 'new', 'chief', 'executive', 'marissa', 'mayer', 'ross', 'levinsohn', 'executiv']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.20837499999999998
+470,0,"['boy', 'scouts', 'us', 'reaffirm', 'gay', 'ban', 'boy', 'scouts', 'america', 'reaffirm', 'longtime', 'policy', 'bar', 'openl']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.375
+471,0,"['tánaiste', 'brief', 'dáil', 'committee', 'tánaiste', 'minister', 'foreign', 'affairs', 'eamon', 'gilmore', 'appear']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.441125
+472,0,"['husband', 'charge', 'rausing', 'body', 'husband', 'dead', 'millionairess', 'eva', 'rausing', 'appear', 'court', 'today', 'char']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.34725
+473,0,"['macauley', 'play', 'advanced', 'role']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.5175297523319397,0.25
+474,0,"['britain', 'among', 'inactive', 'nation', 'britain', 'one', 'sedentary', 'population', 'earth', 'almost', 'twi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.48612500000000003
+475,0,"['small', 'gas', 'find', 'bp', 'british', 'oil', 'major', 'bp', 'make', 'small', 'gas', 'find', 'norwegian', 'sea', 'reserve', 'prelim']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.208078696258175,0.340875
+476,0,"['schleck', 'claim', 'poison', 'cycling', 'frank', 'schleck', 'request', 'analysis', 'b', 'sample', 'insist']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.6058218076551946,0.51475
+477,0,"['hse', 'chief', 'expect', 'step', 'government', 'expect', 'announce', 'today', 'chief', 'executive']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.625
+478,0,"['woman', 'win', 'thalidomide', 'payout', 'australian', 'woman', 'win', 'dollar', 'payout', 'uk', 'company', 'diageo']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5900611128980379,0.367625
+479,0,"['aer', 'lingus', 'urge', 'ryanair', 'rejection', 'aer', 'lingus', 'call', 'shareholder', 'reject', 'ryanair', 'bid', 'busine']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.3835102390908117,0.375
+480,0,"['lse', 'quarterly', 'revenue', 'rise', '10', 'london', 'stock', 'exchange', 'shrug', 'weak', 'trading', 'main', 'capital', 'market']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.27775
+481,0,"['asian', 'share', 'fall', 'bernanke', 'remark', 'asian', 'share', 'back', 'foot', 'today', 'federal', 'reserve', 'chairman', 'b']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.32899999999999996
+482,0,"['assad', 'fight', 'survival', 'fight', 'rage', 'damascus', 'assad', 'family', 'rule', 'syria', 'four']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.5625
+483,0,"['measures', 'create', 'job', 'billion', 'infrastructure', 'stimulus', 'package', 'announce', 'government']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.7498391765841107,0.333375
+484,0,"['referendum', 'pave', 'way', 'court', 'system', 'minister', 'justice', 'announce', 'referendum', 'reo']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.5263749999999999
+485,0,"['liberal', 'success', 'libya', 'election', 'moderate', 'islamic', 'coalition', 'lead', 'wartime', 'prime', 'minister', 'mahmoud', 'jibril', 'bea']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.220625
+486,0,"['boss', 'stay', 'switch', 'tune', 'make', 'reputation', 'knockout', 'show', 'seem', 'unlikely', 'ev']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.5625
+487,0,"['referendum', 'pave', 'way', 'court', 'system', 'minister', 'justice', 'announce', 'referendum', 'reo']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.5263749999999999
+488,0,"['government', 'confirm', 'hse', 'chief', 'step', 'government', 'expect', 'announce', 'today', 'chief', 'ex']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.5263749999999999
+489,0,"['state', 'defend', 'claim', 'esat', 'mobile', 'phone', 'licence', 'state', 'fully', 'defend', 'claim', 'arise', '1995']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.35670633644258587,0.4375
+490,0,"['spain', 'royal', 'family', 'take', 'pay', 'cut', 'spain', 'king', 'crown', 'prince', 'take', 'pay', 'cut', 'part', 'late', 'roun']",0.7916666666666666,0.0,0.0,0.0,0.0,0.125,0.17256352524927643,0.326125
+491,0,"['ireland', 'promote', 'olympics', 'ten', 'day', 'opening', 'london', 'olympics', 'tourism', 'ireland', 'l']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.47882491690790185,0.41662499999999997
+492,0,"['professor', 'speak', 'key', 'long', 'life', 'might', 'want', 'long', 'life', 'want', 'live', '120']",0.9999999999999999,1.0,0.0,0.0,0.0,0.3125,0.0,0.673125
+493,0,"['formula', 'one', 'plan', 'olympic', 'stadium']",0.16666666666666669,0.0,0.0,0.0,0.0,0.1875,0.5086040527500802,0.20837499999999998
+494,0,"['wiggins', 'hails', 'influence', 'team', 'sky']",0.16666666666666669,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.20837499999999998
+495,0,"['15', 'hurt', 'train', 'derails', 'egypt', 'egyptian', 'train', 'derail', 'cairo', 'suburb', 'today', '15', 'people', 'injure']",0.7916666666666666,0.0,0.0,1.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+496,0,"['fourth', 'arrest', 'dublin', 'raid', 'fourth', 'person', 'arrest', 'garda', 'investigation', 'arm', 'robbe']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4356974375469068,0.5263749999999999
+497,0,"['harrington', 'find', 'range', 'golf', 'triple', 'major', 'champion', 'padraig', 'harrington', 'slowly', 'emerge']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.46875
+498,0,"['worker', 'award', 'fall', 'council', 'worker', 'trip', 'electrical', 'cable', 'walk', 'footp']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.5263749999999999
+499,0,"['mcilroy', 'happy', 'evade', 'spotlight', 'golf', 'rory', 'mcilroy', 'breathe', 'sigh', 'relief', 'royal', 'lytham', 'week']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.4605
+500,0,"['stimulus', 'plan', 'ff', 'government', 'infrastructure', 'stimulus', 'plan', 'fail', 'make', 'early']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.47882491690790185,0.41662499999999997
+501,0,"['roche', 'tip', 'wiggins', 'take', 'tour', 'victory']",0.20833333333333331,0.0,0.0,0.0,0.0,0.1875,0.3873431971695077,0.178625
+502,0,"['birds', 'rodent', 'fill', 'owls', 'beak', 'people', 'would', 'skip', 'rat', 'mouse', 'menu', 'item', 'seem']",0.8749999999999999,0.0,0.0,0.0,0.0,0.1875,0.13761123619599014,0.489125
+503,0,"['fifa', 'move', 'investigate', 'isl', 'case']",0.16666666666666669,0.0,0.0,0.0,0.0,0.4375,0.3745845395089523,0.20837499999999998
+504,0,"['lowry', 'welcome', 'court', 'rule', 'tipperary', 'north', 'td', 'michael', 'lowry', 'welcome', 'supreme', 'court', 'decision', 'allow']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.27775
+505,0,"['increase', 'debt', 'case', 'court', 'last', 'year', 'saw', 'big', 'increase', 'case', 'concern', 'debt', 'doubling']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.47625
+506,0,"['chief', 'justice', 'warns', 'court', 'budget', 'courts', 'service', 'expect', 'able', 'achieve', 'significant', 'furth']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.4605
+507,0,"['microsoft', 'apologises', 'browser', 'error', 'microsoft', 'risk', 'european', 'union', 'penalty', 'fail', 'comply', 'se']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+508,0,"['sutherland', 'still', 'inspiration']",0.16666666666666669,0.0,0.0,0.0,0.0,0.4375,0.9463921947035486,0.25
+509,0,"['woods', 'calm', 'major', 'wait']",0.12499999999999999,0.0,0.0,0.0,0.0,0.0625,0.35670633644258587,0.25
+510,0,"['romney', 'deflect', 'business', 'question', 'us', 'republican', 'presidential', 'challenger', 'mitt', 'romney', 'try', 'deflect', 'quest']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.857054787177013,0.166625
+511,0,"['olympic', 'security', 'bos', 'apologise', 'head', 'g4s', 'today', 'insist', 'right', 'man', 'make', 'sure', 'firm', 'deli']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2852203280797684,0.41662499999999997
+512,0,"['row', 'egypt', 'court', 'constitution', 'brawls', 'break', 'egyptian', 'courtroom', 'judge', 'prepare', 'issue', 'ruli']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4356974375469068,0.4605
+513,0,"['wind', 'farm', 'firm', 'create', 'job', 'national', 'grid', 'uk', 'sign', 'contract', 'element', 'power', 'provide', 'electr']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.3125
+514,0,"['police', 'investigate', 'racist', 'tweet', 'cole', 'soccer', 'police', 'investigate', 'racist', 'comment', 'make', 'footb']",0.49999999999999994,0.0,0.0,0.0,0.0,0.5625,0.9808620135091669,0.267875
+515,0,"['ryanair', 'submit', 'bid', 'aer', 'lingus', 'ryanair', 'submit', 'million', 'bid', 'aer', 'lingus', 'say', 'l']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.3125
+516,0,"['tullow', 'abandon', 'guyana', 'well', 'exploration', 'group', 'tullow', 'oil', 'announce', 'drilling', 'operation', 'jagu']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.367625
+517,0,"['racist', 'tweet', 'cole', 'investigated', 'police', 'investigate', 'racist', 'comment', 'make', 'footballer', 'ashley']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.9808620135091669,0.267875
+518,0,"['court', 'clear', 'way', 'esat', 'action', 'supreme', 'court', 'clear', 'way', 'two', 'unsuccessful', 'bidder', 'sta']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.35670633644258587,0.4375
+519,0,"['uk', 'inflation', 'unexpectedly', 'fall', 'uk', 'inflation', 'unexpectedly', 'fell', 'low', '2', 'year', 'june', 'clothing']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4215985847539402,0.32899999999999996
+520,0,"['gardaí', 'search', 'miss', 'inmate', 'gardaí', 'continue', 'search', 'two', 'men', 'escape', 'castlerea', 'prison']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.41662499999999997
+521,0,"['paper', 'apologise', 'michaela', 'photograph', 'mauritian', 'sunday', 'times', 'newspaper', 'apologise', 'publish', 'p']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.857054787177013,0.333375
+522,0,"['fed', 'hop', 'push', 'european', 'share', 'higher', 'european', 'share', 'make', 'fragile', 'gain', 'morning', 'back', 'hope']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.375
+523,0,"['country', 'singer', 'kitty', 'wells', 'die', 'kitty', 'wells', 'verge', 'quit', 'music', 'homemaker']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2597030127586576,0.5952500000000001
+524,0,"['thailand', 'ptt', 'buy', 'cove', 'energy', 'ptt', 'exploration', 'production', 'thailand', 'list', 'oil', 'gas', 'explorer']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5427522247239199,0.294125
+525,0,"['two', 'shot', 'dead', 'toronto', 'party', 'two', 'people', 'kill', 'least', '19', 'injure', 'shooting', 'outdoor', 'party']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.2202476680604698,0.45449999999999996
+526,0,"['rio', 'tinto', 'iron', 'ore', 'output', 'flat', 'rio', 'tinto', 'today', 'report', 'flat', 'june', 'quarter', 'iron', 'ore', 'output', 'year', 'ago', 'whil']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.11900000000000001
+527,0,"['noonan', 'discuss', 'ecb', 'shift', 'european', 'central', 'bank', 'extraordinary', 'shift', 'policy', 'burn', 'senior', 'bondh']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.33628176262463805,0.29762500000000003
+528,0,"['hungary', 'open', 'war', 'criminal', 'probe', 'hungary', 'investigate', 'whether', 'war', 'criminal', 'live']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.3125
+529,0,"['google', 'exec', 'appoint', 'yahoo', 'ceo', 'yahoo', 'appoint', 'google', 'marissa', 'mayer', 'become', 'new', 'ceo', 'turning']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.32899999999999996
+530,0,"['brent', 'crude', 'edge', 'brent', 'crude', 'rise', 'today', 'stay', '103', 'per', 'barrel', 'hope', 'policy', 'step', 'cen']",0.7916666666666666,0.0,0.0,0.0,0.0,0.1875,0.2597030127586576,0.357125
+531,0,"['syrian', 'rebel', 'push', 'war', 'capital', 'syrian', 'rebel', 'fire', 'grenade', 'tank', 'troop', 'regime', 'armour', 'shelle']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.27775
+532,0,"['major', 'road', 'galway', 'wexford', 'plan', 'major', 'road', 'galway', 'wexford', 'among', 'infrastructure']",0.7499999999999999,0.0,0.0,0.0,0.0,0.625,0.3933740752653586,0.4605
+533,0,"['culture', 'hsbc', 'pollute', 'pervasively', 'polluted', 'culture', 'hsbc', 'holdings', 'plc', 'allow', 'bank']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.5585129194810764,0.367625
+534,0,"['major', 'road', 'galway', 'wexford', 'include', 'plan', 'major', 'roads', 'galway', 'wexford', 'among', 'inf']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.47625
+535,0,"['noonan', 'draghi', 'discuss', 'ecb', 'policy', 'shift', 'bondholder', 'european', 'central', 'bank', 'extraordinary', 'shift']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.3969121904149243,0.3125
+536,0,"['foster', 'parent', 'charge', 'drug', 'worth', 'man', 'charge', 'possess', 'drug', 'worth', 'almost']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5585129194810764,0.294125
+537,0,"['us', 'ship', 'fire', 'boat', 'gulf', 'one', 'person', 'kill', 'three', 'others', 'injure', 'today', 'us', 'navy', 'ship', 'fire']",0.8749999999999999,0.0,0.0,0.0,0.0,0.1875,0.16093063149994646,0.380375
+538,0,"['two', 'hold', 'twelfth', 'violence', 'two', 'men', 'arrest', 'evening', 'detective', 'north', 'relation']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.5625
+539,0,"['van', 'zandt', 'apologise', 'london', 'police', 'bruce', 'springsteen', 'guitar', 'player', 'steven', 'van', 'zandt', 'offer', 'apology']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.4639219470354884,0.263125
+540,0,"['cork', 'city', 'head', 'tallaght', 'cup', 'date', 'soccer', 'shamrock', 'rovers', 'host', 'cork', 'city', 'tallaght', 'tie', 'th']",0.7916666666666666,0.0,0.0,0.0,0.0,0.625,0.272461670419213,0.41662499999999997
+541,0,"['deep', 'purple', 'founder', 'jon', 'lord', '71', 'dy', 'english', 'rocker', 'jon', 'lord', 'found', 'deep', 'purple']",0.7083333333333333,0.0,0.0,0.0,0.0,0.1875,0.379275222472392,0.263125
+542,0,"['imf', 'cut', 'global', 'growth', 'forecast', 'international', 'monetary', 'fund', 'today', 'cut', 'forecast', 'global', 'economic', 'grow']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.621582502412351,0.220625
+543,0,"['mubarak', 'order', 'back', 'jail', 'egypt', 'public', 'prosecutor', 'order', 'former', 'president', 'hosni', 'mubarak', 'move', 'bac']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+544,0,"['fedrigo', 'claim', 'fourth', 'stage', 'win', 'france', 'cycling', 'pierrick', 'fedrigo', 'claim', 'france', 'fourth', 'win', 'tour', 'de']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6875,0.4356974375469068,0.263125
+545,0,"['police', 'raid', 'newspaper', 'mcareavey', 'crime', 'photo', 'mauritian', 'police', 'today', 'search', 'office', 'newspaper', 'tha']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.294125
+546,0,"['oci', 'tribunal', 'decide', 'relay', 'olympic', 'games', 'olympic', 'council', 'ireland', 'oci', 'appoint', 'thre']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.34725
+547,0,"['secret', 'star', 'might', 'answer', 'place', 'bear']",0.9166666666666666,1.0,0.0,0.0,0.0,0.125,0.05650262678245954,0.8999999999999999
+548,0,"['charity', 'launch', 'housing', 'campaign', 'housing', 'charity', 'focus', 'ireland', 'mount', 'concert', 'campaign', 'secure', 'le']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.294125
+549,0,"['claret', 'jug', 'return', 'batter', 'booze', 'golf', 'darren', 'clarke', 'admit', 'today', 'rain', 'hammer', 'royal']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5427522247239199,0.367625
+550,0,"['eunetworks', 'unveil', 'new', 'network', 'link', 'eunetworks', 'deploy', 'new', 'terabyte', 'net']",0.5416666666666666,0.0,0.0,0.0,0.0,0.6875,0.8034469818805617,0.166625
+551,0,"['spanish', 'protester', 'march', 'parliament', 'firefighters', 'police', 'plainclothes', 'civil', 'servant', 'attempt']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.8391765841106466,0.41662499999999997
+552,0,"['obama', 'attack', 'romney', 'tax', 'us', 'president', 'barack', 'obama', 'set', 'argue', 'battleground', 'state', 'ohio']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5,0.3433043851184733,0.4375
+553,0,"['three', 'miss', 'uk', 'child', 'find', 'dead', 'three', 'british', 'child', 'report', 'miss', 'father']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.41662499999999997
+554,0,"['worker', 'director', 'firm', 'move', 'towards', 'great', 'privatisation', 'company', 'r']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5743004181408814,0.441125
+555,0,"['energy', 'price', 'cool', 'euro', 'zone', 'inflation', 'sharp', 'fall', 'energy', 'price', 'help', 'cool', 'consumer', 'price', 'euro', 'zo']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.25
+556,0,"['tribunal', 'hears', 'regime', 'former', 'detective', 'sergeant', 'utter', 'contempt', 'new', 'regime', 'whi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.24461241556770663,0.340875
+557,0,"['india', 'flood', 'kill', '109', 'india', 'annual', 'monsoon', 'claim', '109', 'life', 'since', 'rain', 'start', 'june', 'leave', 'l']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.25
+558,0,"['athletes', 'begin', 'arrive', 'britain', 'first', 'wave', 'olympic', 'athlete', 'visitor', 'begin', 'pour', 'britain']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.41662499999999997
+559,0,"['armed', 'raid', 'clondalkin', 'bank', 'bank', 'staff', 'customer', 'treat', 'shock', 'armed', 'robber']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.4605
+560,0,"['use', 'sexual', 'health', 'service', 'drop', 'fewer', 'woman', 'attend', 'sexual', 'health', 'service', 'since', 'pi']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.6058218076551946,0.220625
+561,0,"['woods', 'rose', 'join', 'golf', 'fourth', 'time', 'british', 'open', 'championship', 'tiger', 'woods', 'justin', 'r']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.3433043851184733,0.4375
+562,0,"['ni', 'population', 'high', 'ever', 'record', 'population', 'northern', 'ireland', 'high', 'ever', 'record']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+563,0,"['capello', 'name', 'new', 'russia', 'bos', 'soccer', 'fabio', 'capello', 'name', 'russia', 'new', 'manager', 'former', 'e']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.2852203280797684,0.41662499999999997
+564,0,"['johnson', 'win', 'approach', 'golf', 'stunning', 'approach', 'shot', 'bunker', 'help', 'zach', 'johnson', 'birdie', 'sec']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5086040527500802,0.34725
+565,0,"['41', 'new', 'job', 'westmeath', 'irish', 'concrete', 'product', 'manufacturer', 'create', '41', 'job', 'westmeath', 'ann']",0.7499999999999999,0.0,0.0,1.0,0.0,0.5,0.3433043851184733,0.4375
+566,0,"['soldier', 'kill', '1983', 'honour', 'soldier', 'die', '1983', 'operation', 'rescue', 'kidnapped', 'businessma']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.5263749999999999
+567,0,"['forest', 'confirm', 'talk', 'mccarthy', 'soccer', 'nottingham', 'forest', 'new', 'owner', 'confirm', 'hold', 'talk', 'wi']",0.5833333333333333,0.0,0.0,0.0,0.0,0.75,0.5383831885922591,0.34725
+568,0,"['ulster', 'bank', 'promise', 'usual', 'ulster', 'bank', 'customer', 'account', 'date', 'chief', 'execu']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.3933740752653586,0.4605
+569,0,"['ecb', 'quiet', 'spanish', 'bond', 'report', 'european', 'central', 'bank', 'decline', 'comment', 'report', 'recomme']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.5
+570,0,"['castlrea', 'inmates', 'gardaí', 'co', 'roscommon', 'investigate', 'report', 'disappearance', 'two', 'p']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.390625
+571,0,"['kerry', 'host', 'tyrone', 'qualifier', 'gaelic', 'games', 'kerry', 'tyrone', 'draw', 'together', 'intriguin']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.5555
+572,0,"['ptt', 'extend', 'cove', 'offer', 'thai', 'oil', 'firm', 'ptt', 'exploration', 'production', 'extend', 'third', 'time', 'deadline']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.32899999999999996
+573,0,"['anger', 'mcareavey', 'image', 'government', 'formally', 'complain', 'mauritian', 'counterpart', 'newspap']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.58825
+574,0,"['european', 'share', 'edge', 'low', 'european', 'share', 'edge', 'today', 'investor', 'take', 'profit', 'strong', 'recent', 'gai']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.220625
+575,0,"['us', 'investigate', 'libor', 'scandal', 'new', 'york', 'attorney', 'general', 'eric', 'schneiderman', 'begin', 'investigation', 'possi']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.731960973517744,0.234375
+576,0,"['clinton', 'jerusalem', 'talk', 'us', 'secretary', 'state', 'hillary', 'clinton', 'israeli', 'official', 'discuss', 'egypt']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.367625
+577,0,"['comcast', 'buy', 'microsoft', 'msnbc', 'stake', 'comcast', 'parent', 'company', 'nbc', 'buy', 'microsoft', '50', 'per', 'cent']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.27775
+578,0,"['ministers', 'clash', 'proposal', 'tackle', 'abuse', 'alcoho', 'fine', 'gael', 'labour', 'ministers', 'odds', 'propos']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+579,0,"['fierce', 'fighting', 'damascus', 'opposition', 'fighter', 'battle', 'syrian', 'government', 'force', 'damascus', 'early', 'hou']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.731960973517744,0.3125
+580,0,"['harmony', 'mathematical', 'ratio', 'apparent', 'mathematician', 'go', 'back', 'ancient', 'greece', 'mu']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.5900611128980379,0.441125
+581,0,"['man', 'die', 'co', 'waterford', 'coast', 'man', 'airlift', 'sea', 'co', 'waterford', 'yesterday', 'subsequently', 'di']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.35670633644258587,0.4375
+582,0,"['ministers', 'clash', 'proposal', 'tackle', 'abuse', 'alcohol', 'fine', 'gael', 'labour', 'ministers', 'odds', 'propo']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+583,0,"['special', 'adviser', 'pay', 'cap', 'breach', 'badly', 'handle', 'say', 'quinn', 'minister', 'education', 'ruairí', 'quinn', 'concede']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5900611128980379,0.220625
+584,0,"['140', 'home', 'rebuilt', 'ballymun', 'affect', 'pyrite', '500', 'people', 'may', 'move', 'newly', 'buil']",0.8333333333333333,0.0,0.0,1.0,0.0,0.25,0.2202476680604698,0.568125
+585,0,"['deise', 'deny', 'tipp', 'top', 'munster', 'gaa', 'review', 'tipperary', 'produce', 'strong', 'second', 'half', 'display', 'overcome', 'waterf']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.20837499999999998
+586,0,"['drogheda', 'move', 'second', 'loi', 'review', 'st', 'patrick', 'athletic', 'surrender', 'second', 'place', 'airtricity', 'league', 'pr']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.5383831885922591,0.27775
+587,0,"['singh', 'tune', 'nicely', 'open', 'golf', 'indian', 'jeev', 'milkha', 'singh', 'unlikely', 'winner', 'aberdeen', 'asset', 'mana']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.39475000000000005
+588,0,"['sanchez', 'win', 'challenge', 'fall', 'flat', 'tour', 'de', 'france', 'luis', 'leon', 'sanchez', 'break', 'away', 'clinch', 'four']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.357125
+589,0,"['sfa', 'urge', 'help', 'player', 'move', 'soccer', 'scottish', 'football', 'association', 'urge', 'act', 'swiftly']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.4605
+590,0,"['cannabis', 'plant', 'seize', 'galway', 'gardaí', 'make', 'four', 'arrest', 'discover', 'two', 'cannabis', 'grow', 'house', 'galway']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5830384904042029,0.27775
+591,0,"['slade', 'power', 'claim', 'fairyhouse', 'win', 'racing', 'slade', 'power', 'battle', 'testing', 'condition', 'lift', 'belgrav']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.3125
+592,0,"['avb', 'confidence', 'spurs', 'project']",0.16666666666666669,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.41662499999999997
+593,0,"['paper', 'publish', 'mcareavey', 'image', 'sunday', 'newspaper', 'mauritius', 'publish', 'photograph', 'hotel', 'room', 'cr']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.367625
+594,0,"['irish', 'swimmer', 'achieves', 'global', 'feat', 'irish', 'endurance', 'swimmer', 'become', 'first', 'person', 'world', 'compl']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+595,0,"['beaten', 'khan', 'big', 'decision', 'make', 'boxing', 'trainer', 'freddie', 'roach', 'admit', 'almost', 'stop', 'fight']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.41662499999999997
+596,0,"['boss', 'beatle', 'rock', 'london', 'epic', 'bruce', 'springsteen', 'concert', 'london', 'hyde', 'park', 'end', 'yesterday', 'wit']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.32899999999999996
+597,0,"['un', 'observer', 'team', 'resume', 'syrian', 'killing', 'investigation', 'attack', 'syrian', 'village', 'tremseh', 'appear']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.41662499999999997
+598,0,"['clinton', 'urge', 'egyptian', 'democracy', 'us', 'secretary', 'state', 'hillary', 'clinton', 'urge', 'egypt', 'military', 'muslim', 'br']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.220625
+599,0,"['man', 'seriously', 'hurt', 'carlow', 'assault', 'gardaí', 'carlow', 'investigate', 'serious', 'assault', 'town', 'early', 'thi']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4356974375469068,0.39475000000000005
+600,0,"['cash', 'stolen', 'dublin', 'pub', 'sum', 'money', 'steal', 'armed', 'robber', 'pub', 'dublin', 'early', 'morning']",0.8333333333333333,0.0,0.0,0.0,0.0,0.1875,0.18368714484828985,0.511375
+601,0,"['esof', '2012', 'today', 'highlight', 'final', 'day', 'euroscience', 'open', 'forum', '2012']",0.6249999999999999,0.0,0.0,0.0,1.0,0.4375,0.3377827811729387,0.441125
+602,0,"['afghan', 'minister', 'survive', 'attack', 'afghan', 'government', 'minister', 'survive', 'bomb', 'attack', 'motorcade', 'northe']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+603,0,"['limerick', 'hurling', 'limerick', 'defeat', 'clare', 'four', 'point', 'cork', 'prove', 'strong', 'fo']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6875,0.6817036560523212,0.390625
+604,0,"['thiago', 'silva', 'sign', 'psg']",0.12499999999999999,0.0,0.0,0.0,0.0,0.125,0.30309853114613505,0.25
+605,0,"['monarch', 'reign', 'paris', 'racing', 'imperial', 'monarch', 'gain', 'compensation', 'follow', 'luckless', 'french', 'derby', 'run']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.8212983810442801,0.25
+606,0,"['surprise', 'defeat', 'pearson', 'london', 'athletics', 'australia', 'olympic', 'favourite', 'sally', 'pearson', 'suffer']",0.49999999999999994,0.0,0.0,0.0,0.0,0.875,0.731960973517744,0.3125
+607,0,"['molinari', 'hold', 'firm', 'scotland']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.678353168221293,0.25
+608,0,"['warrior', 'victorious', 'cup', 'battle', 'racing', 'robert', 'havlin', 'enjoy', 'profitable', 'saturday', 'second', 'week', 'run']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.7152085343626032,0.3125
+609,0,"['matteson', 'maintain', 'lead']",0.04166666666666667,0.0,0.0,0.0,0.0,0.3125,0.9999999999999999,0.0
+610,0,"['antrim', 'tipperary', 'upset', 'odds', 'gaelic', 'football', 'major', 'upset', 'sfc', 'qualifi']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.441125
+611,0,"['japan', 'landslides', 'flood', 'kill', '22', 'record', 'rain', 'southwestern', 'japan', 'trigger', 'landslide', 'flood', 'kill']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.7152085343626032,0.234375
+612,0,"['greipel', 'take', 'third', 'win']",0.08333333333333333,0.0,0.0,0.0,0.0,0.1875,0.4639219470354884,0.0
+613,0,"['vlasic', 'olympics', 'athletics', 'former', 'olympic', 'high', 'jump', 'silver', 'medallist', 'blanka', 'vlasic', 'withdraw']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6875,0.7152085343626032,0.390625
+614,0,"['celebrated', 'irish', 'raf', 'pilot', 'recall', 'irishmen', 'fight', 'second', 'world', 'war', 'none', 'well', 'kno']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.3433043851184733,0.4375
+615,0,"['g4s', 'olympic', 'task', 'olympics', 'security', 'giant', 'g4s', 'today', 'admit', 'underestimate', 'task']",0.5833333333333333,0.0,0.0,0.0,0.0,0.75,0.7855687788141953,0.333375
+616,0,"['france', 'celebrates', 'bastille', 'day', 'military', 'jet', 'trail', 'exhaust', 'red', 'white', 'blue', 'french', 'flag', 'ope']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+617,0,"['arshavin', 'claim', 'capello', 'new', 'russia', 'bos', 'soccer', 'former', 'england', 'manager', 'fabio', 'capello', 'hotly', 'tip', 'become']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.6817036560523212,0.15625
+618,0,"['keane', 'mccarthy', 'contention', 'forest']",0.20833333333333331,0.0,0.0,0.0,0.0,0.375,0.5022247239198027,0.53575
+619,0,"['kjeldsen', 'lead', 'scotland', 'golf', 'denmark', 'soren', 'kjeldsen', 'go', 'turn', '29', 'shot', 'take', 'lead']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.17256352524927643,0.5435
+620,0,"['four', 'remand', 'belfast', 'riot', 'four', 'men', 'remand', 'custody', 'belfast', 'relation', 'violence']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.5263749999999999
+621,0,"['room', 'gig', 'trouble', 'doctor', 'duty', 'blanchardstown', 'hospital', 'amp', 'e', 'last', 'weekend', 'sai']",0.7083333333333333,0.0,0.0,0.0,0.0,0.625,0.3107644473035275,0.47625
+622,0,"['string', 'may', 'hold', 'key', 'next', 'time', 'pour', 'drink', 'sparkle', 'water', 'stop', 'look', 'bu']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.18368714484828985,0.45449999999999996
+623,0,"['un', 'secretary', 'general', 'condemns', 'syrian', 'massacre', 'un', 'secretary', 'general', 'ban', 'say', 'report', 'massacre', 'sy']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.20837499999999998
+624,0,"['reaction', 'death', 'richard', 'zanuck', 'view', 'story', 'hollywood', 'producer', 'richard', 'zanuck', 'die', 'storify']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.47968264179264486,0.367625
+625,0,"['film', 'producer', 'richard', 'zanuck', 'die', 'film', 'producer', 'richard', 'zanuck', 'die', 'age', '77']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.4639219470354884,0.294125
+626,0,"['credit', 'card', 'firm', 'pay', 'visa', 'mastercard', 'bank', 'issue', 'credit', 'card', 'agree', '7']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.289696579822022,0.4375
+627,0,"['esof', '2012', 'today', 'today', 'highlight', 'euroscience', 'open', 'forum', '2012']",0.49999999999999994,0.0,0.0,0.0,1.0,0.4375,0.4447839605446554,0.357125
+628,0,"['afghan', 'suicide', 'attack', 'kill', '22', 'suicide', 'bomber', 'blow', 'wed', 'reception', 'northern', 'afghanistan']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.41662499999999997
+629,0,"['sylvester', 'stallone', 'son', 'find', 'dead', 'son', 'action', 'movie', 'star', 'sylvester', 'stallone', 'find', 'dead']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.39475000000000005
+630,0,"['government', 'seek', 'let', 'go', 'public', 'sector', 'staff', 'government', 'seek', 'let', 'go', 'mor']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.41662499999999997
+631,0,"['mauritian', 'dpp', 'shock', 'verdict', 'director', 'public', 'prosecutions', 'dpp', 'mauritius', 'say']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.379275222472392,0.592125
+632,0,"['healy', 'eames', 'appeal', 'fine', 'board', 'train', 'without', 'ticket', 'fine', 'gael', 'senator', 'appeal', 'fi']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.32899999999999996
+633,0,"['plane', 'crash', 'land', 'co', 'wicklow', 'two', 'men', 'escape', 'uninjured', 'small', 'plane', 'travel', 'crashed']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.39475000000000005
+634,0,"['emergency', 'fund', 'spanish', 'region', 'spain', 'create', 'emergency', 'fund', 'protect', 'regional', 'government', 'de']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.367625
+635,0,"['fa', 'study', 'terry', 'verdict', 'soccer', 'football', 'association', 'study', 'finding', 'john', 'terry', 'court', 'ca']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.39475000000000005
+636,0,"['redemption', 'scotland', 'millar']",0.08333333333333333,0.0,0.0,0.0,0.0,0.375,0.9999999999999999,0.3125
+637,0,"['geldof', 'defend', 'taxation', 'arrangement', 'bob', 'geldof', 'today', 'defend', 'taxation', 'arrangement', 'say', 'choi']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.7152085343626032,0.3125
+638,0,"['french', 'plane', 'crash', 'kill', 'three', 'private', 'jet', 'crash', 'burst', 'flame', 'land', 'near', 'france', 'southern']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.40749973196097355,0.32899999999999996
+639,0,"['age', 'action', 'dismissal', 'case', 'hear', 'occur', 'chief', 'executive', 'lead', 'charity', 'train', 'e']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.12887316393266868,0.520875
+640,0,"['chavez', 'claim', 'recovery', 'hailing', 'rebound', 'cancer', 'miracle', 'fire', 'supporter', 'wi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.48612500000000003
+641,0,"['police', 'raid', 'home', 'derry', 'mayor', 'mayor', 'house', 'search', 'police', 'involve', 'major', 'security', 'operat']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.24461241556770663,0.45449999999999996
+642,0,"['angry', 'birds', 'firm', 'branch', 'angry', 'birds', 'maker', 'rovio', 'entertainment', 'top', 'apple', 'itunes', 'chart', 'new']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.27775
+643,0,"['mladic', 'fit', 'continue', 'trial', 'war', 'crimes', 'trial', 'former', 'bosnian', 'serb', 'general', 'ratko', 'mladic', 'resume', 'mo']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.3125
+644,0,"['online', 'reaction', 'rangers', 'demotion']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.7855687788141953,0.25
+645,0,"['press', 'ombudsman', 'leveson', 'press', 'ombudsman', 'john', 'horgan', 'today', 'appear', 'leveson', 'inquiry']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.441125
+646,0,"['french', 'dress', 'weekend', 'event', 'look', 'ahead', 'event', 'take', 'place', 'across', 'country', 'weekend']",0.6249999999999999,0.0,0.0,0.0,0.0,0.25,0.4639219470354884,0.367625
+647,0,"['global', 'stock', 'rise', 'chinese', 'data', 'global', 'stock', 'oil', 'rise', 'today', 'chinese', 'data', 'soothe', 'worry', 'p']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.35670633644258587,0.3125
+648,0,"['spurs', 'agree', 'deal', 'adebayor']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.4639219470354884,0.25
+649,0,"['rangers', 'play', 'division', 'three', 'soccer', 'rangers', 'start', 'new', 'season', 'third', 'division', 'follow']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.493701082877667,0.41662499999999997
+650,0,"['dubliner', 'lawrie', 'contention', 'golf', 'phil', 'mickelson', 'make', 'brilliant', 'charge', 'field', 'scottish', 'ope']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.441125
+651,0,"['us', 'producer', 'price', 'rise', 'june', 'us', 'producer', 'price', 'unexpectedly', 'rise', 'june', 'despite', 'big', 'drop', 'energy', 'price']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4356974375469068,0.19737500000000002
+652,0,"['couple', 'hold', 'arm', 'raid', 'man', 'woman', 'tie', 'assault', 'men', 'arm', 'hatchet', 'crowbar']",0.8749999999999999,0.0,0.0,0.0,0.0,0.3125,0.16093063149994646,0.597875
+653,0,"['unnoticed', 'infection', 'turn', 'unstoppable', 'moment', 'emergency', 'room', 'doctor', 'step', 'away', 'scrum', 'peo']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.41662499999999997
+654,0,"['henry', 'moore', 'sundial', 'steal', 'valuable', 'bronze', 'sundial', 'renowned', 'british', 'sculptor', 'henry', 'moore', 'steal', 'f']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.27775
+655,0,"['shell', 'ptt', 'shape', 'cove', 'battle', 'takeover', 'battle', 'oil', 'major', 'shell', 'thai', 'firm', 'ptt', 'ex']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.3125
+656,0,"['rankin', 'back', 'ireland', 'squad', 'cricket', 'boyd', 'rankin', 'include', 'ireland', 'squad', 'twenty20', 'series']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.48612500000000003
+657,0,"['us', 'olympic', 'team', 'fashion', 'faux', 'pa', 'olympic', 'rivalry', 'heat', 'unfashionable', 'way', 'top', 'us', 'l']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5625,0.272461670419213,0.357125
+658,0,"['connacht', 'face', 'english', 'duo', 'rugby', 'connacht', 'announce', 'play', 'two', 'game']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.51475
+659,0,"['trade', 'gap', 'rise', 'marginally', 'ireland', 'trade', 'gap', 'rise', 'marginally', 'may', 'export', 'import', 'good', 'rise']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+660,0,"['tunnels', 'find', 'border', 'two', 'sophisticated', 'tunnel', 'outfit', 'lighting', 'ventilat']",0.49999999999999994,0.0,0.0,0.0,0.0,0.5625,0.9616972231156856,0.267875
+661,0,"['post', 'office', 'worker', 'wound', 'raid', 'post', 'office', 'worker', 'injure', 'security', 'worker', 'rob', 'two', 'se']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.41662499999999997
+662,0,"['italy', 'pass', 'market', 'test', 'italy', 'pass', 'tough', 'market', 'test', 'today', 'borrowing', 'cost', 'fell', 'well', 'bel']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.19737500000000002
+663,0,"['soldier', 'kill', '1983', 'honour', 'soldier', 'die', '1983', 'operation', 'rescue', 'kidnapped', 'busi']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.5952500000000001
+664,0,"['borini', 'liverpool', 'agree', 'term']",0.16666666666666669,0.0,0.0,0.0,0.0,0.3125,0.4192398413208963,0.41662499999999997
+665,0,"['vodafone', '3', 'share', 'network', 'vodafone', 'ireland', 'three', 'sign', 'deal', 'see', 'two', 'network', 'share']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.4375
+666,0,"['verdict', 'due', 'john', 'terry', 'trial', 'verdict', 'expect', 'today', 'footballer', 'john', 'terry', 'trial', 'allegedly', 'usin']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.3107644473035275,0.357125
+667,0,"['south', 'african', 'train', 'crash', 'kill', '19', 'coal', 'train', 'plough', 'truck', 'level', 'cross', 'today', 'eastern', 'sout']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.357125
+668,0,"['reaction', 'belfast', '12th', 'violence', 'view', 'story', '12th', 'violence', 'break', 'belfast', 'storify']",0.5833333333333333,0.0,0.0,0.0,0.0,0.25,0.4639219470354884,0.390625
+669,0,"['lee', 'bow', 'international', 'cricket']",0.16666666666666669,0.0,0.0,0.0,0.0,0.5625,0.5532593545620242,0.41662499999999997
+670,0,"['stokes', 'part', 'lennon', 'plan', 'soccer', 'celtic', 'manager', 'neil', 'lennon', 'reveal', 'want', 'keep', 'hold', 'anthony']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.40749973196097355,0.39475000000000005
+671,0,"['kagawa', 'relish', 'spotlight', 'soccer', 'shinji', 'kagawa', 'confident', 'mental', 'strength', 'cope', 'attenti']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.6058218076551946,0.51475
+672,0,"['online', 'reaction', 'mauritius', 'trial']",0.12499999999999999,0.0,0.0,0.0,0.0,0.3125,0.731960973517744,0.25
+673,0,"['us', 'impose', 'new', 'iran', 'sanction', 'obama', 'administration', 'seek', 'plug', 'loophole', 'sanction', 'iran']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.367625
+674,0,"['two', 'die', 'separate', 'crash', 'man', 'woman', 'age', '70', 'die', 'follow', 'separate', 'road', 'tra']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2597030127586576,0.41662499999999997
+675,0,"['china', 'growth', 'slow', '3', 'year', 'china', 'economy', 'grow', 'per', 'cent', 'second', 'quarter', '2012', 'year']",0.8749999999999999,0.0,0.0,0.0,0.0,0.1875,0.18368714484828985,0.39775
+676,0,"['moody', 'cut', 'italy', 'rating', 'moody', 'today', 'surprise', 'market', 'downgrade', 'italy', 'government', 'bond', 'rating', 'two']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6649512168971802,0.15625
+677,0,"['esof', '2012', 'today', 'today', 'highlight', 'euroscience', 'open', 'forum', '2012']",0.49999999999999994,0.0,0.0,0.0,1.0,0.4375,0.4447839605446554,0.357125
+678,0,"['200', 'report', 'kill', 'syria', '200', 'syrians', 'mostly', 'civilian', 'massacre', 'village', 'r']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.5625
+679,0,"['two', 'hotel', 'worker', 'clear', 'michaela', 'mcareavey', 'murder', 'foreman', 'jury', 'give', 'solemn', 'nod', 'reac']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.4375
+680,0,"['police', 'injure', 'parade', 'riot', 'nine', 'police', 'officer', 'injure', 'serious', 'riot', 'follow']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.7152085343626032,0.390625
+681,0,"['two', 'hotel', 'worker', 'clear', 'michaela', 'mcareavey', 'murder', 'foreman', 'jury', 'give', 'solemn', 'nod', 'reac']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.4375
+682,0,"['cuts', 'health', 'spending', 'follow', 'new', 'pledge', 'troika', 'government', 'cut', 'health', 'spending']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.5625
+683,0,"['bohs', 'hammer', 'thor', 'europa', 'league', 'review', 'bohemians', 'exit', 'europe', 'early', 'stage', 'possible']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.41662499999999997
+684,0,"['venter', 'say', 'life', 'come', 'world', 'may', 'soon', 'see', 'first', 'example', 'synthetic', 'life', 'artificial', 'org']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.20837499999999998
+685,0,"['fianna', 'fáil', 'reshuffle', 'frontbench', 'fianna', 'fáil', 'decide', 'appoint', 'new', 'deputy', 'leader', 'replace', 'former']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.34725
+686,0,"['british', 'pair', 'occupy', 'tour', 'top', 'two', 'cycling', 'yellow', 'jersey', 'bradley', 'wiggins', 'team', 'sky', 'col']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5743004181408814,0.147
+687,0,"['fulham', 'sign', 'rodallega', 'fre', 'soccer', 'fulham', 'bolster', 'strike', 'option', 'complete', 'deal', 'sig']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5086040527500802,0.48612500000000003
+688,0,"['man', 'die', 'donegal', 'crash', 'man', 'die', 'collision', 'co', 'donegal', 'overnight']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.3001232979521816,0.41662499999999997
+689,0,"['concern', 'disability', 'service', 'one', 'four', 'young', 'adult', 'intellectual', 'disability', 'autism', 'leave', 'se']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5234802187198456,0.41662499999999997
+690,0,"['finding', 'math', 'art', 'music', 'look', 'work', 'artist', 'jackson', 'pollock', 'see', 'mess']",0.8749999999999999,0.0,0.0,0.0,0.0,0.1875,0.1259515385440121,0.597875
+691,0,"['ifa', 'condemn', 'shannon', 'management', 'irish', 'farmers', 'association', 'ifa', 'today', 'criticise', 'claim', 'water']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.294125
+692,0,"['uefa', 'plan', 'glt', 'soccer', 'uefa', 'announce', 'continue', 'additional', 'assistant', 'referee']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5900611128980379,0.58825
+693,0,"['case', 'cctv', 'couple', 'german', 'chef', 'find', 'unexpectedly', 'thrust', 'centre', 'stage', 'michaela']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.35670633644258587,0.5625
+694,0,"['case', 'prompt', 'question', 'police', 'verdict', 'michaela', 'mcareavey', 'case', 'prompt', 'serious', 'question', 'fo']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.367625
+695,0,"['legal', 'argument', 'threaten', 'trial', 'collapse', 'michaela', 'mcareavey', 'murder', 'trial', 'jury', 'unaware', 'trial', 'could']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.234375
+696,0,"['treebhoowoon', 'confess', 'avinash', 'treebhoowoon', 'torture', 'confess', 'murder']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.6984560952074622,0.625
+697,0,"['moneea', 'phonecall', 'crucial', 'case', 'phone', 'call', 'sandip', 'moneea', 'make', 'old', 'sister', 'day', 'michaela', 'mcarea']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+698,0,"['rté', 'unveils', 'olympic', 'package']",0.08333333333333333,0.0,0.0,0.0,0.0,0.1875,0.731960973517744,0.0
+699,0,"['olympics', 'suffer', 'security', 'hitch', 'britain', 'home', 'secretary', 'force', 'answer', 'question', 'parliament', 'today', 'afte']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.234375
+700,0,"['ira', 'man', 'loyalty', 'former', 'detective', 'sergeant', 'describe', 'jewel', 'c']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.3933740752653586,0.4605
+701,0,"['molinari', 'shoot', '62', 'castle', 'stuart', 'golf', 'luke', 'donald', 'begin', 'defence', 'scottish', 'open', 'five', 'p']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.4375
+702,0,"['sfi', 'report', 'increase', 'industry', 'linkage', 'science', 'foundation', 'ireland', 'report', '19', 'per', 'cent', 'increase']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+703,0,"['fletcher', 'nearer', 'return']",0.08333333333333333,0.0,0.0,0.0,0.0,0.25,0.5979414602766163,0.3125
+704,0,"['balance', 'payment', 'deficit', 'fall', 'balance', 'payment', 'current', 'account', 'deficit', 'total', 'billion']",0.6249999999999999,0.0,0.0,0.0,0.0,0.25,0.6058218076551946,0.367625
+705,0,"['couple', 'jail', 'slavery', 'case', 'irish', 'traveller', 'couple', 'jail', '11', 'year', '4', 'year', 'respectively']",0.7499999999999999,0.0,0.0,0.0,0.0,0.5,0.4215985847539402,0.39475000000000005
+706,0,"['euro', 'zone', 'industrial', 'production', 'rebound', 'industrial', 'production', 'unexpectedly', 'rebound', 'may', 'growt']",0.49999999999999994,0.0,0.0,0.0,0.0,0.5,0.9808620135091669,0.178625
+707,0,"['shelling', 'report', 'damascus', 'syrian', 'troop', 'fire', 'mortar', 'area', 'outskirt', 'damascus', 'today', 'h']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+708,0,"['vertonghen', 'pass', 'medical', 'soccer', 'tottenham', 'hotspur', 'finalise', 'signing', 'jan', 'vertonghen', 'ajax']",0.5416666666666666,0.0,0.0,0.0,0.0,0.6875,0.8391765841106466,0.41662499999999997
+709,0,"['gilmore', 'back', 'reilly', 'dáil', 'row', 'debt', 'tánaiste', 'eamon', 'gilmore', 'say', 'confidence', 'minister']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.3933740752653586,0.39475000000000005
+710,0,"['terry', 'straightforward', 'racial', 'abuse', 'footballer', 'john', 'terry', 'use', 'straightforward', 'racial', 'abuse', 'agains']",0.49999999999999994,0.0,0.0,0.0,0.0,0.6875,0.731960973517744,0.078125
+711,0,"['annual', 'inflation', 'rate', 'slows', 'supermarket', 'price', 'war', 'fall', 'cost', 'fuel', 'help', 'push', 'annual']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.3933740752653586,0.32899999999999996
+712,0,"['forest', 'sack', 'cotterill']",0.04166666666666667,0.0,0.0,0.0,0.0,0.3125,0.8212983810442801,0.0
+713,0,"['firm', 'create', '5000', 'job', 'new', 'job', 'announce', 'client', 'company', 'ida', 'state']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.379275222472392,0.39475000000000005
+714,0,"['trial', 'delay', 'mladic', 'take', 'ill', 'genocide', 'trial', 'ratko', 'mladic', 'break', 'today', 'bosnian', 'ser']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.4375
+715,0,"['six', 'kill', 'french', 'avalanche', 'avalanche', 'french', 'alps', 'kill', 'six', 'climber', 'injured', 'six', 'others']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.39475000000000005
+716,0,"['ecb', 'overnight', 'deposit', 'low', 'european', 'central', 'bank', 'say', 'overnight', 'deposit', 'financial', 'institutio']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.234375
+717,0,"['teenager', 'drowns', 'ni', 'reservoir', 'teenager', 'drown', 'reservoir']",0.4166666666666667,0.0,0.0,0.0,0.0,0.3125,0.4192398413208963,0.520875
+718,0,"['troika', 'concluse', 'seventh', 'review', 'seventh', 'quarterly', 'review', 'ireland', 'ongoing', 'compliance']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.44982309424252176,0.4605
+719,0,"['oil', 'price', 'steady', 'fed', 'hold', 'stimulus', 'brent', 'crude', 'stay', '100', 'per', 'barrel', 'morning']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.32990243379436046,0.4375
+720,0,"['new', 'study', 'map', 'alzheimer', 'change', 'first', 'change', 'begin', 'develop', '25', 'year']",0.6249999999999999,0.0,0.0,0.0,0.0,0.8125,0.6649512168971802,0.3125
+721,0,"['syria', 'hit', 'diplomatic', 'defection', 'syria', 'ambassador', 'iraq', 'defect', 'last', 'night', 'protest', 'president', 'bas']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+722,0,"['appeals', 'calm', 'orange', 'march', 'hundreds', 'police', 'duty', 'today', 'amid', 'fear', 'street', 'di']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.4375
+723,0,"['peugeot', 'cut', '8000', 'job', 'french', 'automaker', 'psa', 'peugeot', 'citroen', 'announce', 'job', 'cut', 'closure']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.375
+724,0,"['nine', 'police', 'kill', 'pakistan', 'masked', 'gunman', 'storm', 'house', 'kill', 'nine', 'police', 'cadet', 'pakistan', 'easter']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.27775
+725,0,"['carrefour', 'sale', 'stagnant', 'q2', 'carrefour', 'world', 'retailer', 'report', 'second', 'quarter', 'sale', 'th']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.7855687788141953,0.166625
+726,0,"['esof', '2012', 'today', 'today', 'highlight', 'euroscience', 'open', 'forum', '2012']",0.49999999999999994,0.0,0.0,0.0,1.0,0.4375,0.4447839605446554,0.357125
+727,0,"['services', 'account', '46', 'export', 'internet', 'company', 'one', 'main', 'driver', 'service', 'export', 'secto']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.4605
+728,0,"['minister', 'say', 'act', 'propriety', 'debt', 'minister', 'health', 'james', 'reilly', 'contend', 'act', 'f']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.3701082877666989,0.4375
+729,0,"['mcareavey', 'jury', 'expect', 'retire', 'jury', 'expect', 'retire', 'today', 'consider', 'verdict', 'trial']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.5952500000000001
+730,0,"['reilly', 'say', 'act', 'propriety', 'nursing', 'home', 'debt', 'minister', 'health', 'james', 'reilly', 'contend', 'ac']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+731,0,"['domestic', 'economy', 'expands', 'first', 'time', 'two', 'year', 'domestic', 'economy', 'grow', 'first', 'time', 'two', 'year']",0.7916666666666666,0.0,0.0,0.0,1.0,0.25,0.3433043851184733,0.375
+732,0,"['four', 'irish', 'traveller', 'family', 'member', 'guilty', 'servitude', 'four', 'members', 'irish', 'traveller', 'family', 'england', 'ha']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.27775
+733,0,"['full', 'statement', 'dr', 'james', 'reilly', 'full', 'statement', 'minister', 'health', 'dáil', 'evening']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.3369518601908438,0.5263749999999999
+734,0,"['boy', '11', 'airlift', 'croagh', 'patrick', 'boy', 'serious', 'head', 'injury', 'suspect', 'spinal', 'injury', 'airli']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.34725
+735,0,"['gardaí', 'appeal', 'witness', 'assault', 'gardaí', 'appeal', 'witness', 'elderly', 'woman', 'assault']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.51475
+736,0,"['police', 'watchdog', 'query', 'devon', 'crash', 'uk', 'police', 'watchdog', 'try', 'establish', 'whether', 'police', 'offic']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+737,0,"['branson', 'launch', 'satellite', 'flamboyant', 'british', 'businessman', 'richard', 'branson', 'whose', 'virgin', 'empire', 'encompasse']",0.49999999999999994,0.0,0.0,0.0,0.0,0.4375,0.9808620135091669,0.178625
+738,0,"['30', 'drown', 'sierra', 'leone', 'least', '30', 'people', 'fear', 'drowned', 'boat', 'capsize', 'coast', 'sierra', 'l']",0.8333333333333333,0.0,0.0,1.0,0.0,0.25,0.2202476680604698,0.45449999999999996
+739,0,"['mortimer', 'leave', 'mayo', 'panel', 'gaa', 'conor', 'mortimer', 'may', 'play', 'last', 'game', 'mayo', 'walk', 'away']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.40749973196097355,0.39475000000000005
+740,0,"['donald', 'stay', 'calm', 'collected', 'golf', 'sixth', 'major', 'row', 'luke', 'donald', 'go', 'next', 'week', 'open', 'c']",0.8333333333333333,0.0,0.0,0.0,1.0,0.3125,0.11769593652835852,0.41662499999999997
+741,0,"['hibernia', 'offer', 'business', 'degree', 'online', 'education', 'provider', 'hibernia', 'college', 'offer', 'degree', 'course']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.367625
+742,0,"['shop', 'around', 'home', 'insurance', 'nca', 'consumers', 'save', 'nearly', 'year', 'shop', 'around', 'home', 'insuranc']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3933740752653586,0.32899999999999996
+743,0,"['majority', 'drink', 'sponsorship', 'ban', 'four', 'ten', 'irish', 'adult', 'support', 'ban', 'alcohol', 'sponsorship', 'spo']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.294125
+744,0,"['numbers', 'take', 'excercise', 'double', 'number', 'people', 'engage', 'form', 'personal', 'exercise', 'predo']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+745,0,"['large', 'energy', 'project', 'need', 'iea', 'ireland', 'need', 'develop', 'range', 'large', 'infrastructure', 'project', 'order']",0.7083333333333333,0.0,0.0,0.0,0.0,0.625,0.493701082877667,0.34725
+746,0,"['four', 'guilty', 'servitude', 'trial', 'four', 'member', 'traveller', 'family', 'tommy', 'senior', 'james', 'john', 'patrick', 'josie']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.27775
+747,0,"['spain', 'announces', 'fresh', 'budget', 'cut', 'amid', 'madrid', 'protest', 'spain', 'unveil', 'new', 'austerity', 'measure', 'today', 'design']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.7152085343626032,0.078125
+748,0,"['suicides', 'rise', '7', 'per', 'cent', '2011', 'number', 'suicide', 'record', 'ireland', 'rise', '525', '2011', 'increase']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.208078696258175,0.45449999999999996
+749,0,"['opposition', 'increase', 'eu', 'budget', 'european', 'union', 'government', 'oppose', 'plan', 'sharp', 'rise', 'eu', 'spendin']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.39475000000000005
+750,0,"['lennox', 'dog', 'put', 'dangerous', 'dog', 'centre', 'international', 'campaign', 'save', 'put']",0.8333333333333333,0.0,0.0,0.0,0.0,0.5625,0.2202476680604698,0.681875
+751,0,"['us', 'trade', 'gap', 'narrow', 'may', 'us', 'trade', 'deficit', 'narrow', 'slightly', 'may', 'rise', 'export', 'include']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.41662499999999997
+752,0,"['commission', 'unveil', 'draft', 'royalty', 'law', 'european', 'commission', 'unveil', 'propose', 'legislation', 'give', 'musician']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.857054787177013,0.25
+753,0,"['child', 'beauty', 'pageant', 'come', 'ireland', 'owner', 'us', 'university', 'royal', 'beauty', 'pageant', 'annette', 'hill', 'confir']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.493701082877667,0.27775
+754,0,"['cole', 'defend', 'race', 'charge', 'terry', 'england', 'footballer', 'john', 'terry', 'take', 'court', 'racism', 'cl']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.39475000000000005
+755,0,"['court', 'upholds', 'surgery', 'rule', 'supreme', 'court', 'uphold', 'high', 'court', 'finding', 'symphysiotomy', 'procedure', 'c']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.34725
+756,0,"['fitzgerald', 'give', 'new', 'deal', 'leinster']",0.16666666666666669,0.0,0.0,0.0,0.0,0.375,0.5532593545620242,0.20837499999999998
+757,0,"['armstrong', 'continue', 'fight', 'charge', 'cycling', 'lance', 'armstrong', 'refiled', 'lawsuit', 'united', 'state']",0.5833333333333333,0.0,0.0,0.0,0.0,0.3125,0.6984560952074622,0.390625
+758,0,"['jack', 'emily', 'top', 'baby', 'name', 'list', 'jack', 'emily', 'popular', 'baby', 'name', 'register', '2011', 'accor']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.2852203280797684,0.357125
+759,0,"['german', 'debt', 'cost', 'record', 'low', 'germany', 'cost', 'borrow', '10', 'year', 'fell', 'record', 'low', 'auction', 'tod']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.208078696258175,0.39775
+760,0,"['organisers', 'announce', 'pro', '12', 'fixture', 'rugby', 'ospreys', 'open', 'defence', 'rabodirect', 'pro', '12', 'title', 'wi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.27775
+761,0,"['two', 'uk', 'journalist', 'arrest', 'two', 'journalist', 'arrest', 'today', 'british', 'detective', 'investigate', 'corrupt', 'pay']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.857054787177013,0.166625
+762,0,"['three', 'hurt', 'pamplona', 'bull', 'run', 'three', 'people', 'injure', 'fifth', 'running', 'bull', 'northern']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.5
+763,0,"['man', 'find', 'dead', 'zoo', 'tiger', 'pit', 'man', 'find', 'dead', 'inside', 'tiger', 'den', 'copenhagen', 'zo']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.19588292055323253,0.39775
+764,0,"['reaction', 'reilly', 'debt', 'issue', 'mixed', 'reaction', 'news', 'minister', 'health', 'james', 'reilly', 'h']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.5
+765,0,"['irish', 'motorcyclist', 'kill', 'malaysia', 'irish', 'man', 'kill', 'malaysia', 'motorcycle', 'collide', 'l']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4356974375469068,0.5263749999999999
+766,0,"['busker', 'raise', 'cancer', 'girl', 'busker', 'raise', 'volvo', 'ocean', 'race', 'galway']",0.7499999999999999,0.0,0.0,0.0,0.0,0.125,0.30309853114613505,0.5
+767,0,"['spain', 'announce', 'new', 'budget', 'cut', 'spanish', 'prime', 'minister', 'mariano', 'rajoy', 'announce', 'tax', 'increase', 'spending', 'cut']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.7152085343626032,0.078125
+768,0,"['two', 'stab', 'separate', 'dublin', 'incidents', 'man', '30', 'stab', 'fassaugh', 'avenue', 'cabra', 'north', 'dubl']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.47625
+769,0,"['esof2012', 'begin', 'today', 'set', 'esoft2012', 'twitter', 'list']",0.375,0.0,0.0,0.0,0.0,0.3125,0.4395571995282511,0.340875
+770,0,"['britvic', 'say', 'recall', 'impact', 'expect', 'soft', 'drink', 'maker', 'britvic', 'say', 'unable', 'speedily']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.40749973196097355,0.4605
+771,0,"['morning', 'brief']",0.0,0.0,0.0,0.0,0.0,0.1875,0.731960973517744,0.0
+772,0,"['family', 'history', 'firm', 'create', '35', 'job', '35', 'job', 'create', 'world', 'large', 'family', 'history', 'resou']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.24461241556770663,0.39775
+773,0,"['summer', 'deluge', 'weighs', 'grafton', 'turnover', 'builder', 'merchanting', 'group', 'grafton', 'rise', 'first', 'half', 'ye']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.39475000000000005
+774,0,"['arafat', 'widow', 'brings', 'case', 'death', 'yasser', 'arafat', 'widow', 'launch', 'court', 'case', 'france', 'unexplain']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.39475000000000005
+775,0,"['global', 'worry', 'hit', 'asian', 'market', 'asian', 'share', 'fell', 'today', 'worry', 'global', 'economic', 'slowdown', 'erod']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.27775
+776,0,"['reilly', 'address', 'dáil', 'dr', 'james', 'reilly', 'make', 'statement', 'dáil', 'later', 'today', 'appearance']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.272461670419213,0.53575
+777,0,"['science', 'forum', 'open', 'dublin', 'dublin', 'officially', 'become', 'europe', 'city', 'science', 'evening', 'president', 'mi']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.32899999999999996
+778,0,"['extension', 'un', 'syria', 'mission', 'seek', 'russia', 'circulate', 'among', 'un', 'security', 'council', 'member', 'draft', 'resolution']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+779,0,"['eu', 'bailout', 'fund', 'may', 'take', 'stake', 'irish', 'bank', 'part', 'debt', 'deal', 'prospect', 'europe', 'new', 'bailout', 'fund', 'ta']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.12887316393266868,0.3125
+780,0,"['kenny', 'back', 'reilly', 'despite', 'debt', 'taoiseach', 'enda', 'kenny', 'express', 'full', 'confidence', 'dr', 'james', 'reilly', 'de']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.138875
+781,0,"['get', 'high', 'court', 'order', 'stop', 'goal', 'suspend', 'concert', 'action', 'remove', 'founde']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.2980057896429721,0.41662499999999997
+782,0,"['former', 'ff', 'councillor', 'admit', 'theft', 'bankrupt', 'fáil', 'councillor', 'admit', 'steal']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.6984560952074622,0.3125
+783,0,"['cork', 'couple', 'remain', 'critical', 'hospital', 'relatives', 'cork', 'couple', 'con', '39', 'elber', 'twomey', '36', 'tell', 'th']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.30309853114613505,0.3125
+784,0,"['fenlon', 'expect', 'tough', 'time', 'soccer', 'hibernian', 'manager', 'pat', 'fenlon', 'believe', 'demise', 'rangers', 'mean', 'scottish', 'pr']",0.5833333333333333,0.0,0.0,0.0,0.0,0.6875,0.7152085343626032,0.15625
+785,0,"['tension', 'mount', 'ahead', 'twelfth', 'tensions', 'mount', 'north', 'belfast', 'ahead', 'thursday', 'contentious', 'oran']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.4639219470354884,0.39475000000000005
+786,0,"['iaa', 'pay', 'stranded', 'pilot', 'flight', 'irish', 'aviation', 'authority', 'fund', 'flight', 'cost', 'number']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.5
+787,0,"['man', 'hold', 'death', 'heiress', 'man', 'question', 'death', 'woman', 'think', 'eva', 'rausing']",0.8749999999999999,0.0,0.0,0.0,0.0,0.375,0.19588292055323253,0.625
+788,0,"['replaces', 'lynch', 'irish', 'team', 'equestrian', 'cian', 'connor', 'select', 'replace', 'denis', 'lynch']",0.6666666666666666,0.0,0.0,0.0,0.0,0.625,0.4215985847539402,0.4605
+789,0,"['goal', 'founder', 'secures', 'court', 'order', 'founder', 'ceo', 'aid', 'agency', 'goal', 'john', 'secure', 'interim', 'high', 'cou']",0.7499999999999999,0.0,0.0,0.0,0.0,0.1875,0.3433043851184733,0.25
+790,0,"['egyptian', 'parliament', 'reconvenes', 'egypt', 'parliament', 'reconvene', 'today', 'summon', 'new', 'pre']",0.49999999999999994,0.0,0.0,0.0,0.0,0.4375,0.9616972231156856,0.267875
+791,0,"['rté', 'appoints', 'head', 'news', 'rté', 'appoint', 'kevin', 'bakhurst', 'manage', 'director', 'news', 'current', 'affairs']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.39475000000000005
+792,0,"['conlan', 'follow', 'barnes', 'lead', 'boxing', 'irish', 'flyweight', 'michael', 'conlan', 'reveal', 'paddy', 'barnes', 'infamous', 'bro']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.220625
+793,0,"['halt', 'esm', 'ratification', 'pledge', 'government', 'undertake', 'ratify', 'european', 'stability', 'mechanism']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.621582502412351,0.51475
+794,0,"['explosion', 'baghdad', 'kill', 'three', 'bomb', 'bus', 'kill', 'three', 'people', 'wound', '14', 'baghdad', 'hospital', 'po']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.41662499999999997
+795,0,"['smithwick', 'witness', 'conspiracy', 'former', 'detective', 'sergeant', 'base', 'dundalk', 'morning', 'claim', 'w']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5900611128980379,0.367625
+796,0,"['promoter', 'meet', 'gardaí', 'concert', 'security', 'gardaí', 'due', 'meet', 'promoter', 'mcd', 'later', 'today', 'review']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.4215985847539402,0.39475000000000005
+797,0,"['wanted', 'man', 'find', 'dead', 'uk', 'man', 'want', 'murder', 'british', 'police', 'officer', 'fatally', 'shoot', 'fo']",0.8333333333333333,0.0,0.0,0.0,0.0,0.1875,0.2202476680604698,0.45449999999999996
+798,0,"['olmert', 'convict', 'israeli', 'court', 'israel', 'ehud', 'olmert', 'acquit', 'major', 'corruption', 'charge', 'today', 'conv']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+799,0,"['mourinho', 'ban', 'lift', 'soccer', 'ban', 'give', 'real', 'madrid', 'coach', 'jose', 'mourinho', 'poke', 'barc']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.5427522247239199,0.147
+800,0,"['jubilee', 'boost', 'british', 'economy', 'britain', 'economy', 'get', 'lift', 'may', 'holiday', 'postpone', 'june', 'mark']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.4375
+801,0,"['assad', 'gradual', 'peace', 'plan', 'syrian', 'president', 'bashar', 'suggest', 'end', 'syria', 'conflict']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.6481987777420392,0.234375
+802,0,"['gay', 'marriage', 'referendum', 'constitutional', 'referendum', 'would', 'need', 'introduce', 'gay', 'marriage', 'irelan']",0.5833333333333333,0.0,0.0,0.0,0.0,0.625,0.6984560952074622,0.3125
+803,0,"['children', 'fail', 'seek', 'help', 'online', 'children', 'rarely', 'seek', 'help', 'online', 'service', 'new', 'survey', 'find']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.5062453093170364,0.263125
+804,0,"['armstrong', 'attempt', 'block', 'doping', 'charge', 'fail', 'cycling', 'within', 'seven', 'hour', 'lance', 'armstrong', 'file', 'lawsui']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.234375
+805,0,"['ff', 'seek', 'reilly', 'statement', 'fianna', 'fáil', 'call', 'minister', 'health', 'james', 'reilly', 'make', 'sta']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.32899999999999996
+806,0,"['diamond', 'waive', 'bonus', 'barclays', 'executive', 'bob', 'diamond', 'forego', 'bonus', 'year', 'waive']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.41662499999999997
+807,0,"['terry', 'say', 'racism', 'character', 'former', 'england', 'captain', 'john', 'terry', 'say', 'prepare', 'call']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.31650048247024765,0.5
+808,0,"['food', 'business', 'close', 'breach', 'seven', 'food', 'business', 'force', 'close', 'last', 'month', 'breach', 'food']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+809,0,"['dublin', 'among', 'congested', 'city', 'dublin', 'sixth', 'congested', 'city', 'europe', 'heavy', 'volume']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.5263749999999999
+810,0,"['passengers', 'evacuate', 'm1', 'bus', 'fire', 'eleven', 'passenger', 'evacuate', 'bus', 'éireann', 'coach', 'morning', 'af']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+811,0,"['siege', 'paris', 'school', 'police', 'cordoned', 'school', 'south', 'paris', 'today', 'armed', 'man', 'take', 'ad']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2597030127586576,0.41662499999999997
+812,0,"['congo', 'warlord', 'jail', '14', 'year', 'delivering', 'first', 'sentence', 'international', 'criminal', 'court', 'jail', 'congol']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.7152085343626032,0.234375
+813,0,"['four', 'injure', 'pamplona', 'bull', 'run', 'four', 'people', 'injure', 'running', 'bull', 'pamplona', 'today']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.5
+814,0,"['patients', 'underdosed', 'flu', 'vaccine', 'underdosing', 'patient', 'influenza', 'vaccine', 'last', 'year', 'main']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.441125
+815,0,"['morning', 'brief']",0.0,0.0,0.0,0.0,0.0,0.1875,0.731960973517744,0.0
+816,0,"['5', 'startup', 'itdc']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.08866730996033023,0.5
+817,0,"['batlle', 'death', 'row', 'dog', 'near', 'end', 'battle', 'save', 'lennox', 'belfast', 'pit', 'bull', 'dog', 'centre']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.2597030127586576,0.357125
+818,0,"['euro', 'dip', 'share', 'spain', 'deal', 'limited', 'progress', 'euro', 'zone', 'finance', 'minister', 'meeting', 'leave', 'single']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+819,0,"['german', 'court', 'address', 'esm', 'germany', 'top', 'court', 'address', 'today', 'whether', 'europe', 'new', 'bailout', 'scheme', 'budg']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.493701082877667,0.20837499999999998
+820,0,"['amp', 'sale', 'hit', 'summer', 'deluge', 'bellwether', 'british', 'retailer', 'marks', 'amp', 'spencer', 'post', 'bad', 'underlying', 'quarterl']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6846520853436261,0.147
+821,0,"['study', 'find', 'contraception', 'save', 'live', 'new', 'study', 'researcher', 'johns', 'hopkins', 'university', 'show', 'fulfill']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.621582502412351,0.294125
+822,0,"['euro', 'zone', 'agree', 'spain', 'deal', 'euro', 'area', 'finance', 'minister', 'agree', 'early', 'term', 'bailout', 'spain', 'trou']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.24461241556770663,0.340875
+823,0,"['euro', 'zone', 'decide', 'debt', 'relief', 'ireland', 'october', 'euro', 'zone', 'finance', 'minister', 'resolve', 'early', 'mornin']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.32899999999999996
+824,0,"['data', 'commioner', 'visit', 'facebook', 'officials', 'data', 'protection', 'commissioner', 'office', 'visit', 'facebook']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5,0.49214645652406974,0.39475000000000005
+825,0,"['nz', 'court', 'delay', 'megaupload', 'trial', 'new', 'zealand', 'court', 'delay', 'extradition', 'hearing', 'internet', 'tycoon']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.34725
+826,0,"['promoter', 'defend', 'security', 'concert', 'phoenix', 'park', 'promoter', 'saturday', 'night', 'concert', 'phoenix', 'pa']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.3835102390908117,0.4375
+827,0,"['chuck', 'feeney', 'wind', 'charitable', 'operation', 'chuck', 'feeney', 'reclusive', 'billionaire', 'gi']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.8212983810442801,0.333375
+828,0,"['tenants', 'dundrum', 'complex', 'tell', 'leave', 'safety', 'breach', '130', 'tenant', 'live', 'apartment', 'complex']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.4605
+829,0,"['cruise', 'holmes', 'reach', 'settlement', 'hollywood', 'superstar', 'tom', 'cruise', 'actress', 'wife', 'katie', 'holmes', 'settle']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6984560952074622,0.234375
+830,0,"['gardaí', 'investigate', 'hospital', 'fraud', 'allegation', 'fraud', 'make', 'member', 'staff', 'cork', 'hospital', 'u']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.35670633644258587,0.5
+831,0,"['tcd', 'loan', 'scheme', 'introduce', 'parents', 'trinity', 'college', 'dublin', 'student', 'offer', 'low', 'cost', 'loan', 'cover']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.32899999999999996
+832,0,"['eu', 'iran', 'meet', 'nuclear', 'talk', 'senior', 'diplomat', 'european', 'union', 'iran', 'meet', 'july', '24th']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.272461670419213,0.47625
+833,0,"['lynch', 'irish', 'olympic', 'team']",0.16666666666666669,0.0,0.0,0.0,0.0,0.1875,0.2852203280797684,0.41662499999999997
+834,0,"['french', 'fish', 'vessel', 'detain', 'naval', 'service', 'vessel', 'le', 'niamh', 'detain', 'french', 'registered', 'fishing', 'vesse']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.220625
+835,0,"['armstrong', 'sue', 'block', 'usada', 'hear', 'cycling', 'lance', 'armstrong', 'launch', 'legal', 'action', 'us']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.6984560952074622,0.3125
+836,0,"['obligation', 'trainee', 'pilot', 'government', 'moral', 'obligation', 'ensure', 'irish', 'trainee', 'pilot']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.4356974375469068,0.39475000000000005
+837,0,"['smithwick', 'consider', 'sit', 'saturdays', 'lawyers', 'smithwick', 'tribunal', 'ask', 'consider', 'sittin']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.621582502412351,0.51475
+838,0,"['federer', 'set', 'sight', 'olympics', 'tennis', 'roger', 'federer', 'hop', 'win', 'wimbledon', 'seventh', 'time', 'ca']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.234375
+839,0,"['ulster', 'bank', 'balance', 'july', '9th', 'ulster', 'bank', 'say', 'majority', 'system', 'show', 'customer']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.32990243379436046,0.5
+840,0,"['thalidomide', 'survivor', 'court', 'action', 'thalidomide', 'survivor', 'announce', 'take', 'legal', 'action']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.46875
+841,0,"['battle', 'save', 'condemn', 'dog', 'nears', 'end', 'battle', 'save', 'lennox', 'belfast', 'pit', 'bull', 'dog', 'ce']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.2597030127586576,0.357125
+842,0,"['girl', '19', 'miss', 'phoenix', 'park', 'concert', 'gardaí', 'seek', 'public', 'assistance', 'trace']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6314463385868981,0.3125
+843,0,"['benefits', 'surrogate', 'mother', 'urge', 'new', 'legislation', 'amendment', 'exist', 'legislation', 'necessary']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.46875
+844,0,"['samsung', 'win', 'galaxy', 'court', 'ruling', 'samsung', 'win', 'intellectual', 'property', 'ruling', 'apple', 'uk', 'judge', 'say']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.4356974375469068,0.39475000000000005
+845,0,"['ban', 'smoky', 'coal', 'extend', 'smoky', 'coal', 'ban', 'extend', 'seven', 'new', 'town', '2013', 'minister']",0.8749999999999999,0.0,0.0,0.0,0.0,0.25,0.19588292055323253,0.511375
+846,0,"['mladic', 'war', 'crime', 'trial', 'resume', 'war', 'crimes', 'trial', 'former', 'bosnian', 'serb', 'military', 'chief', 'ratko', 'mladic']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.19737500000000002
+847,0,"['greek', 'coalition', 'win', 'confidence', 'vote', 'greece', 'new', 'coalition', 'government', 'win', 'vote', 'con']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.27775
+848,0,"['russia', 'mourn', 'flood', 'victim', 'russia', 'emergencies', 'minister', 'today', 'accuse', 'local', 'official', 'enough']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.8212983810442801,0.25
+849,0,"['fairyhouse', 'hold', 'morning', 'inspection', 'racing', 'tomorrow', 'fixture', 'fairyhouse', 'subject', 'inspectio']",0.5416666666666666,0.0,0.0,0.0,0.0,0.625,0.637370001072156,0.51475
+850,0,"['ni', 'business', 'condition', 'disappoint', 'business', 'condition', 'northern', 'irish', 'firm', 'disappoint', 'june', 'acco']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.8391765841106466,0.25
+851,0,"['high', 'court', 'reject', 'pringle', 'bid', 'esm', 'injunction', 'high', 'court', 'today', 'rule', 'appropriate', 'rest']",0.7499999999999999,0.0,0.0,0.0,0.0,0.4375,0.35670633644258587,0.4375
+852,0,"['clare', 'face', 'limerick', 'qualifier', 'gaa', 'clare', 'reward', 'beat', 'dublin', 'saturday', 'meeting', 'neighb']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.3701082877666989,0.5
+853,0,"['ni', 'arrears', 'legal', 'advice', 'offer', 'homeowners', 'northern', 'ireland', 'imminent', 'threat', 'lose']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.48612500000000003
+854,0,"['shots', 'fire', 'belfast', 'apartment', 'two', 'people', 'escape', 'uninjured', 'five', 'shot', 'fire', 'belfast', 'apartmen']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5234802187198456,0.34725
+855,0,"['bruton', 'announce', 'scheme', 'minister', 'jobs', 'enterprise', 'innovation', 'richard', 'bruton', 'unveil']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7676905757478288,0.25
+856,0,"['terry', 'court', 'racial', 'abuse', 'trial', 'england', 'footballer', 'john', 'terry', 'court', 'today', 'start', 'tria']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2852203280797684,0.47625
+857,0,"['actor', 'ernest', 'borgnine', 'die', '95', 'film', 'star', 'ernest', 'borgnine', 'die', 'age', '95']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.314999463921947,0.34725
+858,0,"['driver', 'arrest', 'gun', 'find', 'man', 'arrest', 'dublin', 'yesterday', 'gardai', 'find', 'gun', 'car', 'w']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2202476680604698,0.511375
+859,0,"['barnier', 'plan', 'rule', 'market', 'abuse', 'europe', 'top', 'regulatory', 'official', 'intend', 'propose', 'new', 'rule', 'wou']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.220625
+860,0,"['call', 'reopen', 'mcareavey', 'inquiry', 'police', 'reopen', 'investigation', 'murder', 'honeymooner', 'michaela']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.731960973517744,0.46875
+861,0,"['bmw', 'invest', 'uk', 'german', 'carmaker', 'bmw', 'invest', 'million', 'end', '2015', 'expand', 'capacity']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.19588292055323253,0.45449999999999996
+862,0,"['five', 'startup', 'enter', 'irish', 'times', 'building', 'today', '8', 'week']",0.4166666666666667,0.0,0.0,0.0,0.0,0.25,0.4192398413208963,0.3125
+863,0,"['annan', 'assad', 'begin', 'syria', 'talk', 'kofi', 'annan', 'hold', 'talk', 'damascus', 'today', 'syrian', 'president', 'bashar']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.4356974375469068,0.32899999999999996
+864,0,"['two', 'gore', 'pamplona', 'bull', 'run', 'least', 'two', 'people', 'gore', 'today', 'thousand', 'daredevil', 'runner', 'charge']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.35670633644258587,0.375
+865,0,"['couple', 'still', 'critical', 'uk', 'crash', 'irish', 'couple', 'lose', 'son', 'unborn', 'child', 'cras']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.32990243379436046,0.4375
+866,0,"['euro', 'zone', 'finance', 'chief', 'meet', 'euro', 'zone', 'finance', 'chief', 'try', 'flesh', 'plan', 'reinforce', 'single', 'c']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.357125
+867,0,"['motorcyclist', 'dy', 'dublin', 'crash', 'one', 'man', '20', 'die', 'another', 'seriously', 'injure', 'motorbike', 'th']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.40749973196097355,0.39475000000000005
+868,0,"['morsi', 'reopen', 'egypt', 'parliament', 'egypt', 'president', 'fire', 'first', 'shot', 'battle', 'nation', 'powerf']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.3235231049640829,0.41662499999999997
+869,0,"['man', 'court', 'concert', 'man', 'due', 'court', 'morning', 'charge', 'relation', 'number']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.19588292055323253,0.625
+870,0,"['rabbitte', 'urge', 'new', 'referendum', 'power', 'inquiry', 'senior', 'minister', 'call', 'rerun', 'referendum']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.5625
+871,0,"['gardaí', 'investigate', 'suspect', 'drug', 'death', 'concert', 'three', 'suspected', 'death', 'nine', 'stabbing']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.8391765841106466,0.25
+872,0,"['early', 'result', 'libyan', 'poll', 'show', 'liberal', 'force', 'well', 'libya', 'may', 'buck', 'trend', 'see', 'islamist', 'par']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.3125
+873,0,"['galway', 'make', 'history', 'win', 'leinster', 'crown', 'gaelic', 'games', 'galway', 'stun', 'kilkenny', 'win', 'first', 'leinster', 'hurlin']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.220625
+874,0,"['federer', 'seventh', 'heaven', 'wimbledon', 'tennis', 'andy', 'murray', 'bid', 'become', 'britain', 'first', 'men', 'single', 'champio']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.28117293877988636,0.340875
+875,0,"['flynn', 'come', 'back', 'haunt', 'rovers', 'shamrock', 'rovers', '1', 'st', 'patrick', 'athletic', '1', 'goal', 'former', 'shamr']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.1875
+876,0,"['drumcree', 'march', 'pass', 'peacefully', 'annual', 'drumcree', 'parade', 'site', 'north', 'bad', 'rioting']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.5
+877,0,"['prizes', 'galore', 'siem', 'take', 'french', 'crown', 'golf', 'german', 'marcel', 'siem', 'come', 'dream', 'way', 'burst']",0.7499999999999999,0.0,0.0,0.0,0.0,0.625,0.3933740752653586,0.32899999999999996
+878,0,"['wiggins', 'hold', 'yellow', 'pinot', 'take', 'stage', 'cycling', 'france', 'thibaut', 'pinot', 'win', 'stage', 'eight', 'tour', 'de', 'france']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.35670633644258587,0.3125
+879,0,"['government', 'achieve', 'health', 'saving', 'howlin', 'government', 'determine', 'measure', 'aim', 'secur']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6817036560523212,0.390625
+880,0,"['deschamps', 'set', 'france', 'job', 'soccer', 'didier', 'deschamps', 'verge', 'appoint', 'france', 'coach', 'source']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.47882491690790185,0.48612500000000003
+881,0,"['ulster', 'bank', 'say', 'end', 'crisis', 'sight', 'ulster', 'bank', 'continue', 'work', 'backlog', 'lodgement']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.3433043851184733,0.5
+882,0,"['us', 'tape', 'implicate', 'ira', 'personnel', 'dup', 'mp', 'say', 'many', 'senior', 'ira', 'member', 'could', 'implicate', 'co']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.2597030127586576,0.29762500000000003
+883,0,"['webber', 'signal', 'title', 'ambition', 'silverstone', 'formula', 'one', 'mark', 'webber', 'prove', 'genuine', 'world', 'title', 'cont']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.234375
+884,0,"['clare', 'send', 'dublin', 'crash', 'hurling', 'qualifier', 'davy', 'fitzgerald', 'win', 'battle']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6817036560523212,0.46875
+885,0,"['spurs', 'set', 'complete', 'vertonghen', 'deal', 'soccer', 'tottenham', 'set', 'finally', 'complete', 'signing', 'ajax', 'captain']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6875,0.5900611128980379,0.367625
+886,0,"['toll', 'l', 'russian', 'flood', 'rise', '150', 'vladimir', 'putin', 'order', 'investigator', 'find', 'enough', 'pr']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5625,0.2852203280797684,0.41662499999999997
+887,0,"['donors', 'offer', '16', 'billion', 'afghan', 'aid', 'major', 'donor', 'pledge', 'give', 'afghanistan', '16', 'billion', 'development', 'ai']",0.6666666666666666,0.0,0.0,0.0,1.0,0.4375,0.493701082877667,0.20837499999999998
+888,0,"['irish', 'parent', 'remain', 'critically', 'ill', 'uk', 'crash', 'parent', 'irish', 'couple', 'seriously', 'injure', 'car', 'cr']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.375
+889,0,"['simpson', 'move', 'two', 'clear', '65', 'golf', 'us', 'open', 'champion', 'webb', 'simpson', 'withstand', 'unexpected', 'charge', 'journey']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.27775
+890,0,"['fury', 'move', 'close', 'klitschkos']",0.16666666666666669,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.41662499999999997
+891,0,"['man', 'hold', 'concert', 'stabbings', 'man', 'arrest', 'number', 'stab', 'incident', 'concert']",0.7916666666666666,0.0,0.0,0.0,0.0,0.3125,0.2852203280797684,0.65475
+892,0,"['libyans', 'celebrate', 'first', 'election', '60', 'year', 'libyans', 'celebrate', 'first', 'free', 'national', 'election']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.7152085343626032,0.3125
+893,0,"['man', 'fly', 'hospital', 'ni', 'fall', 'man', 'airlift', 'hospital', 'fall', 'rock', 'se']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.2202476680604698,0.625
+894,0,"['fitzgerald', 'clare', 'send', 'dublin', 'crash', 'hurling', 'qualifier', 'davy', 'fitzgerald', 'win', 'batt']",0.49999999999999994,0.0,0.0,0.0,0.0,0.4375,0.9234212501340194,0.267875
+895,0,"['cook', 'hail', 'bowler', 'series', 'win', 'cricket', 'england', 'captain', 'alastair', 'cook', 'hail', 'bowler', 'spe']",0.6249999999999999,0.0,0.0,0.0,0.0,0.625,0.6058218076551946,0.367625
+896,0,"['zola', 'name', 'new', 'watford', 'bos']",0.16666666666666669,0.0,0.0,0.0,0.0,0.1875,0.2405650262678244,0.20837499999999998
+897,0,"['magee', 'final', 'russia', 'badminton', 'ireland', 'chloe', 'magee', 'give', 'huge', 'boost']",0.6666666666666666,0.0,0.0,0.0,0.0,0.75,0.35670633644258587,0.5625
+898,0,"['byrne', 'earn', 'bray', 'point', 'sligo', 'sligo', 'rovers', '1', 'bray', 'wanderers', '1', 'jason', 'byrne', 'help', 'bray', 'wanderers', 'take', 'poin']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.1875
+899,0,"['mayors', 'tribute', 'irish', 'war', 'dead', 'unionist', 'lord', 'mayor', 'belfast', 'join', 'dublin', 'counterpart', 'today', 'pay']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4215985847539402,0.32899999999999996
+900,0,"['high', 'five', 'serena', 'wimbledon', 'tennis', 'serena', 'williams', 'win', 'fifth', 'wimbledon', 'title', 'explosive', 'start']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5,0.5900611128980379,0.441125
+901,0,"['garcia', 'marquez', 'dementia', 'brother', 'say', 'celebrated', 'nobel', 'prize', 'win', 'author', 'gabriel', 'garcia', 'marquez']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.6058218076551946,0.294125
+902,0,"['puma', 'wrap', 'inshore', 'series', 'galway', 'sailing', 'puma', 'produce', 'commanding', 'performance', 'final', 'battle']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.48612500000000003
+903,0,"['syria', 'conflict', 'spill', 'lebanon', 'syria', 'conflict', 'spill', 'far', 'lebanon', 'today', 'mortar', 'fire', 'go']",0.6249999999999999,0.0,0.0,0.0,0.0,0.25,0.6058218076551946,0.367625
+904,0,"['simpson', 'lead', 'top', 'name', 'crash', 'golf', 'tiger', 'woods', 'phil', 'mickelson', 'miss', 'cut', 'greenbrier', 'cl']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.3433043851184733,0.4375
+905,0,"['woman', 'die', 'follow', 'wexford', 'crash', 'woman', 'die', 'seriously', 'injure', 'car', 'crash']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.40749973196097355,0.4605
+906,0,"['injury', 'scare', 'westwood', 'paris', 'golf', 'lee', 'westwood', 'injury', 'scare', 'today', '12', 'day', 'start']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.3433043851184733,0.5
+907,0,"['hesjedal', 'force', 'quit', 'tour', 'cycling', 'giro', 'italia', 'champion', 'ryder', 'hesjedal', 'abandon', 'tour', 'de', 'france', 'ahead']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.44982309424252176,0.263125
+908,0,"['five', 'hurt', 'run', 'bull', 'one', 'gore', 'leg', 'four', 'others', 'slightly', 'injure', 'thou']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5,0.272461670419213,0.47625
+909,0,"['ulster', 'bank', 'work', 'problem', 'ulster', 'bank', 'open', '50', 'branch', 'today', '10am', '3pm', '10', 'branch']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4215985847539402,0.32899999999999996
+910,0,"['us', 'give', 'afghanistan', 'special', 'status', 'us', 'declare', 'afghanistan', 'major', 'ally', 'today', 'grant', 'large']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5086040527500802,0.27775
+911,0,"['least', '45', 'die', 'russian', 'flood', 'least', '45', 'people', 'die', 'thousand', 'house', 'flood', 'torrential']",0.7499999999999999,0.0,0.0,0.0,0.0,0.375,0.35670633644258587,0.4375
+912,0,"['libyans', 'vote', 'historic', 'election', 'libyans', 'tear', 'joy', 'eye', 'queue', 'vote', 'first']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.5625
+913,0,"['woman', 'die', 'serve', 'obama', 'elderly', 'owner', 'ohio', 'restaurant', 'president', 'barack', 'obama', 'ate', 'breakfa']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+914,0,"['drier', 'weather', 'expect', 'heavy', 'rain', 'drier', 'condition', 'expect', 'across', 'country', 'today', 'heavy']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.367625
+915,0,"['irish', 'child', 'kill', 'england', 'crash', 'irish', 'child', 'kill', 'road', 'collision', 'devon', 'england']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.3933740752653586,0.39475000000000005
+916,0,"['health', 'spending', 'face', 'big', 'cut', 'financial', 'deficit', 'hit', 'government', 'order', 'review', 'health', 'se']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+917,0,"['setback', 'assad', 'army', 'chief', 'flees', 'syria', 'syrian', 'manaf', 'tlas', 'yesterday', 'become', 'first', 'memb']",0.6249999999999999,0.0,0.0,0.0,0.0,0.75,0.6058218076551946,0.220625
+918,0,"['irish', 'showjumper', 'olympics', 'hold', 'positive', 'test', 'questions', 'raise', 'ireland', 'olympic']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.48612500000000003
+919,0,"['shels', 'add', 'dundalk', 'woe']",0.12499999999999999,0.0,0.0,0.0,0.0,0.25,0.30309853114613505,0.25
+920,0,"['appeal', 'make', 'explosive', 'device', 'gardaí', 'cork', 'appeal', 'public', 'assistance', 'follow', 'disco']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.48612500000000003
+921,0,"['ombudsman', 'appear', 'leveson', 'inquiry', 'ireland', 'press', 'ombudsman', 'call', 'give', 'evidence', 'leveso']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.3835102390908117,0.5
+922,0,"['siem', 'hold', 'lead', 'golf', 'german', 'marcel', 'siem', 'take', 'top', 'alstom', 'french', 'open', 'paris', 'today']",0.7916666666666666,0.0,0.0,0.0,0.0,0.375,0.31650048247024765,0.375
+923,0,"['pilot', 'school', 'seek', 'alternative', 'train', 'irish', 'pilot', 'training', 'firm', 'centre', 'financial', 'row']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.4605
+924,0,"['proposals', 'make', 'borrower', 'sell', 'jewellery', 'criticise', 'proposals', 'make', 'people', 'sell', 'personal', 'item', 'jewel']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.621582502412351,0.294125
+925,0,"['permanent', 'tsb', 'pass', 'rate', 'cut', 'permanent', 'tsb', 'announce', 'cut', 'standard', 'variable', 'rate', 'svr', 'vari']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.32990243379436046,0.375
+926,0,"['heroin', 'dealer', 'lose', 'appeal', 'dublin', 'man', 'lose', 'appeal', 'allege', '18', 'year', 'jail', 'sentence', 'impose', 'fo']",0.7916666666666666,0.0,0.0,0.0,0.0,0.25,0.2852203280797684,0.357125
+927,0,"['sagan', 'claim', 'third', 'stage', 'win', 'tour', 'de', 'france', 'sensational', 'sprint', 'ace', 'peter', 'sagan', 'win', 'third', 'stage', 'six', 'attem']",0.7083333333333333,0.0,0.0,0.0,0.0,0.8125,0.4215985847539402,0.19737500000000002
+928,0,"['suspects', 'show', 'instinct', 'two', 'mauritian', 'hotel', 'worker', 'show', 'kill', 'instinct', 'strangle', 'michae']",0.49999999999999994,0.0,0.0,0.0,0.0,0.375,0.731960973517744,0.078125
+929,0,"['quinn', 'order', 'rule', 'vary', 'former', 'anglo', 'irish', 'bank', 'agree', 'freeze', 'order', 'account']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.40749973196097355,0.4605
+930,0,"['roland', 'clancy', 'elite', 'referee', 'panel', 'two', 'irish', 'referee', 'include', 'eight', 'man', 'panel', 'match', 'offici']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.35670633644258587,0.375
+931,0,"['toure', 'would', 'welcome', 'van', 'persie', 'reunion', 'soccer', 'manchester', 'city', 'defender', 'kolo', 'toure', 'believe', 'former', 'arsenal']",0.5416666666666666,0.0,0.0,0.0,0.0,0.75,0.8212983810442801,0.0
+932,0,"['receivers', 'appoint', 'douglas', 'court', 'receivers', 'today', 'appoint', 'douglas', 'court', 'shopping', 'centre', 'cork']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.6128444301490298,0.41662499999999997
+933,0,"['federer', 'eighth', 'wimbledon', 'final', 'tennis', 'wimbledon', 'winner', 'roger', 'federer', 'chance', 'add']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.441125
+934,0,"['former', 'member', 'jail', 'former', 'member', 'germany', 'red', 'army', 'faction', 'convict', 'today']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.6649512168971802,0.234375
+935,0,"['radwanska', 'health', 'scare', 'wimbledon', 'tennis', 'poland', 'agnieszka', 'radwanska', 'suffer', 'health', 'scare']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.6984560952074622,0.46875
+936,0,"['flood', 'warn', 'issue', 'meteireann', 'leinster']",0.20833333333333331,0.0,0.0,0.0,0.0,0.375,0.6936581966334298,0.357125
+937,0,"['woman', 'jail', 'run', 'ni', 'brothels', 'woman', 'control', 'traffic', 'prostitute', 'northern', 'ireland', 'usin']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.367625
+938,0,"['aib', 'plan', 'branch', 'closure', 'allied', 'irish', 'bank', 'say', 'plan', 'close', 'branch', 'follow']",0.6249999999999999,0.0,0.0,0.0,0.0,0.6875,0.6058218076551946,0.294125
+939,0,"['councillor', 'grandson', 'freed', 'bail', 'grandson', 'independent', 'dublin', 'city', 'councillor', 'former', 'sinn', 'féin', 'membe']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.294125
+940,0,"['aviva', 'sell', 'half', 'delta', 'lloyd', 'stake', 'insurer', 'aviva', 'begin', 'exit', 'quarter', 'business']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.272461670419213,0.53575
+941,0,"['barroso', 'romania', 'court', 'european', 'commission', 'president', 'jose', 'manuel', 'barroso', 'tell', 'romania', 'prime']",0.5416666666666666,0.0,0.0,0.0,0.0,0.375,0.8034469818805617,0.166625
+942,0,"['volvo', 'race', 'festivity', 'continue', 'galway', 'entertainment', 'continue', 'galway', 'celebrate', 'culminatio']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5625,0.731960973517744,0.46875
+943,0,"['co', 'cork', 'crash', 'victim', 'name', 'gardaí', 'name', 'woman', 'die', 'co', 'cork', 'road', 'collision', 'yesterday']",0.7083333333333333,0.0,0.0,0.0,0.0,0.3125,0.2664307923233623,0.32899999999999996
+944,0,"['clayton', 'former', 'assistant', 'jail', 'former', 'personal', 'assistant', 'u2', 'adam', 'clayton', 'sentence', 'seven']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5743004181408814,0.367625
+945,0,"['european', 'fund', 'minister', 'education', 'ruairí', 'quinn', 'european', 'investment', 'bank', 'eib', 'presi']",0.5416666666666666,0.0,0.0,0.0,0.0,0.625,0.8034469818805617,0.25
+946,0,"['reaction', 'ulster', 'bank', 'ongoing', 'problem']",0.16666666666666669,0.0,0.0,0.0,0.0,0.25,0.731960973517744,0.20837499999999998
+947,0,"['flood', 'warn', 'issue', 'leinster', 'met', 'éireann', 'warn', 'possible', 'flooding', 'part', 'leinster', 'east', 'mun']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.4356974375469068,0.39475000000000005
+948,0,"['football', 'issue', 'goaline', 'soccer', 'soccer', 'rulemakers', 'adamant', 'use', 'technology', 'wi']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5625,0.5900611128980379,0.58825
+949,0,"['greek', 'bailout', 'cyprus', 'turmoil', 'cyprus', 'deliver', 'tough', 'critique', 'euro', 'zone', 'decision', 'rest']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.47882491690790185,0.34725
+950,0,"['nadal', 'injury', 'threaten', 'title', 'defence', 'tennis', 'rafael', 'nadal', 'go', 'london', '2012', 'cook', 'follow', 'r']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.5086040527500802,0.27775
+951,0,"['discovery', 'caravaggio', 'sketch', 'claim', 'two', 'italian', 'art', 'historian', 'claim', 'discover', 'many', '100', 'wor']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5234802187198456,0.34725
+952,0,"['garda', 'operation', 'tackle', 'speed', 'way', 'garda', 'campaign', 'get', 'motorist', 'curb', 'speed']",0.7499999999999999,0.0,0.0,0.0,0.0,0.3125,0.3433043851184733,0.5
+953,0,"['ulster', 'bank', 'face', 'compensation', 'claim', 'ulster', 'bank', 'face', 'compensation', 'claim', 'customer']",0.6249999999999999,0.0,0.0,0.0,0.0,0.5,0.621582502412351,0.441125
+954,0,"['porn', 'industry', 'face', 'condom', 'poll', 'los', 'angeles', 'county', 'voter', 'decide', 'november', 'whether', 'require', 'porn', 'actor']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.20837499999999998
+955,0,"['imf', 'concern', 'global', 'slowdown', 'head', 'international', 'monetary', 'fund', 'express', 'concern', 'today', 'deter']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5234802187198456,0.41662499999999997
+956,0,"['shares', 'fall', 'stimulus', 'hope', 'fail', 'european', 'share', 'fell', 'early', 'today', 'fade', 'hope', 'monetary', 'stimulu']",0.6666666666666666,0.0,0.0,0.0,0.0,0.25,0.5234802187198456,0.27775
+957,0,"['morning', 'brief']",0.04166666666666667,0.0,0.0,0.0,0.0,0.1875,0.4639219470354884,0.41662499999999997
+958,0,"['chinese', 'child', 'traffic', 'ring', 'police', 'china', 'arrest', '802', 'people', 'suspicion', 'child', 'traffic']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.5900611128980379,0.294125
+959,0,"['euro', 'low', 'dollar', 'euro', 'languish', 'low', 'greenback', 'record', 'tro']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.40749973196097355,0.5263749999999999
+960,0,"['ban', 'reduce', 'syria', 'observer', 'un', 'secretary', 'general', 'ban', 'recommend', 'security', 'council', 'keep']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.47882491690790185,0.34725
+961,0,"['john', 'hume', 'receive', 'papal', 'knighthood', 'pope', 'benedict', 'knight', 'northern', 'ireland', 'peace', 'process', 'founder', 'john', 'hume']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.731960973517744,0.078125
+962,0,"['four', 'held', 'attempted', 'robbery', 'four', 'people', 'hold', 'gardaí', 'intercept', 'gang', 'believe']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.5263749999999999
+963,0,"['argentine', 'junta', 'jail', 'three', 'key', 'figure', 'argentina', 'dirty', 'war', 'get', 'hefty', 'jail', 'term', 'th']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.4639219470354884,0.20837499999999998
+964,0,"['ireland', 'seek', 'money', 'market', 'near', 'future', 'state', 'set', 'borrow', 'money', 'international']",0.7916666666666666,0.0,0.0,0.0,0.0,0.5625,0.2852203280797684,0.5952500000000001
+965,0,"['committee', 'may', 'call', 'cowen', 'banking', 'inquiry', 'sanction', 'former', 'taoiseach', 'brian', 'cowen', 'bank', 'governo']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.7152085343626032,0.15625
+966,0,"['think', 'technology', 'historical', 'account', '187']",0.8333333333333333,0.0,0.0,0.0,0.0,0.375,0.2946284979092956,0.8552500000000001
+967,0,"['pat', 'take', 'lead', 'iceland', 'soccer', 'st', 'patrick', 'athletic', 'take', 'lead', 'iceland', 'next', 'week', 'christy']",0.7083333333333333,0.0,0.0,0.0,0.0,0.25,0.272461670419213,0.357125
+968,0,"['four', 'held', 'robbery', 'attempt', 'four', 'people', 'arrest', 'today', 'garda', 'intercept', 'gang', 'belie']",0.7083333333333333,0.0,0.0,0.0,0.0,0.4375,0.4356974375469068,0.4605
+969,0,"['nilsson', 'unfamiliar', 'pacesetter', 'golf', 'sweden', 'christian', 'nilsson', 'without', 'single', 'top', '35', 'finish', 'season', 'w']",0.5833333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.27775
+970,0,"['rihanna', 'sue', 'former', 'accountant', 'pop', 'star', 'rihanna', 'sue', 'former', 'accountant', 'mismanage', 'singer', 'f']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.6058218076551946,0.294125
+971,0,"['state', 'order', 'pay', 'developer', 'judge', 'order', 'state', 'pay', 'development', 'company', 'mi']",0.7916666666666666,0.0,0.0,0.0,0.0,0.4375,0.2597030127586576,0.47625
+972,0,"['police', 'investigate', 'bloody', 'sunday', 'deaths', 'police', 'service', 'northern', 'ireland', 'launch', 'murder', 'investi']",0.6666666666666666,0.0,0.0,0.0,0.0,0.4375,0.5234802187198456,0.41662499999999997
+973,0,"['newspapers', 'apologise', 'businessman', 'irish', 'mail', 'sunday', 'irish', 'daily', 'mail', 'newspaper', 'apologise']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.441125
+974,0,"['woman', 'die', 'co', 'cork', 'crash', 'woman', 'age', '80', 'die', 'follow', 'collision', 'co', 'cork', 'afternoon']",0.8333333333333333,0.0,0.0,0.0,0.0,0.3125,0.18368714484828985,0.45449999999999996
+975,0,"['inquiry', 'include', 'night', 'guarantee', 'public', 'accounts', 'committee', 'pac', 'recommend', 'banking', 'inquiry']",0.5833333333333333,0.0,0.0,0.0,0.0,0.4375,0.6984560952074622,0.390625
+976,0,"['rain', 'stay', 'away', 'stone', 'roses', 'play', 'fans', 'go', 'stone', 'roses', 'concert', 'evening', 'likely', 'enjoy']",0.8749999999999999,0.0,0.0,0.0,0.0,0.1875,0.208078696258175,0.45449999999999996
+977,0,"['air', 'france', 'crash', 'blame', 'pilot', 'investigators', 'probe', '2009', 'air', 'france', 'plane', 'crash', 'blame', 'com']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.20837499999999998
+978,0,"['féile', 'na', 'ngael', 'get', 'way', 'dublin', 'weekend', 'play', 'host', 'féile', 'na', 'ngael', 'national', 'festi']",0.7499999999999999,0.0,0.0,0.0,0.0,0.25,0.32990243379436046,0.3125
+979,0,"['syrian', 'troop', 'attack', 'northern', 'town', 'syrian', 'troop', 'push', 'northern', 'town', 'khan', 'sheikhoun', 'tod']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.6058218076551946,0.220625
+980,0,"['report', 'find', 'estates', 'one', '10', 'unfinished', 'housing', 'estate', 'identify', 'last', 'year', 'depart']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.47882491690790185,0.27775
+981,0,"['interactive', 'map', 'estate', 'ireland', 'county', 'county', 'overview', 'ghostestates']",0.4166666666666667,0.0,0.0,0.0,0.0,0.5,0.709633322611772,0.3125
+982,0,"['growth', 'us', 'service', 'sector', 'slow', 'pace', 'growth', 'us', 'service', 'sector', 'slow', 'june', 'low', 'le']",0.8333333333333333,0.0,0.0,0.0,0.0,0.25,0.2202476680604698,0.45449999999999996
+983,0,"['petroceltic', 'award', 'two', 'italian', 'permit', 'oil', 'gas', 'exploration', 'firm', 'petroceltic', 'international', 'award']",0.5416666666666666,0.0,0.0,0.0,0.0,0.5625,0.857054787177013,0.25
+984,0,"['major', 'science', 'festival', 'open', 'irish', 'comedian', 'tv', 'presenter', 'dara', 'briain', 'believe', 'ireland', 'fall', 'behind']",0.6249999999999999,0.0,0.0,0.0,0.0,0.3125,0.4639219470354884,0.263125
+985,0,"['radwanska', 'wimbledon', 'final', 'tennis', 'poland', 'agnieszka', 'radwanska', 'book', 'place', 'wimbledon', 'final']",0.5833333333333333,0.0,0.0,0.0,0.0,0.5,0.5383831885922591,0.48612500000000003
+986,0,"['six', 'hold', 'london', 'operation', 'five', 'men', 'woman', 'suspect', 'prepare', 'terrorist', 'attack', 'arr']",0.6666666666666666,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.34725
+987,0,"['online', 'deal', 'sit', 'examine', 'national', 'consumer', 'agency', 'nca', 'review', 'online', 'deal', 'site', 'public', 'di']",0.6666666666666666,0.0,0.0,0.0,0.0,0.3125,0.493701082877667,0.27775
+988,0,"['bolt', 'suffer', 'mystery', 'problem', 'olympics', 'olympic', 'champion', 'usain', 'bolt', 'pull', 'monaco', 'leg']",0.6666666666666666,0.0,0.0,0.0,0.0,0.6875,0.5086040527500802,0.48612500000000003
+989,0,"['household', 'fee', 'compliance', 'query', 'group', 'campaign', 'household', 'charge', 'say', 'believe']",0.6249999999999999,0.0,0.0,0.0,0.0,0.4375,0.621582502412351,0.51475
+990,0,"['wikileaks', 'syrian', 'file', 'wikileaks', 'website', 'say', 'today', 'begin', 'publish', 'two', 'milli']",0.6249999999999999,0.0,0.0,0.0,0.0,0.375,0.5900611128980379,0.367625
+991,0,"['irish', 'export', 'rise', 'first', 'quarter', 'irish', 'export', 'rise', 'first', 'quarter', '2012', 'despite', 'continue', 'turmoil']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.5086040527500802,0.27775
+992,0,"['rangers', 'suffer', 'rejection', 'soccer', 'newco', 'rangers', 'leave', 'without', 'match', 'organ']",0.5416666666666666,0.0,0.0,0.0,0.0,0.4375,0.8212983810442801,0.41662499999999997
+993,0,"['volvo', 'ocean', 'race', 'event', 'continue', 'celebrations', 'continue', 'galway', 'today', 'mark', 'conclusion', 'volvo', 'ocean', 'race']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5,0.520344162110003,0.32899999999999996
+994,0,"['sharp', 'dáil', 'exchange', 'bond', 'sale', 'national', 'treasury', 'management', 'agency', 'sell', 'bond', 'morning', 'pe']",0.7083333333333333,0.0,0.0,0.0,0.0,0.375,0.4215985847539402,0.32899999999999996
+995,0,"['cannabis', 'seize', 'cork', 'city', 'gardaí', 'seize', 'cannabis', 'cork', 'city', 'yesterday', 'part', 'investigation', 'di']",0.7083333333333333,0.0,0.0,0.0,0.0,0.5625,0.4356974375469068,0.39475000000000005
+996,0,"['ioc', 'face', 'gender', 'imbalance', 'olympics', 'women', 'boxer', 'claim', 'early', 'victory', '2012', 'olympics', 'kno']",0.6666666666666666,0.0,0.0,0.0,0.0,0.5625,0.5086040527500802,0.41662499999999997

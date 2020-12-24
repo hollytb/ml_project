@@ -53,7 +53,7 @@ X = sparse.hstack([X_ef, tfidf_text]).tocsr()
 print(X.shape)
 print(y.shape)
 
-ch2 = SelectKBest(chi2, k=5000)
+ch2 = SelectKBest(chi2, k=250)
 X = ch2.fit_transform(X, y)
 print(X.shape)
 print(y.shape)
@@ -101,31 +101,6 @@ def error_plot(x, means, yerr, title, x_label):
     plt.show()
 
 
-def roc_plot(input, labels, models):
-    Xtrain, Xtest, ytrain, ytest = train_test_split(input, labels, test_size=0.2)
-    for model in models:
-        model.fit(Xtrain, ytrain)
-        scores = model.predict_proba(Xtest)
-        fpr, tpr, _ = roc_curve(ytest, scores[:, 1])
-        auc_score = roc_auc_score(y_test, scores[:, 1])
-        print(auc_score)
-        model_name = type(model).__name__
-        plt.plot(fpr, tpr, label=model_name)
-        # Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2)  # switch to normal features for kNN iteration
-
-    """ plotting points of the baseline clf: most_freq """
-    # most_freq_fpr = matrix[0][1] / (matrix[0][1] + matrix[0][0])  # FP / (FP + TN)
-    # most_freq_tpr = matrix[1][1] / (matrix[1][1] + matrix[1][0])  # TP / (TP + FN)
-
-    plt.plot(most_freq_fpr, most_freq_tpr, label='Most Frequent Clf.', marker='o', linestyle='None')
-    plt.xlabel('False positive rate')
-    plt.ylabel('True positive rate')
-    plt.plot([0, 1], [0, 1], color='green', linestyle='--')
-    plt.title('ROC curves for the chosen classifiers')
-    plt.legend()
-    plt.show()
-
-
 def plot_top_features(classifier):
     model_coefs = pd.DataFrame(classifier.coef_)
     coefs_df = model_coefs.T
@@ -165,11 +140,10 @@ def plot_top_features(classifier):
 #################################
 # model 1 - Logistic Regression
 print("\n=== LOGISTIC REGRESSION | L2 PENALTY ===")
-
-## Cross Validation for hyperparameter C:
+# Cross Validation for hyperparameter C:
 models = []
 # c_range = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
-c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+# c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # means = []
 # std_devs = []
 # for C in c_range:
@@ -181,12 +155,20 @@ c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # log_c_vals = np.log10(c_range)
 # error_plot(log_c_vals, means, std_devs, 'LogReg: L2 penalty, varying C', 'log10(C)')
 
-# Logistic Regression model with chosen hyperparameter:
+# Logistic Regression model with chosen hyper-parameters:
 log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20, test_size=0.4)
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20, test_size=0.3)
 print(X_train.shape)
 print(X_test.shape)
-roc_plot(X, y, [log_clf])
+
+# ROC curve plotting
+log_clf.fit(X_train, y_train)
+prediction = log_clf.predict_proba(X_test)
+fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
+auc_score = roc_auc_score(y_test, prediction[:, 1])
+print("AUC Score:", auc_score)
+plt.plot(fpr, tpr)
+
 # log_clf.fit(X_train, y_train)
 # preds_train = log_clf.predict(X_train)
 # preds_test = log_clf.predict(X_test)
@@ -195,10 +177,9 @@ roc_plot(X, y, [log_clf])
 # print_results(preds_test, y_test, "LogReg test")
 #
 # plot_top_features(log_clf)
-# models.append(log_clf)
 
 #################################
-# Gaussian kernel SVM (SVC) model
+# model 2: Gaussian kernel SVM (SVC) model
 # c_range = [0.001, 1, 1000]
 # gammas = [1, 2, 5, 8, 10]
 # for C in c_range:
@@ -219,39 +200,51 @@ roc_plot(X, y, [log_clf])
 # plt.legend(title='C')
 # plt.show()
 
-# final SVC Model
+# SVC Model with chosen parameters
 svc = SVC(C=1, kernel='rbf', gamma=5, cache_size=1200)
-svc.fit(X_train, y_train)  # change if it works
-print("svc fitted")
-preds_train = svc.predict(X_train)
-print_results(preds_train, y_train, "SVC train")
-preds_test = svc.predict(X_test)
-print_results(preds_test, y_test, "SVC test")
 
+svc.fit(X_train, y_train)
+prediction = svc.predict_proba(X_test)
+fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
+auc_score = roc_auc_score(y_test, prediction[:, 1])
+print("AUC Score:", auc_score)
+plt.plot(fpr, tpr)
 
-# models.append(svc)
+# svc.fit(X_train, y_train)
+# preds_train = svc.predict(X_train)
+# print_results(preds_train, y_train, "SVC train")
+# preds_test = svc.predict(X_test)
+# print_results(preds_test, y_test, "SVC test")
 
 
 #################################
-# model 2 - kNN
+# model 3 - kNN
 print("\n=== kNN ===")
 
 ## Cross Validation for hyperparameter n_neighbors:
-"""
-neighbours = [1, 3, 5, 7, 9]
-means = []
-stds = []
-for n in neighbours:
-    knn_clf = KNeighborsClassifier(n_neighbors=n, weights='uniform')
-    # knn_clf.fit(X, y)
-    res = k_fold_cross_val(5, knn_clf, X)
-    knn_clf.score(X, y)
-    means.append(res[0])
-    stds.append(res[1])
-error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors parameters', 'n_neighbors')
-"""
+# neighbours = [1, 3, 5, 7, 9]
+# means = []
+# stds = []
+# for n in neighbours:
+#     knn_clf = KNeighborsClassifier(n_neighbors=n, weights='uniform')
+#     # knn_clf.fit(X, y)
+#     res = k_fold_cross_val(5, knn_clf, X)
+#     knn_clf.score(X, y)
+#     means.append(res[0])
+#     stds.append(res[1])
+# error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors parameters', 'n_neighbors')
+
 ## kNN model with chosen hyperparameter:
-# knn = KNeighborsClassifier(n_neighbors=5, weights='uniform', n_jobs=2)
+knn = KNeighborsClassifier(n_neighbors=5, weights='uniform', n_jobs=2)
+
+knn.fit(X_train, y_train)
+prediction = knn.predict_proba(X_test)
+fpr, tpr, _ = roc_curve(y_test, prediction[:, 1])
+auc_score = roc_auc_score(y_test, prediction[:, 1])
+print("AUC Score:", auc_score)
+plt.plot(fpr, tpr)
+
+
 # knn.fit(X_train, y_train)
 # preds_train = knn.predict(X_train)
 # preds_test = knn.predict(X_test)
@@ -270,4 +263,15 @@ preds_test = dummy.predict(X_test)
 print_results(preds_train, y_train, "Dummy train")
 print_results(preds_test, y_test, "Dummy test")
 
-# roc_plot(X, y, models, confusion_matrix(y, preds_train))
+matrix = confusion_matrix(y_train, preds_train)
+
+most_freq_fpr = matrix[0][1] / (matrix[0][1] + matrix[0][0])  # FP / (FP + TN)
+most_freq_tpr = matrix[1][1] / (matrix[1][1] + matrix[1][0])  # TP / (TP + FN)
+
+plt.plot(most_freq_fpr, most_freq_tpr, label='Most Frequent Clf.', marker='o', linestyle='None')
+plt.xlabel('False positive rate')
+plt.ylabel('True positive rate')
+plt.plot([0, 1], [0, 1], color='green', linestyle='--')
+plt.title('ROC curves for the chosen classifiers')
+plt.legend()
+plt.show()  # ROC plot

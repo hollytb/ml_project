@@ -1,26 +1,23 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.decomposition import TruncatedSVD
-from sklearn.ensemble import RandomForestClassifier
+from sklearn import preprocessing
 from sklearn.model_selection import KFold
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, roc_auc_score
 from sklearn.dummy import DummyClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
-from sklearn.linear_model import LogisticRegression, SGDClassifier, RidgeClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import seaborn as sns
 from scipy import sparse
-from sklearn.cluster import KMeans
 import math
 from sklearn.svm import SVC
-from sklearn.svm import LinearSVC
 from sklearn.feature_selection import SelectKBest, chi2
 
 
@@ -42,26 +39,24 @@ def print_results(preds, y_vals, title):
 normalised_csv = "data/normalised.csv"
 features_csv = "data/features.csv"
 df = pd.read_csv(normalised_csv, index_col=0)
-df2 = pd.read_csv(features_csv, index_col=0)
+# df2 = pd.read_csv(features_csv, index_col=0)
 df["text"] = df["text"].apply(eval)
 print(df.head())
 features = df.drop(columns='class')
-y = df['class']
-print(y.value_counts())
+y = df['class'].to_numpy()
+print(y.shape)
 
 tfidf = TfidfVectorizer(tokenizer=identity_tokenizer, ngram_range=(1, 2), lowercase=False)
 tfidf_text = tfidf.fit_transform(features['text'])
-svd = TruncatedSVD(n_components=100)  # latent semantic indexing
 X_ef = features.drop(columns='text')
 X = sparse.hstack([X_ef, tfidf_text]).tocsr()
-svd.fit_transform(X)
 print(X.shape)
 print(y.shape)
 
-# ch2 = SelectKBest(chi2, k=100000)
-# X = ch2.fit_transform(X, y)
-# print(X.shape)
-# print(y.shape)
+ch2 = SelectKBest(chi2, k=5000)
+X = ch2.fit_transform(X, y)
+print(X.shape)
+print(y.shape)
 
 #################################
 # visualising data
@@ -106,36 +101,21 @@ def error_plot(x, means, yerr, title, x_label):
     plt.show()
 
 
-# def baseline(x, y, strategy_type):
-#     dummy = DummyClassifier(strategy=strategy_type)
-#     dummy.fit(x, y)
-#     ypred = dummy.predict(x)
-#     matrix = confusion_matrix(y, ypred)
-#     accuracy = dummy.score(x, y)
-#     print("\n=== BASELINE === " + "\nType:" + strategy_type + "\nConfusion Matrix:")
-#     print(matrix)
-#     print("Accuracy: " + str(accuracy))
-#     return matrix
-
-
-def roc_plot(x, y, models, matrix):
-    Xtrain, Xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2)  # polynomial features for LogReg
-    for model in models[:2]:
+def roc_plot(input, labels, models):
+    Xtrain, Xtest, ytrain, ytest = train_test_split(input, labels, test_size=0.2)
+    for model in models:
         model.fit(Xtrain, ytrain)
         scores = model.predict_proba(Xtest)
         fpr, tpr, _ = roc_curve(ytest, scores[:, 1])
-        print(auc(fpr, tpr))
+        auc_score = roc_auc_score(y_test, scores[:, 1])
+        print(auc_score)
         model_name = type(model).__name__
-        if model_name == 'LogisticRegression':
-            model_name = 'LogisticRegression q=2, C=1'
-        else:
-            model_name = 'kNN Classifier k=3'
         plt.plot(fpr, tpr, label=model_name)
         # Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2)  # switch to normal features for kNN iteration
 
     """ plotting points of the baseline clf: most_freq """
-    most_freq_fpr = matrix[0][1] / (matrix[0][1] + matrix[0][0])  # FP / (FP + TN)
-    most_freq_tpr = matrix[1][1] / (matrix[1][1] + matrix[1][0])  # TP / (TP + FN)
+    # most_freq_fpr = matrix[0][1] / (matrix[0][1] + matrix[0][0])  # FP / (FP + TN)
+    # most_freq_tpr = matrix[1][1] / (matrix[1][1] + matrix[1][0])  # TP / (TP + FN)
 
     plt.plot(most_freq_fpr, most_freq_tpr, label='Most Frequent Clf.', marker='o', linestyle='None')
     plt.xlabel('False positive rate')
@@ -151,7 +131,7 @@ def plot_top_features(classifier):
     coefs_df = model_coefs.T
     feature_name_list = list(X_ef.columns)
 
-    # list w/ features & tf-idf n-grams
+    # list w/ eng'd features & tf-idf n-grams
     all_feat_names = []
     for i in feature_name_list:
         all_feat_names.append(i)
@@ -167,7 +147,7 @@ def plot_top_features(classifier):
 
     # plot non-cb
     coefs_df[0].sort_values(ascending=True).head(20).plot(kind='bar')
-    plt.title("Top 20 Non-Clickbait Coefs")
+    plt.title("SVM: Top 20 Non-Clickbait Coefs")
     plt.xlabel("features")
     plt.ylabel("coef value")
     plt.xticks(rotation=55)
@@ -175,7 +155,7 @@ def plot_top_features(classifier):
 
     # plot CB classification
     coefs_df[0].sort_values(ascending=False).head(20).plot(kind='bar', color='orange')
-    plt.title("Top 20 Clickbait Coefs")
+    plt.title("SVM: Top 20 Clickbait Coefs")
     plt.xlabel("features")
     plt.ylabel("coef value")
     plt.xticks(rotation=55)
@@ -202,8 +182,11 @@ c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # error_plot(log_c_vals, means, std_devs, 'LogReg: L2 penalty, varying C', 'log10(C)')
 
 # Logistic Regression model with chosen hyperparameter:
-# log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
-# X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
+log_clf = LogisticRegression(C=10, class_weight='balanced', solver='liblinear')
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20, test_size=0.4)
+print(X_train.shape)
+print(X_test.shape)
+roc_plot(X, y, [log_clf])
 # log_clf.fit(X_train, y_train)
 # preds_train = log_clf.predict(X_train)
 # preds_test = log_clf.predict(X_test)
@@ -214,22 +197,40 @@ c_range = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
 # plot_top_features(log_clf)
 # models.append(log_clf)
 
-
 #################################
-# SVM model
-means = []
-std_devs = []
-for C in c_range:
-    print(C)
-    clf = SVC(C=C, class_weight='balanced', max_iter=10000)
-    res = k_fold_cross_val(5, clf, X)
-    means.append(res[0])
-    std_devs.append(res[1])
+# Gaussian kernel SVM (SVC) model
+# c_range = [0.001, 1, 1000]
+# gammas = [1, 2, 5, 8, 10]
+# for C in c_range:
+#     means = []
+#     std_devs = []
+#     for g in gammas:
+#         rbf_svc = SVC(C=C, kernel='rbf', gamma=g)
+#         y = y_train
+#         results = k_fold_cross_val(5, rbf_svc, X_train)
+#         means.append(results[0])
+#         std_devs.append(results[1])
+#         print(f"gamma={g}:", rbf_svc.score(X_test, y_test))
+#     plt.errorbar(gammas, means, yerr=std_devs, fmt='.', capsize=5, label=C)
+#     plt.plot(gammas, means, linestyle=':', linewidth=2)
+# plt.ylabel('mean square error')
+# plt.xlabel('gamma')
+# plt.title('MSE: C=1, varying γ')
+# plt.legend(title='C')
+# plt.show()
 
-log_c_vals = np.log10(c_range)
-error_plot(log_c_vals, means, std_devs, 'SVM: varying C', 'log10(C)')
+# final SVC Model
+svc = SVC(C=1, kernel='rbf', gamma=5, cache_size=1200)
+svc.fit(X_train, y_train)  # change if it works
+print("svc fitted")
+preds_train = svc.predict(X_train)
+print_results(preds_train, y_train, "SVC train")
+preds_test = svc.predict(X_test)
+print_results(preds_test, y_test, "SVC test")
 
-# plot_top_features(clf.coef_)
+
+# models.append(svc)
+
 
 #################################
 # model 2 - kNN
@@ -259,39 +260,6 @@ error_plot(neighbours, means, stds, 'Prediction Error: varying n_neighbors param
 # print_results(preds_test, y_test, "KNN test")
 #
 # models.append(knn)
-# print("")
-# print(f"Hyperparameter n: {2},\nIntercept: {knn_clf.intercept_},\nCoefs: {knn.coef_}")
-# print("Accuracy: " + str(accuracy) + "\n" + "Confusion Matrix:" + "\n" + str(matrix))
-
-
-#################################
-# model 3 - K-Means
-print("\n=== K-Means === \n")
-
-## Cross Validation for hyperparameter k:
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
-# K = range(10, 150, 10)
-# means = []
-# stds = []
-# for k in K:
-#     gmm = KMeans(n_clusters=k)
-#     kf = KFold(n_splits=5, shuffle=True)
-#     m = 0
-#     v = 0
-#     for train, test in kf.split(X_train):
-#         print("k fold started...")
-#         gmm.fit(train.reshape(-1, 1))
-#         cost = -gmm.score(test.reshape(-1, 1))
-#         m = m+cost
-#         v = v + cost * cost
-#     means.append(m/5)
-#     stds.append(math.sqrt(v/5-(m/5)*(m/5)))
-# error_plot(K, means, stds, 'Prediction Error: varying k parameters', 'K')
-
-## K-Means model with chosen hyperparameter:
-k = 50 # test
-gmm = KMeans(n_clusters=k)
-labels = gmm.fit_predict(X_train)
 
 
 dummy = DummyClassifier(strategy='most_frequent')
